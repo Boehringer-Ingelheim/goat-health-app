@@ -1,0 +1,8 @@
+ion-menu ion-content {
+  --padding-bottom: 20px;
+  --padding-top: 20px;
+}
+
+ion-menu ion-list ion-label {
+  white-space: unset !important;
+}

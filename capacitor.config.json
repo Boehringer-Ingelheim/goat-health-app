@@ -1,0 +1,8 @@
+{
+  "appId": "com.ionic.boilerplate",
+  "appName": "Ionic React Boilerplate",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

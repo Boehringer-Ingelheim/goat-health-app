@@ -1,0 +1,30 @@
+ion-slides {
+  height: 100%;
+}
+.swiper-slide {
+  display: block;
+}
+
+.swiper-slide {
+  padding: 0 20px;
+}
+
+.swiper-slide h1 {
+  margin-top: 2.8rem;
+}
+
+.swiper-slide ion-img {
+  max-height: 50vh;
+  margin: 10vh 0 10vh;
+  pointer-events: none;
+}
+
+.start-button {
+  bottom: 10vh;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  transition: opacity 0.3s;
+  transform: translateZ(0);
+  z-index: 10;
+}

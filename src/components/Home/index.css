@@ -1,0 +1,37 @@
+.text-nowrap-multiline {
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-height: 16px;
+  max-height: 32px;
+  -webkit-box-orient: vertical;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.app-slide-card {
+  display: inline-block;
+  max-width: 85vw;
+  width: 340px;
+}
+ion-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+/* 
+h1 {
+  margin-bottom: 0;
+  border-bottom: 1px solid #d9d9d9;
+  font-weight: bold;
+  padding-bottom: 0.25em;
+} */
