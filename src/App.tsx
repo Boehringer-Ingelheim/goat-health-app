@@ -34,7 +34,7 @@ interface ContainerProps {
 }
 
 const App: React.FC<ContainerProps> = ({ hasSeenTutorial, selectedTheme }) => {
-  if (!hasSeenTutorial) {
+  if (!hasSeenTutorial && false) {
     return (
       <Suspense fallback="<App Suspense Loading>">
         <IonApp>
