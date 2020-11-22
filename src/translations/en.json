@@ -247,7 +247,8 @@
         "TEXT": {
           "PARAGRAPH": {
             "01": "Goats need as much water as they can drink! This is very important for the body weight (and your sales price) and for the milk production!",
-            "02": "Without enough water,"
+            "02": "Without enough water",
+            "03": "Provide clean water!"
           },
           "LIST": {
             "01": {
@@ -271,7 +272,7 @@
           },
           "02": {
             "FILENAME": "./assets/img/drawing/drawing_011.png",
-            "TITLE": "Provide clean water! Water is very important for the body weight (and your sales price) and for the milk production!"
+            "TITLE": "Water is very important for the body weight (and your sales price) and for the milk production!"
           }
         }
       },
