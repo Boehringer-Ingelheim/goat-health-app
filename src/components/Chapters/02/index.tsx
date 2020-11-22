@@ -1,6 +1,15 @@
-import Chapter0101 from './01';
-import Chapter0102 from './02';
-import Chapter0103 from './03';
-import Chapter0104 from './04';
+import Chapter0201 from './01';
+import Chapter0202 from './02';
+import Chapter0203 from './03';
+import Chapter0204 from './04';
+import Chapter0205 from './05';
+import Chapter0206 from './06';
 
-export { Chapter0101, Chapter0102, Chapter0103, Chapter0104 };
+export {
+  Chapter0201,
+  Chapter0202,
+  Chapter0203,
+  Chapter0204,
+  Chapter0205,
+  Chapter0206,
+};
