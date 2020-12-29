@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import {
   IonButtons,
   IonContent,
@@ -11,7 +10,7 @@ import {
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { RouteComponentProps } from 'react-router';
-import Chapters from '../../components/Chapters';
+import { Chapter } from '../../components/Chapters';
 
 interface MatchParams {
   id: string;
@@ -20,8 +19,7 @@ interface MatchParams {
 
 interface ContainerProps extends RouteComponentProps<MatchParams> {}
 
-const ChapterPage: React.FC<ContainerProps> = (props) => {
-  console.log('props', props);
+export const ChapterPage: React.FC<ContainerProps> = (props) => {
   const { match } = props;
   const { params } = match;
   const { id, subId } = params;
@@ -39,17 +37,8 @@ const ChapterPage: React.FC<ContainerProps> = (props) => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen={true}>
-        <Chapters id={id} subId={subId} />
+        <Chapter id={id} subId={subId} />
       </IonContent>
     </IonPage>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {};
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {};
-};
-export default connect(mapStateToProps, mapDispatchToProps)(ChapterPage);

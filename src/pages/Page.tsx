@@ -10,12 +10,13 @@ import {
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { RouteComponentProps } from 'react-router';
-import HomeContainer from '../components/Home';
+import { HomeContainer } from '../components/Home';
 import './Page.css';
 
 interface ContainerProps {
   selectedPage: string;
 }
+
 const Page: React.FC<RouteComponentProps<{ name: string }>> = ({ match }) => {
   const { t } = useTranslation();
 

@@ -13,25 +13,8 @@
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
 }
-.app-slide-card {
+
+.scrolling-wrapper ion-card {
   display: inline-block;
-  max-width: 85vw;
-  width: 340px;
 }
-ion-card-title {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-/* 
-h1 {
-  margin-bottom: 0;
-  border-bottom: 1px solid #d9d9d9;
-  font-weight: bold;
-  padding-bottom: 0.25em;
-} */

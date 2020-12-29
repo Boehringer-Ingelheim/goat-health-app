@@ -1,55 +1,48 @@
-import { IonCard, IonCardHeader, IonCardTitle, IonText } from '@ionic/react';
+import { IonRouterLink, IonText } from '@ionic/react';
 import React from 'react';
-import { connect } from 'react-redux';
-import './index.css';
 import { useTranslation } from 'react-i18next';
+import { Chapter, getChapterIdsByUrl } from '../Chapters';
 import { CHAPTER_01 } from '../Chapters/01/config';
 import { CHAPTER_02 } from '../Chapters/02/config';
+import './index.css';
 
 interface ContainerProps {
   name: string;
 }
 
-const HomeContainer: React.FC<ContainerProps> = (props) => {
+export const HomeContainer: React.FC<ContainerProps> = (props) => {
   const { t } = useTranslation();
   const MENUS = [CHAPTER_01, CHAPTER_02];
 
   return (
     <>
-      {MENUS.map((chapters) => {
+      {MENUS.map((chapters, chaptersIndex) => {
         const chapterHeader = chapters[0];
         const chapterContent = chapters.slice(1);
 
         return (
-          <>
+          <React.Fragment key={chaptersIndex}>
             <IonText>
               <h1 className="ion-padding">{t(chapterHeader.title)}</h1>
             </IonText>
             <div className="scrolling-wrapper">
-              {chapterContent.map((chapter) => {
+              {chapterContent.map((chapter, chapterIndex) => {
+                const chapterUrl = chapter.url;
+                const { id, subId } = getChapterIdsByUrl(chapterUrl);
                 return (
-                  <IonCard key={chapter.title} class="app-slide-card">
-                    <IonCardHeader color={chapter.color}>
-                      <IonCardTitle>{t(chapter.title)}</IonCardTitle>
-                    </IonCardHeader>
-                    <img alt="" src={t(chapter.image)} />
-                  </IonCard>
+                  <IonRouterLink
+                    key={`${chaptersIndex}-${chapterIndex}`}
+                    routerLink={chapterUrl}
+                    routerDirection="forward"
+                  >
+                    <Chapter id={id} isCard subId={subId} />
+                  </IonRouterLink>
                 );
               })}
             </div>
-          </>
+          </React.Fragment>
         );
       })}
     </>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {};
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {};
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(HomeContainer);

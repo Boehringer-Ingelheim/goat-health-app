@@ -1,13 +1,33 @@
-import { IonCol, IonGrid, IonImg, IonRow, IonText } from '@ionic/react';
+import {
+  IonCard,
+  IonCardContent,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonCol,
+  IonGrid,
+  IonImg,
+  IonRow,
+  IonText,
+} from '@ionic/react';
 import React from 'react';
-import { connect } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import ChapterFooter from '../footer';
+import { ChapterProps } from '../types';
 
-interface ContainerProps {}
-
-const Chapter0101: React.FC<ContainerProps> = (props) => {
+export const Chapter0101: React.FC<ChapterProps> = ({ isCard = false }) => {
   const { t } = useTranslation();
+
+  if (isCard) {
+    return (
+      <IonCard className="chapter-card" color="accent-step-0100">
+        <IonImg src={t(`CHAPTER.01.01.IMAGE.01.FILENAME`)} />
+        <IonCardContent>
+          <IonCardSubtitle>{t(`CHAPTER.01.00.TITLE`)}</IonCardSubtitle>
+          <IonCardTitle>{t(`CHAPTER.01.01.TITLE`)}</IonCardTitle>
+        </IonCardContent>
+      </IonCard>
+    );
+  }
 
   return (
     <>
@@ -48,13 +68,3 @@ const Chapter0101: React.FC<ContainerProps> = (props) => {
     </>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {};
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {};
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Chapter0101);
