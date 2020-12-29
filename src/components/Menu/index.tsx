@@ -12,18 +12,19 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
-import { settingsOutline, information, homeOutline } from 'ionicons/icons';
-import { connect } from 'react-redux';
+import {
+  settingsOutline,
+  information,
+  homeOutline,
+  searchOutline,
+} from 'ionicons/icons';
+import { useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
 
 import './index.css';
 import { useTranslation } from 'react-i18next';
 import { CHAPTER_01 } from '../Chapters/01/config';
 import { CHAPTER_02 } from '../Chapters/02/config';
-
-interface MenuProps extends RouteComponentProps {
-  dispatch: any;
-}
 
 interface AppPage {
   color?: string;
@@ -44,13 +45,20 @@ const appPages: AppPage[] = [
     url: '/page/about',
     icon: information,
   },
+  {
+    title: 'SEARCH.TITLE',
+    url: '/page/search',
+    icon: searchOutline,
+  },
   ...CHAPTER_01,
   ...CHAPTER_02,
 ];
 
-const Menu: React.FunctionComponent<MenuProps> = (props) => {
-  // const { selectedPage, setSelectedPage } = props;
+interface MenuProps {}
+
+export const Menu: React.FunctionComponent<MenuProps> = (props) => {
   const { t } = useTranslation();
+  const dispatch = useDispatch();
 
   return (
     <IonMenu contentId="main" type="overlay">
@@ -79,7 +87,7 @@ const Menu: React.FunctionComponent<MenuProps> = (props) => {
                   routerDirection="none"
                   lines="none"
                   detail={false}
-                  onClick={() => props.dispatch(push(appPage.url))}
+                  onClick={() => dispatch(push(appPage.url))}
                 >
                   <IonIcon color={color} icon={icon} slot="start" />
                   <IonLabel>{t(title)}</IonLabel>
@@ -96,7 +104,7 @@ const Menu: React.FunctionComponent<MenuProps> = (props) => {
             routerDirection="none"
             lines="none"
             detail={false}
-            onClick={() => props.dispatch(push('/settings'))}
+            onClick={() => dispatch(push('/settings'))}
           >
             <IonIcon slot="start" icon={settingsOutline} />
             <IonLabel>Settings</IonLabel>
@@ -106,17 +114,3 @@ const Menu: React.FunctionComponent<MenuProps> = (props) => {
     </IonMenu>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {
-    // selectedPage: state.getIn(['global', 'page']),
-  };
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {
-    dispatch,
-  };
-};
-
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Menu));

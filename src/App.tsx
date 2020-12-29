@@ -3,9 +3,9 @@ import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Menu from './components/Menu';
+import { Menu } from './components/Menu';
 import Page from './pages/Page';
-import ChapterPage from './pages/Chapter';
+import { ChapterPage } from './pages/Chapter';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 /* Basic CSS for apps built with Ionic */
@@ -26,6 +26,7 @@ import './theme/dark.theme.css';
 import Tutorial from './pages/Tutorial';
 import Settings from './pages/Settings';
 import AboutPage from './pages/About';
+import { SearchPage } from './pages/Search';
 import { Theme } from './utils/theme';
 
 interface ContainerProps {
@@ -34,16 +35,6 @@ interface ContainerProps {
 }
 
 const App: React.FC<ContainerProps> = ({ hasSeenTutorial, selectedTheme }) => {
-  if (!hasSeenTutorial && false) {
-    return (
-      <Suspense fallback="<App Suspense Loading>">
-        <IonApp>
-          <Tutorial />
-        </IonApp>
-      </Suspense>
-    );
-  }
-
   return (
     <Suspense fallback="<App Suspense Loading>">
       <IonApp className={selectedTheme.className}>
@@ -62,6 +53,13 @@ const App: React.FC<ContainerProps> = ({ hasSeenTutorial, selectedTheme }) => {
                 path="/page/about"
                 render={(props) => {
                   return <AboutPage />;
+                }}
+                exact={true}
+              />
+              <Route
+                path="/page/search"
+                render={(props) => {
+                  return <SearchPage />;
                 }}
                 exact={true}
               />

@@ -1,7 +1,7 @@
 import produce from 'immer';
 import ActionTypes from './global.constants';
 
-interface Action {
+interface GlobalAction {
   readonly type: string;
   readonly payload: any;
 }
@@ -14,7 +14,7 @@ const initState: GlobalState = {
   activePage: 'home',
 };
 
-const globalReducer = (state: GlobalState = initState, action: Action) =>
+const globalReducer = (state: GlobalState = initState, action: GlobalAction) =>
   produce(state, (draft) => {
     switch (action.type) {
       case ActionTypes.SET_ACTIVE_PAGE:
