@@ -23,7 +23,7 @@ import '@ionic/react/css/display.css';
 // import './theme/variables.css';
 import './theme/bright.theme.css';
 import './theme/dark.theme.css';
-import Tutorial from './pages/Tutorial';
+// import Tutorial from './pages/Tutorial';
 import Settings from './pages/Settings';
 import AboutPage from './pages/About';
 import { SearchPage } from './pages/Search';
@@ -34,7 +34,7 @@ interface ContainerProps {
   selectedTheme: Theme;
 }
 
-const App: React.FC<ContainerProps> = ({ hasSeenTutorial, selectedTheme }) => {
+const App: React.FC<ContainerProps> = ({ selectedTheme }) => {
   return (
     <Suspense fallback="<App Suspense Loading>">
       <IonApp className={selectedTheme.className}>
