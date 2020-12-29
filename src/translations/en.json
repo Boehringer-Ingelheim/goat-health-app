@@ -1800,8 +1800,8 @@
         },
         "IMAGE": {
           "01": {
-            "CHAPTER_0804_IMAGE_01_FILENAME": "./assets/img/drawing/drawing_051.png",
-            "CHAPTER_0804_IMAGE_01_TITLE": ""
+            "FILENAME": "./assets/img/drawing/drawing_051.png",
+            "TITLE": ""
           }
         }
       },
@@ -2382,6 +2382,10 @@
 
   "INTRO": {
     "TITLE": "Intro"
+  },
+
+  "SEARCH": {
+    "TITLE": "Search"
   },
 
   "SETTINGS": {
