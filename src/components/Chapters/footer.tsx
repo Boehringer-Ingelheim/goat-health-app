@@ -24,7 +24,6 @@ type ContainerProps = ReturnType<typeof mapStateToProps> &
   };
 
 const ChapterFooter: React.FC<ContainerProps> = (props) => {
-  console.log('ChapterFooter -> props', props);
   const { chapterFavorites, previousChapter, nextChapter } = props;
 
   const history = useHistory();

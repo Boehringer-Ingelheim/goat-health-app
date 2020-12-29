@@ -32,7 +32,6 @@ const configureStore = () => {
 
   // If Redux Dev Tools and Saga Dev Tools Extensions are installed, enable them
   /* istanbul ignore next */
-  console.log('configureStore -> process.env.NODE_ENV', process.env.NODE_ENV);
   if (process.env.NODE_ENV !== 'production' && typeof window === 'object') {
     enhancer = composeWithDevTools(enhancer);
   }

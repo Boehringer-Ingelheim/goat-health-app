@@ -16,9 +16,8 @@ interface ContainerProps {
   setHasSeenTutorial: Function;
 }
 
-const Tutorial: React.FC<ContainerProps> = props => {
+const Tutorial: React.FC<ContainerProps> = (props) => {
   const slidesRef = useRef<HTMLIonSlidesElement>(null);
-  console.log('slidesRef', slidesRef);
 
   return (
     <>
