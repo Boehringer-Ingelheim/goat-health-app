@@ -5,14 +5,14 @@ import {
   IonHeader,
   IonMenuButton,
   IonPage,
-  IonRouterLink,
   IonSearchbar,
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
+import { SearchPopover } from '../../components/SearchPopover';
+import { SearchResults } from '../../components/SearchResults';
 import { useLunr } from '../../utils/lunr';
-import { Chapter, getChapterIdsByUrl } from '../../components/Chapters';
 
 interface ContainerProps {}
 
@@ -25,39 +25,23 @@ export const SearchPage: React.FC<ContainerProps> = (props) => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar color="primary" style={{ '--opacity': 1 }}>
+        <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
           <IonTitle>{t('SEARCH.TITLE')}</IonTitle>
+          <IonButtons slot="primary">
+            <SearchPopover />
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen={true}>
-        <IonHeader collapse="condense">
-          <IonToolbar color="primary" style={{ '--opacity': 1 }}>
-            <IonTitle size="large">{t('SEARCH.TITLE')}</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+      <IonContent>
         <IonSearchbar
           value={searchValue}
           onIonChange={(event) => setSearchValue(event.detail.value!)}
         ></IonSearchbar>
-        <div style={{ margin: 'auto', width: 'fit-content' }}>
-          {results.map((result, resultIndex) => {
-            const chapterUrl = result.id;
-            const { id, subId } = getChapterIdsByUrl(chapterUrl);
-            return (
-              <IonRouterLink
-                key={resultIndex}
-                routerLink={chapterUrl}
-                routerDirection="forward"
-              >
-                <Chapter id={id} isCard subId={subId} />
-              </IonRouterLink>
-            );
-          })}
-        </div>
+        <SearchResults results={results} />
       </IonContent>
     </IonPage>
   );

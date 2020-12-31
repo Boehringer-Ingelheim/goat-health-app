@@ -12,6 +12,12 @@ type LunrDocs = {
   };
 };
 
+export type LunrResult = {
+  id: string;
+  title: string;
+  body: string;
+};
+
 const createLunrDocs = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = useTranslation();
