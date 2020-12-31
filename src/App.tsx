@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { Menu } from './components/Menu';
 import Page from './pages/Page';
 import { ChapterPage } from './pages/Chapter';
@@ -24,20 +24,21 @@ import '@ionic/react/css/display.css';
 import './theme/bright.theme.css';
 import './theme/dark.theme.css';
 // import Tutorial from './pages/Tutorial';
-import Settings from './pages/Settings';
+import { SettingsPage } from './pages/Settings';
 import AboutPage from './pages/About';
 import { SearchPage } from './pages/Search';
-import { Theme } from './utils/theme';
+import { THEMES } from './utils/theme';
+import { selectCurrentTheme } from './data/user/user.selector';
+import { RootState } from './store';
 
-interface ContainerProps {
-  hasSeenTutorial: boolean;
-  selectedTheme: Theme;
-}
+const App: React.FC = () => {
+  const currentTheme = useSelector((state) =>
+    selectCurrentTheme(state as RootState),
+  );
 
-const App: React.FC<ContainerProps> = ({ selectedTheme }) => {
   return (
     <Suspense fallback="<App Suspense Loading>">
-      <IonApp className={selectedTheme.className}>
+      <IonApp className={THEMES[currentTheme].className}>
         <IonReactRouter>
           <IonSplitPane contentId="main">
             <Menu />
@@ -73,7 +74,7 @@ const App: React.FC<ContainerProps> = ({ selectedTheme }) => {
               <Route
                 path="/settings"
                 render={(props) => {
-                  return <Settings />;
+                  return <SettingsPage />;
                 }}
                 exact={true}
               />
@@ -90,17 +91,4 @@ const App: React.FC<ContainerProps> = ({ selectedTheme }) => {
   );
 };
 
-const mapStateToProps = (state: any) => {
-  return {
-    hasSeenTutorial: state.user.hasSeenTutorial,
-    selectedTheme: state.user.selectedTheme,
-  };
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {
-    // setSelectedPage: (page: string) => dispatch(setSelectedPage(page)),
-  };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

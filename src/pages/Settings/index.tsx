@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { connect } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import {
   IonButtons,
   IonContent,
@@ -21,22 +21,21 @@ import {
   IonItemDivider,
 } from '@ionic/react';
 import './index.css';
-import { resetApp } from '../../data/global/global.actions';
 import { useTranslation } from 'react-i18next';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
 import { colorPaletteOutline, languageOutline } from 'ionicons/icons';
-import { setTheme } from '../../data/user/user.actions';
-import { THEMES, Theme } from '../../utils/theme';
+import { THEMES } from '../../utils/theme';
+import { selectCurrentTheme } from '../../data/user/user.selector';
+import { RootState } from '../../store';
+import { resetUserState, setCurrentTheme } from '../../data/user/user.slice';
 
-interface ContainerProps {
-  setTheme: Function;
-  selectedTheme: Theme;
-  resetApp: Function;
-}
-
-const Page: React.FC<ContainerProps> = (props) => {
-  const { setTheme, selectedTheme, resetApp } = props;
+export const SettingsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
+
+  const dispatch = useDispatch();
+  const currentTheme = useSelector((state: RootState) =>
+    selectCurrentTheme(state),
+  );
 
   return (
     <IonPage>
@@ -99,13 +98,13 @@ const Page: React.FC<ContainerProps> = (props) => {
               <IonItem
                 className="ion-text-wrap"
                 key={theme.name}
-                onClick={() => {
-                  return setTheme(theme);
-                }}
+                onClick={() =>
+                  dispatch(setCurrentTheme({ currentTheme: theme.name }))
+                }
               >
                 <IonLabel>{t(theme.i18n)}</IonLabel>
                 <IonCheckbox
-                  checked={theme.name === selectedTheme.name}
+                  checked={theme.name === currentTheme}
                 ></IonCheckbox>
               </IonItem>
             );
@@ -123,7 +122,7 @@ const Page: React.FC<ContainerProps> = (props) => {
             <IonLabel>{t('SETTINGS.GENERAL.ITEMS.COPYRIGHT.LABEL')}</IonLabel>
             <IonNote slot="end">Simon Golms</IonNote>
           </IonItem>
-          <IonItem button onClick={() => resetApp()}>
+          <IonItem button onClick={() => dispatch(resetUserState())}>
             <IonLabel color="danger">
               {t('SETTINGS.GENERAL.ITEMS.RESET.LABEL')}
             </IonLabel>
@@ -133,21 +132,3 @@ const Page: React.FC<ContainerProps> = (props) => {
     </IonPage>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {
-    selectedTheme: state.user.selectedTheme,
-  };
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {
-    setTheme: (theme: string) => {
-      dispatch(setTheme(theme));
-    },
-    resetApp: () => {
-      dispatch(resetApp());
-    },
-  };
-};
-export default connect(mapStateToProps, mapDispatchToProps)(Page);

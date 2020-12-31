@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ChapterFooter from '../footer';
+import { ChapterFooter } from '../footer';
 import { ChapterProps } from '../types';
 
 export const Chapter0101: React.FC<ChapterProps> = ({ isCard = false }) => {

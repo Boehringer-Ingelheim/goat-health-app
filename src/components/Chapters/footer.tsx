@@ -8,33 +8,35 @@ import {
 } from '@ionic/react';
 import { arrowBack, arrowForward, star, starOutline } from 'ionicons/icons';
 import React from 'react';
-import { connect } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router';
 import {
   addFavorite,
   removeFavorite,
 } from '../../data/chapter/chapter.actions';
-import { selectChapterFavorites } from '../../data/chapter/chapter.select';
-import { RootState } from '../../reducers';
+import { selectIsChapterFavorite } from '../../data/chapter/chapter.select';
+import { RootState } from '../../store';
 
-type ContainerProps = ReturnType<typeof mapStateToProps> &
-  ReturnType<typeof mapDispatchToProps> & {
-    previousChapter: string;
-    nextChapter: string;
-  };
+type ContainerProps = {
+  previousChapter: string;
+  nextChapter: string;
+};
 
-const ChapterFooter: React.FC<ContainerProps> = (props) => {
-  const { chapterFavorites, previousChapter, nextChapter } = props;
+export const ChapterFooter: React.FC<ContainerProps> = (props) => {
+  const { previousChapter, nextChapter } = props;
 
   const history = useHistory();
   const currentChapter = history.location.pathname;
-  const isFavorite = chapterFavorites.includes(currentChapter);
+  const isFavorite = useSelector((state) =>
+    selectIsChapterFavorite(state as RootState, currentChapter),
+  );
+  const dispatch = useDispatch();
 
   const toggleFavorite = () => {
     if (isFavorite) {
-      return props.removeFavorite(currentChapter);
+      return dispatch(removeFavorite(currentChapter));
     }
-    return props.addFavorite(currentChapter);
+    return dispatch(addFavorite(currentChapter));
   };
 
   return (
@@ -85,18 +87,3 @@ const ChapterFooter: React.FC<ContainerProps> = (props) => {
     </IonFooter>
   );
 };
-
-const mapStateToProps = (state: RootState) => {
-  return {
-    chapterFavorites: selectChapterFavorites(state),
-  };
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {
-    addFavorite: (chapterId: string) => dispatch(addFavorite(chapterId)),
-    removeFavorite: (chapterId: string) => dispatch(removeFavorite(chapterId)),
-  };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(ChapterFooter);

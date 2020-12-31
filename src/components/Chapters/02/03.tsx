@@ -11,7 +11,7 @@ import {
   IonText,
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
-import ChapterFooter from '../footer';
+import { ChapterFooter } from '../footer';
 import { ChapterProps } from '../types';
 
 export const Chapter0203: React.FC<ChapterProps> = (props) => {

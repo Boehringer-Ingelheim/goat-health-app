@@ -1,4 +1,4 @@
-import { RootState } from '../../reducers';
+import { RootState } from '../../store';
 
 export const selectChapterState = (state: RootState) => {
   return state.chapter;
@@ -12,7 +12,8 @@ export const selectChapterFavorites = (state: RootState) => {
 export const selectIsChapterFavorite = (
   state: RootState,
   chapterId: string,
-) => {
+): boolean => {
   const chapterFavorites = selectChapterFavorites(state);
-  return chapterFavorites.includes(chapterId);
+  const isFavorite = chapterFavorites.includes(chapterId);
+  return isFavorite;
 };

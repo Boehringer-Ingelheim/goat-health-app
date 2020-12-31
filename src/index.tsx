@@ -8,12 +8,10 @@ import './i18n';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import configureStore from './configureStore';
+import { store, persistor } from './store';
 import { ConnectedRouter } from 'connected-react-router';
 import history from './utils/history';
 import './index.css';
-
-const { store, persistor } = configureStore();
 
 ReactDOM.render(
   <Provider store={store}>
