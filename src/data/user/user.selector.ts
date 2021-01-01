@@ -19,3 +19,14 @@ export const selectHasSeenTutorial = createSelector(
   selfUserState,
   (state) => state.hasSeenTutorial,
 );
+
+export const selectFavorites = createSelector(
+  selfUserState,
+  (state) => state.favorites,
+);
+
+export const selectIsFavorite = (chapterId: string) => {
+  return createSelector(selectFavorites, (favorites) =>
+    favorites.includes(chapterId),
+  );
+};

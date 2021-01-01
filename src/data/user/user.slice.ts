@@ -17,11 +17,13 @@ interface CurrentThemePayload {
 }
 
 type UserState = {
+  favorites: Array<string>;
   hasSeenTutorial: boolean;
 } & CurrentSearchView &
   CurrentTheme;
 
 const initialState: UserState = {
+  favorites: [],
   currentSearchView: 'card',
   currentTheme: 'system',
   hasSeenTutorial: false,
@@ -31,6 +33,14 @@ const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
+    addFavorite(state, action: PayloadAction<string>) {
+      state.favorites = [...state.favorites, action.payload];
+    },
+    removeFavorite(state, action: PayloadAction<string>) {
+      state.favorites = state.favorites.filter(
+        (favorite) => !favorite.includes(action.payload),
+      );
+    },
     resetUserState() {
       return initialState;
     },
@@ -56,6 +66,8 @@ const userSlice = createSlice({
 });
 
 export const {
+  addFavorite,
+  removeFavorite,
   resetUserState,
   setCurrentSearchView,
   setCurrentTheme,

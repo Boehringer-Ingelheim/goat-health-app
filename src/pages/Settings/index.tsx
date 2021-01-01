@@ -26,16 +26,13 @@ import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
 import { colorPaletteOutline, languageOutline } from 'ionicons/icons';
 import { THEMES } from '../../utils/theme';
 import { selectCurrentTheme } from '../../data/user/user.selector';
-import { RootState } from '../../store';
 import { resetUserState, setCurrentTheme } from '../../data/user/user.slice';
 
 export const SettingsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const dispatch = useDispatch();
-  const currentTheme = useSelector((state: RootState) =>
-    selectCurrentTheme(state),
-  );
+  const currentTheme = useSelector(selectCurrentTheme);
 
   return (
     <IonPage>

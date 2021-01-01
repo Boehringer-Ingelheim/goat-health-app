@@ -10,12 +10,8 @@ import { arrowBack, arrowForward, star, starOutline } from 'ionicons/icons';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router';
-import {
-  addFavorite,
-  removeFavorite,
-} from '../../data/chapter/chapter.actions';
-import { selectIsChapterFavorite } from '../../data/chapter/chapter.select';
-import { RootState } from '../../store';
+import { selectIsFavorite } from '../../data/user/user.selector';
+import { addFavorite, removeFavorite } from '../../data/user/user.slice';
 
 type ContainerProps = {
   previousChapter: string;
@@ -27,9 +23,8 @@ export const ChapterFooter: React.FC<ContainerProps> = (props) => {
 
   const history = useHistory();
   const currentChapter = history.location.pathname;
-  const isFavorite = useSelector((state) =>
-    selectIsChapterFavorite(state as RootState, currentChapter),
-  );
+
+  const isFavorite = useSelector(selectIsFavorite(currentChapter));
   const dispatch = useDispatch();
 
   const toggleFavorite = () => {

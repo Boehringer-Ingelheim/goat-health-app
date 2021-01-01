@@ -13,7 +13,6 @@ import {
 import { ellipsisHorizontal, ellipsisVertical } from 'ionicons/icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentSearchView } from '../../data/user/user.slice';
-import { RootState } from '../../store';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
 
 export const SearchPopover: React.FC = () => {
@@ -23,9 +22,7 @@ export const SearchPopover: React.FC = () => {
   });
 
   const dispatch = useDispatch();
-  const currentSearchView = useSelector((state: RootState) =>
-    selectCurrentSearchView(state),
-  );
+  const currentSearchView = useSelector(selectCurrentSearchView);
 
   return (
     <>

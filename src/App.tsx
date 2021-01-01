@@ -29,12 +29,9 @@ import AboutPage from './pages/About';
 import { SearchPage } from './pages/Search';
 import { THEMES } from './utils/theme';
 import { selectCurrentTheme } from './data/user/user.selector';
-import { RootState } from './store';
 
 const App: React.FC = () => {
-  const currentTheme = useSelector((state) =>
-    selectCurrentTheme(state as RootState),
-  );
+  const currentTheme = useSelector(selectCurrentTheme);
 
   return (
     <Suspense fallback="<App Suspense Loading>">
