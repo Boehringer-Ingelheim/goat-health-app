@@ -9,5 +9,5 @@ export type Chapter = {
 };
 
 export interface ChapterProps {
-  isCard?: boolean;
+  view?: 'card' | 'list' | 'page' = 'page';
 }

@@ -1,32 +1,35 @@
+import { IonCol, IonGrid, IonImg, IonRow, IonText } from '@ionic/react';
 import React from 'react';
-import {
-  IonCard,
-  IonCardContent,
-  IonCardSubtitle,
-  IonCardTitle,
-  IonCol,
-  IonGrid,
-  IonImg,
-  IonRow,
-  IonText,
-} from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { ChapterFooter } from '../footer';
+import { ChapterViewList } from '../ChapterViewList';
+import { ChapterViewCard } from '../ChapterViewCard';
 import { ChapterProps } from '../types';
 
 export const Chapter0201: React.FC<ChapterProps> = (props) => {
-  const { isCard = false } = props;
+  const { view } = props;
   const { t } = useTranslation();
 
-  if (isCard) {
+  if (view === 'card') {
     return (
-      <IonCard className="chapter-card" color="accent-step-0200">
-        <IonImg src={t(`CHAPTER.02.01.IMAGE.01.FILENAME`)} />
-        <IonCardContent>
-          <IonCardSubtitle>{t(`CHAPTER.02.00.TITLE`)}</IonCardSubtitle>
-          <IonCardTitle>{t(`CHAPTER.02.01.TITLE`)}</IonCardTitle>
-        </IonCardContent>
-      </IonCard>
+      <ChapterViewCard
+        color="accent-step-0200"
+        imgSrc={t(`CHAPTER.02.01.IMAGE.01.FILENAME`)}
+        routerLink="/chapter/02/01"
+        subTitle={t(`CHAPTER.02.00.TITLE`)}
+        title={t(`CHAPTER.02.01.TITLE`)}
+      ></ChapterViewCard>
+    );
+  }
+  if (view === 'list') {
+    return (
+      <ChapterViewList
+        color="accent-step-0200"
+        content={t(`CHAPTER.02.01.TEXT.PARAGRAPH.01`)}
+        routerLink="/chapter/02/01"
+        subTitle={t(`CHAPTER.02.00.TITLE`)}
+        title={t(`CHAPTER.02.01.TITLE`)}
+      ></ChapterViewList>
     );
   }
 

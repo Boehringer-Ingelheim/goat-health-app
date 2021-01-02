@@ -48,11 +48,11 @@ export const SearchPopover: React.FC = () => {
             </IonListHeader>
             <IonItem>
               <IonLabel>Card</IonLabel>
-              <IonRadio slot="start" value="card" />
+              <IonRadio slot="end" value="card" />
             </IonItem>
             <IonItem lines="none">
               <IonLabel>List</IonLabel>
-              <IonRadio slot="start" value="list" />
+              <IonRadio slot="end" value="list" />
             </IonItem>
           </IonRadioGroup>
         </IonList>

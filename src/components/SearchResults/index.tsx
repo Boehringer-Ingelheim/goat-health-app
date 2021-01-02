@@ -1,7 +1,9 @@
-import { IonNote, IonRouterLink } from '@ionic/react';
+import { IonGrid, IonNote, IonRow } from '@ionic/react';
 import React from 'react';
-import { Chapter, getChapterIdsByUrl } from '../Chapters';
+import { useSelector } from 'react-redux';
+import { selectCurrentSearchView } from '../../data/user/user.selector';
 import { LunrResult } from '../../utils/lunr';
+import { Chapter, getChapterIdsByUrl } from '../Chapters';
 
 interface ContainerProps {
   results: LunrResult[];
@@ -10,45 +12,34 @@ interface ContainerProps {
 export const SearchResults: React.FC<ContainerProps> = (props) => {
   const { results } = props;
 
+  const currentSearchView = useSelector(selectCurrentSearchView);
+
   if (results.length === 0) {
     return (
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100%',
-        }}
-      >
-        <IonNote>No results found</IonNote>
-      </div>
+      <IonGrid>
+        <IonRow class="ion-justify-content-center">
+          <IonNote class="ion-padding">No results found</IonNote>
+        </IonRow>
+      </IonGrid>
     );
   }
 
   return (
-    <>
-      <IonNote>Found {results.length} results</IonNote>
-      <div
-        style={{
-          alignItems: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-        }}
-      >
-        {results.map((result, resultIndex) => {
-          const { id: chapterUrl } = result;
-          const { id, subId } = getChapterIdsByUrl(chapterUrl);
-          return (
-            <IonRouterLink
-              key={resultIndex}
-              routerLink={chapterUrl}
-              routerDirection="forward"
-            >
-              <Chapter id={id} isCard subId={subId} />
-            </IonRouterLink>
-          );
-        })}
-      </div>
-    </>
+    <IonGrid>
+      <IonRow key={'number-of-results'}>
+        <IonNote class="ion-padding-horizontal">
+          Found {results.length} results
+        </IonNote>
+      </IonRow>
+      {results.map((result, resultIndex) => {
+        const { id: chapterUrl } = result;
+        const { id, subId } = getChapterIdsByUrl(chapterUrl);
+        return (
+          <IonRow class="ion-justify-content-center" key={resultIndex}>
+            <Chapter id={id} subId={subId} view={currentSearchView} />
+          </IonRow>
+        );
+      })}
+    </IonGrid>
   );
 };

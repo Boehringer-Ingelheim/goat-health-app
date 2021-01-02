@@ -35,7 +35,7 @@ export const HomeContainer: React.FC<ContainerProps> = (props) => {
                     routerLink={chapterUrl}
                     routerDirection="forward"
                   >
-                    <Chapter id={id} isCard subId={subId} />
+                    <Chapter id={id} subId={subId} view="card" />
                   </IonRouterLink>
                 );
               })}
