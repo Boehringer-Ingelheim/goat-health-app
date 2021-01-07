@@ -4,7 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Menu } from './components/Menu';
-import Page from './pages/Page';
+import { HomePage } from './pages/Page';
 import { ChapterPage } from './pages/Chapter';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -40,6 +40,7 @@ const App: React.FC = () => {
           <IonSplitPane contentId="main">
             <Menu />
             <IonRouterOutlet id="main">
+              <Route exact path="/page/home" render={() => <HomePage />} />
               <Route
                 path="/page/about"
                 render={() => <AboutPage />}
@@ -47,13 +48,11 @@ const App: React.FC = () => {
               />
               <Route
                 path="/page/search"
-                render={(props) => {
-                  return <SearchPage />;
-                }}
+                render={() => <SearchPage />}
                 exact={true}
               />
               <Route
-                path="/chapter/:id/:subId"
+                path="/chapter/:chapterId/:sectionId"
                 render={(props) => {
                   return <ChapterPage {...props} />;
                 }}
@@ -61,9 +60,7 @@ const App: React.FC = () => {
               />
               <Route
                 path="/settings"
-                render={(props) => {
-                  return <SettingsPage />;
-                }}
+                render={() => <SettingsPage />}
                 exact={true}
               />
               <Route

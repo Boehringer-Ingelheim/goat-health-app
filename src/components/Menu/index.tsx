@@ -10,54 +10,16 @@ import {
   IonFooter,
   IonHeader,
 } from '@ionic/react';
-import React from 'react';
-import {
-  settingsOutline,
-  information,
-  homeOutline,
-  searchOutline,
-} from 'ionicons/icons';
-import { useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
-
+import { settingsOutline } from 'ionicons/icons';
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { useMenus } from '../../utils/hooks/useMenus';
 import './index.css';
-import { useTranslation } from 'react-i18next';
-import { CHAPTER_01 } from '../Chapters/01/config';
-import { CHAPTER_02 } from '../Chapters/02/config';
 
-interface AppPage {
-  color?: string;
-  isHeader?: boolean;
-  icon: string;
-  title: string;
-  url: string;
-}
-
-const appPages: AppPage[] = [
-  {
-    title: 'Home',
-    url: '/page/home',
-    icon: homeOutline,
-  },
-  {
-    title: 'About',
-    url: '/page/about',
-    icon: information,
-  },
-  {
-    title: 'SEARCH.TITLE',
-    url: '/page/search',
-    icon: searchOutline,
-  },
-  ...CHAPTER_01,
-  ...CHAPTER_02,
-];
-
-interface MenuProps {}
-
-export const Menu: React.FunctionComponent<MenuProps> = (props) => {
-  const { t } = useTranslation();
+export const Menu: React.FC = () => {
   const dispatch = useDispatch();
+  const menus = useMenus();
 
   return (
     <IonMenu contentId="main" type="overlay">
@@ -68,28 +30,28 @@ export const Menu: React.FunctionComponent<MenuProps> = (props) => {
       </IonHeader>
       <IonContent>
         <IonList>
-          {appPages.map((appPage, appPageIndex) => {
-            const { color, icon, title } = appPage;
+          {menus.map((menu, menuIndex) => {
+            const { color, icon, title } = menu;
 
-            if (appPage.isHeader) {
+            if (menu.isHeader) {
               return (
-                <IonListHeader key={appPageIndex}>
-                  <IonLabel>{t(title)}</IonLabel>
+                <IonListHeader key={menuIndex}>
+                  <IonLabel>{title}</IonLabel>
                 </IonListHeader>
               );
             }
 
             return (
-              <IonMenuToggle key={appPageIndex} autoHide={false}>
+              <IonMenuToggle key={menuIndex} autoHide={false}>
                 <IonItem
-                  routerLink={appPage.url}
+                  routerLink={menu.url}
                   routerDirection="none"
                   lines="none"
                   detail={false}
-                  onClick={() => dispatch(push(appPage.url))}
+                  onClick={() => dispatch(push(menu.url))}
                 >
                   <IonIcon color={color} icon={icon} slot="start" />
-                  <IonLabel>{t(title)}</IonLabel>
+                  <IonLabel>{title}</IonLabel>
                 </IonItem>
               </IonMenuToggle>
             );

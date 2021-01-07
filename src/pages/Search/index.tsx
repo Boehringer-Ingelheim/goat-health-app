@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import {
   IonButtons,
   IonContent,
@@ -9,14 +8,13 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SearchPopover } from '../../components/SearchPopover';
 import { SearchResults } from '../../components/SearchResults';
-import { useLunr } from '../../utils/lunr';
+import { useLunr } from '../../utils/hooks/useLunr';
 
-interface ContainerProps {}
-
-export const SearchPage: React.FC<ContainerProps> = (props) => {
+export const SearchPage: React.FC = () => {
   const { t } = useTranslation();
 
   const [searchValue, setSearchValue] = useState('');

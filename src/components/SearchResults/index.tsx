@@ -2,8 +2,8 @@ import { IonGrid, IonNote, IonRow } from '@ionic/react';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
-import { LunrResult } from '../../utils/lunr';
-import { Chapter, getChapterIdsByUrl } from '../Chapters';
+import { LunrResult } from '../../utils/hooks/useLunr';
+import { Chapter } from '../Chapters';
 
 interface ContainerProps {
   results: LunrResult[];
@@ -32,11 +32,14 @@ export const SearchResults: React.FC<ContainerProps> = (props) => {
         </IonNote>
       </IonRow>
       {results.map((result, resultIndex) => {
-        const { id: chapterUrl } = result;
-        const { id, subId } = getChapterIdsByUrl(chapterUrl);
+        const { chapterId, sectionId } = result;
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>
-            <Chapter id={id} subId={subId} view={currentSearchView} />
+            <Chapter
+              chapterId={chapterId}
+              sectionId={sectionId}
+              view={currentSearchView}
+            />
           </IonRow>
         );
       })}

@@ -1,51 +1,56 @@
 import React from 'react';
-import * as Chapter01 from './01';
-import * as Chapter02 from './02';
+import { useChapterSection } from '../../utils/hooks/useChapterSection';
+import { ChapterViewCard } from './ChapterViewCard';
+import { ChapterViewList } from './ChapterViewList';
+import { ChapterViewPage } from './ChapterViewPage';
 
 import './index.css';
 
 interface ContainerProps {
-  id: string;
-  routerLink?: string;
-  subId: string;
+  chapterId: string;
+  sectionId: string;
   view?: 'card' | 'list' | 'page';
 }
 
-export const getChapterIdsByUrl = (url: string) => {
-  // url syntax: '/chapter/01/01'
-  if (url.startsWith('/chapter/')) {
-    const [id, subId] = url.split('/').slice(2);
-    return { id, subId };
-  }
-  return { id: '', subId: '' };
-};
-
 export const Chapter: React.FC<ContainerProps> = (props) => {
-  const { id, subId, view = 'page' } = props;
-  const chapterId = `${id}${subId}`;
+  const { chapterId, sectionId, view = 'page' } = props;
 
-  switch (chapterId) {
-    case '0101':
-      return <Chapter01.Chapter0101 view={view} />;
-    case '0102':
-      return <Chapter01.Chapter0102 view={view} />;
-    case '0103':
-      return <Chapter01.Chapter0103 view={view} />;
-    case '0104':
-      return <Chapter01.Chapter0104 view={view} />;
-    case '0201':
-      return <Chapter02.Chapter0201 view={view} />;
-    case '0202':
-      return <Chapter02.Chapter0202 view={view} />;
-    case '0203':
-      return <Chapter02.Chapter0203 view={view} />;
-    case '0204':
-      return <Chapter02.Chapter0204 view={view} />;
-    case '0205':
-      return <Chapter02.Chapter0205 view={view} />;
-    case '0206':
-      return <Chapter02.Chapter0206 view={view} />;
-    default:
-      return <div>Not Implemented Chapter {chapterId}</div>;
+  const { color, image, link, title, view: chapterView } = useChapterSection(
+    chapterId,
+    sectionId,
+  );
+
+  if (view === 'card') {
+    return (
+      <ChapterViewCard
+        color={color}
+        imgSrc={image}
+        routerLink={link.self}
+        subTitle={title.chapter}
+        title={title.section}
+      />
+    );
   }
+
+  if (view === 'list') {
+    return (
+      <ChapterViewList
+        color={color}
+        content={chapterView.list.content}
+        routerLink={link.self}
+        subTitle={title.chapter}
+        title={title.section}
+      ></ChapterViewList>
+    );
+  }
+
+  return (
+    <ChapterViewPage
+      color={color}
+      content={chapterView.page.content}
+      link={link}
+      subTitle={title.chapter}
+      title={title.section}
+    ></ChapterViewPage>
+  );
 };

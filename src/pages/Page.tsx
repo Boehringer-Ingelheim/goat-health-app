@@ -9,15 +9,10 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { RouteComponentProps } from 'react-router';
 import { HomeContainer } from '../components/Home';
 import './Page.css';
 
-interface ContainerProps {
-  selectedPage: string;
-}
-
-const Page: React.FC<RouteComponentProps<{ name: string }>> = ({ match }) => {
+export const HomePage: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -31,10 +26,8 @@ const Page: React.FC<RouteComponentProps<{ name: string }>> = ({ match }) => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen={true}>
-        <HomeContainer name={match.params.name} />
+        <HomeContainer />
       </IonContent>
     </IonPage>
   );
 };
-
-export default Page;
