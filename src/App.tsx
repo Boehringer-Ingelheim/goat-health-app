@@ -25,7 +25,7 @@ import './theme/bright.theme.css';
 import './theme/dark.theme.css';
 // import Tutorial from './pages/Tutorial';
 import { SettingsPage } from './pages/Settings';
-import AboutPage from './pages/About';
+import { AboutPage } from './pages/About';
 import { SearchPage } from './pages/Search';
 import { THEMES } from './utils/theme';
 import { selectCurrentTheme } from './data/user/user.selector';
@@ -41,17 +41,8 @@ const App: React.FC = () => {
             <Menu />
             <IonRouterOutlet id="main">
               <Route
-                exact
-                path="/page/home"
-                render={(props) => {
-                  return <Page {...props} />;
-                }}
-              />
-              <Route
                 path="/page/about"
-                render={(props) => {
-                  return <AboutPage />;
-                }}
+                render={() => <AboutPage />}
                 exact={true}
               />
               <Route

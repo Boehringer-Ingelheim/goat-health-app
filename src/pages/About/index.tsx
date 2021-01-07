@@ -1,5 +1,3 @@
-import React from 'react';
-import { connect } from 'react-redux';
 import {
   IonButtons,
   IonCol,
@@ -17,17 +15,16 @@ import {
   IonToolbar,
 } from '@ionic/react';
 import { globe, logoFacebook, logoLinkedin, mail } from 'ionicons/icons';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-interface ContainerProps {}
-
-const AboutPage: React.FC<ContainerProps> = (props) => {
+export const AboutPage: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <IonPage>
       <IonHeader translucent={true}>
-        <IonToolbar>
+        <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
@@ -87,12 +84,3 @@ const AboutPage: React.FC<ContainerProps> = (props) => {
     </IonPage>
   );
 };
-
-const mapStateToProps = (state: any) => {
-  return {};
-};
-
-const mapDispatchToProps = (dispatch: any) => {
-  return {};
-};
-export default connect(mapStateToProps, mapDispatchToProps)(AboutPage);
