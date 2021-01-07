@@ -24,10 +24,10 @@ export default i18n
   .init({
     resources: translations,
     cleanCode: true,
-    debug: true,
+    debug: false,
     fallbackLng: {
-      'de-DE': ['de'],
       'en-US': ['en'],
+      'de-DE': ['de'],
       default: [I18N_DEFAULT],
     },
     whitelist: I18N_LANGUAGES_SUPPORTED.map((language) => language.cultureLang),
