@@ -19,7 +19,10 @@
   },
 
   "APP": {
-    "NAME": "Goat Health"
+    "NAME": "Goat Health",
+    "ERROR": {
+      "NOT_AVAILABLE_CHAPTER_SECTION_CONTENT": "Oops! The content could not be found. We're working on it!"
+    }
   },
 
   "CHAPTER": {
@@ -2377,7 +2380,7 @@
   },
 
   "HOME": {
-    "TITLE": "About"
+    "TITLE": "Home"
   },
 
   "INTRO": {
