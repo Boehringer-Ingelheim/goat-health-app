@@ -11,9 +11,10 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { RouteComponentProps } from 'react-router';
 import { Chapter } from '../../components/Chapters';
+import { ChapterId } from '../../utils/chapters';
 
 interface MatchParams {
-  chapterId: string;
+  chapterId: ChapterId;
   sectionId: string;
 }
 

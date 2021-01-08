@@ -4,6 +4,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Chapter01 } from '../../data/chapter/chapter01';
 import { Chapter as Chapter02 } from '../../data/chapter/chapter02';
+import { ChapterId } from '../chapters';
 
 const ChapterSectionNotAvailable = () => {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ const ChapterSectionNotAvailable = () => {
 };
 
 export const getChapterSectionContent = (
-  chapterId: string,
+  chapterId: ChapterId,
   sectionId: string,
 ) => {
   if (chapterId === '01') {

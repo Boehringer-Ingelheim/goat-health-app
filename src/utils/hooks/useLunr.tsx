@@ -1,12 +1,12 @@
 import lunr from 'lunr';
 import { useMemo } from 'react';
-import { getChapterStructures } from '../chapters';
+import { ChapterId, getChapterStructures } from '../chapters';
 import { useChapterSection } from './useChapterSection';
 
 type LunrDocs = {
   [key: string]: {
     body: string;
-    chapterId: string;
+    chapterId: ChapterId;
     id: string;
     sectionId: string;
     title: string;
@@ -14,7 +14,7 @@ type LunrDocs = {
 };
 
 export type LunrResult = {
-  chapterId: string;
+  chapterId: ChapterId;
   body: string;
   id: string;
   sectionId: string;

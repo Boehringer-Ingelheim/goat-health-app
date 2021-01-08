@@ -20,7 +20,7 @@ export const HomeContainer: React.FC = () => {
             </IonText>
             <div className="scrolling-wrapper">
               {sections.map((section, sectionIndex) => {
-                const { chapterId = '', sectionId = '' } = section;
+                const { chapterId, sectionId } = section;
                 return (
                   <Chapter
                     chapterId={chapterId}

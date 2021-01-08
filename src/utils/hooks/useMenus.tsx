@@ -6,16 +6,24 @@ import {
   searchOutline,
 } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
-import { getChapterColor, getChapterIds, getSectionIds } from '../chapters';
+import {
+  ChapterId,
+  getChapterColor,
+  getChapterIds,
+  getSectionIds,
+} from '../chapters';
 
 export interface Menu {
-  chapterId?: string;
   color: string | undefined;
   icon: string;
   isHeader: boolean;
-  sectionId?: string;
   title: string;
   url: string;
+}
+
+interface MenuChapter extends Menu {
+  chapterId: ChapterId;
+  sectionId: string;
 }
 
 export const useMenus = (): Menu[] => {
@@ -39,7 +47,7 @@ const useMenuAbout = (): Menu => {
   };
 };
 
-export const useMenuChapters = (): Menu[][] => {
+export const useMenuChapters = (): MenuChapter[][] => {
   const { t } = useTranslation();
 
   const chapterIds = getChapterIds();

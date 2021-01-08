@@ -1,17 +1,19 @@
 import { IonCol, IonGrid, IonRow, IonText } from '@ionic/react';
 import React, { ReactNode } from 'react';
-import { ChapterFooter } from './footer';
+import { ChapterId } from '../../utils/chapters';
+import { ChapterFooter } from './ChapterFooter';
 
 interface ComponentProps {
+  chapterId: ChapterId;
   content: ReactNode | string;
   color?: string;
-  link: { next: string; previous: string; self: string };
+  sectionId: string;
   subTitle?: string;
   title: string;
 }
 
 export const ChapterViewPage: React.FC<ComponentProps> = (props) => {
-  const { content, link, title } = props;
+  const { chapterId, content, sectionId, title } = props;
 
   return (
     <>
@@ -25,7 +27,7 @@ export const ChapterViewPage: React.FC<ComponentProps> = (props) => {
           </IonCol>
         </IonRow>
       </IonGrid>
-      <ChapterFooter previousChapter={link.previous} nextChapter={link.next} />
+      <ChapterFooter chapterId={chapterId} sectionId={sectionId} />
     </>
   );
 };

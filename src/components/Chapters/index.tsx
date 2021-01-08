@@ -1,13 +1,13 @@
 import React from 'react';
+import { ChapterId } from '../../utils/chapters';
 import { useChapterSection } from '../../utils/hooks/useChapterSection';
 import { ChapterViewCard } from './ChapterViewCard';
 import { ChapterViewList } from './ChapterViewList';
 import { ChapterViewPage } from './ChapterViewPage';
-
 import './index.css';
 
 interface ContainerProps {
-  chapterId: string;
+  chapterId: ChapterId;
   sectionId: string;
   view?: 'card' | 'list' | 'page';
 }
@@ -15,7 +15,7 @@ interface ContainerProps {
 export const Chapter: React.FC<ContainerProps> = (props) => {
   const { chapterId, sectionId, view = 'page' } = props;
 
-  const { color, image, link, title, view: chapterView } = useChapterSection(
+  const { color, image, title, view: chapterView, url } = useChapterSection(
     chapterId,
     sectionId,
   );
@@ -25,7 +25,7 @@ export const Chapter: React.FC<ContainerProps> = (props) => {
       <ChapterViewCard
         color={color}
         imgSrc={image}
-        routerLink={link.self}
+        routerLink={url}
         subTitle={title.chapter}
         title={title.section}
       />
@@ -37,7 +37,7 @@ export const Chapter: React.FC<ContainerProps> = (props) => {
       <ChapterViewList
         color={color}
         content={chapterView.list.content}
-        routerLink={link.self}
+        routerLink={url}
         subTitle={title.chapter}
         title={title.section}
       ></ChapterViewList>
@@ -46,9 +46,10 @@ export const Chapter: React.FC<ContainerProps> = (props) => {
 
   return (
     <ChapterViewPage
+      chapterId={chapterId}
       color={color}
       content={chapterView.page.content}
-      link={link}
+      sectionId={sectionId}
       subTitle={title.chapter}
       title={title.section}
     ></ChapterViewPage>

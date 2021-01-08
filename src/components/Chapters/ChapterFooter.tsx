@@ -9,29 +9,33 @@ import {
 import { arrowBack, arrowForward, star, starOutline } from 'ionicons/icons';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useHistory } from 'react-router';
 import { selectIsFavorite } from '../../data/user/user.selector';
 import { addFavorite, removeFavorite } from '../../data/user/user.slice';
+import {
+  ChapterId,
+  getChapterNextSectionUrl,
+  getChapterPreviousSectionUrl,
+} from '../../utils/chapters';
 
 type ContainerProps = {
-  previousChapter: string;
-  nextChapter: string;
+  chapterId: ChapterId;
+  sectionId: string;
 };
 
 export const ChapterFooter: React.FC<ContainerProps> = (props) => {
-  const { previousChapter, nextChapter } = props;
+  const { chapterId, sectionId } = props;
 
-  const history = useHistory();
-  const currentChapter = history.location.pathname;
-
-  const isFavorite = useSelector(selectIsFavorite(currentChapter));
+  const id = `chapter${chapterId}${sectionId}`;
+  const next = getChapterNextSectionUrl(chapterId, sectionId);
+  const previous = getChapterPreviousSectionUrl(chapterId, sectionId);
+  const isFavorite = useSelector(selectIsFavorite(id));
   const dispatch = useDispatch();
 
   const toggleFavorite = () => {
     if (isFavorite) {
-      return dispatch(removeFavorite(currentChapter));
+      return dispatch(removeFavorite(id));
     }
-    return dispatch(addFavorite(currentChapter));
+    return dispatch(addFavorite(id));
   };
 
   return (
@@ -42,10 +46,9 @@ export const ChapterFooter: React.FC<ContainerProps> = (props) => {
             <IonButton
               className="ion-no-margin"
               color="primary"
-              disabled={previousChapter.length === 0}
               fill="clear"
               routerDirection="back"
-              routerLink={previousChapter}
+              routerLink={previous}
               size="small"
             >
               <IonIcon icon={arrowBack} slot="icon-only"></IonIcon>
@@ -69,9 +72,8 @@ export const ChapterFooter: React.FC<ContainerProps> = (props) => {
             <IonButton
               className="ion-no-margin"
               color="primary"
-              disabled={nextChapter.length === 0}
               fill="clear"
-              routerLink={nextChapter}
+              routerLink={next}
               size="small"
             >
               <IonIcon icon={arrowForward} slot="icon-only"></IonIcon>
