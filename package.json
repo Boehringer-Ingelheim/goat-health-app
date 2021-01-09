@@ -7,6 +7,7 @@
   "homepage": "https://www.makingmorehealth.org/",
   "license": "GPL-3.0-or-later",
   "scripts": {
+    "generate:images": "node scripts/images/squoosh.js",
     "generate:changelog": "",
     "generate:screenshots": "",
     "generate:resources": "node scripts/resources.js",
@@ -14,8 +15,9 @@
     "generate:resources:assets:android": "node scripts/resources/assets-android.js",
     "generate:resources:assets:ios": "node scripts/resources/assets-ios.js",
     "generate:resources:assets:pwa": "node scripts/resources/assets-pwa.js",
+    "ionic:build:before": "node scripts/images/squoosh.js",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run generate:images && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "res": "node scripts/res.js",
