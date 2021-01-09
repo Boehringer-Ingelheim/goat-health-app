@@ -59,7 +59,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_002_en.png",
+            "FILENAME": "./assets/img/drawing_002_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_002_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_002_en_400.webp",
+              "LARGE": "./assets/img/drawing_002_en_800.webp"
+            },
             "TITLE": "Add to your goat house a water collection system from the roof to prepare for drought."
           }
         }
@@ -86,7 +91,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_003.png",
+            "FILENAME": "./assets/img/drawing_003.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_003_200.webp",
+              "MEDIUM": "./assets/img/drawing_003_400.webp",
+              "LARGE": "./assets/img/drawing_003_800.webp"
+            },
             "TITLE": "Remove droppings every day."
           }
         }
@@ -111,7 +121,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_004.png",
+            "FILENAME": "./assets/img/drawing_004.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_004_200.webp",
+              "MEDIUM": "./assets/img/drawing_004_400.webp",
+              "LARGE": "./assets/img/drawing_004_800.webp"
+            },
             "TITLE": "Collect all droppings daily and place them on a compost heap"
           }
         }
@@ -142,7 +157,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_005.png",
+            "FILENAME": "./assets/img/drawing_005.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_005_200.webp",
+              "MEDIUM": "./assets/img/drawing_005_400.webp",
+              "LARGE": "./assets/img/drawing_005_800.webp"
+            },
             "TITLE": "Check if new goats are in good health for one week, optimally 2 weeks before mixing the new goats with your goats."
           }
         }
@@ -178,11 +198,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_007.png",
+            "FILENAME": "./assets/img/drawing_007.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_007_200.webp",
+              "MEDIUM": "./assets/img/drawing_007_400.webp",
+              "LARGE": "./assets/img/drawing_007_800.webp"
+            },
             "TITLE": "Let goats pasture every day."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_006.png",
+            "FILENAME": "./assets/img/drawing_006.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_006_200.webp",
+              "MEDIUM": "./assets/img/drawing_006_400.webp",
+              "LARGE": "./assets/img/drawing_006_800.webp"
+            },
             "TITLE": "Every day, a goat needs 5 kg green (fresh plants) and 1 kg dry feed (your dried plants, or feed concentrate)."
           }
         }
@@ -210,7 +240,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_008.png",
+            "FILENAME": "./assets/img/drawing_008.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_008_200.webp",
+              "MEDIUM": "./assets/img/drawing_008_400.webp",
+              "LARGE": "./assets/img/drawing_008_800.webp"
+            },
             "TITLE": "Switch direction of pasture every month."
           }
         }
@@ -240,7 +275,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_009.png",
+            "FILENAME": "./assets/img/drawing_009.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_009_200.webp",
+              "MEDIUM": "./assets/img/drawing_009_400.webp",
+              "LARGE": "./assets/img/drawing_009_800.webp"
+            },
             "TITLE": "Growing your own crops always improves the feed. Prepare for drought by collecting fallen leaves and branches."
           }
         }
@@ -270,11 +310,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_010b.png",
+            "FILENAME": "./assets/img/drawing_010b.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_010b_200.webp",
+              "MEDIUM": "./assets/img/drawing_010b_400.webp",
+              "LARGE": "./assets/img/drawing_010b_800.webp"
+            },
             "TITLE": "Goats need as much water as they can drink!"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_011.png",
+            "FILENAME": "./assets/img/drawing_011.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_011_200.webp",
+              "MEDIUM": "./assets/img/drawing_011_400.webp",
+              "LARGE": "./assets/img/drawing_011_800.webp"
+            },
             "TITLE": "Water is very important for the body weight (and your sales price) and for the milk production!"
           }
         }
@@ -300,7 +350,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_012.png",
+            "FILENAME": "./assets/img/drawing_012.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_012_200.webp",
+              "MEDIUM": "./assets/img/drawing_012_400.webp",
+              "LARGE": "./assets/img/drawing_012_800.webp"
+            },
             "TITLE": "Prepare a soup with eggs, milk, cooked lentils and water by boiling it for at least 10 minutes. Feed to the kid when cooled down."
           }
         }
@@ -328,7 +383,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_010b.png",
+            "FILENAME": "./assets/img/drawing_010b.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_010b_200.webp",
+              "MEDIUM": "./assets/img/drawing_010b_400.webp",
+              "LARGE": "./assets/img/drawing_010b_800.webp"
+            },
             "TITLE": "Well hydrated goats produce more milk."
           }
         }
@@ -373,19 +433,39 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/photos/photo_001.jpg",
+            "FILENAME": "./assets/img/photo_001.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_001_200.webp",
+              "MEDIUM": "./assets/img/photo_001_400.webp",
+              "LARGE": "./assets/img/photo_001_800.webp"
+            },
             "TITLE": ""
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_013a_en.png",
+            "FILENAME": "./assets/img/drawing_013a_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_013a_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
+              "LARGE": "./assets/img/drawing_013a_en_800.webp"
+            },
             "TITLE": "Native breed Attappady black is raised for meat and generates income only after months of rearing through selling the grown kids."
           },
           "03": {
-            "FILENAME": "./assets/img/photos/photo_002.jpg",
+            "FILENAME": "./assets/img/photo_002.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_002_200.webp",
+              "MEDIUM": "./assets/img/photo_002_400.webp",
+              "LARGE": "./assets/img/photo_002_800.webp"
+            },
             "TITLE": ""
           },
           "04": {
-            "FILENAME": "./assets/img/drawing/drawing_013b.png",
+            "FILENAME": "./assets/img/drawing_013b.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_013b_200.webp",
+              "MEDIUM": "./assets/img/drawing_013b_400.webp",
+              "LARGE": "./assets/img/drawing_013b_800.webp"
+            },
             "TITLE": "Malabari breed is a dairy breed and generates income during milking season."
           }
         }
@@ -415,7 +495,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_014_en.png",
+            "FILENAME": "./assets/img/drawing_014_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_014_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_014_en_400.webp",
+              "LARGE": "./assets/img/drawing_014_en_800.webp"
+            },
             "TITLE": "Check the female and the male goat at purchase."
           }
         }
@@ -449,11 +534,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_015a.png",
+            "FILENAME": "./assets/img/drawing_015a.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015a_200.webp",
+              "MEDIUM": "./assets/img/drawing_015a_400.webp",
+              "LARGE": "./assets/img/drawing_015a_800.webp"
+            },
             "TITLE": "Identify each goat by a tag and make a goat card for each goat."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_015b_en.png",
+            "FILENAME": "./assets/img/drawing_015b_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015b_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+              "LARGE": "./assets/img/drawing_015b_en_800.webp"
+            },
             "TITLE": "Make a goat card with all the important information and keep updated."
           }
         }
@@ -485,11 +580,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_016.png",
+            "FILENAME": "./assets/img/drawing_016.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_016_200.webp",
+              "MEDIUM": "./assets/img/drawing_016_400.webp",
+              "LARGE": "./assets/img/drawing_016_800.webp"
+            },
             "TITLE": "Look for signs of heat in the morning."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_017.png",
+            "FILENAME": "./assets/img/drawing_017.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_017_200.webp",
+              "MEDIUM": "./assets/img/drawing_017_400.webp",
+              "LARGE": "./assets/img/drawing_017_800.webp"
+            },
             "TITLE": "Allow young females to mate only when ¾ of adult size or 10 kg weight reached."
           }
         }
@@ -519,7 +624,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_015b_en.png",
+            "FILENAME": "./assets/img/drawing_015b_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015b_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+              "LARGE": "./assets/img/drawing_015b_en_800.webp"
+            },
             "TITLE": "In the goat card, write down any of the signs of pregnancy."
           }
         }
@@ -552,11 +662,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_018.png",
+            "FILENAME": "./assets/img/drawing_018.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_018_200.webp",
+              "MEDIUM": "./assets/img/drawing_018_400.webp",
+              "LARGE": "./assets/img/drawing_018_800.webp"
+            },
             "TITLE": "In the last 2 months before birth, keep the older milk-suckling kid away and give the kid extra feed."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_015b_en.png",
+            "FILENAME": "./assets/img/drawing_015b_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015b_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+              "LARGE": "./assets/img/drawing_015b_en_800.webp"
+            },
             "TITLE": "Check the goat card every week to plan the delivery."
           }
         }
@@ -589,7 +709,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_019.png",
+            "FILENAME": "./assets/img/drawing_019.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_019_200.webp",
+              "MEDIUM": "./assets/img/drawing_019_400.webp",
+              "LARGE": "./assets/img/drawing_019_800.webp"
+            },
             "TITLE": "Birth takes some hours, so do not pull the kid out in the first hour."
           }
         }
@@ -619,7 +744,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_020.png",
+            "FILENAME": "./assets/img/drawing_020.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_020_200.webp",
+              "MEDIUM": "./assets/img/drawing_020_400.webp",
+              "LARGE": "./assets/img/drawing_020_800.webp"
+            },
             "TITLE": "Umbilical cord: twist and pull from both sides and disinfect."
           }
         }
@@ -644,7 +774,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_021.png",
+            "FILENAME": "./assets/img/drawing_021.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_021_200.webp",
+              "MEDIUM": "./assets/img/drawing_021_400.webp",
+              "LARGE": "./assets/img/drawing_021_800.webp"
+            },
             "TITLE": "If two kids are born, smear a bit of each kids afterbirth on the other one, so that both have the same smell."
           }
         }
@@ -672,7 +807,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_022.png",
+            "FILENAME": "./assets/img/drawing_022.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_022_200.webp",
+              "MEDIUM": "./assets/img/drawing_022_400.webp",
+              "LARGE": "./assets/img/drawing_022_800.webp"
+            },
             "TITLE": "In case that two kids are born, keep each mother goat with two newborns in a separate closed area for some days, so that the three can get used to each other."
           }
         }
@@ -700,7 +840,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_023.png",
+            "FILENAME": "./assets/img/drawing_023.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_023_200.webp",
+              "MEDIUM": "./assets/img/drawing_023_400.webp",
+              "LARGE": "./assets/img/drawing_023_800.webp"
+            },
             "TITLE": "If left alone, the kids suffer a lot! So, give the rejected kids feed and special care."
           }
         }
@@ -726,7 +871,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_024.png",
+            "FILENAME": "./assets/img/drawing_024.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_024_200.webp",
+              "MEDIUM": "./assets/img/drawing_024_400.webp",
+              "LARGE": "./assets/img/drawing_024_800.webp"
+            },
             "TITLE": "Do good goat kid kindergarten: First milk is very important. From the mother goat or via hand-feeding of rejected kids."
           }
         }
@@ -767,7 +917,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_015b_en.png",
+            "FILENAME": "./assets/img/drawing_015b_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015b_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+              "LARGE": "./assets/img/drawing_015b_en_800.webp"
+            },
             "TITLE": "Goat card helps you plan your finances from goat rearing: when can you expect how much money to earn and to spend."
           }
         }
@@ -804,14 +959,29 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_008.png",
+            "FILENAME": "./assets/img/drawing_008.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_008_200.webp",
+              "MEDIUM": "./assets/img/drawing_008_400.webp",
+              "LARGE": "./assets/img/drawing_008_800.webp"
+            },
             "TITLE": "The traditional and tribal way can produce healthy high quality meat. Engage with others to make use of this as organic food.",
             "02": {
-              "FILENAME": "./assets/img/photos/photo_003.png",
+              "FILENAME": "./assets/img/photo_003.webp",
+              "THUMBNAIL": {
+                "SMALL": "./assets/img/photo_003_200.webp",
+                "MEDIUM": "./assets/img/photo_003_400.webp",
+                "LARGE": "./assets/img/photo_003_800.webp"
+              },
               "TITLE": "Example of an Indian organic product."
             },
             "03": {
-              "FILENAME": "./assets/img/drawing/drawing_013a_en.png",
+              "FILENAME": "./assets/img/drawing_013a_en.webp",
+              "THUMBNAIL": {
+                "SMALL": "./assets/img/drawing_013a_en_200.webp",
+                "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
+                "LARGE": "./assets/img/drawing_013a_en_800.webp"
+              },
               "TITLE": "Organic farming is a growing business. If you are interested, search for partners and organic cooperative options."
             }
           }
@@ -838,7 +1008,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_009.png",
+            "FILENAME": "./assets/img/drawing_009.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_009_200.webp",
+              "MEDIUM": "./assets/img/drawing_009_400.webp",
+              "LARGE": "./assets/img/drawing_009_800.webp"
+            },
             "TITLE": "Here are different ideas. You may offer a service business around goats in the villages of your area."
           }
         }
@@ -868,7 +1043,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_015a.png",
+            "FILENAME": "./assets/img/drawing_015a.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015a_200.webp",
+              "MEDIUM": "./assets/img/drawing_015a_400.webp",
+              "LARGE": "./assets/img/drawing_015a_800.webp"
+            },
             "TITLE": "Always keep good track of your goats."
           }
         }
@@ -894,7 +1074,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_005.png",
+            "FILENAME": "./assets/img/drawing_005.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_005_200.webp",
+              "MEDIUM": "./assets/img/drawing_005_400.webp",
+              "LARGE": "./assets/img/drawing_005_800.webp"
+            },
             "TITLE": "Goats and other animals are like people and like to be treated well. Speak loud and clearly. Look at the goat and gesture with your hands to signal what you want it to do."
           }
         }
@@ -938,7 +1123,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_026.png",
+            "FILENAME": "./assets/img/drawing_026.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_026_200.webp",
+              "MEDIUM": "./assets/img/drawing_026_400.webp",
+              "LARGE": "./assets/img/drawing_026_800.webp"
+            },
             "TITLE": "The body temperature of goats is higher than for humans."
           }
         }
@@ -1012,31 +1202,66 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_047.png",
+            "FILENAME": "./assets/img/drawing_047.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_047_200.webp",
+              "MEDIUM": "./assets/img/drawing_047_400.webp",
+              "LARGE": "./assets/img/drawing_047_800.webp"
+            },
             "TITLE": "Ticks can transmit diseases to goats"
           },
           "02": {
-            "FILENAME": "./assets/img/photos/photo_008.png",
+            "FILENAME": "./assets/img/photo_008.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_008_200.webp",
+              "MEDIUM": "./assets/img/photo_008_400.webp",
+              "LARGE": "./assets/img/photo_008_800.webp"
+            },
             "TITLE": "One example of bacteria (E. coli)"
           },
           "03": {
-            "FILENAME": "./assets/img/photos/photo_009.png",
+            "FILENAME": "./assets/img/photo_009.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_009_200.webp",
+              "MEDIUM": "./assets/img/photo_009_400.webp",
+              "LARGE": "./assets/img/photo_009_800.webp"
+            },
             "TITLE": "One example of virus (Rabies virus)"
           },
           "04": {
-            "FILENAME": "./assets/img/photos/photo_010.png",
+            "FILENAME": "./assets/img/photo_010.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_010_200.webp",
+              "MEDIUM": "./assets/img/photo_010_400.webp",
+              "LARGE": "./assets/img/photo_010_800.webp"
+            },
             "TITLE": "One example of fungus (Aspergillus)"
           },
           "05": {
-            "FILENAME": "./assets/img/drawing/drawing_048.png",
+            "FILENAME": "./assets/img/drawing_048.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_048_200.webp",
+              "MEDIUM": "./assets/img/drawing_048_400.webp",
+              "LARGE": "./assets/img/drawing_048_800.webp"
+            },
             "TITLE": "Adult flea & Flea larvae"
           },
           "06": {
-            "FILENAME": "./assets/img/drawing/drawing_049.png",
+            "FILENAME": "./assets/img/drawing_049.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_049_200.webp",
+              "MEDIUM": "./assets/img/drawing_049_400.webp",
+              "LARGE": "./assets/img/drawing_049_800.webp"
+            },
             "TITLE": "Female tick full of blood and adult ticks (Male & Female)"
           },
           "07": {
-            "FILENAME": "./assets/img/drawing/drawing_050.png",
+            "FILENAME": "./assets/img/drawing_050.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_050_200.webp",
+              "MEDIUM": "./assets/img/drawing_050_400.webp",
+              "LARGE": "./assets/img/drawing_050_800.webp"
+            },
             "TITLE": "Parasite cycle of the small liver fluke via ants and snails"
           }
         }
@@ -1100,15 +1325,30 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_027.png",
+            "FILENAME": "./assets/img/drawing_027.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_027_200.webp",
+              "MEDIUM": "./assets/img/drawing_027_400.webp",
+              "LARGE": "./assets/img/drawing_027_800.webp"
+            },
             "TITLE": "A healthy goat pays attention to its environment."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_028.png",
+            "FILENAME": "./assets/img/drawing_028.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_028_200.webp",
+              "MEDIUM": "./assets/img/drawing_028_400.webp",
+              "LARGE": "./assets/img/drawing_028_800.webp"
+            },
             "TITLE": "Any of the disease signs alone already shows that the goat is sick."
           },
           "03": {
-            "FILENAME": "./assets/img/photos/photo_004.png",
+            "FILENAME": "./assets/img/photo_004.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_004_200.webp",
+              "MEDIUM": "./assets/img/photo_004_400.webp",
+              "LARGE": "./assets/img/photo_004_800.webp"
+            },
             "TITLE": "Discharge from nose can be a parasite disease."
           }
         }
@@ -1140,7 +1380,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_025.png",
+            "FILENAME": "./assets/img/drawing_025.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_025_200.webp",
+              "MEDIUM": "./assets/img/drawing_025_400.webp",
+              "LARGE": "./assets/img/drawing_025_800.webp"
+            },
             "TITLE": "Each day, do the health check: upon pulling does the skin go down elastically?"
           }
         }
@@ -1170,7 +1415,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_029.png",
+            "FILENAME": "./assets/img/drawing_029.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_029_200.webp",
+              "MEDIUM": "./assets/img/drawing_029_400.webp",
+              "LARGE": "./assets/img/drawing_029_800.webp"
+            },
             "TITLE": "Pregnant women should always be careful when taking care of goats and avoid goats in case of goat abortion."
           }
         }
@@ -1218,15 +1468,30 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/photos/photo_005.jpg",
+            "FILENAME": "./assets/img/photo_005.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_005_200.webp",
+              "MEDIUM": "./assets/img/photo_005_400.webp",
+              "LARGE": "./assets/img/photo_005_800.webp"
+            },
             "TITLE": "Disinfectant"
           },
           "02": {
-            "FILENAME": "./assets/img/photos/photo_006.jpg",
+            "FILENAME": "./assets/img/photo_006.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_006_200.webp",
+              "MEDIUM": "./assets/img/photo_006_400.webp",
+              "LARGE": "./assets/img/photo_006_800.webp"
+            },
             "TITLE": ""
           },
           "03": {
-            "FILENAME": "./assets/img/drawing/drawing_030.png",
+            "FILENAME": "./assets/img/drawing_030.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_030_200.webp",
+              "MEDIUM": "./assets/img/drawing_030_400.webp",
+              "LARGE": "./assets/img/drawing_030_800.webp"
+            },
             "TITLE": "Each village needs an own little pharmacy with soap, disinfectant, neem oil etc."
           }
         }
@@ -1252,7 +1517,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_031.png",
+            "FILENAME": "./assets/img/drawing_031.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_031_200.webp",
+              "MEDIUM": "./assets/img/drawing_031_400.webp",
+              "LARGE": "./assets/img/drawing_031_800.webp"
+            },
             "TITLE": "Deep wounds have to be cleaned and disinfected to avoid more disease."
           }
         }
@@ -1283,7 +1553,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_026.png",
+            "FILENAME": "./assets/img/drawing_026.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_026_200.webp",
+              "MEDIUM": "./assets/img/drawing_026_400.webp",
+              "LARGE": "./assets/img/drawing_026_800.webp"
+            },
             "TITLE": "Fever is the first sign of many diseases from bacteria and viruses."
           }
         }
@@ -1330,7 +1605,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_032.png",
+            "FILENAME": "./assets/img/drawing_032.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_032_200.webp",
+              "MEDIUM": "./assets/img/drawing_032_400.webp",
+              "LARGE": "./assets/img/drawing_032_800.webp"
+            },
             "TITLE": "The way of transmission depends on the disease."
           }
         }
@@ -1381,19 +1661,39 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/photos/photo_007.png",
+            "FILENAME": "./assets/img/photo_007.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_007_200.webp",
+              "MEDIUM": "./assets/img/photo_007_400.webp",
+              "LARGE": "./assets/img/photo_007_800.webp"
+            },
             "TITLE": ""
           },
           "02": {
-            "FILENAME": "./assets/img/photos/photo_006.jpg",
+            "FILENAME": "./assets/img/photo_006.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_006_200.webp",
+              "MEDIUM": "./assets/img/photo_006_400.webp",
+              "LARGE": "./assets/img/photo_006_800.webp"
+            },
             "TITLE": ""
           },
           "03": {
-            "FILENAME": "./assets/img/drawing/drawing_047.png",
+            "FILENAME": "./assets/img/drawing_047.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_047_200.webp",
+              "MEDIUM": "./assets/img/drawing_047_400.webp",
+              "LARGE": "./assets/img/drawing_047_800.webp"
+            },
             "TITLE": "Ticks can transmit diseases to goats"
           },
           "04": {
-            "FILENAME": "./assets/img/drawing/drawing_033.png",
+            "FILENAME": "./assets/img/drawing_033.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_033_200.webp",
+              "MEDIUM": "./assets/img/drawing_033_400.webp",
+              "LARGE": "./assets/img/drawing_033_800.webp"
+            },
             "TITLE": "Remove ticks every day to avoid transmission of diseases."
           }
         }
@@ -1450,19 +1750,39 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_050.png",
+            "FILENAME": "./assets/img/drawing_050.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_050_200.webp",
+              "MEDIUM": "./assets/img/drawing_050_400.webp",
+              "LARGE": "./assets/img/drawing_050_800.webp"
+            },
             "TITLE": "Parasite cycle of the small liver fluke via ants and snails."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_034.png",
+            "FILENAME": "./assets/img/drawing_034.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_034_200.webp",
+              "MEDIUM": "./assets/img/drawing_034_400.webp",
+              "LARGE": "./assets/img/drawing_034_800.webp"
+            },
             "TITLE": "Separate sick goats from herd."
           },
           "03": {
-            "FILENAME": "./assets/img/drawing/drawing_005.png",
+            "FILENAME": "./assets/img/drawing_005.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_005_200.webp",
+              "MEDIUM": "./assets/img/drawing_005_400.webp",
+              "LARGE": "./assets/img/drawing_005_800.webp"
+            },
             "TITLE": "You can prevent diseases by isolating newly purchased goats."
           },
           "04": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "Get vaccination to prevent some diseases like PPR."
           }
         }
@@ -1499,11 +1819,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_050.png",
+            "FILENAME": "./assets/img/drawing_050.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_050_200.webp",
+              "MEDIUM": "./assets/img/drawing_050_400.webp",
+              "LARGE": "./assets/img/drawing_050_800.webp"
+            },
             "TITLE": "Parasite cycle of the small liver fluke via ants and snails."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_036.png",
+            "FILENAME": "./assets/img/drawing_036.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_036_200.webp",
+              "MEDIUM": "./assets/img/drawing_036_400.webp",
+              "LARGE": "./assets/img/drawing_036_800.webp"
+            },
             "TITLE": "You can participate to reduce the number of parasites by keeping your goats healthy and clean."
           }
         }
@@ -1532,7 +1862,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "If the goat is already sick, it needs well-handled medicinal treatment."
           }
         }
@@ -1576,23 +1911,48 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/photos/photo_011.png",
+            "FILENAME": "./assets/img/photo_011.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_011_200.webp",
+              "MEDIUM": "./assets/img/photo_011_400.webp",
+              "LARGE": "./assets/img/photo_011_800.webp"
+            },
             "TITLE": "Example of good medicines for goats"
           },
           "02": {
-            "FILENAME": "./assets/img/photos/photo_012.png",
+            "FILENAME": "./assets/img/photo_012.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_012_200.webp",
+              "MEDIUM": "./assets/img/photo_012_400.webp",
+              "LARGE": "./assets/img/photo_012_800.webp"
+            },
             "TITLE": "Use good medicines to treat parasites."
           },
           "03": {
-            "FILENAME": "./assets/img/photos/photo_013.png",
+            "FILENAME": "./assets/img/photo_013.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_013_200.webp",
+              "MEDIUM": "./assets/img/photo_013_400.webp",
+              "LARGE": "./assets/img/photo_013_800.webp"
+            },
             "TITLE": "Medicine treatment against parasites."
           },
           "04": {
-            "FILENAME": "./assets/img/drawing/drawing_008.png",
+            "FILENAME": "./assets/img/drawing_008.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_008_200.webp",
+              "MEDIUM": "./assets/img/drawing_008_400.webp",
+              "LARGE": "./assets/img/drawing_008_800.webp"
+            },
             "TITLE": "Change the pasture regularly, this helps to decrease contamination with parasite eggs."
           },
           "05": {
-            "FILENAME": "./assets/img/photos/photo_014.png",
+            "FILENAME": "./assets/img/photo_014.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_014_200.webp",
+              "MEDIUM": "./assets/img/photo_014_400.webp",
+              "LARGE": "./assets/img/photo_014_800.webp"
+            },
             "TITLE": "Bad – do not use plant pesticides on goats or any other animal or person!"
           }
         }
@@ -1626,7 +1986,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_037.png",
+            "FILENAME": "./assets/img/drawing_037.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_037_200.webp",
+              "MEDIUM": "./assets/img/drawing_037_400.webp",
+              "LARGE": "./assets/img/drawing_037_800.webp"
+            },
             "TITLE": "Before applying any treatment, weigh your goat."
           }
         }
@@ -1678,11 +2043,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_039.png",
+            "FILENAME": "./assets/img/drawing_039.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_039_200.webp",
+              "MEDIUM": "./assets/img/drawing_039_400.webp",
+              "LARGE": "./assets/img/drawing_039_800.webp"
+            },
             "TITLE": "If many goats and also cows are sick with blisters, but do not die, this could be FMD. Call your veterinarian!"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "Get vaccination to prevent PPR."
           }
         }
@@ -1730,11 +2105,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_038.png",
+            "FILENAME": "./assets/img/drawing_038.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_038_200.webp",
+              "MEDIUM": "./assets/img/drawing_038_400.webp",
+              "LARGE": "./assets/img/drawing_038_800.webp"
+            },
             "TITLE": "If many goats and also cows have blisters, this could be FMD. Call your veterinarian!"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_040.png",
+            "FILENAME": "./assets/img/drawing_040.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_040_200.webp",
+              "MEDIUM": "./assets/img/drawing_040_400.webp",
+              "LARGE": "./assets/img/drawing_040_800.webp"
+            },
             "TITLE": "If many goats and also cows are ill with blisters, but do not die so much, this could be FMD. Call your veterinarian!"
           }
         }
@@ -1768,11 +2153,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_041.png",
+            "FILENAME": "./assets/img/drawing_041.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_041_200.webp",
+              "MEDIUM": "./assets/img/drawing_041_400.webp",
+              "LARGE": "./assets/img/drawing_041_800.webp"
+            },
             "TITLE": "Goat pox shows many raised spots on the skin."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_034.png",
+            "FILENAME": "./assets/img/drawing_034.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_034_200.webp",
+              "MEDIUM": "./assets/img/drawing_034_400.webp",
+              "LARGE": "./assets/img/drawing_034_800.webp"
+            },
             "TITLE": "You can prevent diseases by isolating newly purchased goats for one, better two weeks."
           }
         }
@@ -1803,7 +2198,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_051.png",
+            "FILENAME": "./assets/img/drawing_051.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_051_200.webp",
+              "MEDIUM": "./assets/img/drawing_051_400.webp",
+              "LARGE": "./assets/img/drawing_051_800.webp"
+            },
             "TITLE": ""
           }
         }
@@ -1846,7 +2246,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_042.png",
+            "FILENAME": "./assets/img/drawing_042.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_042_200.webp",
+              "MEDIUM": "./assets/img/drawing_042_400.webp",
+              "LARGE": "./assets/img/drawing_042_800.webp"
+            },
             "TITLE": "Animals and people get rabies usually by a bite of an infected animal, mostly a dog."
           }
         }
@@ -1891,7 +2296,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_043.png",
+            "FILENAME": "./assets/img/drawing_043.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_043_200.webp",
+              "MEDIUM": "./assets/img/drawing_043_400.webp",
+              "LARGE": "./assets/img/drawing_043_800.webp"
+            },
             "TITLE": "Boil fresh goat and cow milk for human consumption to avoid spreading of brucellosis disease fertility problems."
           }
         }
@@ -1939,11 +2349,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_047.png",
+            "FILENAME": "./assets/img/drawing_047.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_047_200.webp",
+              "MEDIUM": "./assets/img/drawing_047_400.webp",
+              "LARGE": "./assets/img/drawing_047_800.webp"
+            },
             "TITLE": "Ticks can also transmit diseases"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "Let the goat get treatment by the veterinarian"
           }
         }
@@ -2002,11 +2422,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_050.png",
+            "FILENAME": "./assets/img/drawing_050.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_050_200.webp",
+              "MEDIUM": "./assets/img/drawing_050_400.webp",
+              "LARGE": "./assets/img/drawing_050_800.webp"
+            },
             "TITLE": "Example Parasite life cycle"
           },
           "02": {
-            "FILENAME": "./assets/img/photos/photo_013.png",
+            "FILENAME": "./assets/img/photo_013.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/photo_013_200.webp",
+              "MEDIUM": "./assets/img/photo_013_400.webp",
+              "LARGE": "./assets/img/photo_013_800.webp"
+            },
             "TITLE": ""
           }
         }
@@ -2053,11 +2483,26 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_003.png",
+            "FILENAME": "./assets/img/drawing_003.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_003_200.webp",
+              "MEDIUM": "./assets/img/drawing_003_400.webp",
+              "LARGE": "./assets/img/drawing_003_800.webp"
+            },
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_003_200.webp",
+              "MEDIUM": "./assets/img/drawing_003_400.webp",
+              "LARGE": "./assets/img/drawing_003_800.webp"
+            },
             "TITLE": "It is possible that goats transmit bronchitis to humans. So take care while cleaning and washing goat enclosures."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "Let the goat get treatment by the veterinarian."
           }
         }
@@ -2117,11 +2562,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_025.png",
+            "FILENAME": "./assets/img/drawing_025.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_025_200.webp",
+              "MEDIUM": "./assets/img/drawing_025_400.webp",
+              "LARGE": "./assets/img/drawing_025_800.webp"
+            },
             "TITLE": "Each day, do a health check: upon pulling, does the skin go down elastically"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_035.png",
+            "FILENAME": "./assets/img/drawing_035.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_035_200.webp",
+              "MEDIUM": "./assets/img/drawing_035_400.webp",
+              "LARGE": "./assets/img/drawing_035_800.webp"
+            },
             "TITLE": "Let the goat get treatment by the veterinarian."
           }
         }
@@ -2178,11 +2633,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_006.png",
+            "FILENAME": "./assets/img/drawing_006.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_006_200.webp",
+              "MEDIUM": "./assets/img/drawing_006_400.webp",
+              "LARGE": "./assets/img/drawing_006_800.webp"
+            },
             "TITLE": "Very important: acidosis is caused by poor feeding"
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_007.png",
+            "FILENAME": "./assets/img/drawing_007.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_007_200.webp",
+              "MEDIUM": "./assets/img/drawing_007_400.webp",
+              "LARGE": "./assets/img/drawing_007_800.webp"
+            },
             "TITLE": "Goats need green feed and hay for their good health!"
           }
         }
@@ -2234,11 +2699,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_006.png",
+            "FILENAME": "./assets/img/drawing_006.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_006_200.webp",
+              "MEDIUM": "./assets/img/drawing_006_400.webp",
+              "LARGE": "./assets/img/drawing_006_800.webp"
+            },
             "TITLE": "Very important: Vitamin B1 deficiency is caused by poor feed."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_007.png",
+            "FILENAME": "./assets/img/drawing_007.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_007_200.webp",
+              "MEDIUM": "./assets/img/drawing_007_400.webp",
+              "LARGE": "./assets/img/drawing_007_800.webp"
+            },
             "TITLE": "Goats need green feed and hay for their good health!"
           }
         }
@@ -2274,7 +2749,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_044.png",
+            "FILENAME": "./assets/img/drawing_044.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_044_200.webp",
+              "MEDIUM": "./assets/img/drawing_044_400.webp",
+              "LARGE": "./assets/img/drawing_044_800.webp"
+            },
             "TITLE": "Different diseases can show up at the skin. Daily health check helps to find the disease and the correct treatment and prevention."
           }
         }
@@ -2305,11 +2785,21 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_015b_en.png",
+            "FILENAME": "./assets/img/drawing_015b_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_015b_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+              "LARGE": "./assets/img/drawing_015b_en_800.webp"
+            },
             "TITLE": "Check the goat card every month to monitor growth."
           },
           "02": {
-            "FILENAME": "./assets/img/drawing/drawing_014_en.png",
+            "FILENAME": "./assets/img/drawing_014_en.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_014_en_200.webp",
+              "MEDIUM": "./assets/img/drawing_014_en_400.webp",
+              "LARGE": "./assets/img/drawing_014_en_800.webp"
+            },
             "TITLE": "Check the growing goat kid every month."
           }
         }
@@ -2340,7 +2830,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_045.png",
+            "FILENAME": "./assets/img/drawing_045.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_045_200.webp",
+              "MEDIUM": "./assets/img/drawing_045_400.webp",
+              "LARGE": "./assets/img/drawing_045_800.webp"
+            },
             "TITLE": "Different diseases can show up as limping. Daily health check helps to identify the disease and determine the correct treatment and prevention."
           }
         }
@@ -2371,7 +2866,12 @@
         },
         "IMAGE": {
           "01": {
-            "FILENAME": "./assets/img/drawing/drawing_046.png",
+            "FILENAME": "./assets/img/drawing_046.webp",
+            "THUMBNAIL": {
+              "SMALL": "./assets/img/drawing_046_200.webp",
+              "MEDIUM": "./assets/img/drawing_046_400.webp",
+              "LARGE": "./assets/img/drawing_046_800.webp"
+            },
             "TITLE": "Different diseases can lead to sudden death. Alert the veterinarian. Bury the carcass with quicklime and do not eat! Some diseases are dangerous for people, too."
           }
         }

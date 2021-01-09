@@ -24,7 +24,7 @@ export const Chapter: React.FC<ContainerProps> = (props) => {
     return (
       <ChapterViewCard
         color={color}
-        imgSrc={image}
+        imgSrc={image.thumbnail.medium}
         routerLink={url}
         subTitle={title.chapter}
         title={title.section}

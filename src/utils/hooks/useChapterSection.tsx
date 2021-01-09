@@ -17,7 +17,17 @@ export const useChapterSection = (chapterId: ChapterId, sectionId: string) => {
     color,
     icon: isHeader ? book : bookmark,
     id: `chapter${chapterId}${sectionId}`,
-    image: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
+    // image: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
+    image: {
+      original: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
+      thumbnail: {
+        small: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.SMALL`),
+        medium: t(
+          `CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.MEDIUM`,
+        ),
+        large: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`),
+      },
+    },
     isHeader,
     title: {
       chapter: t(`CHAPTER.${chapterId}.00.TITLE`) || '',
