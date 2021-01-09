@@ -68,7 +68,7 @@ const useSquoosh = async (statusText, cmd = '') => {
   }
 
   spinner.succeed();
-  process.stdout(processOutput);
+  process.stdout.write(processOutput);
 };
 
 // const useSquoosh = async (statusText, cmd = '') => {
