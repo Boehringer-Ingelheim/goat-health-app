@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# generating
+public/assets/img/drawing_*
+public/assets/img/photo_*
+
 # testing
 /coverage
 
