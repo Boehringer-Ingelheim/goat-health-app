@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^2.4.5",
+    "@ionic/cli": "^6.12.3",
     "@squoosh/cli": "^0.6.1",
     "@types/jest": "^26.0.20",
     "@types/lunr": "^2.3.3",
