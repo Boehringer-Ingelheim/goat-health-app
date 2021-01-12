@@ -16,11 +16,12 @@ export const Section01 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.020000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.030000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.040000`)}</li>
-        <div className="chapter-image-title">
+        <div>
           <IonImg
+            class="ion-padding-vertical"
             src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
           />
-          <IonText>
+          <IonText class="ion-padding-bottom" className="image-text">
             {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
           </IonText>
         </div>
@@ -32,11 +33,12 @@ export const Section01 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.070000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.080000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.090000`)}</li>
-        <div className="chapter-image-title">
+        <div>
           <IonImg
+            class="ion-padding-vertical"
             src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
           />
-          <IonText>
+          <IonText class="ion-padding-bottom" className="image-text">
             {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
           </IonText>
         </div>
@@ -61,8 +63,11 @@ export const Section02 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.060000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.070000`)}</li>
       </ul>
-      <IonImg src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)} />
-      <IonText>
+      <IonImg
+        class="ion-padding-vertical"
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+      />
+      <IonText class="ion-padding-bottom" className="image-text">
         {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
       </IonText>
     </IonText>
@@ -86,8 +91,11 @@ export const Section03 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.080000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.090000`)}</li>
       </ul>
-      <IonImg src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)} />
-      <IonText>
+      <IonImg
+        class="ion-padding-vertical"
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+      />
+      <IonText class="ion-padding-bottom" className="image-text">
         {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
       </IonText>
     </IonText>
@@ -106,9 +114,10 @@ export const Section04 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.020000`)}</li>
         <div className="chapter-image-title">
           <IonImg
+            class="ion-padding-vertical"
             src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
           />
-          <IonText>
+          <IonText class="ion-padding-bottom" className="image-text">
             {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
           </IonText>
         </div>
@@ -122,9 +131,10 @@ export const Section04 = () => {
       <p>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.PARAGRAPH.03`)}</p>
       <div className="chapter-image-title">
         <IonImg
+          class="ion-padding-vertical"
           src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
         />
-        <IonText>
+        <IonText class="ion-padding-bottom" className="image-text">
           {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
         </IonText>
       </div>
@@ -148,9 +158,10 @@ export const Section05 = () => {
       </ul>
       <div className="chapter-image-title">
         <IonImg
+          class="ion-padding-vertical"
           src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
         />
-        <IonText>
+        <IonText class="ion-padding-bottom" className="image-text">
           {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
         </IonText>
       </div>
@@ -180,9 +191,10 @@ export const Section06 = () => {
       </ul>
       <div className="chapter-image-title">
         <IonImg
+          class="ion-padding-vertical"
           src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
         />
-        <IonText>
+        <IonText class="ion-padding-bottom" className="image-text">
           {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
         </IonText>
       </div>

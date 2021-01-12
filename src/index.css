@@ -8,8 +8,9 @@ https://allexperts16.blogspot.com/2018/06/allow-users-to-select-and-copy-text-in
   user-select: text;
 }
 
-.chapter-image-title {
-  color: #00000099;
+.image-title {
+  display: block;
+  font-size: small;
   text-align: center;
 }
 
