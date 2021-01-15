@@ -1,0 +1,31 @@
+.image-viewer {
+  --border-radius: 0;
+  --background: transparent;
+}
+
+.image-viewer ion-slides {
+  height: 100vh;
+}
+
+.image-viewer ion-slides img {
+  height: 100vh;
+}
+
+.image-viewer ion-toolbar {
+  --background: transparent;
+  --border-width: 0 !important;
+  position: absolute;
+}
+
+.image-viewer ion-toolbar::after {
+  display: none;
+}
+
+.image-viewer .modal-wrapper {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

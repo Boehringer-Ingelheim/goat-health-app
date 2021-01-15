@@ -1,8 +1,10 @@
 import { IonImg, IonText } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { ImageViewer } from '../../components/ImageViewer';
+import { ChapterId } from '../../utils/chapters';
 
-const CHAPTER_ID = '02';
+const CHAPTER_ID: ChapterId = '02';
 
 export const Section01 = () => {
   const sectionId = '01';
@@ -16,15 +18,20 @@ export const Section01 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.020000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.030000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.040000`)}</li>
-        <div>
+        <ImageViewer
+          alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+        >
           <IonImg
             class="ion-padding-vertical"
-            src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+            src={t(
+              `CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`,
+            )}
           />
-          <IonText class="ion-padding-bottom" className="image-text">
-            {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
-          </IonText>
-        </div>
+        </ImageViewer>
+        <IonText class="ion-padding-bottom" className="image-text">
+          {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
+        </IonText>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.050000`)}</li>
         <ul>
           <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.050100`)}</li>
@@ -33,15 +40,20 @@ export const Section01 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.070000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.080000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.090000`)}</li>
-        <div>
+        <ImageViewer
+          alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+        >
           <IonImg
             class="ion-padding-vertical"
-            src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+            src={t(
+              `CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.THUMBNAIL.LARGE`,
+            )}
           />
-          <IonText class="ion-padding-bottom" className="image-text">
-            {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
-          </IonText>
-        </div>
+        </ImageViewer>
+        <IonText class="ion-padding-bottom" className="image-text">
+          {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
+        </IonText>
       </ul>
     </IonText>
   );
@@ -63,10 +75,15 @@ export const Section02 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.060000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.070000`)}</li>
       </ul>
-      <IonImg
-        class="ion-padding-vertical"
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
         src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
-      />
+      >
+        <IonImg
+          class="ion-padding-vertical"
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`)}
+        />
+      </ImageViewer>
       <IonText class="ion-padding-bottom" className="image-text">
         {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
       </IonText>
@@ -91,10 +108,15 @@ export const Section03 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.080000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.090000`)}</li>
       </ul>
-      <IonImg
-        class="ion-padding-vertical"
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
         src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
-      />
+      >
+        <IonImg
+          class="ion-padding-vertical"
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`)}
+        />
+      </ImageViewer>
       <IonText class="ion-padding-bottom" className="image-text">
         {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
       </IonText>
@@ -112,16 +134,19 @@ export const Section04 = () => {
       <ul>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.010000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.020000`)}</li>
-        <div className="chapter-image-title">
-          <IonImg
-            class="ion-padding-vertical"
-            src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
-          />
-          <IonText class="ion-padding-bottom" className="image-text">
-            {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
-          </IonText>
-        </div>
       </ul>
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+      >
+        <IonImg
+          class="ion-padding-vertical"
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`)}
+        />
+      </ImageViewer>
+      <IonText class="ion-padding-bottom" className="image-text">
+        {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
+      </IonText>
       <p>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.PARAGRAPH.02`)}</p>
       <ul>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.02.010000`)}</li>
@@ -129,15 +154,18 @@ export const Section04 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.02.030000`)}</li>
       </ul>
       <p>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.PARAGRAPH.03`)}</p>
-      <div className="chapter-image-title">
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+      >
         <IonImg
           class="ion-padding-vertical"
-          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.FILENAME`)}
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.THUMBNAIL.LARGE`)}
         />
-        <IonText class="ion-padding-bottom" className="image-text">
-          {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
-        </IonText>
-      </div>
+      </ImageViewer>
+      <IonText class="ion-padding-bottom" className="image-text">
+        {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.02.TITLE`)}
+      </IonText>
     </IonText>
   );
 };
@@ -156,15 +184,18 @@ export const Section05 = () => {
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.040000`)}</li>
         <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.050000`)}</li>
       </ul>
-      <div className="chapter-image-title">
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+      >
         <IonImg
           class="ion-padding-vertical"
-          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`)}
         />
-        <IonText class="ion-padding-bottom" className="image-text">
-          {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
-        </IonText>
-      </div>
+      </ImageViewer>
+      <IonText class="ion-padding-bottom" className="image-text">
+        {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
+      </IonText>
     </IonText>
   );
 };
@@ -189,15 +220,18 @@ export const Section06 = () => {
           <li>{t(`CHAPTER.${CHAPTER_ID}.${sectionId}.TEXT.LIST.01.020300`)}</li>
         </ul>
       </ul>
-      <div className="chapter-image-title">
+      <ImageViewer
+        alt={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+        src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+      >
         <IonImg
           class="ion-padding-vertical"
-          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.FILENAME`)}
+          src={t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`)}
         />
-        <IonText class="ion-padding-bottom" className="image-text">
-          {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
-        </IonText>
-      </div>
+      </ImageViewer>
+      <IonText class="ion-padding-bottom" className="image-text">
+        {t(`CHAPTER.${CHAPTER_ID}.${sectionId}.IMAGE.01.TITLE`)}
+      </IonText>
     </IonText>
   );
 };
