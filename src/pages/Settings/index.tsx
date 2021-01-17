@@ -119,6 +119,9 @@ export const SettingsPage: React.FC = () => {
             <IonLabel>{t('SETTINGS.GENERAL.ITEMS.COPYRIGHT.LABEL')}</IonLabel>
             <IonNote slot="end">Simon Golms</IonNote>
           </IonItem>
+          <IonItem routerLink={'/credits'}>
+            <IonLabel>{t('SETTINGS.GENERAL.ITEMS.CREDITS.LABEL')}</IonLabel>
+          </IonItem>
           <IonItem button onClick={() => dispatch(resetUserState())}>
             <IonLabel color="danger">
               {t('SETTINGS.GENERAL.ITEMS.RESET.LABEL')}

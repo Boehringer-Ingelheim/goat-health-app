@@ -3067,6 +3067,9 @@
         "TITLE": "General"
       },
       "ITEMS": {
+        "CREDITS": {
+          "LABEL": "Credits"
+        },
         "VERSION": {
           "LABEL": "App Version"
         },
