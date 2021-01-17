@@ -2887,69 +2887,29 @@
       "MMH": "Making More Health"
     },
     "GROUP": {
-      "VETERINARIAN": {
-        "TITLE": "Veterinarian Team",
+      "CULTURE": {
+        "TITLE": "Cultural Environment Check Team",
         "MEMBER": {
           "01": {
-            "NAME": "Dr. Elisabeth Kamphuis",
-            "POSITION": "(BIAH Germany Ingelheim, author)"
+            "NAME": "N Selvaraj",
+            "POSITION": "Karl Kübel Institute for Development Education, India"
           },
           "02": {
-            "NAME": "Dr. Nicolas Denormandie",
-            "POSITION": " (BIAH France Lyon, author)"
+            "NAME": "Shibu Gopalan",
+            "POSITION": "Karl Kübel Institute for Development Education, India"
           },
           "03": {
-            "NAME": "Dr. Vincent Staszewski",
-            "POSITION": " (BIAH France Lyon, author)"
-          },
-          "04": {
-            "NAME": "Dr. Suresh Kumar",
-            "POSITION": " (veterinary dispensary Coimbatore Kavundampalayam, India, reviewer)"
-          },
-          "05": {
-            "NAME": "Dr. Saathiyamoorthy",
-            "POSITION": "(Milma co-operative veterinarian at milk chilling plant, India, reviewer)"
-          },
-          "06": {
-            "NAME": "Dr. Jayabharathi",
-            "POSITION": " (veterinary dispensary Anaikatti, India, reviewer)"
+            "NAME": "Dr. Naveen Kumar V",
+            "POSITION": "Psychiatrist, Tribal hospital Tamil Nadu, India"
           }
         }
       },
-      "TRANSLATOR": {
-        "TITLE": "Translation Team",
+      "DRAWING": {
+        "TITLE": "Illustrations",
         "MEMBER": {
           "01": {
-            "NAME": "Dr. Sararavan Jayaraman",
-            "POSITION": "(IT M+S US Ridgefield, Translation Team Lead)"
-          },
-          "02": {
-            "NAME": "Akhil Soman",
-            "POSITION": "(BIX Germany Ingelheim, translator)"
-          },
-          "03": {
-            "NAME": "Dr. Lakshya Ramadas Krishnaprasad",
-            "POSITION": "(Ayurvedic doctor, Mainz, Germany, translator)"
-          },
-          "04": {
-            "NAME": "Vijay Durairaj",
-            "POSITION": "(AH Clinical US Athens, translator)"
-          },
-          "05": {
-            "NAME": "Arun Iyer",
-            "POSITION": "(AH Vaccines US Ames, translator)"
-          },
-          "06": {
-            "NAME": "Dr. Sree Kurup",
-            "POSITION": "(TMCP BI US Ridgefield, translater)"
-          },
-          "07": {
-            "NAME": "Raju Menon",
-            "POSITION": "(MED ClinOps BI US Ridgefield, translater)"
-          },
-          "08": {
-            "NAME": "Bhargavi Pandit",
-            "POSITION": "(HP Med RA BI US Ridgefield, translater)"
+            "NAME": "Simon Ndonye",
+            "POSITION": "Zoli Creation Ltd., Nairobi, Kenya"
           }
         }
       },
@@ -2958,58 +2918,11 @@
         "MEMBER": {
           "01": {
             "NAME": "Simon Golms",
-            "POSITION": "(IT RDM Germany Biberach, App developer)"
+            "POSITION": "IT RDM Germany Biberach, App developer"
           },
           "02": {
             "NAME": "Mary Suriyakumar",
-            "POSITION": "(IT EDS Germany Ingelheim, IT Projectlead)"
-          }
-        }
-      },
-      "CULTURE": {
-        "TITLE": "Cultural Environment Check Team",
-        "MEMBER": {
-          "01": {
-            "NAME": "N Selvaraj",
-            "POSITION": "(Karl Kübel Institute for Development Education, India)"
-          },
-          "02": {
-            "NAME": "Shibu Gopalan",
-            "POSITION": "(Karl Kübel Institute for Development Education, India)"
-          },
-          "03": {
-            "NAME": "Dr. Naveen Kumar V",
-            "POSITION": "(Psychiatrist, Tribal hospital Tamil Nadu, India)"
-          }
-        }
-      },
-      "SUPPORT": {
-        "TITLE": "Support Team",
-        "MEMBER": {
-          "01": {
-            "NAME": "Laurent Voyer",
-            "POSITION": "(AH Strategy France Lyon, created our grant-winning video and app reviewer)"
-          },
-          "02": {
-            "NAME": "Denise Edmond",
-            "POSITION": "(formerly BIAH US Duluth)"
-          },
-          "03": {
-            "NAME": "Julia Chapman-Broadwith",
-            "POSITION": "(BIAH France Lyon)"
-          },
-          "04": {
-            "NAME": "Corinne Philippe-Reversat",
-            "POSITION": "(BIAH France Lyon, content reviewer)"
-          },
-          "05": { "NAME": "Brigitte Roque", "POSITION": "(BIAH France Lyon)" },
-          "06": {
-            "NAME": "Steve Bertram",
-            "POSITION": "(BIAH Germany Ingelheim, coordinator)"
-          },
-          "07": {
-            "NAME": "Maira Morawietz",
-            "POSITION": "(BIAH Germany Ingelheim, content reviewer)"
+            "POSITION": "IT EDS Germany Ingelheim, IT Projectlead"
           }
         }
       },
@@ -3031,12 +2944,99 @@
           "04": { "NAME": "Manuela Pastore", "POSITION": "" }
         }
       },
-      "DRAWING": {
-        "TITLE": "Illustrations",
+      "SUPPORT": {
+        "TITLE": "Support Team",
         "MEMBER": {
           "01": {
-            "NAME": "Simon Ndonye",
-            "POSITION": "(Zoli Creation Ltd., Nairobi, Kenya)"
+            "NAME": "Laurent Voyer",
+            "POSITION": "AH Strategy France Lyon, created our grant-winning video and app reviewer"
+          },
+          "02": {
+            "NAME": "Denise Edmond",
+            "POSITION": "formerly BIAH US Duluth"
+          },
+          "03": {
+            "NAME": "Julia Chapman-Broadwith",
+            "POSITION": "BIAH France Lyon"
+          },
+          "04": {
+            "NAME": "Corinne Philippe-Reversat",
+            "POSITION": "BIAH France Lyon, content reviewer"
+          },
+          "05": { "NAME": "Brigitte Roque", "POSITION": "BIAH France Lyon" },
+          "06": {
+            "NAME": "Steve Bertram",
+            "POSITION": "BIAH Germany Ingelheim, coordinator"
+          },
+          "07": {
+            "NAME": "Maira Morawietz",
+            "POSITION": "BIAH Germany Ingelheim, content reviewer"
+          }
+        }
+      },
+      "TRANSLATOR": {
+        "TITLE": "Translation Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Dr. Sararavan Jayaraman",
+            "POSITION": "IT M+S US Ridgefield, Translation Team Lead"
+          },
+          "02": {
+            "NAME": "Akhil Soman",
+            "POSITION": "BIX Germany Ingelheim, translator"
+          },
+          "03": {
+            "NAME": "Dr. Lakshya Ramadas Krishnaprasad",
+            "POSITION": "Ayurvedic doctor, Mainz, Germany, translator"
+          },
+          "04": {
+            "NAME": "Vijay Durairaj",
+            "POSITION": "AH Clinical US Athens, translator"
+          },
+          "05": {
+            "NAME": "Arun Iyer",
+            "POSITION": "AH Vaccines US Ames, translator"
+          },
+          "06": {
+            "NAME": "Dr. Sree Kurup",
+            "POSITION": "TMCP BI US Ridgefield, translater"
+          },
+          "07": {
+            "NAME": "Raju Menon",
+            "POSITION": "MED ClinOps BI US Ridgefield, translater"
+          },
+          "08": {
+            "NAME": "Bhargavi Pandit",
+            "POSITION": "HP Med RA BI US Ridgefield, translater"
+          }
+        }
+      },
+      "VETERINARIAN": {
+        "TITLE": "Veterinarian Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Dr. Elisabeth Kamphuis",
+            "POSITION": "BIAH Germany Ingelheim, author"
+          },
+          "02": {
+            "NAME": "Dr. Nicolas Denormandie",
+            "POSITION": "BIAH France Lyon, author"
+          },
+          "03": {
+            "NAME": "Dr. Vincent Staszewski",
+            "POSITION": "BIAH France Lyon, author"
+          },
+          "04": {
+            "NAME": "Dr. Suresh Kumar",
+            "POSITION": "veterinary dispensary Coimbatore Kavundampalayam, India, reviewer"
+          },
+          "05": {
+            "NAME": "Dr. Saathiyamoorthy",
+            "POSITION": "Milma co-operative veterinarian at milk chilling plant, India, reviewer"
+          },
+          "06": {
+            "NAME": "Dr. Jayabharathi",
+            "POSITION": "veterinary dispensary Anaikatti, India, reviewer"
           }
         }
       }
