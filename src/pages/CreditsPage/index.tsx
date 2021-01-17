@@ -1,0 +1,1 @@
+export { CreditsPage } from './CreditsPage';

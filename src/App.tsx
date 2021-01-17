@@ -30,6 +30,7 @@ import { SearchPage } from './pages/Search';
 import { SettingsPage } from './pages/Settings';
 // import Tutorial from './pages/Tutorial';
 import { THEMES } from './utils/theme';
+import { CreditsPage } from './pages/CreditsPage';
 
 const App: React.FC = () => {
   const currentTheme = useSelector(selectCurrentTheme);
@@ -62,6 +63,11 @@ const App: React.FC = () => {
               <Route
                 path="/settings"
                 render={() => <SettingsPage />}
+                exact={true}
+              />
+              <Route
+                path="/credits"
+                render={() => <CreditsPage />}
                 exact={true}
               />
               <Route
