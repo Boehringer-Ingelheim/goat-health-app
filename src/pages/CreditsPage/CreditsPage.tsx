@@ -11,11 +11,7 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-  CreditsTeamMentor,
-  CreditsTeamMmh,
-  CreditsTeamProject,
-} from '../../components/CreditsTeams';
+import { CreditsList } from '../../components/Credits';
 
 export const CreditsPage: React.FC = () => {
   const { t } = useTranslation();
@@ -44,9 +40,7 @@ export const CreditsPage: React.FC = () => {
             src={t('CREDITS.IMAGE.01.FILENAME')}
           />
         </IonItem>
-        <CreditsTeamProject />
-        <CreditsTeamMentor />
-        <CreditsTeamMmh />
+        <CreditsList></CreditsList>
       </IonContent>
     </IonPage>
   );
