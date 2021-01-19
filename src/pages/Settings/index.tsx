@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { useDispatch, useSelector } from 'react-redux';
 import {
   IonButtons,
@@ -22,6 +21,7 @@ import {
 } from '@ionic/react';
 import './index.css';
 import { useTranslation } from 'react-i18next';
+import { version } from '../../../package.json';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
 import { colorPaletteOutline, languageOutline } from 'ionicons/icons';
 import { THEMES } from '../../utils/theme';
@@ -113,7 +113,7 @@ export const SettingsPage: React.FC = () => {
           </IonListHeader>
           <IonItem>
             <IonLabel>{t('SETTINGS.GENERAL.ITEMS.VERSION.LABEL')}</IonLabel>
-            <IonNote slot="end">0.0.1</IonNote>
+            <IonNote slot="end">{version}</IonNote>
           </IonItem>
           <IonItem className="ion-text-wrap">
             <IonLabel>{t('SETTINGS.GENERAL.ITEMS.COPYRIGHT.LABEL')}</IonLabel>
