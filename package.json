@@ -1,6 +1,6 @@
 {
   "name": "goat-health",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Making More Health - Goat Health",
   "author": "Making More Health | Simon Golms",
@@ -8,7 +8,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "generate:images": "node scripts/images/squoosh.js",
-    "generate:changelog": "",
+    "generate:release": "semantic-release",
     "generate:screenshots": "",
     "generate:resources": "node scripts/resources.js",
     "generate:resources:assets": "npm run generate:resources:assets:android && npm run generate:resources:assets:ios && npm run generate:resources:assets:pwa",
@@ -54,6 +54,7 @@
   "devDependencies": {
     "@capacitor/cli": "^2.4.5",
     "@ionic/cli": "^6.12.3",
+    "@semantic-release/git": "^9.0.0",
     "@squoosh/cli": "^0.6.1",
     "@types/jest": "^26.0.20",
     "@types/lunr": "^2.3.3",
@@ -73,6 +74,7 @@
     "ora": "^5.2.0",
     "playwright": "1.7.1",
     "prettier": "^2.2.1",
+    "semantic-release": "^17.3.3",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
