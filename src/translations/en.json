@@ -3078,7 +3078,15 @@
           "NOTE": "Boehringer Ingelheim"
         },
         "RESET": {
-          "LABEL": "Reset"
+          "LABEL": "Reset",
+          "ALERT": {
+            "HEADER": "Reset App Settings",
+            "MESSAGE": "This will reset all your settings like the selection of language and theme and will also delete your favorites.",
+            "BUTTON": {
+              "CANCEL": "Cancel",
+              "RESET": "Reset"
+            }
+          }
         }
       }
     },

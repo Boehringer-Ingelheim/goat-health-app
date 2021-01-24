@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   IonButtons,
@@ -18,6 +18,7 @@ import {
   IonIcon,
   IonItemGroup,
   IonItemDivider,
+  IonAlert,
 } from '@ionic/react';
 import './index.css';
 import { useTranslation } from 'react-i18next';
@@ -30,6 +31,8 @@ import { resetUserState, setCurrentTheme } from '../../data/user/user.slice';
 
 export const SettingsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
+
+  const [showAlertReset, setShowAlertReset] = useState(false);
 
   const dispatch = useDispatch();
   const currentTheme = useSelector(selectCurrentTheme);
@@ -122,12 +125,35 @@ export const SettingsPage: React.FC = () => {
           <IonItem routerLink={'/credits'}>
             <IonLabel>{t('SETTINGS.GENERAL.ITEMS.CREDITS.LABEL')}</IonLabel>
           </IonItem>
-          <IonItem button onClick={() => dispatch(resetUserState())}>
+          <IonItem
+            button
+            detail={false}
+            onClick={() => setShowAlertReset(true)}
+          >
             <IonLabel color="danger">
               {t('SETTINGS.GENERAL.ITEMS.RESET.LABEL')}
             </IonLabel>
           </IonItem>
         </IonList>
+        <IonAlert
+          isOpen={showAlertReset}
+          onDidDismiss={() => setShowAlertReset(false)}
+          header={t('SETTINGS.GENERAL.ITEMS.RESET.ALERT.HEADER')}
+          message={t('SETTINGS.GENERAL.ITEMS.RESET.ALERT.MESSAGE')}
+          buttons={[
+            {
+              text: t('SETTINGS.GENERAL.ITEMS.RESET.ALERT.BUTTON.CANCEL'),
+              role: 'cancel',
+            },
+            {
+              cssClass: 'alert-button-danger',
+              text: t('SETTINGS.GENERAL.ITEMS.RESET.ALERT.BUTTON.RESET'),
+              handler: () => {
+                dispatch(resetUserState());
+              },
+            },
+          ]}
+        />
       </IonContent>
     </IonPage>
   );

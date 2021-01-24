@@ -4,3 +4,7 @@ ion-item-divider {
 ion-content ion-toolbar {
   --background: transparent;
 }
+
+.alert-button.alert-button-danger {
+  color: var(--ion-color-danger);
+}
