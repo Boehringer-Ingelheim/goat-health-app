@@ -13,18 +13,17 @@ import {
   IonLabel,
   IonListHeader,
   IonText,
-  IonNote,
   IonRadioGroup,
   IonRadio,
 } from '@ionic/react';
 import './index.css';
 import { useTranslation } from 'react-i18next';
-import { version } from '../../../package.json';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
 import { THEMES } from '../../utils/theme';
 import { selectCurrentTheme } from '../../data/user/user.selector';
 import { setCurrentTheme } from '../../data/user/user.slice';
 import { SettingsResetItem } from './SettingsResetItem';
+import { SettingsGeneralItems } from './SettingsGeneralItems';
 
 export const SettingsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -87,21 +86,7 @@ export const SettingsPage: React.FC = () => {
               );
             })}
           </IonRadioGroup>
-
-          <IonListHeader lines="none">
-            <IonLabel>{t('SETTINGS.GENERAL.HEADER.TITLE')}</IonLabel>
-          </IonListHeader>
-          <IonItem>
-            <IonLabel>{t('SETTINGS.GENERAL.ITEMS.VERSION.LABEL')}</IonLabel>
-            <IonNote slot="end">{version}</IonNote>
-          </IonItem>
-          <IonItem className="ion-text-wrap">
-            <IonLabel>{t('SETTINGS.GENERAL.ITEMS.COPYRIGHT.LABEL')}</IonLabel>
-            <IonNote slot="end">Simon Golms</IonNote>
-          </IonItem>
-          <IonItem routerLink={'/credits'}>
-            <IonLabel>{t('SETTINGS.GENERAL.ITEMS.CREDITS.LABEL')}</IonLabel>
-          </IonItem>
+          <SettingsGeneralItems />
           <SettingsResetItem />
         </IonList>
       </IonContent>
