@@ -8,7 +8,6 @@ import {
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { version } from '../../../package.json';
-import './index.css';
 
 export const SettingsGeneralItems: React.FC = () => {
   const { t } = useTranslation();

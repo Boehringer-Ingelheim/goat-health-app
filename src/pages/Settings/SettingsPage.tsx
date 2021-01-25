@@ -14,7 +14,6 @@ import { SettingsGeneralItems } from './SettingsGeneralItems';
 import { SettingsLanguageItems } from './SettingsLanguageItems';
 import { SettingsResetItem } from './SettingsResetItem';
 import { SettingsThemeItems } from './SettingsThemeItems';
-import './index.css';
 
 export const SettingsPage: React.FC = () => {
   const { t } = useTranslation();

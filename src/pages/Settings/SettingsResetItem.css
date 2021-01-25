@@ -1,0 +1,7 @@
+.alert-button.alert-button-danger {
+  color: var(--ion-color-danger);
+}
+
+ion-item-divider {
+  --background: transparent;
+}

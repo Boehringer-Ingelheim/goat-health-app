@@ -9,7 +9,6 @@ import {
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
-import './index.css';
 
 export const SettingsLanguageItems: React.FC = () => {
   const { t, i18n } = useTranslation();

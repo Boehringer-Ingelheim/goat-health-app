@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch } from 'react-redux';
 import { resetUserState } from '../../data/user/user.slice';
-import './index.css';
+import './SettingsResetItem.css';
 
 export const SettingsResetItem: React.FC = () => {
   const { t } = useTranslation();

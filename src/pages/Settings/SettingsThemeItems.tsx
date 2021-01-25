@@ -11,7 +11,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectCurrentTheme } from '../../data/user/user.selector';
 import { setCurrentTheme } from '../../data/user/user.slice';
 import { THEMES } from '../../utils/theme';
-import './index.css';
 
 export const SettingsThemeItems: React.FC = () => {
   const { t } = useTranslation();
