@@ -1,5 +1,4 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import {
   IonButtons,
   IonContent,
@@ -19,17 +18,12 @@ import {
 import './index.css';
 import { useTranslation } from 'react-i18next';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
-import { THEMES } from '../../utils/theme';
-import { selectCurrentTheme } from '../../data/user/user.selector';
-import { setCurrentTheme } from '../../data/user/user.slice';
 import { SettingsResetItem } from './SettingsResetItem';
 import { SettingsGeneralItems } from './SettingsGeneralItems';
+import { SettingsThemeItems } from './SettingsThemeItems';
 
 export const SettingsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
-
-  const dispatch = useDispatch();
-  const currentTheme = useSelector(selectCurrentTheme);
 
   return (
     <IonPage>
@@ -68,24 +62,7 @@ export const SettingsPage: React.FC = () => {
               );
             })}
           </IonRadioGroup>
-          <IonRadioGroup
-            value={currentTheme}
-            onIonChange={(event) =>
-              dispatch(setCurrentTheme({ currentTheme: event.detail.value }))
-            }
-          >
-            <IonListHeader>
-              <IonLabel>{t('SETTINGS.THEME.HEADER.TITLE')}</IonLabel>
-            </IonListHeader>
-            {Object.values(THEMES).map((theme) => {
-              return (
-                <IonItem key={theme.name}>
-                  <IonLabel>{t(theme.i18n)}</IonLabel>
-                  <IonRadio value={theme.name} />
-                </IonItem>
-              );
-            })}
-          </IonRadioGroup>
+          <SettingsThemeItems />
           <SettingsGeneralItems />
           <SettingsResetItem />
         </IonList>
