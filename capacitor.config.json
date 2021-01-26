@@ -1,6 +1,6 @@
 {
-  "appId": "com.ionic.boilerplate",
-  "appName": "Ionic React Boilerplate",
+  "appId": "de.golms.mmh.goathealth",
+  "appName": "Goat Health",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
