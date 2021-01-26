@@ -1,16 +1,14 @@
+import { ConnectedRouter } from 'connected-react-router';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-
-// import i18n (needs to be bundled ;))
-import './i18n';
-
+import '@capacitor/core';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { store, persistor } from './store';
-import { ConnectedRouter } from 'connected-react-router';
 import history from './utils/history';
+import './i18n';
 import './index.css';
 
 ReactDOM.render(
