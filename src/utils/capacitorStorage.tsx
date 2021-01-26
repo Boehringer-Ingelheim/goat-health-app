@@ -1,6 +1,4 @@
-import { Plugins } from '@capacitor/core';
-
-const { Storage } = Plugins;
+import { Storage } from '@capacitor/storage';
 
 const createCapacitorStorage = () => {
   return {
