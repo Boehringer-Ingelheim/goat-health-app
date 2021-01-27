@@ -29,12 +29,13 @@ export const SettingsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent color="primary" fullscreen={true}>
+      <IonContent color="primary" fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar color="primary">
             <IonTitle size="large">{t('SETTINGS.TITLE')}</IonTitle>
           </IonToolbar>
         </IonHeader>
+
         <div className="app-background app-fullscreen">
           <IonList>
             <SettingsLanguageItems />
