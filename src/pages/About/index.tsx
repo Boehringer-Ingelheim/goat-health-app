@@ -23,7 +23,7 @@ export const AboutPage: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader translucent={true}>
+      <IonHeader>
         <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
@@ -32,54 +32,56 @@ export const AboutPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen={true}>
+      <IonContent color="primary" fullscreen>
         <IonHeader collapse="condense">
-          <IonToolbar>
+          <IonToolbar color="primary">
             <IonTitle size="large">{t('ABOUT.TITLE')}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonGrid class="ion-padding ion-text-justify">
-          <IonRow class="ion-justify-content-center">
-            <IonCol size="12" sizeSm="6">
-              <IonImg src={t('ABOUT.IMAGE.01.FILENAME')} />
-              <p>{t('ABOUT.TEXT.PARAGRAPH.01')}</p>
-              <p>{t('ABOUT.TEXT.PARAGRAPH.02')}</p>
-              <p>{t('ABOUT.TEXT.PARAGRAPH.03')}</p>
-              <IonItem
-                lines="none"
-                href="https://makingmorehealth.org"
-                target="_blank"
-              >
-                <IonIcon icon={globe} slot="start" />
-                <IonLabel>makingmorehealth.org</IonLabel>
-              </IonItem>
-              <IonItem
-                lines="none"
-                href="mailto:info@makingmorehealth.com"
-                target="_blank"
-              >
-                <IonIcon icon={mail} slot="start" />
-                <IonLabel>info@makingmorehealth.org</IonLabel>
-              </IonItem>
-              <IonItem
-                lines="none"
-                href="https://www.facebook.com/makingmorehealth"
-                target="_blank"
-              >
-                <IonIcon icon={logoFacebook} slot="start" />
-                <IonLabel>@makingmorehealth</IonLabel>
-              </IonItem>
-              <IonItem
-                lines="none"
-                href="https://www.linkedin.com/company/making-more-health1/"
-                target="_blank"
-              >
-                <IonIcon icon={logoLinkedin} slot="start" />
-                <IonLabel>Making More Health</IonLabel>
-              </IonItem>
-            </IonCol>
-          </IonRow>
-        </IonGrid>
+        <div className="app-background app-fullscreen">
+          <IonGrid class="ion-padding ion-text-justify">
+            <IonRow class="ion-justify-content-center">
+              <IonCol size="12" sizeSm="6">
+                <IonImg src={t('ABOUT.IMAGE.01.FILENAME')} />
+                <p>{t('ABOUT.TEXT.PARAGRAPH.01')}</p>
+                <p>{t('ABOUT.TEXT.PARAGRAPH.02')}</p>
+                <p>{t('ABOUT.TEXT.PARAGRAPH.03')}</p>
+                <IonItem
+                  lines="none"
+                  href="https://makingmorehealth.org"
+                  target="_blank"
+                >
+                  <IonIcon icon={globe} slot="start" />
+                  <IonLabel>makingmorehealth.org</IonLabel>
+                </IonItem>
+                <IonItem
+                  lines="none"
+                  href="mailto:info@makingmorehealth.com"
+                  target="_blank"
+                >
+                  <IonIcon icon={mail} slot="start" />
+                  <IonLabel>info@makingmorehealth.org</IonLabel>
+                </IonItem>
+                <IonItem
+                  lines="none"
+                  href="https://www.facebook.com/makingmorehealth"
+                  target="_blank"
+                >
+                  <IonIcon icon={logoFacebook} slot="start" />
+                  <IonLabel>@makingmorehealth</IonLabel>
+                </IonItem>
+                <IonItem
+                  lines="none"
+                  href="https://www.linkedin.com/company/making-more-health1/"
+                  target="_blank"
+                >
+                  <IonIcon icon={logoLinkedin} slot="start" />
+                  <IonLabel>Making More Health</IonLabel>
+                </IonItem>
+              </IonCol>
+            </IonRow>
+          </IonGrid>
+        </div>
       </IonContent>
     </IonPage>
   );

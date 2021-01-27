@@ -1,6 +1,15 @@
 /* Allow users to select and copy text
 https://allexperts16.blogspot.com/2018/06/allow-users-to-select-and-copy-text-in.html */
 
+.app-background {
+  background: var(--background);
+  color: var(--color);
+}
+
+.app-fullscreen {
+  min-height: calc(100% - var(--offset-top));
+}
+
 .chapter-card {
   height: 300px;
   max-height: 300px;

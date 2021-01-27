@@ -19,7 +19,7 @@ export const CreditsPage: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
@@ -27,20 +27,22 @@ export const CreditsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen>
+      <IonContent color="primary" fullscreen>
         <IonHeader collapse="condense">
-          <IonToolbar>
+          <IonToolbar color="primary">
             <IonTitle size="large">{t('CREDITS.TITLE')}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonItem class="ion-padding" lines="none">
-          <IonImg
-            class="ion-padding"
-            className="drop-shadow margin-auto width-15rem"
-            src={t('CREDITS.IMAGE.01.FILENAME')}
-          />
-        </IonItem>
-        <CreditsList></CreditsList>
+        <div className="app-background app-fullscreen">
+          <IonItem class="ion-padding" lines="none">
+            <IonImg
+              class="ion-padding"
+              className="drop-shadow margin-auto width-15rem"
+              src={t('CREDITS.IMAGE.01.FILENAME')}
+            />
+          </IonItem>
+          <CreditsList></CreditsList>
+        </div>
       </IonContent>
     </IonPage>
   );

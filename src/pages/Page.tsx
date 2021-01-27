@@ -25,8 +25,15 @@ export const HomePage: React.FC = () => {
           <IonTitle>{t(`APP.NAME`)}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen={true}>
-        <HomeContainer />
+      <IonContent color="primary" fullscreen>
+        <IonHeader collapse="condense">
+          <IonToolbar color="primary">
+            <IonTitle size="large">{t('APP.NAME')}</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        <div className="app-background app-fullscreen">
+          <HomeContainer />
+        </div>
       </IonContent>
     </IonPage>
   );

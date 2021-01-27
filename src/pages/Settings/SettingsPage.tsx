@@ -20,8 +20,8 @@ export const SettingsPage: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader translucent={true}>
-        <IonToolbar>
+      <IonHeader>
+        <IonToolbar color="primary">
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
@@ -29,18 +29,20 @@ export const SettingsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen={true}>
+      <IonContent color="primary" fullscreen={true}>
         <IonHeader collapse="condense">
-          <IonToolbar>
+          <IonToolbar color="primary">
             <IonTitle size="large">{t('SETTINGS.TITLE')}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonList>
-          <SettingsLanguageItems />
-          <SettingsThemeItems />
-          <SettingsGeneralItems />
-          <SettingsResetItem />
-        </IonList>
+        <div className="app-background app-fullscreen">
+          <IonList>
+            <SettingsLanguageItems />
+            <SettingsThemeItems />
+            <SettingsGeneralItems />
+            <SettingsResetItem />
+          </IonList>
+        </div>
       </IonContent>
     </IonPage>
   );

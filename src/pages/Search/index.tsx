@@ -34,12 +34,19 @@ export const SearchPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent>
-        <IonSearchbar
-          value={searchValue}
-          onIonChange={(event) => setSearchValue(event.detail.value!)}
-        ></IonSearchbar>
-        <SearchResults results={results} />
+      <IonContent color="primary" fullscreen={true}>
+        <IonHeader collapse="condense">
+          <IonToolbar color="primary">
+            <IonTitle size="large">{t('SEARCH.TITLE')}</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        <div className="app-background app-fullscreen">
+          <IonSearchbar
+            value={searchValue}
+            onIonChange={(event) => setSearchValue(event.detail.value!)}
+          ></IonSearchbar>
+          <SearchResults results={results} />
+        </div>
       </IonContent>
     </IonPage>
   );
