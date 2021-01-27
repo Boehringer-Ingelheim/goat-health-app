@@ -1,6 +1,6 @@
 .app-background {
-  background: var(--ion-background-color);
-  color: var(--color);
+  background: var(--ion-background-color, #ffffff);
+  color: var(--color, #000000);
 }
 
 .app-fullscreen {
