@@ -4,6 +4,7 @@ import {
   homeOutline,
   information,
   searchOutline,
+  settingsOutline,
 } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
 import {
@@ -30,9 +31,10 @@ export const useMenus = (): Menu[] => {
   const about = useMenuAbout();
   const home = useMenuHome();
   const search = useMenuSearch();
+  const settings = useMenuSettings();
   const chapters = useMenuChapters();
 
-  return [home, about, search, ...chapters.flat()];
+  return [home, about, search, settings, ...chapters.flat()];
 };
 
 const useMenuAbout = (): Menu => {
@@ -92,5 +94,17 @@ const useMenuSearch = (): Menu => {
     isHeader: false,
     title: t('SEARCH.TITLE'),
     url: '/page/search',
+  };
+};
+
+const useMenuSettings = (): Menu => {
+  const { t } = useTranslation();
+
+  return {
+    color: '',
+    icon: settingsOutline,
+    isHeader: false,
+    title: t('SETTINGS.TITLE'),
+    url: '/settings',
   };
 };

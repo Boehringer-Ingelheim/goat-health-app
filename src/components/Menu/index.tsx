@@ -7,11 +7,11 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonFooter,
   IonHeader,
+  IonToolbar,
+  IonTitle,
 } from '@ionic/react';
 import { push } from 'connected-react-router';
-import { settingsOutline } from 'ionicons/icons';
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useMenus } from '../../utils/hooks/useMenus';
@@ -58,20 +58,6 @@ export const Menu: React.FC = () => {
           })}
         </IonList>
       </IonContent>
-      <IonFooter>
-        <IonMenuToggle autoHide={false}>
-          <IonItem
-            routerLink={'/settings'}
-            routerDirection="none"
-            lines="none"
-            detail={false}
-            onClick={() => dispatch(push('/settings'))}
-          >
-            <IonIcon slot="start" icon={settingsOutline} />
-            <IonLabel>Settings</IonLabel>
-          </IonItem>
-        </IonMenuToggle>
-      </IonFooter>
     </IonMenu>
   );
 };
