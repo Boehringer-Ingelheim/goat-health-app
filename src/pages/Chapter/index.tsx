@@ -11,6 +11,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { RouteComponentProps } from 'react-router';
 import { Chapter } from '../../components/Chapters';
+import { ChapterFooter } from '../../components/Chapters/ChapterFooter';
 import { ChapterId } from '../../utils/chapters';
 
 interface MatchParams {
@@ -36,9 +37,10 @@ export const ChapterPage: React.FC<ContainerProps> = (props) => {
           <IonTitle>{t(`APP.NAME`)}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen={true}>
+      <IonContent fullscreen>
         <Chapter chapterId={chapterId} sectionId={sectionId} />
       </IonContent>
+      <ChapterFooter chapterId={chapterId} sectionId={sectionId} />
     </IonPage>
   );
 };

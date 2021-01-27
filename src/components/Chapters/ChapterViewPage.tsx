@@ -8,7 +8,6 @@ import {
 } from '@ionic/react';
 import React, { ReactNode } from 'react';
 import { ChapterId } from '../../utils/chapters';
-import { ChapterFooter } from './ChapterFooter';
 
 interface ComponentProps {
   chapterId: ChapterId;
@@ -20,24 +19,21 @@ interface ComponentProps {
 }
 
 export const ChapterViewPage: React.FC<ComponentProps> = (props) => {
-  const { chapterId, color, content, sectionId, subTitle, title } = props;
+  const { color, content, subTitle, title } = props;
 
   return (
-    <>
-      <IonGrid class="ion-padding ion-text-justify">
-        <IonRow class="ion-justify-content-center">
-          <IonCol size="12" sizeSm="6">
-            <IonItem className="chapter-subtitle" lines="none">
-              <IonLabel color={color}>{subTitle}</IonLabel>
-            </IonItem>
-            <IonText>
-              <h2 className="chapter-title">{title}</h2>
-            </IonText>
-            {content}
-          </IonCol>
-        </IonRow>
-      </IonGrid>
-      <ChapterFooter chapterId={chapterId} sectionId={sectionId} />
-    </>
+    <IonGrid class="ion-padding ion-text-justify">
+      <IonRow class="ion-justify-content-center">
+        <IonCol size="12" sizeSm="6">
+          <IonItem className="chapter-subtitle" lines="none">
+            <IonLabel color={color}>{subTitle}</IonLabel>
+          </IonItem>
+          <IonText>
+            <h2 className="chapter-title">{title}</h2>
+          </IonText>
+          {content}
+        </IonCol>
+      </IonRow>
+    </IonGrid>
   );
 };
