@@ -24,9 +24,9 @@ export const Menu: React.FC = () => {
   return (
     <IonMenu contentId="main" type="overlay">
       <IonHeader>
-        <IonItem lines="none" detail={false} color="primary">
-          <IonLabel>Menu</IonLabel>
-        </IonItem>
+        <IonToolbar color="primary">
+          <IonTitle>Menu</IonTitle>
+        </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonList>
