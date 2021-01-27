@@ -32,7 +32,7 @@ export const AboutPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent color="primary" fullscreen>
+      <IonContent color="primary-collapse-condense" fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar color="primary">
             <IonTitle size="large">{t('ABOUT.TITLE')}</IonTitle>

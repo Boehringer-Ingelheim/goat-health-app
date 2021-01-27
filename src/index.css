@@ -1,13 +1,9 @@
 .app-background {
-  background: var(--background);
+  background: var(--ion-background-color);
   color: var(--color);
 }
 
-.ios .app-fullscreen {
-  min-height: calc(100% - var(--offset-top));
-}
-
-.md .app-fullscreen {
+.app-fullscreen {
   min-height: 100%;
 }
 

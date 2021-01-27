@@ -225,6 +225,18 @@
   --ion-color-tint: #a3d1ff;
 }
 
+.ion-color-primary-collapse-condense {
+  --ion-color-base: linear-gradient(
+    var(--ion-color-primary) 0% 50%,
+    var(--ion-background-color, #ffffff) 50% 100%
+  );
+  --ion-color-base-rgb: var(--ion-color-primary-base-rgb);
+  --ion-color-contrast: var(--ion-color-primary-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-primary-contrast-rgb);
+  --ion-color-shade: var(--ion-color-primary-shade);
+  --ion-color-tint: var(--ion-color-primary-tint);
+}
+
 .ion-color-accent-step-0100 {
   --ion-color-base: #0066cc;
   --ion-color-base-rgb: 0, 102, 204;

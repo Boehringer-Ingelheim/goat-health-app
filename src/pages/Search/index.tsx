@@ -34,7 +34,7 @@ export const SearchPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
 
-      <IonContent color="primary" fullscreen={true}>
+      <IonContent color="primary-collapse-condense" fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar color="primary">
             <IonTitle size="large">{t('SEARCH.TITLE')}</IonTitle>
