@@ -1,9 +1,14 @@
-import React, { Suspense } from 'react';
-import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
+import { StatusBar, Style } from '@capacitor/status-bar';
+import {
+  getPlatforms,
+  IonApp,
+  IonRouterOutlet,
+  IonSplitPane,
+} from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Redirect, Route } from 'react-router-dom';
+import React, { Suspense, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-
+import { Redirect, Route } from 'react-router-dom';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 /* Basic CSS for apps built with Ionic */
@@ -35,8 +40,18 @@ import { CreditsPage } from './pages/CreditsPage';
 const App: React.FC = () => {
   const currentTheme = useSelector(selectCurrentTheme);
 
+  useEffect(() => {
+    const setStatusBarStyleDark = async () => {
+      await StatusBar.setStyle({ style: Style.Dark });
+    };
+    const platforms = getPlatforms();
+    if (platforms.includes('capacitor')) {
+      setStatusBarStyleDark();
+    }
+  }, []);
+
   return (
-    <Suspense fallback="<App Suspense Loading>">
+    <Suspense fallback="App Suspense Loading">
       <IonApp className={THEMES[currentTheme].className}>
         <IonReactRouter>
           <IonSplitPane contentId="main">
