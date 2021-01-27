@@ -1,0 +1,8 @@
+{
+	"appId": "de.golms.mmh.goathealth",
+	"appName": "Goat Health",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {}
+}
