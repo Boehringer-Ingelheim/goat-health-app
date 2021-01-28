@@ -1,4 +1,5 @@
 import { StatusBar, Style } from '@capacitor/status-bar';
+import { SplashScreen } from '@capacitor/splash-screen';
 import {
   getPlatforms,
   IonApp,
@@ -48,6 +49,12 @@ const App: React.FC = () => {
     if (platforms.includes('capacitor')) {
       setStatusBarStyleDark();
     }
+
+    // NOTE: Current workaround to still show splash-screen until app is finally rendered
+    SplashScreen.show({
+      showDuration: 750,
+      autoHide: true,
+    });
   }, []);
 
   return (
