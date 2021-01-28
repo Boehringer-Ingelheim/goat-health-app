@@ -59,3 +59,16 @@ https://allexperts16.blogspot.com/2018/06/allow-users-to-select-and-copy-text-in
   -ms-user-select: text;
   user-select: text;
 }
+
+html {
+  background: #003366;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[mode='md'] {
+    background: #121212;
+  }
+  html[mode='ios'] {
+    background: #000000;
+  }
+}
