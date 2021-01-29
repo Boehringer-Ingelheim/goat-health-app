@@ -39,7 +39,7 @@ export const ChapterFooter: React.FC<ContainerProps> = (props) => {
 
   return (
     <IonFooter>
-      <IonToolbar color="primary">
+      <IonToolbar color="light">
         <IonButtons class="ion-justify-content-between">
           <IonButton fill="clear" routerDirection="back" routerLink={previous}>
             <IonIcon icon={arrowBack} slot="icon-only"></IonIcon>
