@@ -13,7 +13,7 @@ import './index.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <PersistGate loading={'Loading'} persistor={persistor}>
+    <PersistGate loading={null} persistor={persistor}>
       <ConnectedRouter history={history}>
         {/* place ConnectedRouter under Provider */}
         <App />
