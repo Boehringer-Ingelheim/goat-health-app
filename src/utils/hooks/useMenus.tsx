@@ -47,7 +47,7 @@ const useMenuAbout = (): Menu => {
     icon: information,
     isHeader: false,
     title: t('ABOUT.TITLE'),
-    url: '/page/about',
+    url: '/about',
   };
 };
 
@@ -95,7 +95,7 @@ const useMenuHome = (): Menu => {
     icon: homeOutline,
     isHeader: false,
     title: t('HOME.TITLE'),
-    url: '/page/home',
+    url: '/home',
   };
 };
 
@@ -107,7 +107,7 @@ const useMenuSearch = (): Menu => {
     icon: searchOutline,
     isHeader: false,
     title: t('SEARCH.TITLE'),
-    url: '/page/search',
+    url: '/search',
   };
 };
 
