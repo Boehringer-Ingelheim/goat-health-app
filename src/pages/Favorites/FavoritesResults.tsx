@@ -29,9 +29,9 @@ export const FavoritesResults: React.FC = () => {
 
   return (
     <IonGrid>
-      {results.map((resultId, resultIndex) => {
+      {results.map((result, resultIndex) => {
         const { chapterId, sectionId } = getChapterIdAndSectionIdFromId(
-          resultId,
+          result.id,
         );
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>

@@ -30,6 +30,8 @@ export const selectFavorites = createSelector(
   (state) => state.favorites,
 );
 
-export const selectIsFavorite = (id: string) => {
-  return createSelector(selectFavorites, (favorites) => favorites.includes(id));
+export const selectIsFavoriteById = (id: string) => {
+  return createSelector(selectFavorites, (favorites) =>
+    favorites.some((favorite) => favorite.id === id),
+  );
 };

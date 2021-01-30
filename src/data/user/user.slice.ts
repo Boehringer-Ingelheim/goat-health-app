@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { ChapterId } from '../../utils/chapters';
 
 type CurrentView = 'card' | 'list';
 
@@ -14,8 +15,15 @@ interface CurrentThemePayload {
   currentTheme: string;
 }
 
+interface Favorite {
+  addedAt: Date;
+  chapterId: ChapterId;
+  id: string;
+  sectionId: string;
+}
+
 type UserState = {
-  favorites: Array<string>;
+  favorites: Favorite[];
   hasSeenTutorial: boolean;
   currentFavoritesView: CurrentView;
   currentSearchView: CurrentView;
@@ -33,12 +41,12 @@ const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    addFavorite(state, action: PayloadAction<string>) {
+    addFavorite(state, action: PayloadAction<Favorite>) {
       state.favorites = [...state.favorites, action.payload];
     },
-    removeFavorite(state, action: PayloadAction<string>) {
+    removeFavoriteById(state, action: PayloadAction<string>) {
       state.favorites = state.favorites.filter(
-        (favorite) => !favorite.includes(action.payload),
+        (favorite) => !favorite.id.includes(action.payload),
       );
     },
     resetUserState() {
@@ -68,7 +76,7 @@ const userSlice = createSlice({
 
 export const {
   addFavorite,
-  removeFavorite,
+  removeFavoriteById,
   resetUserState,
   setCurrentFavoritesView,
   setCurrentSearchView,

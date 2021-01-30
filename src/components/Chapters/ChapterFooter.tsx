@@ -8,8 +8,8 @@ import {
 import { arrowBack, arrowForward, star, starOutline } from 'ionicons/icons';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { selectIsFavorite } from '../../data/user/user.selector';
-import { addFavorite, removeFavorite } from '../../data/user/user.slice';
+import { selectIsFavoriteById } from '../../data/user/user.selector';
+import { addFavorite, removeFavoriteById } from '../../data/user/user.slice';
 import {
   ChapterId,
   getIdFromChapterIdAndSectionId,
@@ -28,14 +28,16 @@ export const ChapterFooter: React.FC<ContainerProps> = (props) => {
   const id = getIdFromChapterIdAndSectionId(chapterId, sectionId);
   const next = getChapterNextSectionUrl(chapterId, sectionId);
   const previous = getChapterPreviousSectionUrl(chapterId, sectionId);
-  const isFavorite = useSelector(selectIsFavorite(id));
+  const isFavorite = useSelector(selectIsFavoriteById(id));
   const dispatch = useDispatch();
 
   const toggleFavorite = () => {
     if (isFavorite) {
-      return dispatch(removeFavorite(id));
+      return dispatch(removeFavoriteById(id));
     }
-    return dispatch(addFavorite(id));
+    return dispatch(
+      addFavorite({ addedAt: new Date(), chapterId, id, sectionId }),
+    );
   };
 
   return (
