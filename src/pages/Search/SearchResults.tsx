@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
 import { LunrResult } from '../../utils/hooks/useLunr';
-import { Chapter } from '../Chapters';
+import { Chapter } from '../../components/Chapters';
 
 interface ContainerProps {
   results: LunrResult[];
