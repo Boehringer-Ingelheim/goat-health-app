@@ -11,6 +11,8 @@ import {
   IonRadioGroup,
 } from '@ionic/react';
 import { ellipsisHorizontal, ellipsisVertical } from 'ionicons/icons';
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentSearchView } from '../../data/user/user.slice';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
@@ -23,6 +25,7 @@ export const SearchPopover: React.FC = () => {
 
   const dispatch = useDispatch();
   const currentSearchView = useSelector(selectCurrentSearchView);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -44,14 +47,14 @@ export const SearchPopover: React.FC = () => {
             }
           >
             <IonListHeader>
-              <IonLabel>View</IonLabel>
+              <IonLabel>{t('SEARCH.POPOVER.VIEW.TITLE')}</IonLabel>
             </IonListHeader>
             <IonItem>
-              <IonLabel>Card</IonLabel>
+              <IonLabel>{t('SEARCH.POPOVER.VIEW.ITEM.CARD')}</IonLabel>
               <IonRadio slot="end" value="card" />
             </IonItem>
             <IonItem lines="none">
-              <IonLabel>List</IonLabel>
+              <IonLabel>{t('SEARCH.POPOVER.VIEW.ITEM.LIST')}</IonLabel>
               <IonRadio slot="end" value="list" />
             </IonItem>
           </IonRadioGroup>

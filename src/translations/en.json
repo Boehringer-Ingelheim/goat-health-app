@@ -3061,7 +3061,21 @@
   },
 
   "SEARCH": {
-    "TITLE": "Search"
+    "TITLE": "Search",
+    "POPOVER": {
+      "VIEW": {
+        "TITLE": "View",
+        "ITEM": {
+          "CARD": "Card",
+          "LIST": "List"
+        }
+      }
+    },
+    "RESULTS": {
+      "NONE": "No article found",
+      "FOUND_WITH_COUNT": "Found {{count}} article",
+      "FOUND_WITH_COUNT_plural": "Found {{count}} articles"
+    }
   },
 
   "SETTINGS": {
