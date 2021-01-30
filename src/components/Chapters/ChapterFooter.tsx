@@ -12,6 +12,7 @@ import { selectIsFavorite } from '../../data/user/user.selector';
 import { addFavorite, removeFavorite } from '../../data/user/user.slice';
 import {
   ChapterId,
+  getIdFromChapterIdAndSectionId,
   getChapterNextSectionUrl,
   getChapterPreviousSectionUrl,
 } from '../../utils/chapters';
@@ -24,7 +25,7 @@ type ContainerProps = {
 export const ChapterFooter: React.FC<ContainerProps> = (props) => {
   const { chapterId, sectionId } = props;
 
-  const id = `chapter${chapterId}${sectionId}`;
+  const id = getIdFromChapterIdAndSectionId(chapterId, sectionId);
   const next = getChapterNextSectionUrl(chapterId, sectionId);
   const previous = getChapterPreviousSectionUrl(chapterId, sectionId);
   const isFavorite = useSelector(selectIsFavorite(id));

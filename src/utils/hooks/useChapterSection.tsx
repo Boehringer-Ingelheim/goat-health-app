@@ -1,6 +1,10 @@
 import { book, bookmark } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
-import { ChapterId, getChapterColor } from '../chapters';
+import {
+  ChapterId,
+  getIdFromChapterIdAndSectionId,
+  getChapterColor,
+} from '../chapters';
 import { innerText } from '../innerText';
 import { getChapterSectionContent } from './useChapterSectionContent';
 
@@ -16,8 +20,7 @@ export const useChapterSection = (chapterId: ChapterId, sectionId: string) => {
   return {
     color,
     icon: isHeader ? book : bookmark,
-    id: `chapter${chapterId}${sectionId}`,
-    // image: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
+    id: getIdFromChapterIdAndSectionId(chapterId, sectionId),
     image: {
       original: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
       thumbnail: {

@@ -31,12 +31,13 @@ import { Menu } from './components/Menu';
 import { selectCurrentTheme } from './data/user/user.selector';
 import { AboutPage } from './pages/About';
 import { ChapterPage } from './pages/Chapter';
+import { CreditsPage } from './pages/CreditsPage';
+import { FavoritesPage } from './pages/Favorites';
 import { HomePage } from './pages/Page';
 import { SearchPage } from './pages/Search';
 import { SettingsPage } from './pages/Settings';
 // import Tutorial from './pages/Tutorial';
 import { THEMES } from './utils/theme';
-import { CreditsPage } from './pages/CreditsPage';
 
 const App: React.FC = () => {
   const currentTheme = useSelector(selectCurrentTheme);
@@ -66,9 +67,9 @@ const App: React.FC = () => {
             <IonRouterOutlet id="main">
               <Route exact path="/page/home" render={() => <HomePage />} />
               <Route
-                path="/page/about"
-                render={() => <AboutPage />}
-                exact={true}
+                path={['/favorite', '/favorites']}
+                render={() => <FavoritesPage />}
+                exact
               />
               <Route
                 path="/page/search"

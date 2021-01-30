@@ -53,6 +53,15 @@ export const getChapterIdsByUrl = (url: string) => {
   return { id: '', subId: '' };
 };
 
+export const getChapterIdAndSectionIdFromId = (id: string) => {
+  // chapter-section-id: 'chapter-01-01'
+  if (id.startsWith('chapter-')) {
+    const [chapterId, sectionId] = id.split('-').slice(1);
+    return { chapterId, sectionId };
+  }
+  return { chapterId: '', sectionId: '' };
+};
+
 export const getChapterNextSectionUrl = (
   chapterId: ChapterId,
   sectionId: string,
@@ -121,4 +130,11 @@ export const getChapterPreviousSectionUrl = (
     lastChapterSectionId,
   );
   return chapterUrl;
+};
+
+export const getIdFromChapterIdAndSectionId = (
+  chapterId: ChapterId,
+  sectionId: string,
+) => {
+  return `chapter-${chapterId}-${sectionId}`;
 };

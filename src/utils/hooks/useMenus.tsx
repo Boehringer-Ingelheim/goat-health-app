@@ -5,6 +5,7 @@ import {
   information,
   searchOutline,
   settingsOutline,
+  starOutline,
 } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
 import {
@@ -31,10 +32,11 @@ export const useMenus = (): Menu[] => {
   const about = useMenuAbout();
   const home = useMenuHome();
   const search = useMenuSearch();
+  const favorites = useMenuFavorites();
   const settings = useMenuSettings();
   const chapters = useMenuChapters();
 
-  return [home, about, search, settings, ...chapters.flat()];
+  return [home, about, search, favorites, settings, ...chapters.flat()];
 };
 
 const useMenuAbout = (): Menu => {
@@ -71,6 +73,18 @@ export const useMenuChapters = (): MenuChapter[][] => {
     return sectionMenus;
   });
   return chapterMenus;
+};
+
+const useMenuFavorites = (): Menu => {
+  const { t } = useTranslation();
+
+  return {
+    color: '',
+    icon: starOutline,
+    isHeader: false,
+    title: t('FAVORITES.TITLE'),
+    url: '/favorites',
+  };
 };
 
 const useMenuHome = (): Menu => {

@@ -1,11 +1,9 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface CurrentSearchView {
-  currentSearchView: 'card' | 'list';
-}
+type CurrentView = 'card' | 'list';
 
-interface CurrentSearchViewPayload {
-  currentSearchView: 'card' | 'list';
+interface CurrentViewPayload {
+  currentView: CurrentView;
 }
 
 interface CurrentTheme {
@@ -19,11 +17,13 @@ interface CurrentThemePayload {
 type UserState = {
   favorites: Array<string>;
   hasSeenTutorial: boolean;
-} & CurrentSearchView &
-  CurrentTheme;
+  currentFavoritesView: CurrentView;
+  currentSearchView: CurrentView;
+} & CurrentTheme;
 
 const initialState: UserState = {
   favorites: [],
+  currentFavoritesView: 'card',
   currentSearchView: 'card',
   currentTheme: 'system',
   hasSeenTutorial: false,
@@ -44,12 +44,13 @@ const userSlice = createSlice({
     resetUserState() {
       return initialState;
     },
-    setCurrentSearchView(
-      state,
-      action: PayloadAction<CurrentSearchViewPayload>,
-    ) {
-      const { currentSearchView } = action.payload;
-      state.currentSearchView = currentSearchView;
+    setCurrentFavoritesView(state, action: PayloadAction<CurrentViewPayload>) {
+      const { currentView } = action.payload;
+      state.currentFavoritesView = currentView;
+    },
+    setCurrentSearchView(state, action: PayloadAction<CurrentViewPayload>) {
+      const { currentView } = action.payload;
+      state.currentSearchView = currentView;
     },
     setCurrentTheme(state, action: PayloadAction<CurrentThemePayload>) {
       const { currentTheme } = action.payload;
@@ -69,6 +70,7 @@ export const {
   addFavorite,
   removeFavorite,
   resetUserState,
+  setCurrentFavoritesView,
   setCurrentSearchView,
   setCurrentTheme,
   setHasSeenTutorial,

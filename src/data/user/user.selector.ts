@@ -5,6 +5,11 @@ const selfUserState = (state: RootState) => state.user;
 
 export const selectUserState = createSelector(selfUserState, (state) => state);
 
+export const selectCurrentFavoritesView = createSelector(
+  selfUserState,
+  (state) => state.currentFavoritesView,
+);
+
 export const selectCurrentSearchView = createSelector(
   selfUserState,
   (state) => state.currentSearchView,

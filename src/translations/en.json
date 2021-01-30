@@ -3048,6 +3048,22 @@
     }
   },
 
+  "FAVORITES": {
+    "TITLE": "Favorites",
+    "POPOVER": {
+      "VIEW": {
+        "TITLE": "View",
+        "ITEM": {
+          "CARD": "Card",
+          "LIST": "List"
+        }
+      }
+    },
+    "RESULTS": {
+      "NONE": "No article marked as favorite yet. Mark an article as a favorite to list it here."
+    }
+  },
+
   "HOME": {
     "TITLE": "Home"
   },
