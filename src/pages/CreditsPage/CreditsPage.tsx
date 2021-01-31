@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { CreditsList } from '../../components/Credits';
+import { CreditsList } from './CreditsList';
 
 export const CreditsPage: React.FC = () => {
   const { t } = useTranslation();
