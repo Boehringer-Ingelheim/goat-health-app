@@ -9,22 +9,19 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { RouteComponentProps } from 'react-router';
+import { useParams } from 'react-router';
 import { Chapter } from '../../components/Chapters';
 import { ChapterFooter } from '../../components/Chapters/ChapterFooter';
+import { SpeechFabButton } from '../../components/SpeechFabButton';
 import { ChapterId } from '../../utils/chapters';
 
-interface MatchParams {
+interface RouteChapterProps {
   chapterId: ChapterId;
   sectionId: string;
 }
 
-interface ContainerProps extends RouteComponentProps<MatchParams> {}
-
-export const ChapterPage: React.FC<ContainerProps> = (props) => {
-  const { match } = props;
-  const { chapterId, sectionId } = match.params;
-
+export const ChapterPage = () => {
+  const { chapterId, sectionId } = useParams<RouteChapterProps>();
   const { t } = useTranslation();
 
   return (
@@ -38,6 +35,7 @@ export const ChapterPage: React.FC<ContainerProps> = (props) => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
+        <SpeechFabButton />
         <Chapter chapterId={chapterId} sectionId={sectionId} />
       </IonContent>
       <ChapterFooter chapterId={chapterId} sectionId={sectionId} />

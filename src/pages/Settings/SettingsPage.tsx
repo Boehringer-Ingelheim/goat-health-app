@@ -12,6 +12,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { SettingsGeneralItems } from './SettingsGeneralItems';
 import { SettingsLanguageItems } from './SettingsLanguageItems';
+import { SettingsSpeechItems } from './SettingSpeechItems';
 import { SettingsResetItem } from './SettingsResetItem';
 import { SettingsThemeItems } from './SettingsThemeItems';
 
@@ -38,6 +39,7 @@ export const SettingsPage: React.FC = () => {
 
         <IonList>
           <SettingsLanguageItems />
+          <SettingsSpeechItems />
           <SettingsThemeItems />
           <SettingsGeneralItems />
           <SettingsResetItem />

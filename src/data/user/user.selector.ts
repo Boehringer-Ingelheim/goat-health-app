@@ -1,4 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
+import { selectLanguageFromSpeechName } from '../speech/speech.selector';
 import { RootState } from './../../store';
 
 const selfUserState = (state: RootState) => state.user;
@@ -14,6 +15,14 @@ export const selectCurrentSearchView = createSelector(
   selfUserState,
   (state) => state.currentSearchView,
 );
+
+export const selectCurrentSpeech = createSelector(selfUserState, (state) => {
+  const { currentSpeechName } = state;
+  return {
+    language: selectLanguageFromSpeechName(currentSpeechName),
+    name: currentSpeechName,
+  };
+});
 
 export const selectCurrentTheme = createSelector(
   selfUserState,

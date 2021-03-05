@@ -6,21 +6,9 @@ import {
   IonRow,
   IonText,
 } from '@ionic/react';
-import React, { ReactNode } from 'react';
-import { ChapterId } from '../../utils/chapters';
+import React from 'react';
 
-interface ComponentProps {
-  chapterId: ChapterId;
-  content: ReactNode | string;
-  color?: string;
-  sectionId: string;
-  subTitle?: string;
-  title: string;
-}
-
-export const ChapterViewPage: React.FC<ComponentProps> = (props) => {
-  const { color, content, subTitle, title } = props;
-
+export const ChapterViewPage = ({ color, content, subTitle, title }) => {
   return (
     <IonGrid class="ion-padding ion-text-justify">
       <IonRow class="ion-justify-content-center">
@@ -31,7 +19,7 @@ export const ChapterViewPage: React.FC<ComponentProps> = (props) => {
           <IonText>
             <h2 className="chapter-title">{title}</h2>
           </IonText>
-          {content}
+          {content()}
         </IonCol>
       </IonRow>
     </IonGrid>
