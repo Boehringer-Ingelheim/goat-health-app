@@ -45,11 +45,13 @@
               "020100": "Safe from mud and floods",
               "020200": "Relatively safe from rats",
               "020300": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (<3cm) so goats do not stuck their legs between two boards)",
+              "020300_ssml": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (smaller than 3cm) so goats do not stuck their legs between two boards)",
               "030000": "Big enough: approx. 2m x 2m x 2.5m for 10 goats",
               "040000": "The house can be less than 1 m higher than the soil, as long as you can remove the droppings by collection bags or clean them away manually.",
               "050000": "Can be wood or concrete and should be easy to wash",
               "060000": "Roof oriented East-West (not too hot at noon)",
               "070000": "Can be closed (cement or strong rice bags,…) if cold, too rainy or too windy",
+              "070000_ssml": "Can be closed (cement or strong rice bags) if cold, too rainy or too windy",
               "080000": "Add to your goat house a water collection system from the roof to prepare for drought"
             }
           }
@@ -3129,6 +3131,11 @@
     "LANGUAGE": {
       "HEADER": {
         "TITLE": "Language"
+      }
+    },
+    "SPEECH": {
+      "HEADER": {
+        "TITLE": "Speech"
       }
     },
     "THEME": {

@@ -5,15 +5,13 @@ import {
   getIdFromChapterIdAndSectionId,
   getChapterColor,
 } from '../chapters';
-import { innerText } from '../innerText';
-import { getChapterSectionContent } from './useChapterSectionContent';
+import { useChapterSectionContent } from './useChapterSectionContent';
 
 export const useChapterSection = (chapterId: ChapterId, sectionId: string) => {
   const { t } = useTranslation();
-  const content = getChapterSectionContent(chapterId, sectionId);
-  const text = innerText(content);
 
   const color = getChapterColor(chapterId);
+  const { Content, text } = useChapterSectionContent(chapterId, sectionId);
 
   const isHeader = sectionId === '00';
 
@@ -42,7 +40,7 @@ export const useChapterSection = (chapterId: ChapterId, sectionId: string) => {
         content: <>{text[0] || ''}</>,
       },
       page: {
-        content,
+        Content,
         text,
       },
     },

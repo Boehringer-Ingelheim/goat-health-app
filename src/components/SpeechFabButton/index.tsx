@@ -1,0 +1,1 @@
+export { SpeechFabButton } from './SpeechFabButton';

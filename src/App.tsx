@@ -77,9 +77,7 @@ const App: React.FC = () => {
               <Route path="/credits" render={() => <CreditsPage />} exact />
               <Route
                 path="/chapter/:chapterId/:sectionId"
-                render={(props) => {
-                  return <ChapterPage {...props} />;
-                }}
+                render={() => <ChapterPage />}
                 exact
               />
               <Route path="/" render={() => <Redirect to="/home" />} exact />

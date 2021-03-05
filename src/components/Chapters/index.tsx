@@ -46,10 +46,8 @@ export const Chapter: React.FC<ContainerProps> = (props) => {
 
   return (
     <ChapterViewPage
-      chapterId={chapterId}
       color={color}
-      content={chapterView.page.content}
-      sectionId={sectionId}
+      content={chapterView.page.Content}
       subTitle={title.chapter}
       title={title.section}
     ></ChapterViewPage>

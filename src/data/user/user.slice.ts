@@ -7,6 +7,13 @@ interface CurrentViewPayload {
   currentView: CurrentView;
 }
 
+interface CurrentSpeechName {
+  currentSpeechName: string;
+}
+
+interface CurrentSpeechNamePayload {
+  currentSpeechName: string;
+}
 interface CurrentTheme {
   currentTheme: string;
 }
@@ -27,12 +34,14 @@ type UserState = {
   hasSeenTutorial: boolean;
   currentFavoritesView: CurrentView;
   currentSearchView: CurrentView;
-} & CurrentTheme;
+} & CurrentSpeechName &
+  CurrentTheme;
 
 const initialState: UserState = {
   favorites: [],
   currentFavoritesView: 'card',
   currentSearchView: 'card',
+  currentSpeechName: 'en-US-ArialNeural',
   currentTheme: 'system',
   hasSeenTutorial: false,
 };
@@ -60,6 +69,13 @@ const userSlice = createSlice({
       const { currentView } = action.payload;
       state.currentSearchView = currentView;
     },
+    setCurrentSpeechName(
+      state,
+      action: PayloadAction<CurrentSpeechNamePayload>,
+    ) {
+      const { currentSpeechName } = action.payload;
+      state.currentSpeechName = currentSpeechName;
+    },
     setCurrentTheme(state, action: PayloadAction<CurrentThemePayload>) {
       const { currentTheme } = action.payload;
       state.currentTheme = currentTheme;
@@ -80,6 +96,7 @@ export const {
   resetUserState,
   setCurrentFavoritesView,
   setCurrentSearchView,
+  setCurrentSpeechName,
   setCurrentTheme,
   setHasSeenTutorial,
 } = userSlice.actions;
