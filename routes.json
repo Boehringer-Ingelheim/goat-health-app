@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "route": "/service-worker.js",
+      "serve": "/service-worker.js",
+      "statusCode": 200
+    },
+    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
