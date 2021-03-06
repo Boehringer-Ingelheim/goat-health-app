@@ -36,7 +36,6 @@ jobs:
           routes_location: '/' # Defines the directory location where the routes.json file is found.
           ###### End of Repository/Build Configurations ######
         env:
-          PUBLIC_URL: 'pwa.goathealth.app'
           REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY}}
           REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION}}
 
