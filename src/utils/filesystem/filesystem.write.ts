@@ -23,10 +23,6 @@ const writeFile = async (directory: Directory, path: string, data: string) => {
 };
 
 const writeFileToCache = async (path: string, data: string) => {
-  console.log(
-    '🚀 ~ file: filesystem.write.ts ~ line 26 ~ writeFileToCache ~ path',
-    path,
-  );
   return await writeFile(Directory.Cache, path, data);
 };
 
