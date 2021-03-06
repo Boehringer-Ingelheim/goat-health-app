@@ -16,15 +16,12 @@ import { SPEECH_LANGUAGES_SUPPORTED } from '../../data/speech/speech.constants';
 export const SettingsSpeechItems: React.FC = () => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const currentSpeech = useSelector(selectCurrentSpeech);
+  const { name } = useSelector(selectCurrentSpeech);
+
   return (
     <IonRadioGroup
-      value={currentSpeech.name}
+      value={name}
       onIonChange={(event) => {
-        console.log(
-          '🚀 ~ file: SettingSpeechItems.tsx ~ line 24 ~ event',
-          event,
-        );
         dispatch(
           setCurrentSpeechName({ currentSpeechName: event.detail.value }),
         );

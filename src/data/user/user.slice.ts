@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ChapterId } from '../../utils/chapters';
+import { SPEECH_LANGUAGE_DEFAULT } from '../speech/speech.constants';
 
 type CurrentView = 'card' | 'list';
 
@@ -41,7 +42,7 @@ const initialState: UserState = {
   favorites: [],
   currentFavoritesView: 'card',
   currentSearchView: 'card',
-  currentSpeechName: 'en-US-ArialNeural',
+  currentSpeechName: SPEECH_LANGUAGE_DEFAULT.name,
   currentTheme: 'system',
   hasSeenTutorial: false,
 };
