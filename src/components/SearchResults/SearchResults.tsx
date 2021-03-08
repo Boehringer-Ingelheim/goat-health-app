@@ -1,18 +1,14 @@
 import { IonGrid, IonNote, IonRow } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useSelector } from 'react-redux';
-import { selectCurrentSearchView } from '../../data/user/user.selector';
 import { LunrResult } from '../../utils/hooks/useLunr';
-import { Chapter } from '../../components/Chapters';
+import { SearchResult } from './SearchResult';
 
 interface ContainerProps {
   results: LunrResult[];
 }
 
-export const SearchResults: React.FC<ContainerProps> = (props) => {
-  const { results } = props;
-  const currentSearchView = useSelector(selectCurrentSearchView);
+export const SearchResults: React.FC<ContainerProps> = ({ results }) => {
   const { t } = useTranslation();
 
   if (results.length === 0) {
@@ -36,11 +32,7 @@ export const SearchResults: React.FC<ContainerProps> = (props) => {
         const { chapterId, sectionId } = result;
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>
-            <Chapter
-              chapterId={chapterId}
-              sectionId={sectionId}
-              view={currentSearchView}
-            />
+            <SearchResult chapterId={chapterId} sectionId={sectionId} />
           </IonRow>
         );
       })}

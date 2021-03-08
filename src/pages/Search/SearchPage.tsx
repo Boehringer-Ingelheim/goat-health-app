@@ -10,9 +10,9 @@ import {
 } from '@ionic/react';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { SearchPopover } from './SearchPopover';
+import { SearchPopover } from '../../components/SearchPopover';
+import { SearchResults } from '../../components/SearchResults';
 import { useLunr } from '../../utils/hooks/useLunr';
-import { SearchResults } from './SearchResults';
 
 export const SearchPage: React.FC = () => {
   const { t } = useTranslation();
