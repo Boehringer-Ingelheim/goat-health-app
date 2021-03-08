@@ -1,6 +1,6 @@
 import { IonFab, IonFabButton } from '@ionic/react';
-import React from 'react';
-import { useParams } from 'react-router';
+import { useEffect } from 'react';
+import { useLocation, useParams } from 'react-router';
 import { ChapterId } from '../Chapters';
 import { formatSecondsToTimeMinutes } from '../../utils/format';
 import { useSpeechAudio } from './hooks/useSpeechAudio';
@@ -12,11 +12,20 @@ interface RouteChapterProps {
 }
 
 export const SpeechFabButton = () => {
+  const location = useLocation();
   const { chapterId, sectionId } = useParams<RouteChapterProps>();
   const { isLoading, isPlaying, pause, play, restTime } = useSpeechAudio(
     chapterId,
     sectionId,
   );
+
+  // NOTE: pause audio when navigating to another page
+  useEffect(() => {
+    return () => {
+      pause();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location]);
 
   return (
     <IonFab vertical="top" horizontal="end" edge slot="fixed">
