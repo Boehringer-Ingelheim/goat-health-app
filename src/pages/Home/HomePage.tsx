@@ -9,7 +9,7 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { HomeContainer } from '../../components/Home';
+import { ChaptersSlides } from '../../components/ChaptersSlides/ChaptersSlides';
 import './index.css';
 
 export const HomePage: React.FC = () => {
@@ -33,7 +33,7 @@ export const HomePage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div className="app-background app-fullscreen">
-          <HomeContainer />
+          <ChaptersSlides />
         </div>
       </IonContent>
     </IonPage>

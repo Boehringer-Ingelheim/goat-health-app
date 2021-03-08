@@ -8,13 +8,13 @@
   -webkit-box-orient: vertical;
 }
 
-.scrolling-wrapper {
+.app-chapter-slider-scrolling {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
 
-.scrolling-wrapper ion-card {
+.app-chapter-slider-scrolling ion-card {
   display: inline-block;
 }
