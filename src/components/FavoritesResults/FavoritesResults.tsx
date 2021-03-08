@@ -2,19 +2,13 @@ import { IonGrid, IonNote, IonRow } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
-import { Chapter } from '../../components/Chapters';
-import {
-  selectCurrentFavoritesView,
-  selectFavorites,
-} from '../../data/user/user.selector';
-import {
-  ChapterId,
-  getChapterIdAndSectionIdFromId,
-} from '../../utils/chapters';
+import { selectFavorites } from '../../data/user/user.selector';
+import { getChapterIdAndSectionIdFromId } from '../Chapters/utils';
+import { ChapterId } from '../Chapters';
+import { FavoritesResult } from './FavoritesResult';
 
 export const FavoritesResults: React.FC = () => {
   const { t } = useTranslation();
-  const currentView = useSelector(selectCurrentFavoritesView);
   const results = useSelector(selectFavorites);
 
   if (results.length === 0) {
@@ -35,10 +29,9 @@ export const FavoritesResults: React.FC = () => {
         );
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>
-            <Chapter
+            <FavoritesResult
               chapterId={chapterId as ChapterId}
               sectionId={sectionId}
-              view={currentView}
             />
           </IonRow>
         );

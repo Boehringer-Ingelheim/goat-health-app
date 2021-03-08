@@ -9,8 +9,8 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { FavoritesPopover } from './FavoritesPopover';
-import { FavoritesResults } from './FavoritesResults';
+import { FavoritesPopover } from '../../components/FavoritesPopover';
+import { FavoritesResults } from '../../components/FavoritesResults';
 
 export const FavoritesPage: React.FC = () => {
   const { t } = useTranslation();

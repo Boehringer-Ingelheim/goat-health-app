@@ -1,0 +1,1 @@
+export { FavoritesPopover } from './FavoritesPopover';
