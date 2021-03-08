@@ -9,8 +9,8 @@ import {
 } from '@ionic/react';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { HomeContainer } from '../components/Home';
-import './Page.css';
+import { HomeContainer } from '../../components/Home';
+import './index.css';
 
 export const HomePage: React.FC = () => {
   const { t } = useTranslation();

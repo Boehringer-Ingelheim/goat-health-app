@@ -33,7 +33,7 @@ import { AboutPage } from './pages/About';
 import { ChapterPage } from './pages/Chapter';
 import { CreditsPage } from './pages/CreditsPage';
 import { FavoritesPage } from './pages/Favorites';
-import { HomePage } from './pages/Page';
+import { HomePage } from './pages/Home';
 import { SearchPage } from './pages/Search';
 import { SettingsPage } from './pages/Settings';
 // import Tutorial from './pages/Tutorial';
