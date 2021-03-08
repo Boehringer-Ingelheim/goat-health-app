@@ -1,9 +1,7 @@
 import { IonImg, IonText } from '@ionic/react';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ImageViewer } from '../../components/ImageViewer';
-import { ChapterId } from '../../utils/chapters';
-import { ChapterContext } from './chapter';
+import { ImageViewer } from '../../ImageViewer';
+import { ChapterContext, ChapterId } from '../index';
 
 const CHAPTER_ID: ChapterId = '02';
 

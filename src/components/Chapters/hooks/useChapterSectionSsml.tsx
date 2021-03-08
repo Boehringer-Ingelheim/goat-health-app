@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
-import { selectCurrentSpeech } from '../../data/user/user.selector';
-import { ChapterId } from '../chapters';
+import { SPEECH_DIRECTORY_PATH } from '../../../data/speech/speech.constants';
+import { selectCurrentSpeech } from '../../../data/user/user.selector';
+import { useMd5 } from '../../../utils/hooks/useMd5';
+import { useSsmlSpeakElement } from '../../../utils/hooks/useSsmlSpeakElement';
+import { innerSsml } from '../../../utils/ssml';
+import { ChapterId } from '../index';
 import { useChapterSectionContext } from './useChapterSectionContext';
-import { SPEECH_DIRECTORY_PATH } from '../../data/speech/speech.constants';
-import { innerSsml } from '../ssml';
-import { useMd5 } from './useMd5';
-import { useSsmlSpeakElement } from './useSsmlSpeakElement';
 
 export const useChapterSectionSsml = (
   chapterId: ChapterId,

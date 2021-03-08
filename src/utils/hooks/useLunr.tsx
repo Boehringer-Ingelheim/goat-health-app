@@ -1,7 +1,8 @@
 import lunr from 'lunr';
 import { useMemo } from 'react';
-import { ChapterId, getChapterStructures } from '../chapters';
-import { useChapterSection } from './useChapterSection';
+import { getChapterStructures } from '../../components/Chapters/utils';
+import { ChapterId } from '../../components/Chapters';
+import { useChapterSection } from '../../components/Chapters/hooks/useChapterSection';
 
 type LunrDocs = {
   [key: string]: {

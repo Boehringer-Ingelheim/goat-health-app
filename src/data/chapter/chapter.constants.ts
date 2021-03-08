@@ -1,5 +1,3 @@
-export type ChapterContext = '' | 'ssml';
-
 export const CHAPTER_COLOR = new Map([
   ['01', 'accent-step-0100'],
   ['02', 'accent-step-0200'],

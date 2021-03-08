@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ChapterId } from '../../utils/chapters';
+import { ChapterId } from '../../components/Chapters';
 import { SPEECH_LANGUAGE_DEFAULT } from '../speech/speech.constants';
 
 type CurrentView = 'card' | 'list';

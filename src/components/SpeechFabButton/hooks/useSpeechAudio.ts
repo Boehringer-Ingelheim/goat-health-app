@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { ChapterId } from '../../../utils/chapters';
-import { useChapterSectionSsml } from '../../../utils/hooks/useChapterSectionSsml';
+import { ChapterId } from '../../Chapters';
+import { useChapterSectionSsml } from '../../Chapters/hooks/useChapterSectionSsml';
 import { useAudio } from '../../../utils/hooks/useAudio';
 import { useSpeechSource } from './useSpeechSource';
 

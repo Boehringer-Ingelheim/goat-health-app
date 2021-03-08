@@ -1,10 +1,9 @@
 import { IonIcon, IonItem, IonLabel } from '@ionic/react';
 import { warning } from 'ionicons/icons';
-import { useTranslation } from 'react-i18next';
-import { Chapters } from '../../data/chapter/chapters';
-import { ChapterContext } from '../../data/chapter/chapter';
-import { ChapterId } from '../chapters';
 import { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
+import { Chapters } from '../ChapterContent/index';
+import { ChapterContext, ChapterId } from '../index';
 
 const ChapterSectionNotAvailable = () => {
   const { t } = useTranslation();

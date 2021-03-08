@@ -1,5 +1,5 @@
-import { ChapterId } from '../chapters';
-import { innerText } from '../innerText';
+import { innerText } from '../../../utils/innerText';
+import { ChapterId } from '../index';
 import { useChapterSectionContext } from './useChapterSectionContext';
 
 export const useChapterSectionContent = (

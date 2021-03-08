@@ -7,7 +7,7 @@
   "trailingComma": "all",
   "overrides": [
     {
-      "files": ["src/data/chapter/*.tsx"],
+      "files": ["src/components/Chapters/ChapterContent/*.tsx"],
       "options": {
         "printWidth": 120
       }

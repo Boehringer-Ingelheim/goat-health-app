@@ -9,11 +9,11 @@ import {
 } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
 import {
-  ChapterId,
   getChapterColor,
   getChapterIds,
   getSectionIds,
-} from '../chapters';
+} from '../../components/Chapters/utils';
+import { ChapterId } from '../../components/Chapters';
 
 export interface Menu {
   color: string | undefined;

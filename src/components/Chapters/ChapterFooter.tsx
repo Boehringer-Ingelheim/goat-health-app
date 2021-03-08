@@ -11,11 +11,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectIsFavoriteById } from '../../data/user/user.selector';
 import { addFavorite, removeFavoriteById } from '../../data/user/user.slice';
 import {
-  ChapterId,
   getIdFromChapterIdAndSectionId,
   getChapterNextSectionUrl,
   getChapterPreviousSectionUrl,
-} from '../../utils/chapters';
+} from './utils';
+import { ChapterId } from '.';
 
 type ContainerProps = {
   chapterId: ChapterId;

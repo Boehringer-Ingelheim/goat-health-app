@@ -1,8 +1,7 @@
-import { CHAPTER_COLOR } from '../data/chapter/chapter';
-import * as translations from '../translations/en.json';
-import { increaseValue, decreaseValue } from './format';
-
-export type ChapterId = keyof typeof translations.CHAPTER;
+import { CHAPTER_COLOR } from '../../data/chapter/chapter.constants';
+import * as translations from '../../translations/en.json';
+import { increaseValue, decreaseValue } from '../../utils/format';
+import { ChapterId } from '.';
 
 const createChapterSectionUrl = (
   chapterId: ChapterId | string,
