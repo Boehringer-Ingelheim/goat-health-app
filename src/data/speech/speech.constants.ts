@@ -10,8 +10,20 @@ export const SPEECH_LANGUAGES_SUPPORTED = [
   {
     language: 'en-IN',
     name: 'en-IN-NeerjaNeural',
-    displayName: 'Neerja (English US)',
-    nativeName: 'Neerja (English US)',
+    displayName: 'Neerja (English India)',
+    nativeName: 'Neerja (English India)',
+  },
+  {
+    language: 'ta-IN',
+    name: 'ta-IN-PallaviNeural',
+    displayName: 'Pallavi (Tamil India)',
+    nativeName: 'Pallavi (Tamil India)',
+  },
+  {
+    language: 'ta-IN',
+    name: 'ta-IN-ValluvarNeural',
+    displayName: 'Valluvar (Tamil India)',
+    nativeName: 'Valluvar (Tamil India)',
   },
 ];
 
