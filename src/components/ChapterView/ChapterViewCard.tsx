@@ -22,7 +22,7 @@ export const ChapterViewCard = ({
       routerDirection="forward"
       routerLink={url}
     >
-      <IonImg src={image.thumbnail.small} />
+      <IonImg src={image.thumbnail.medium} />
       <IonCardContent>
         <IonCardSubtitle>{title.chapter}</IonCardSubtitle>
         <IonCardTitle>{title.section}</IonCardTitle>
