@@ -1,15 +1,16 @@
 import { IonGrid, IonNote, IonRow } from '@ionic/react';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { LunrResult } from '../../utils/hooks/useLunr';
+import { useSelector } from 'react-redux';
+import { selectSearchValue } from '../../data/search/search.selector';
+import { ChapterId } from '../Chapters';
+import { useSearchResults } from './hooks/useSearchResults';
 import { SearchResult } from './SearchResult';
 
-interface ContainerProps {
-  results: LunrResult[];
-}
-
-export const SearchResults: React.FC<ContainerProps> = ({ results }) => {
+export const SearchResults = () => {
   const { t } = useTranslation();
+
+  const searchValue = useSelector(selectSearchValue);
+  const results = useSearchResults(searchValue);
 
   if (results.length === 0) {
     return (
@@ -29,10 +30,13 @@ export const SearchResults: React.FC<ContainerProps> = ({ results }) => {
         </IonNote>
       </IonRow>
       {results.map((result, resultIndex) => {
-        const { chapterId, sectionId } = result;
+        const { chapterId, sectionId } = result.item;
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>
-            <SearchResult chapterId={chapterId} sectionId={sectionId} />
+            <SearchResult
+              chapterId={chapterId as ChapterId}
+              sectionId={sectionId}
+            />
           </IonRow>
         );
       })}

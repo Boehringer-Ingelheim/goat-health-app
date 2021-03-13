@@ -4,21 +4,17 @@ import {
   IonHeader,
   IonMenuButton,
   IonPage,
-  IonSearchbar,
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { SearchBar } from '../../components/SearchBar';
 import { SearchPopover } from '../../components/SearchPopover';
 import { SearchResults } from '../../components/SearchResults';
-import { useLunr } from '../../utils/hooks/useLunr';
 
 export const SearchPage: React.FC = () => {
   const { t } = useTranslation();
-
-  const [searchValue, setSearchValue] = useState('');
-  const { results } = useLunr(searchValue);
 
   return (
     <IonPage>
@@ -41,11 +37,8 @@ export const SearchPage: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div className="app-background app-fullscreen">
-          <IonSearchbar
-            value={searchValue}
-            onIonChange={(event) => setSearchValue(event.detail.value!)}
-          ></IonSearchbar>
-          <SearchResults results={results} />
+          <SearchBar />
+          <SearchResults />
         </div>
       </IonContent>
     </IonPage>
