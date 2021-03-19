@@ -11,14 +11,13 @@ import {
   IonToolbar,
   IonTitle,
 } from '@ionic/react';
-import { push } from 'connected-react-router';
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useHistory } from 'react-router';
 import { useMenus } from '../../utils/hooks/useMenus';
 import './index.css';
 
 export const Menu: React.FC = () => {
-  const dispatch = useDispatch();
+  const history = useHistory();
   const menus = useMenus();
 
   return (
@@ -48,7 +47,7 @@ export const Menu: React.FC = () => {
                   routerDirection="none"
                   lines="none"
                   detail={false}
-                  onClick={() => dispatch(push(menu.url))}
+                  onClick={() => history.push(menu.url)}
                 >
                   <IonIcon color={color} icon={icon} slot="start" />
                   <IonLabel>{title}</IonLabel>
