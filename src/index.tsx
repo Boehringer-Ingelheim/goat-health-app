@@ -1,5 +1,3 @@
-import { ConnectedRouter } from 'connected-react-router';
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
@@ -7,17 +5,13 @@ import '@capacitor/core';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { store, persistor } from './store';
-import history from './utils/history';
 import './i18n';
 import './index.css';
 
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <ConnectedRouter history={history}>
-        {/* place ConnectedRouter under Provider */}
-        <App />
-      </ConnectedRouter>
+      <App />
     </PersistGate>
   </Provider>,
   document.getElementById('root'),
