@@ -1,5 +1,9 @@
 {
-  "extends": ["react-app", "plugin:prettier/recommended"],
+  "extends": [
+    "react-app",
+    "plugin:jest-playwright/recommended",
+    "plugin:prettier/recommended"
+  ],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
