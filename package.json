@@ -9,7 +9,7 @@
   "scripts": {
     "generate:images": "node scripts/images/squoosh.js",
     "generate:release": "semantic-release",
-    "generate:screenshots": "",
+    "generate:screenshots": "npx jest --config ./jest.config.js",
     "generate:resources": "node scripts/resources.js",
     "generate:resources:assets": "npm run generate:resources:assets:android && npm run generate:resources:assets:ios && npm run generate:resources:assets:pwa",
     "generate:resources:assets:android": "node scripts/resources/assets-android.js",

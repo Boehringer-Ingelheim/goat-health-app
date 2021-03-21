@@ -1,0 +1,21 @@
+name: Screenshots
+on: [push]
+jobs:
+  setup:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate Optimized Images
+        run: npm run generate:images
+      - name: Build
+        run: npm run build:ionic:browser
+      - name: Generate Screenshots
+        run: npm run generate:screenshots
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshots
+          path: dist
