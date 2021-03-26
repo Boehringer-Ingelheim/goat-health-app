@@ -7,7 +7,7 @@ const {
 
 describe('App Screenshots', () => {
   it('/home', async () => {
-    await page.goto(`${getBaseUrl()}/home`);
+    await page.goto(`${getBaseUrl()}/home`, { waitUntil: 'networkidle' });
     await page.screenshot({
       path: getPathScreenshot(
         JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
@@ -20,6 +20,7 @@ describe('App Screenshots', () => {
   it('/search', async () => {
     await page.goto(
       `${getBaseUrl()}/search?q=${JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY}`,
+      { waitUntil: 'networkidle' },
     );
     await page.waitForSelector('ion-card.hydrated');
     await page.screenshot({
@@ -34,7 +35,9 @@ describe('App Screenshots', () => {
   const CHAPTERS = ['01', '02'];
   for (let i = 0; i < CHAPTERS.length; i++) {
     it(`/chapter/${CHAPTERS[i]}/01`, async () => {
-      await page.goto(`${getBaseUrl()}/chapter/${CHAPTERS[i]}/01`);
+      await page.goto(`${getBaseUrl()}/chapter/${CHAPTERS[i]}/01`, {
+        waitUntil: 'networkidle',
+      });
       await page.screenshot({
         path: getPathScreenshot(
           JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
