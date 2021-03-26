@@ -10,6 +10,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import React, { Suspense, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Redirect, Route } from 'react-router-dom';
+import { QueryParamProvider } from 'use-query-params';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 /* Basic CSS for apps built with Ionic */
@@ -62,27 +63,29 @@ const App: React.FC = () => {
     <Suspense fallback="App Suspense Loading">
       <IonApp className={THEMES[currentTheme].className}>
         <IonReactRouter>
-          <IonSplitPane contentId="main">
-            <Menu />
-            <IonRouterOutlet id="main">
-              <Route exact path="/home" render={() => <HomePage />} />
-              <Route path="/about" render={() => <AboutPage />} exact />
-              <Route path="/search" render={() => <SearchPage />} exact />
-              <Route
-                path={['/favorite', '/favorites']}
-                render={() => <FavoritesPage />}
-                exact
-              />
-              <Route path="/settings" render={() => <SettingsPage />} exact />
-              <Route path="/credits" render={() => <CreditsPage />} exact />
-              <Route
-                path="/chapter/:chapterId/:sectionId"
-                render={() => <ChapterPage />}
-                exact
-              />
-              <Route path="/" render={() => <Redirect to="/home" />} exact />
-            </IonRouterOutlet>
-          </IonSplitPane>
+          <QueryParamProvider ReactRouterRoute={Route}>
+            <IonSplitPane contentId="main">
+              <Menu />
+              <IonRouterOutlet id="main">
+                <Route exact path="/home" render={() => <HomePage />} />
+                <Route path="/about" render={() => <AboutPage />} exact />
+                <Route path="/search" render={() => <SearchPage />} exact />
+                <Route
+                  path={['/favorite', '/favorites']}
+                  render={() => <FavoritesPage />}
+                  exact
+                />
+                <Route path="/settings" render={() => <SettingsPage />} exact />
+                <Route path="/credits" render={() => <CreditsPage />} exact />
+                <Route
+                  path="/chapter/:chapterId/:sectionId"
+                  render={() => <ChapterPage />}
+                  exact
+                />
+                <Route path="/" render={() => <Redirect to="/home" />} exact />
+              </IonRouterOutlet>
+            </IonSplitPane>
+          </QueryParamProvider>
         </IonReactRouter>
       </IonApp>
     </Suspense>
