@@ -6,12 +6,12 @@ export const I18N_DEFAULT = 'en';
 
 // Language identifiers as specified by RFC 3066: https://www.i18nguy.com/unicode/language-identifiers.html
 export const I18N_LANGUAGES_SUPPORTED = [
-  { cultureLang: 'en', name: 'English', nativeName: 'English' },
+  { cultureLang: 'en-US', name: 'English', nativeName: 'English' },
   { cultureLang: 'ta-IN', name: 'Tamil (India)', nativeName: 'தமிழ்' },
 ];
 
 const translations = {
-  en: { translation: require('./translations/en.json') },
+  'en-US': { translation: require('./translations/en-US.json') },
   'ta-IN': { translation: require('./translations/ta-IN.json') },
 };
 
@@ -27,7 +27,8 @@ export default i18n
     resources: translations,
     cleanCode: true,
     debug: false,
-    fallbackLng: 'en',
+    supportedLngs: ['en-US', 'ta-IN'],
+    fallbackLng: 'en-US',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
