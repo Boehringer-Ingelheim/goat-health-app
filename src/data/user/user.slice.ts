@@ -4,10 +4,6 @@ import { SPEECH_LANGUAGE_DEFAULT } from '../speech/speech.constants';
 
 type CurrentView = 'card' | 'list';
 
-interface CurrentViewPayload {
-  currentView: CurrentView;
-}
-
 interface CurrentSpeechName {
   currentSpeechName: string;
 }
@@ -62,13 +58,11 @@ const userSlice = createSlice({
     resetUserState() {
       return initialState;
     },
-    setCurrentFavoritesView(state, action: PayloadAction<CurrentViewPayload>) {
-      const { currentView } = action.payload;
-      state.currentFavoritesView = currentView;
+    setCurrentFavoritesView(state, action: PayloadAction<CurrentView>) {
+      state.currentFavoritesView = action.payload;
     },
-    setCurrentSearchView(state, action: PayloadAction<CurrentViewPayload>) {
-      const { currentView } = action.payload;
-      state.currentSearchView = currentView;
+    setCurrentSearchView(state, action: PayloadAction<CurrentView>) {
+      state.currentSearchView = action.payload;
     },
     setCurrentSpeechName(
       state,
