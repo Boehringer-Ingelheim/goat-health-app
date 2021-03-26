@@ -1,26 +1,16 @@
-const BASE_URL = 'http://localhost:8080';
+import { render } from '@testing-library/react';
+import { Provider } from 'react-redux';
+import '@capacitor/core';
+import App from './App';
+import { store } from './store';
+import { matchMedia } from './utils/test-utils';
 
-describe('App Screenshots', () => {
-  it('/home', async () => {
-    await page.goto(`${BASE_URL}/home`);
-    await page.screenshot({
-      path: `dist/${deviceName}-screenshot-home.png`
-        .toLowerCase()
-        .replace(' ', '-'),
-    });
-  });
-
-  const CHAPTERS = ['01', '02'];
-  for (let i = 0; i < CHAPTERS.length; i++) {
-    it(`/chapter/${CHAPTERS[i]}/01`, async () => {
-      await page.goto(`${BASE_URL}/chapter/${CHAPTERS[i]}/01`);
-      await page.screenshot({
-        path: `dist/${deviceName}-screenshot-chapter-${CHAPTERS[i]}-01.png`
-          .toLowerCase()
-          .replace(' ', '-'),
-      });
-    });
-  }
+test('renders without crashing', () => {
+  matchMedia();
+  const { baseElement } = render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+  );
+  expect(baseElement).toBeDefined();
 });
-
-export {};
