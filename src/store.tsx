@@ -19,6 +19,7 @@ export const persistConfig = {
   key: 'root',
   storage: createCapacitorStorage(),
   version: 1,
+  whitelist: ['user'],
 };
 
 const persistedReducer = persistReducer(persistConfig, createRootReducer());
