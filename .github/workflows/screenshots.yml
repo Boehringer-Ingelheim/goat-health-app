@@ -12,10 +12,18 @@ jobs:
         run: npm run generate:images
       - name: Build
         run: npm run build:ionic:browser
-      - name: Generate Screenshots
+      - name: Generate Screenshots (en-US)
+        env:
+          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: en-US
+          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: feed
+        run: npm run generate:screenshots
+      - name: Generate Screenshots (ta-IN)
+        env:
+          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: ta-IN
+          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: உலர்ந்த
         run: npm run generate:screenshots
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
           name: screenshots
-          path: dist
+          path: dist/screenshots
