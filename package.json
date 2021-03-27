@@ -6,6 +6,9 @@
   "author": "Making More Health | Simon Golms",
   "homepage": "https://www.makingmorehealth.org/",
   "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": "14.16.0"
+  },
   "scripts": {
     "generate:images": "node scripts/images/squoosh.js",
     "generate:release": "semantic-release",
