@@ -29,7 +29,7 @@ import '@ionic/react/css/display.css';
 import './theme/bright.theme.css';
 import './theme/dark.theme.css';
 import { Menu } from './components/Menu';
-import { selectCurrentTheme } from './data/user/user.selector';
+import { selectCurrentThemeName } from './data/user/user.selector';
 import { AboutPage } from './pages/About';
 import { ChapterPage } from './pages/Chapter';
 import { CreditsPage } from './pages/CreditsPage';
@@ -38,10 +38,11 @@ import { HomePage } from './pages/Home';
 import { SearchPage } from './pages/Search';
 import { SettingsPage } from './pages/Settings';
 // import Tutorial from './pages/Tutorial';
-import { THEMES } from './utils/theme';
+import { useTheme } from './utils/hooks/useTheme';
 
 const App: React.FC = () => {
-  const currentTheme = useSelector(selectCurrentTheme);
+  const currentThemeName = useSelector(selectCurrentThemeName);
+  const { theme } = useTheme(currentThemeName);
 
   useEffect(() => {
     const setStatusBarStyleDark = async () => {
@@ -61,7 +62,7 @@ const App: React.FC = () => {
 
   return (
     <Suspense fallback="App Suspense Loading">
-      <IonApp className={THEMES[currentTheme].className}>
+      <IonApp className={theme.className}>
         <IonReactRouter>
           <QueryParamProvider ReactRouterRoute={Route}>
             <IonSplitPane contentId="main">

@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ChapterId } from '../../components/Chapters';
+import { ThemeName } from '../../utils/hooks/useTheme';
 import { SPEECH_LANGUAGE_DEFAULT } from '../speech/speech.constants';
 
 type CurrentView = 'card' | 'list';
@@ -11,13 +12,8 @@ interface CurrentSpeechName {
 interface CurrentSpeechNamePayload {
   currentSpeechName: string;
 }
-interface CurrentTheme {
-  currentTheme: string;
-}
 
-interface CurrentThemePayload {
-  currentTheme: string;
-}
+type CurrentThemeName = ThemeName;
 
 interface Favorite {
   addedAt: Date;
@@ -31,15 +27,15 @@ type UserState = {
   hasSeenTutorial: boolean;
   currentFavoritesView: CurrentView;
   currentSearchView: CurrentView;
-} & CurrentSpeechName &
-  CurrentTheme;
+  currentThemeName: CurrentThemeName;
+} & CurrentSpeechName;
 
 const initialState: UserState = {
   favorites: [],
   currentFavoritesView: 'card',
   currentSearchView: 'card',
   currentSpeechName: SPEECH_LANGUAGE_DEFAULT.name,
-  currentTheme: 'system',
+  currentThemeName: 'system',
   hasSeenTutorial: false,
 };
 
@@ -71,9 +67,8 @@ const userSlice = createSlice({
       const { currentSpeechName } = action.payload;
       state.currentSpeechName = currentSpeechName;
     },
-    setCurrentTheme(state, action: PayloadAction<CurrentThemePayload>) {
-      const { currentTheme } = action.payload;
-      state.currentTheme = currentTheme;
+    setCurrentTheme(state, action: PayloadAction<CurrentThemeName>) {
+      state.currentThemeName = action.payload;
     },
     setHasSeenTutorial(
       state,

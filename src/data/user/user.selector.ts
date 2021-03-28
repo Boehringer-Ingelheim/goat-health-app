@@ -24,9 +24,9 @@ export const selectCurrentSpeech = createSelector(selfUserState, (state) => {
   };
 });
 
-export const selectCurrentTheme = createSelector(
+export const selectCurrentThemeName = createSelector(
   selfUserState,
-  (state) => state.currentTheme,
+  (state) => state.currentThemeName,
 );
 
 export const selectHasSeenTutorial = createSelector(
