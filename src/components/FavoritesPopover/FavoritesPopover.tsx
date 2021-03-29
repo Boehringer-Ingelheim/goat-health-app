@@ -40,9 +40,7 @@ export const FavoritesPopover: React.FC = () => {
           <IonRadioGroup
             value={currentView}
             onIonChange={(event) =>
-              dispatch(
-                setCurrentFavoritesView({ currentView: event.detail.value }),
-              )
+              dispatch(setCurrentFavoritesView(event.detail.value))
             }
           >
             <IonListHeader>

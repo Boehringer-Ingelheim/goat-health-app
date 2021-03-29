@@ -1,5 +1,5 @@
 import { CHAPTER_COLOR } from '../../data/chapter/chapter.constants';
-import * as translations from '../../translations/en.json';
+import * as translations from '../../translations/en-US.json';
 import { increaseValue, decreaseValue } from '../../utils/format';
 import { ChapterId } from '.';
 

@@ -1,4 +1,4 @@
-import * as translations from '../../translations/en.json';
+import * as translations from '../../translations/en-US.json';
 
 export type Chapter = Record<string, Record<string, Section>>;
 

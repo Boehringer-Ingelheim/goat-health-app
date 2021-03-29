@@ -40,9 +40,7 @@ export const SearchPopover: React.FC = () => {
           <IonRadioGroup
             value={currentSearchView}
             onIonChange={(event) =>
-              dispatch(
-                setCurrentSearchView({ currentView: event.detail.value }),
-              )
+              dispatch(setCurrentSearchView(event.detail.value))
             }
           >
             <IonListHeader>
