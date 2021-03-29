@@ -70,6 +70,7 @@ describe('App Screenshots', () => {
         'accessibility',
       ),
     });
+    await page.emulateMedia({ colorScheme: 'no-preference' });
   });
 
   it('about', async () => {
