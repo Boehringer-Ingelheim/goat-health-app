@@ -1,4 +1,8 @@
-import { getBaseUrl, getPathScreenshot } from './utils';
+import {
+  getBaseUrl,
+  getPathScreenshot,
+  getStyleTagContentSafeArea,
+} from './utils';
 
 const {
   JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
@@ -6,8 +10,12 @@ const {
 } = process.env;
 
 describe('App Screenshots', () => {
+  const styleContentSafeArea = getStyleTagContentSafeArea(deviceName as string);
   it('home', async () => {
     await page.goto(`${getBaseUrl()}/home`, { waitUntil: 'networkidle' });
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.screenshot({
       path: getPathScreenshot(
         JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
@@ -19,6 +27,9 @@ describe('App Screenshots', () => {
 
   it('chapters', async () => {
     await page.goto(`${getBaseUrl()}/home`, { waitUntil: 'networkidle' });
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.click(
       '//html/body/div/ion-app/ion-split-pane/ion-router-outlet/div/ion-header/ion-toolbar/ion-buttons/ion-menu-button',
     );
@@ -36,6 +47,9 @@ describe('App Screenshots', () => {
     await page.goto(`${getBaseUrl()}/chapter/02/01`, {
       waitUntil: 'networkidle',
     });
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.screenshot({
       path: getPathScreenshot(
         JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
@@ -50,6 +64,9 @@ describe('App Screenshots', () => {
       `${getBaseUrl()}/search?q=${JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY}`,
       { waitUntil: 'networkidle' },
     );
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.waitForSelector('ion-card.hydrated');
     await page.screenshot({
       path: getPathScreenshot(
@@ -63,6 +80,9 @@ describe('App Screenshots', () => {
   it('accessibility', async () => {
     await page.emulateMedia({ colorScheme: 'dark' });
     await page.goto(`${getBaseUrl()}/settings`, { waitUntil: 'networkidle' });
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.screenshot({
       path: getPathScreenshot(
         JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
@@ -75,6 +95,9 @@ describe('App Screenshots', () => {
 
   it('about', async () => {
     await page.goto(`${getBaseUrl()}/about`, { waitUntil: 'networkidle' });
+    await page.addStyleTag({
+      content: styleContentSafeArea,
+    });
     await page.screenshot({
       path: getPathScreenshot(
         JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL,
