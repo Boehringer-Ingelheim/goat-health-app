@@ -1,0 +1,103 @@
+name: Release (Prod)
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build App
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate Optimized Images
+        run: npm run generate:images
+      - name: Build Browser
+        env:
+          REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY}}
+          REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION}}
+        run: npm run build:ionic:browser
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-browser
+          path: build
+  resources:
+    name: Generate Screenshots
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Download build-browser Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build-browser
+          path: build
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate Screenshots (en-US)
+        env:
+          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: en-US
+          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: feed
+        run: npm run generate:screenshots
+      - name: Generate Screenshots (ta-IN)
+        env:
+          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: ta-IN
+          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: உலர்ந்த
+        run: npm run generate:screenshots
+      - name: Upload iOS Screenshots Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshots-ios
+          path: dist/screenshots/ios
+      - name: Upload Android Screenshots Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshots-android
+          path: dist/screenshots/android
+  deploy_pwa:
+    name: Deploy Web App
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build-browser Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build-browser
+      - name: Deploy to Azure Static Web Apps
+        uses: Azure/static-web-apps-deploy@v0.0.1-preview
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_POLITE_PLANT_0E8492703 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: 'upload'
+          ###### Repository/Build Configurations
+          app_location: '/' # App source code path
+          api_location: 'api' # Api source code path - optional
+          routes_location: '/' # Defines the directory location where the routes.json file is found.
+          ###### End of Repository/Build Configurations ######
