@@ -113,6 +113,19 @@ jobs:
   deploy_ios:
     name: Deploy iOS App
     needs: resources
+    env:
+      APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+      APPLE_ID: ${{ secrets.APPLE_ID }}
+      APP_STORE_TEAM_ID: ${{ secrets.APP_STORE_TEAM_ID }}
+      DEVELOPER_TEAM_ID: ${{ secrets.DEVELOPER_TEAM_ID }}
+      FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+      FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+      FASTLANE_SESSION: ${{ secrets.FASTLANE_SESSION }}
+      FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+      MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+      MATCH_GIT_REPO_URL: ${{ secrets.MATCH_GIT_REPO_URL }}
+      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      SPACESHIP_ONLY_ALLOW_INTERACTIVE_2FA: true
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
@@ -156,18 +169,5 @@ jobs:
         run: bundle exec fastlane screenshots
         working-directory: ./ios/App
       - name: Build and Deploy to Testflight
-        env:
-          APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APP_STORE_TEAM_ID: ${{ secrets.APP_STORE_TEAM_ID }}
-          DEVELOPER_TEAM_ID: ${{ secrets.DEVELOPER_TEAM_ID }}
-          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
-          FASTLANE_SESSION: ${{ secrets.FASTLANE_SESSION }}
-          FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-          MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
-          MATCH_GIT_REPO_URL: ${{ secrets.MATCH_GIT_REPO_URL }}
-          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-          SPACESHIP_ONLY_ALLOW_INTERACTIVE_2FA: true
         run: bundle exec fastlane beta
         working-directory: ./ios/App
