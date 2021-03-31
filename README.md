@@ -1,4 +1,15 @@
-# Goat Health App
+<h1 align="center" style="border-bottom: none;">Goat Health App</h1>
+<p align="center">
+   <img alt="goat_health_app banner" src="./.github/social-preview.png" />
+</p>
+<p align="center">
+  <a href="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-production.yml">
+    <img alt="Build states" src="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-production.yml/badge.svg?branch=master">
+  </a>
+  <a href="#badge">
+    <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+  </a>
+</p>
 
 <img align="center" alt="goat_health_app banner" src="./.github/social-preview.png" />
 
