@@ -8,7 +8,6 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "generate:images": "node scripts/images/squoosh.js",
-    "generate:release": "semantic-release",
     "generate:screenshots": "jest --config ./scripts/screenshots/jest.config.js",
     "generate:resources": "node scripts/resources.js",
     "generate:resources:assets": "npm run generate:resources:assets:android && npm run generate:resources:assets:ios && npm run generate:resources:assets:pwa",
@@ -24,6 +23,7 @@
     "eject": "react-scripts eject",
     "res": "node scripts/res.js",
     "repair": "npx rimraf build node_modules .git/hooks package-lock.json && npm install && npx husky install",
+    "release:information": "semantic-release --dry-run --extends './scripts/release/releaserc.information.js' --no-ci",
     "stylelint-check": "stylelint-config-prettier-check"
   },
   "dependencies": {
@@ -63,6 +63,8 @@
   "devDependencies": {
     "@capacitor/cli": "^3.0.0-beta.1",
     "@ionic/cli": "^6.13.1",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@squoosh/cli": "^0.6.3",
     "@types/jest": "^26.0.22",

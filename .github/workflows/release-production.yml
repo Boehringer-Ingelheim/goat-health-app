@@ -25,6 +25,15 @@ jobs:
             ${{ runner.os }}-
       - name: Install Dependencies
         run: npm install
+      - name: Determining Release Information
+        run: npm run release:information
+      - name: Upload release-information Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: release-information
+          path: |
+            .NOTES
+            .VERSION
       - name: Generate Optimized Images
         run: npm run generate:images
       - name: Build Browser
@@ -83,7 +92,7 @@ jobs:
           path: dist/screenshots/android
   deploy_pwa:
     name: Deploy Web App
-    needs: build
+    needs: resources
     runs-on: ubuntu-latest
     steps:
       - name: Download build-browser Artifact
@@ -101,3 +110,64 @@ jobs:
           api_location: 'api' # Api source code path - optional
           routes_location: '/' # Defines the directory location where the routes.json file is found.
           ###### End of Repository/Build Configurations ######
+  deploy_ios:
+    name: Deploy iOS App
+    needs: resources
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download build-browser Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build-browser
+          path: ios/App/App/public
+      - name: Download iOS Screenshots Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: screenshots-ios
+          path: ios/App/fastlane/screenshots
+      - name: Download release-information Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: release-information
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Dependencies
+        run: npm install
+      - name: Update Capacitor dependencies
+        run: npx ionic capacitor update ios
+      - name: Install iOS Dependencies
+        run: bundle install
+        working-directory: ./ios/App
+      - name: Setup Fastlane Environment
+        run: bundle exec fastlane setup_env_github
+        working-directory: ./ios/App
+      - name: Generate Screenshots (App Store)
+        run: bundle exec fastlane screenshots
+        working-directory: ./ios/App
+      - name: Build and Deploy to Testflight
+        env:
+          APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APP_STORE_TEAM_ID: ${{ secrets.APP_STORE_TEAM_ID }}
+          DEVELOPER_TEAM_ID: ${{ secrets.DEVELOPER_TEAM_ID }}
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
+          FASTLANE_SESSION: ${{ secrets.FASTLANE_SESSION }}
+          FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+          MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+          MATCH_GIT_REPO_URL: ${{ secrets.MATCH_GIT_REPO_URL }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          SPACESHIP_ONLY_ALLOW_INTERACTIVE_2FA: true
+        run: bundle exec fastlane beta
+        working-directory: ./ios/App

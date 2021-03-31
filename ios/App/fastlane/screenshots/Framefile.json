@@ -1,0 +1,32 @@
+{
+  "device_frame_version": "latest",
+  "default": {
+    "background": "./background.jpg",
+    "interline_spacing": "15%",
+    "keyword": {
+      "color": "#000",
+      "font_scale_factor": 1,
+      "font_weight": 900
+    },
+    "padding": "4.5%x6%",
+    "stack_title": true,
+    "title": {
+      "color": "#000",
+      "font_size": 0
+    },
+    "title_below_image": false,
+    "title_min_height": "20%"
+  },
+  "data": [
+    {
+      "filter": "accessibility",
+      "background": "./background-dark.jpg",
+      "keyword": {
+        "color": "#fff"
+      },
+      "title": {
+        "color": "#fff"
+      }
+    }
+  ]
+}
