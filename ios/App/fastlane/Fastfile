@@ -19,6 +19,16 @@ default_platform(:ios)
 
 platform :ios do
 
+  desc "Update App Privacy Details (local development)"
+  lane :update_app_privacy_details do
+    upload_app_privacy_details_to_app_store(
+      username: ENV["APPLE_ID"],
+      team_name: ENV["APP_STORE_TEAM_ID"],
+      app_identifier: ENV["APP_IDENTIFIER"],
+      skip_upload: true
+    )
+  end
+  
   desc "Setup Env (GitHub Actions)"
   lane :setup_env_github do
     setup_ci(
@@ -61,6 +71,11 @@ platform :ios do
   lane :release do
     sync_code_signing(type: "appstore")
     build
+    upload_app_privacy_details_to_app_store(
+      username: ENV["APPLE_ID"],
+      team_name: ENV["APP_STORE_TEAM_ID"],
+      app_identifier: ENV["APP_IDENTIFIER"],
+    )
     upload_to_app_store(
       changelog: File.read("../../../.NOTES")
     )
