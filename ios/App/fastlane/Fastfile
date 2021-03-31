@@ -42,6 +42,11 @@ platform :ios do
     match(type: "appstore")
   end
   
+  desc "Add titles and device frames on and around the screenshots"
+  lane :screenshots do
+    frame_screenshots()
+  end
+
   desc "Build App"
   lane :build do
     increment_version_number(
