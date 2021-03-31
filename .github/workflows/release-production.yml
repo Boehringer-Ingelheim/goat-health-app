@@ -25,6 +25,15 @@ jobs:
             ${{ runner.os }}-
       - name: Install Dependencies
         run: npm install
+      - name: Determining Release Information
+        run: npm run release:information
+      - name: Upload release-information Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: release-information
+          path: |
+            .NOTES
+            .VERSION
       - name: Generate Optimized Images
         run: npm run generate:images
       - name: Build Browser
