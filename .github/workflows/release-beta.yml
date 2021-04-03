@@ -52,7 +52,7 @@ jobs:
           name: build-browser
           path: build
   release:
-    name: Release Version
+    name: Release
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -61,6 +61,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build-browser
+      - name: Install Dependencies
+        run: npm ci
       - name: Create Release On GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
