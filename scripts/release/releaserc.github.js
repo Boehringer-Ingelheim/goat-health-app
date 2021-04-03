@@ -10,12 +10,18 @@ module.exports = {
       {
         assets: [
           {
-            path: 'build',
-            label: 'goat-health-app-${nextRelease.version}-browser',
+            path: '*.zip',
           },
         ],
       },
     ],
     '@semantic-release/git',
+    [
+      '@semantic-release/exec',
+      {
+        prepareCmd:
+          'zip -q -r goat-health-app-${nextRelease.version}-browser.zip build/',
+      },
+    ],
   ],
 };
