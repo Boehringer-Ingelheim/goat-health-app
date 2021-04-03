@@ -46,6 +46,21 @@ jobs:
           REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY}}
           REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION}}
         run: npm run build:ionic:browser
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-browser
+          path: build
+  release:
+    name: Release Version
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download build-browser Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build-browser
       - name: Create Release On GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
