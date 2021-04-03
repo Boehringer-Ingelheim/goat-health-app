@@ -25,7 +25,15 @@ jobs:
           path: public/assets/img
           key: cache-optimized-images-${{ hashFiles('resources/images/**') }}
           restore-keys: cache-optimized-images
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-cache-node-modules
       - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install
       - name: Determining Release Information
         run: npm run release:information
@@ -59,7 +67,15 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build-browser
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-cache-node-modules
       - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
       - name: Create Release On GitHub
         env:
