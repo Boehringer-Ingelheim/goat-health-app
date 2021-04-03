@@ -11,22 +11,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache node modules
+        with:
+          fetch-depth: 0
+      - name: Get Changed Files
+        id: git-diff
+        run: |
+          git_diff_target=$(git tag -l --format "%(refname:short)" --sort version:refname "v*beta*" | tail -n 1)
+          echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r $git_diff_target ${{ github.sha }})"
+      - name: Cache Optimized Images
+        id: cache-optimized-images
         uses: actions/cache@v2
         env:
-          cache-name: cache-node-modules
+          cache-name: cache-optimized-images
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          path: public/assets/img
+          key: ${{ env.cache-name }}-${{ hashFiles('resources/images/**') }}
+          restore-keys: ${{ env.cache-name }}
       - name: Install Dependencies
         run: npm install
       - name: Determining Release Information
-        run: npm run release:version
+        run: npm run release:information
       - name: Upload release-information Artifact
         uses: actions/upload-artifact@v2
         with:
@@ -35,14 +39,14 @@ jobs:
             .NOTES
             .VERSION
       - name: Generate Optimized Images
+        if: ${{ steps.cache-optimized-images.outputs.cache-hit != 'true' || contains(steps.git-diff.outputs.files, 'resources/images')}}
         run: npm run generate:images
       - name: Build Browser
         env:
           REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SUBSCRIPTION_KEY}}
           REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION: ${{secrets.REACT_APP_AZURE_COGNITIVE_TTS_SERVICE_REGION}}
         run: npm run build:ionic:browser
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: build-browser
-          path: build
+      - name: Create Release On GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run release:github
