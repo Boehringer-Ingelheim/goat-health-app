@@ -21,12 +21,10 @@ jobs:
       - name: Cache Optimized Images
         id: cache-optimized-images
         uses: actions/cache@v2
-        env:
-          cache-name: cache-optimized-images
         with:
           path: public/assets/img
-          key: ${{ env.cache-name }}-${{ hashFiles('resources/images/**') }}
-          restore-keys: ${{ env.cache-name }}
+          key: cache-optimized-images-${{ hashFiles('resources/images/**') }}
+          restore-keys: cache-optimized-images
       - name: Install Dependencies
         run: npm install
       - name: Determining Release Information
