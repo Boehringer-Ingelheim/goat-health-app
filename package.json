@@ -23,6 +23,7 @@
     "eject": "react-scripts eject",
     "res": "node scripts/res.js",
     "repair": "npx rimraf build node_modules .git/hooks package-lock.json && npm install && npx husky install",
+    "release:github": "semantic-release --extends './scripts/release/releaserc.github.js'",
     "release:information": "semantic-release --dry-run --extends './scripts/release/releaserc.information.js' --no-ci",
     "stylelint-check": "stylelint-config-prettier-check"
   },
