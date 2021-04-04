@@ -36,7 +36,7 @@
     "@capacitor/storage": "^0.3.6",
     "@ionic/react": "^5.6.3",
     "@ionic/react-router": "^5.6.3",
-    "@ionic/storage": "^3.0.2",
+    "@ionic/storage": "^3.0.4",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "5.11.10",
     "@testing-library/react": "^11.2.5",
