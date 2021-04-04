@@ -19,6 +19,7 @@ const writeFile = async (directory: Directory, path: string, data: string) => {
     directory,
     encoding: Encoding.UTF8,
     path,
+    recursive: true,
   });
 };
 
