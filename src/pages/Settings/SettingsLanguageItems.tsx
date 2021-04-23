@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import { I18N_LANGUAGES_SUPPORTED } from '../../i18n';
 
 export const SettingsLanguageItems: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('app');
 
   return (
     <IonRadioGroup

@@ -1,5 +1,5 @@
 import { IonGrid, IonNote, IonRow } from '@ionic/react';
-import React from 'react';
+import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import { selectFavorites } from '../../data/user/user.selector';
@@ -7,7 +7,7 @@ import { getChapterIdAndSectionIdFromId } from '../Chapters/utils';
 import { ChapterId } from '../Chapters';
 import { FavoritesResult } from './FavoritesResult';
 
-export const FavoritesResults: React.FC = () => {
+export const FavoritesResults: FC = () => {
   const { t } = useTranslation();
   const results = useSelector(selectFavorites);
 

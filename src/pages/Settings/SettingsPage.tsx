@@ -17,7 +17,7 @@ import { SettingsResetItem } from './SettingsResetItem';
 import { SettingsThemeItems } from './SettingsThemeItems';
 
 export const SettingsPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('app');
 
   return (
     <IonPage>

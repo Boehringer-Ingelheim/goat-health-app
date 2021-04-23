@@ -1,0 +1,226 @@
+{
+  "00": {
+    "TITLE": "Feeding"
+  },
+  "01": {
+    "TITLE": "How do I feed my goats well?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats can grow well only if they have enough feed:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Let goats pasture.",
+          "020000": "Do not feed goats with just rice or commercial feed concentrates! This avoids the disease acidosis (see Chapter 9.5)",
+          "030000": "Every day, a goat needs 5 kg green (fresh plants) and 1 kg dry feed (your dried plants, or feed concentrate).",
+          "040000": "Government provides feed to tribal people, so approach the nearest veterinary dispensary.",
+          "050000": "Green feed:",
+          "050100": "Leguminous plants have a lot of protein (like milk) and must be majority of feed: alfalfa, cespenia, mulberry… so ask for it.",
+          "060000": "Dry plants: smaller part of feed.",
+          "070000": "Dry feed: this must be the smaller part of feed (rice, local plants). Rice is not natural for goats and they quickly develop acidosis disease if too much rice is fed.",
+          "080000": "Dry the fresh feed if needed later: hang feed on a rope to dry or build a rack out of bamboo.",
+          "090000": "Feed must remain clean and dry: make a rack to hang the hay (less feed is wasted)"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0201-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_007.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_007_200.webp",
+          "MEDIUM": "./assets/img/drawing_007_400.webp",
+          "LARGE": "./assets/img/drawing_007_800.webp"
+        },
+        "TITLE": "Let goats pasture every day."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_006.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_006_200.webp",
+          "MEDIUM": "./assets/img/drawing_006_400.webp",
+          "LARGE": "./assets/img/drawing_006_800.webp"
+        },
+        "TITLE": "Every day, a goat needs 5 kg green (fresh plants) and 1 kg dry feed (your dried plants, or feed concentrate)."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "Do goats need pasture?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats need good green feed to grow"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Yes, they need pasture!",
+          "020000": "At least several hours each day.",
+          "030000": "You can organize a herd within the village, and take turns to keep the goats.",
+          "040000": "Take the opportunity of pasture to collect green feed, leaves, and bring it back to dry for drought time.",
+          "050000": "Switch direction of pasture every month.",
+          "060000": "Keep away from water streams with snails.",
+          "070000": "More green feed is good: it helps growth and increases resistance to diseases and parasites."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0202-record-en.wav"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_008.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_008_200.webp",
+          "MEDIUM": "./assets/img/drawing_008_400.webp",
+          "LARGE": "./assets/img/drawing_008_800.webp"
+        },
+        "TITLE": "Switch direction of pasture every month."
+      }
+    }
+  },
+  "03": {
+    "TITLE": "Feed farming: Do I need to cultivate crops?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Growing your own crops always improves the feed and the goat health and growth"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Growing crops is important to have feed for drought time!",
+          "020000": "Prepare for drought in the monsoon season. Collect fallen leaves and branches and let them dry. Goats love jackfruit leaves.",
+          "030000": "Make a reserve of dried leaves, grass and hay",
+          "040000": "Government provides seeds (to tribal people, so collect it)",
+          "050000": "Good crops can be cut every 90 days",
+          "060000": "Modern 'hybrid' grass (college grass) grows quicker (and therefore can be cut sooner) and is more nourishing",
+          "070000": "Local traditional plants are also good because they are more resistant to bad weather conditions",
+          "080000": "Grow crops from plants which live more than 2 years",
+          "090000": "Corn provides a limited harvest, so grow only little corn and concentrate on other crops."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0203-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_009.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_009_200.webp",
+          "MEDIUM": "./assets/img/drawing_009_400.webp",
+          "LARGE": "./assets/img/drawing_009_800.webp"
+        },
+        "TITLE": "Growing your own crops always improves the feed. Prepare for drought by collecting fallen leaves and branches."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "How important is water?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats need as much water as they can drink! This is very important for the body weight (and your sales price) and for the milk production!",
+        "02": "Without enough water",
+        "03": "Provide clean water!"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Provide water in the morning and in the evening",
+          "020000": "Wait as long as they want to drink (do not take them away before they stop drinking)"
+        },
+        "02": {
+          "010000": "they do not grow (so you get less money when selling them)",
+          "020000": "they give less milk",
+          "030000": "they can die"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0204-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_010b.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_010b_200.webp",
+          "MEDIUM": "./assets/img/drawing_010b_400.webp",
+          "LARGE": "./assets/img/drawing_010b_800.webp"
+        },
+        "TITLE": "Goats need as much water as they can drink!"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_011.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_011_200.webp",
+          "MEDIUM": "./assets/img/drawing_011_400.webp",
+          "LARGE": "./assets/img/drawing_011_800.webp"
+        },
+        "TITLE": "Water is very important for the body weight (and your sales price) and for the milk production!"
+      }
+    }
+  },
+  "05": {
+    "TITLE": "Using eggs to improve health and survival of weak kids",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Construct a mobile chicken coop. You can move the coop to different areas. The advantages of the mobile chicken coop are (1) chicken droppings itself fertilizes different areas of your backyard (2) chickens can access and feed on the worms in the soil."
+      },
+      "LIST": {
+        "01": {
+          "010000": "If possible, build a 1 x 1 m cage using strong wooden sticks such as bamboo and raise 3 female chickens (refer to the figure). Firmly mount the cage to the ground so that it cannot be knocked down or moved by other animals.",
+          "020000": "Chicken coops should be strong enough to afford protection against predators such as dogs, raptors etc.",
+          "030000": "Chicken eggs are a good nutritious source for everyone especially children, pregnant women and elderly people. We need to understand that the chicken eggs are a good nutritious source of high-value protein for weak and rejected goat kids, too.",
+          "040000": "Prepare a  soup with eggs, milk, cooked lentils and water by boiling it for at least 10 minutes. Feed the cooled down soup to malnourished goat kids several times a day, until it is healthy. Supplement the soup along with grass starting from two weeks of age.",
+          "050000": "By four weeks of age, the goat kids might be able to feed by themselves."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0205-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_012.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_012_200.webp",
+          "MEDIUM": "./assets/img/drawing_012_400.webp",
+          "LARGE": "./assets/img/drawing_012_800.webp"
+        },
+        "TITLE": "Prepare a soup with eggs, milk, cooked lentils and water by boiling it for at least 10 minutes. Feed to the kid when cooled down."
+      }
+    }
+  },
+  "06": {
+    "TITLE": "How can I help my goats to provide sufficient milk?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats provided with plentiful water will produce more milk, so let the goat drink as much as it wants."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Avoid udder diseases",
+          "010100": "by keeping the goat house dry",
+          "010200": "by keeping areas where the goats rest dry",
+          "020000": "Give extra feed to skinny mother goats",
+          "020100": "crops",
+          "020200": "lentils, alfalfa",
+          "020300": "boiled eggs can be feed to weak goats"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0206-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_010b.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_010b_200.webp",
+          "MEDIUM": "./assets/img/drawing_010b_400.webp",
+          "LARGE": "./assets/img/drawing_010b_800.webp"
+        },
+        "TITLE": "Well hydrated goats produce more milk."
+      }
+    }
+  }
+}

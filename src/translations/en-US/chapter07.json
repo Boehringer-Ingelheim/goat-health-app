@@ -1,0 +1,298 @@
+{
+  "00": {
+    "TITLE": "How to prevent and treat diseases?"
+  },
+  "01": {
+    "TITLE": "How To Prevent Diseases?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "You can prevent diseases: 1 – at level of goat, 2 – at level of herd",
+        "02": "1 – Level of goat: It is important to take good care of goats, because a goat can easily get sick when:",
+        "03": "What to do with the goat:",
+        "04": "2 – What to do with the herd:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "It has little feed",
+          "020000": "It has little water",
+          "030000": "The goat house has mud floor",
+          "040000": "The goat house is dirty",
+          "050000": "The goat kid does not get enough milk",
+          "060000": "Goats have parasites which weaken the goat"
+        },
+        "02": {
+          "010000": "Check goat health every day",
+          "020000": "Isolate newly purchased goats for at least one week. Best to keep them separate for two weeks.",
+          "030000": "Separate sick goats from herd",
+          "040000": "Mate female goat only when adult, not too young",
+          "050000": "Take good care of pregnant goats and mother goats",
+          "060000": "Take good care of each kid",
+          "070000": "When a mother goat pays less attention to a kid, try all recommendations of chapter 'Breeding / How to avoid that the mother rejects the kid?' in this manual to avoid rejection of any kid.",
+          "080000": "Remove ticks from each goat every day (collect the ticks in a container and burn or crush them)"
+        },
+        "03": {
+          "010000": "Give enough feed",
+          "020000": "Pasture your goats as much as possible",
+          "030000": "Change often places for pasture",
+          "040000": "Give as much clean water as the goats want",
+          "050000": "Ensure that all goats in the herd look healthy and uniform. Thin goats could be sick.",
+          "060000": "If proper goat housing is not available, collect the droppings daily and put them on the compost",
+          "070000": "Clean the wooden floor of the goat house every week",
+          "080000": "In case of dead animal, bury/burn it and disinfect the goat house",
+          "090000": "Ask the veterinarian to vaccinate your goats (note down in goat passport)",
+          "100000": "Get vaccination to prevent some diseases"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0701-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_050.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_050_200.webp",
+          "MEDIUM": "./assets/img/drawing_050_400.webp",
+          "LARGE": "./assets/img/drawing_050_800.webp"
+        },
+        "TITLE": "Parasite cycle of the small liver fluke via ants and snails."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_034.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_034_200.webp",
+          "MEDIUM": "./assets/img/drawing_034_400.webp",
+          "LARGE": "./assets/img/drawing_034_800.webp"
+        },
+        "TITLE": "Separate sick goats from herd."
+      },
+      "03": {
+        "FILENAME": "./assets/img/drawing_005.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_005_200.webp",
+          "MEDIUM": "./assets/img/drawing_005_400.webp",
+          "LARGE": "./assets/img/drawing_005_800.webp"
+        },
+        "TITLE": "You can prevent diseases by isolating newly purchased goats."
+      },
+      "04": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "Get vaccination to prevent some diseases like PPR."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "How to prevent parasites?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "You can participate to reduce to some extent the number of parasites on the goat and inside your goat:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Improving feeding, because thin goats are more sensitive:",
+          "010100": "Thinner kids and goats could be sick and need special attention",
+          "010200": "Feed all goats well",
+          "010300": "Feed young kids well",
+          "010400": "Give them daily enough water until they do not drink any more",
+          "010500": "Pasture your goats as much as possible",
+          "010600": "Choose different places for pasture every month",
+          "010700": "Keep away from water streams with snails",
+          "020000": "Keeping your goats clean",
+          "020100": "Build a proper goat house",
+          "020200": "If not, collect the droppings daily and place them separately from the goats",
+          "020300": "Remove ticks from all of your goats by using",
+          "020301": "Goat anti-parasitic medicines",
+          "020302": "Tick removal tweezer",
+          "020400": "Put neem oil on the delicate areas of skin of those goats which had many ticks. This reduces the number of new ticks a little bit.",
+          "020500": "Repeat neem oil treatment at least weekly."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0702-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_050.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_050_200.webp",
+          "MEDIUM": "./assets/img/drawing_050_400.webp",
+          "LARGE": "./assets/img/drawing_050_800.webp"
+        },
+        "TITLE": "Parasite cycle of the small liver fluke via ants and snails."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_036.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_036_200.webp",
+          "MEDIUM": "./assets/img/drawing_036_400.webp",
+          "LARGE": "./assets/img/drawing_036_800.webp"
+        },
+        "TITLE": "You can participate to reduce the number of parasites by keeping your goats healthy and clean."
+      }
+    }
+  },
+  "03": {
+    "TITLE": "How to treat a disease?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "If the goat is already sick, it means that the disease agents have already entered the goat´s body and started to cause harm. The only way forward is to treat the goat. This means to destroy the disease agents with medications and to help the goat fight the disease. Vaccination will not work any more as the goat is already sick.",
+        "02": "There are allopathic medications and ayurvedic medicine based on plants. allopathic medicine is usually very effective and quick, while ayurvedic or plant based medicine can be supportive. The use of each depends on the setting.",
+        "03": "Medicines are only effective if handled well:",
+        "04": "In addition to any treatment, you need to clean the area where  the sick goat was found, isolate it and provide it enough water and good quality food."
+      },
+      "LIST": {
+        "01": {
+          "010000": "The right composition is chosen (chemical substance, which is active in the product). Ask the veterinarian to choose the good medicine.",
+          "020000": "The right dose is chosen (like salt in food, not too little or too much).",
+          "030000": "They are not expired.",
+          "040000": "They are used with the recommended administration route (antibiotics are usually injected intramuscularly (= i.m. is usually written on the drug bottle).",
+          "050000": "They are used for the time period recommended by the veterinarian (not even one day less!). For example, some antibiotics have to be injected several times to  work. This usually happens with the cheaper antibiotic because it is the least concentrated. Ask the veterinarian to do the injection."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0703-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "If the goat is already sick, it needs well-handled medicinal treatment."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "How to treat parasites?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "The most effective way to treat parasites are medicinal products for your goat.",
+        "02": "Your veterinarian has the appropriate medicine and de-worming schedules, based on the topographical  area. The medicine can treat different types of parasites together, with one single treatment. A dung sample can tell which parasites are making the goat sick.",
+        "03": "There is also ayurvedic medicine which has some effect, but may be less effective then allopathic medicine.",
+        "04": "Remove ticks from all of your goats by using:",
+        "05": "Contribute to reduce number of parasites:",
+        "06": "DO NOT USE PLANT PESTICIDES! This can poison your goats!",
+        "07": "DO NOT USE PETROL! This will poison your goats!"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Use goat medicine against parasites.",
+          "020000": "The veterinary dispensary has the appropriate and effective medicine. Sometimes, medicine can be for sheep. This also works for goats.",
+          "030000": "Ask your veterinarian for medications to treat parasites, following a de-worming schedule based on the local area, for example every 3 months and upon check of dung sample.Do not use the same product each time.",
+          "030100": "The vet will select the appropriate medication out of:",
+          "030101": "Ivermectin",
+          "030102": "Fenbendazole",
+          "030103": "Praziquantel",
+          "030104": "Permethrin"
+        },
+        "02": { "010000": "Medicines", "020000": "Tick removal tweezer" },
+        "03": {
+          "010000": "Change the pasture regularly, this helps to decrease contamination with parasite eggs.",
+          "020000": "Put neem oil on the thin skin of those goats which had many ticks. This reduces the number of new ticks a little bit."
+        },
+        "04": {
+          "010000": "The meat from goats wrongly treated with petrol or plant pesticides will also be dangerous for people and for pregnant women. Milk obtained from such goats will also be dangerous for the goat kids and for people.",
+          "020000": "So, never use plant pesticides or petrol, but get the right medications from the government supply."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0704-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/photo_011.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_011_200.webp",
+          "MEDIUM": "./assets/img/photo_011_400.webp",
+          "LARGE": "./assets/img/photo_011_800.webp"
+        },
+        "TITLE": "Example of good medicines for goats"
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_012.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_012_200.webp",
+          "MEDIUM": "./assets/img/photo_012_400.webp",
+          "LARGE": "./assets/img/photo_012_800.webp"
+        },
+        "TITLE": "Use good medicines to treat parasites."
+      },
+      "03": {
+        "FILENAME": "./assets/img/photo_013.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_013_200.webp",
+          "MEDIUM": "./assets/img/photo_013_400.webp",
+          "LARGE": "./assets/img/photo_013_800.webp"
+        },
+        "TITLE": "Medicine treatment against parasites."
+      },
+      "04": {
+        "FILENAME": "./assets/img/drawing_008.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_008_200.webp",
+          "MEDIUM": "./assets/img/drawing_008_400.webp",
+          "LARGE": "./assets/img/drawing_008_800.webp"
+        },
+        "TITLE": "Change the pasture regularly, this helps to decrease contamination with parasite eggs."
+      },
+      "05": {
+        "FILENAME": "./assets/img/photo_014.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_014_200.webp",
+          "MEDIUM": "./assets/img/photo_014_400.webp",
+          "LARGE": "./assets/img/photo_014_800.webp"
+        },
+        "TITLE": "Bad – do not use plant pesticides on goats or any other animal or person!"
+      }
+    }
+  },
+  "05": {
+    "TITLE": "What should you do before treating or applying medications to your goats?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Before applying any treatment, weigh your goat, using a scale.",
+        "02": "This does not apply for vaccination since all vaccines are automatically made in the form of 1 dose per animal (for both  goat kids or adults ).",
+        "03": "You need to know that:",
+        "04": "Remember not to eat a goat just after treatment. Your veterinarian will tell you how many days you have to wait after treatment before eating it."
+      },
+      "LIST": {
+        "01": {
+          "010000": "It will allow you to determine the proper dosage (number of ml to apply).",
+          "020000": "dosage is based on the weight of the goat and advised “per kilo”.",
+          "030000": "The correct dose will give your goat a better chance to recover from the disease.",
+          "040000": "If you cannot weight or do not know the weight, ask your veterinarian how much medicine you should give."
+        },
+        "02": {
+          "010000": "Over-dosage is dangerous for the health of your goat (similar to plant pesticides used wrongly for tick removal).",
+          "020000": "Under-dosage can create resistance, meaning that the disease agent or parasite gets used to the medicine and still lives and damages the goat.",
+          "020100": "This is very dangerous, since the disease or parasite then spreads in the herd and the village.",
+          "020101": "So, never use too little dose of medicine."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0705-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_037.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_037_200.webp",
+          "MEDIUM": "./assets/img/drawing_037_400.webp",
+          "LARGE": "./assets/img/drawing_037_800.webp"
+        },
+        "TITLE": "Before applying any treatment, weigh your goat."
+      }
+    }
+  }
+}

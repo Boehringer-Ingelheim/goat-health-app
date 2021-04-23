@@ -1,17 +1,11 @@
 import { IonItemDivider, IonLabel } from '@ionic/react';
-import React from 'react';
+import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { CreditsMemberItem } from './CreditsMemberItem';
+import { CreditTeam } from './utils';
 
-type ComponentProps = {
-  members: Array<{ name: string; position: string }>;
-  title?: string;
-};
-
-export const CreditsMemberGroup: React.FC<ComponentProps> = (props) => {
-  const { members, title = '' } = props;
-
-  const { t } = useTranslation();
+export const CreditsMemberGroup: FC<CreditTeam> = ({ members, title }) => {
+  const { t } = useTranslation('app');
 
   return (
     <>
@@ -24,8 +18,8 @@ export const CreditsMemberGroup: React.FC<ComponentProps> = (props) => {
         return (
           <CreditsMemberItem
             key={memberIndex}
-            name={t(member.name)}
-            position={t(member.position)}
+            name={member.name}
+            position={member.position}
           />
         );
       })}

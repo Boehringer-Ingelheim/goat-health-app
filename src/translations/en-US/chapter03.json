@@ -1,0 +1,488 @@
+{
+  "00": {
+    "TITLE": "Breeding"
+  },
+  "01": {
+    "TITLE": "Which breed shall I use?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Before you purchase goats, think and decide:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Even healthy goats cannot do well if conditions are not good",
+          "010100": "Climate - prepare for drought",
+          "010200": "Keep feed quality, quantity and clean water in mind",
+          "010300": "Prepare for good hygiene (=cleanliness level) and good housing",
+          "010400": "Prepare for care (looking after animals every day)",
+          "020000": "Native breed Attappady black is raised for meat production",
+          "020100": "This breed is more resistant to drought",
+          "020200": "Higher selling price (for better taste)",
+          "020300": "Produces less milk than Malabari",
+          "030000": "Malabari breed is raised for milk and meat production less expensive than Attappady",
+          "030100": "A bit cheaper than Attappady",
+          "030200": "Can reproduce early (one year old)",
+          "030300": "Produces a lot of milk (0.5-1.5kg/day). Average is 1 l/day.",
+          "030400": "You can get 300 to 500 ml milk/day for human consumption.",
+          "030500": "Resistant to drought",
+          "030600": "Needs more good quality feed – do you have this?",
+          "040000": "Other imported breeds from different countries:",
+          "040100": "Better growth likely, but think:",
+          "040200": "More diseases likely"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0301-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/photo_001.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_001_200.webp",
+          "MEDIUM": "./assets/img/photo_001_400.webp",
+          "LARGE": "./assets/img/photo_001_800.webp"
+        },
+        "TITLE": ""
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_013a_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_013a_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
+          "LARGE": "./assets/img/drawing_013a_en_800.webp"
+        },
+        "TITLE": "Native breed Attappady black is raised for meat and generates income only after months of rearing through selling the grown kids."
+      },
+      "03": {
+        "FILENAME": "./assets/img/photo_002.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_002_200.webp",
+          "MEDIUM": "./assets/img/photo_002_400.webp",
+          "LARGE": "./assets/img/photo_002_800.webp"
+        },
+        "TITLE": ""
+      },
+      "04": {
+        "FILENAME": "./assets/img/drawing_013b.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_013b_200.webp",
+          "MEDIUM": "./assets/img/drawing_013b_400.webp",
+          "LARGE": "./assets/img/drawing_013b_800.webp"
+        },
+        "TITLE": "Malabari breed is a dairy breed and generates income during milking season."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "How do I find a good female and male goat to buy?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Every year, you need to buy a new male to bring fresh blood into the goat family. Otherwise, diseases will occur.",
+        "02": "Check the female and the male goat at purchase for:",
+        "03": "You can share one male for the village. Change the male once per year."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Good legs (female and male)",
+          "020000": "Shiny fur (female and male)",
+          "030000": "Check that the goat looks the age that the owner says (female and male). Target age to buy: 2- 3 years",
+          "030100": "Adult: should look really adult",
+          "030200": "Adult: should have only adult teeth",
+          "030300": "Too old adult: teeth are worn out already (over 5 years). If so, buy at a cheaper price.",
+          "040000": "Well-placed udder with strong veins and large teats (female)"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0302-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_014_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_014_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_014_en_400.webp",
+          "LARGE": "./assets/img/drawing_014_en_800.webp"
+        },
+        "TITLE": "Check the female and the male goat at purchase."
+      }
+    }
+  },
+  "03": {
+    "TITLE": "Breeding book 'goat card': What do I need to write down?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Writing down can help you:",
+        "02": "With a body weight of more than 2 kg at birth, kids reach the sales weight of 15 kg in 4 – 5 months. If they are smaller at birth, they need 7, 8 or 9 months to grow to the same sales weight.",
+        "03": "The sales price in 2019 is minimum 300 to 400 Rs/kg live weight. Do not sell at 100 Rs/kg."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Identify each goat (different colours of collar, mark the ear,…) - less risk to be stolen",
+          "020000": "Make a goat card:",
+          "020100": "Sex/gender of animal",
+          "020200": "Mating date (if you keep the male separately)",
+          "020300": "When the goat conceived the first (or second) time",
+          "020400": "Date of birth of kid",
+          "020500": "Number of kids per birth (average is 2)",
+          "020600": "Body weight of kids at birth (good is more than 2 kg)",
+          "020700": "Date of sale and price",
+          "020800": "Treatment against parasites",
+          "020900": "Disease symptoms and date when seen"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0303-record-en.wav"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_015a.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015a_200.webp",
+          "MEDIUM": "./assets/img/drawing_015a_400.webp",
+          "LARGE": "./assets/img/drawing_015a_800.webp"
+        },
+        "TITLE": "Identify each goat by a tag and make a goat card for each goat."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_015b_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015b_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+          "LARGE": "./assets/img/drawing_015b_en_800.webp"
+        },
+        "TITLE": "Make a goat card with all the important information and keep updated."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "How can I do good goat breeding?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Males and females are both important:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "1 male per maximum 10 females",
+          "020000": "Every year: sell males and buy new ones from far away to avoid in-breeding",
+          "030000": "Keep male and females separate",
+          "030100": "Mating: look for signs of heat in the morning (female trying to mount other females, more aggressive, wagging its tail and bleating all the time) and bring together with male goat in the morning.",
+          "030200": "Avoid using the same male for mating numerous times the same day. The conception likelihood will go down. If there are more female goats in heat, preferably use other male goat in the morning or a different male the following mating in the evening.",
+          "030300": "Allow young females to mate only when ¾ of adult weight/size or 10kg weight reached, otherwise kids will grow poorly or likely die.",
+          "040000": "If you keep male and females together all the time",
+          "040100": "Can worry less birth planning",
+          "040200": "No need to check signs of heat as closely",
+          "040300": "Is okay if goats are healthy",
+          "050000": "Provide concentrate feed before mating to increase the number of kids and birth weight."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0304-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_016.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_016_200.webp",
+          "MEDIUM": "./assets/img/drawing_016_400.webp",
+          "LARGE": "./assets/img/drawing_016_800.webp"
+        },
+        "TITLE": "Look for signs of heat in the morning."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_017.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_017_200.webp",
+          "MEDIUM": "./assets/img/drawing_017_400.webp",
+          "LARGE": "./assets/img/drawing_017_800.webp"
+        },
+        "TITLE": "Allow young females to mate only when ¾ of adult size or 10 kg weight reached."
+      }
+    }
+  },
+  "05": {
+    "TITLE": "Early pregnancy: What do I check during the early pregnancy?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Pregnant goats need special attention and feeding:",
+        "02": "Early pregnancy:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "In the goat card, write down any of the below signs of pregnancy",
+          "010100": "After approx. 3 weeks: does not go back in heat, belly tightens",
+          "010200": "After 1.5 months: increased appetite, behavior changes",
+          "010300": "After 3 months: increased belly, especially on the left",
+          "010400": "If first pregnancy, udder is growing a bit after 1.5 months, well rounded around 3 months",
+          "020000": "Goat pregnancy lasts 5 months (=150 days)",
+          "030000": "With the goat card, plan the delivery date (week) and write it down",
+          "040000": "Check weekly for signs of pregnancy (that the pregnancy continues well)"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0305-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_015b_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015b_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+          "LARGE": "./assets/img/drawing_015b_en_800.webp"
+        },
+        "TITLE": "In the goat card, write down any of the signs of pregnancy."
+      }
+    }
+  },
+  "06": {
+    "TITLE": "Late pregnancy: What do I check at mid and late pregnancy?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Pregnant goats need special attention and feeding!!!:",
+        "02": "Mid pregnancy:",
+        "03": "Late pregnancy:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Check the goat card every week",
+          "020000": "Hand-feed the kid so that it learns eating feed",
+          "030000": "In the last 2 months before birth:",
+          "030100": "Keep the older milk-suckling kid away",
+          "030200": "Give the kid extra feed"
+        },
+        "02": {
+          "010000": "Plan the delivery! – buy extra feed if you do not have enough crops growing at your farm or in community.",
+          "020000": "Few days before delivery, goat eats and drinks less, just before birth, whitish secretion comes out from genital organ and from teats.",
+          "030000": "Keep pregnant goat in separate and very clean and peaceful place and monitor every few hours before birth."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0306-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_018.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_018_200.webp",
+          "MEDIUM": "./assets/img/drawing_018_400.webp",
+          "LARGE": "./assets/img/drawing_018_800.webp"
+        },
+        "TITLE": "In the last 2 months before birth, keep the older milk-suckling kid away and give the kid extra feed."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_015b_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015b_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+          "LARGE": "./assets/img/drawing_015b_en_800.webp"
+        },
+        "TITLE": "Check the goat card every week to plan the delivery."
+      }
+    }
+  },
+  "07": {
+    "TITLE": "Birth for the mother: How do I treat well the mother goat?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Birth:",
+        "02": "Mother goat handling:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Do not puncture the envelope around the first baby-kid when you start to see them (since it will affect the kid)",
+          "020000": "Takes some hours (so do not pull out the kid in the first hour, it will hurt the animal and cause lesions and disease later)",
+          "030000": "Call veterinarian if the kid has not come out after 4 hours of intense labor",
+          "040000": "Afterbirth: comes out up to 12 hours later",
+          "050000": "First milk is very important!",
+          "060000": "If teats are blocked, milk manually",
+          "070000": "Clean birth place after birth!"
+        },
+        "02": {
+          "010000": "Check that milk is taken in all days of first week",
+          "020000": "Mother goat will have fluids discharged from the uterus for 2 - 4 weeks which start bloody and turn pale. IF NOT, very important to call veterinarian for antibiotics (since infection can kill mother and kid)"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0307-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_019.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_019_200.webp",
+          "MEDIUM": "./assets/img/drawing_019_400.webp",
+          "LARGE": "./assets/img/drawing_019_800.webp"
+        },
+        "TITLE": "Birth takes some hours, so do not pull the kid out in the first hour."
+      }
+    }
+  },
+  "08": {
+    "TITLE": "Birth for the kid: How do I treat well the newborn kid?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": ""
+      },
+      "LIST": {
+        "01": {
+          "010000": "Kid handling:",
+          "010100": "Umbilical cord: twist umbilical cord with both hands to allow the cord to close. Separate in the middle by pulling the cord apart but keeping no smaller than 10cm of closed cord on the kid (do not cut! Otherwise infections can kill the kid) and disinfect.",
+          "010200": "Let mother goat clean up the newborn first. If this is not done by the mother goat, free nose of mucus and remove membranes by hand.",
+          "010300": "If the newborn does not move, lift it by the hind legs and shake it in circles (to stimulate circulation and breathing).",
+          "010400": "First milk is very important!!! (high protection against diseases and energy). Kid needs to drink within first 2 hours of life.",
+          "010500": "Check that milk is taken in all days of first week.",
+          "020000": "Check every day that mother accepts the kid.",
+          "030000": "If kid is not accepted or kid does not drink within first 2 hours of life, milk mother manually and give milk feeding bottle, try to get acceptance in first day.",
+          "040000": "For adopting: Bring the kid to another recent mother-goat, and wipe the kid with the new mother´s afterbirth to give it the same smell."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0308-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_020.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_020_200.webp",
+          "MEDIUM": "./assets/img/drawing_020_400.webp",
+          "LARGE": "./assets/img/drawing_020_800.webp"
+        },
+        "TITLE": "Umbilical cord: twist and pull from both sides and disinfect."
+      }
+    }
+  },
+  "09": {
+    "TITLE": "Twin birth: How do I treat well the twin kids and mother?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Twin kid handling:"
+      },
+      "LIST": {
+        "010000": "If two kids are born, smear a bit of each kids afterbirth on the other one, so that both have the same smell.",
+        "020000": "After this, place the first born to the mother´s head where the second (= last born) is.",
+        "030000": "Help both kids to start drinking milk.",
+        "040000": "Do not let other goats come close as they distract the mother.",
+        "050000": "Keep all mother goats that have two newborns in a separate closed area for some days so they get used to each other.",
+        "060000": "After this place both kids near the mothers head/face for her to accept both kids."
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0309-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_021.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_021_200.webp",
+          "MEDIUM": "./assets/img/drawing_021_400.webp",
+          "LARGE": "./assets/img/drawing_021_800.webp"
+        },
+        "TITLE": "If two kids are born, smear a bit of each kids afterbirth on the other one, so that both have the same smell."
+      }
+    }
+  },
+  "10": {
+    "TITLE": "How to avoid that the mother rejects the kid?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Rejection can be reduced by all this:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Mating females only when adult (ie. not too early).",
+          "020000": "Properly feeding the female goats used for breeding before bringing her to the billy goat (male).",
+          "030000": "Feeding or allowing pasture of pregnant goat so that she can grow well.",
+          "040000": "In case that two kids are born",
+          "040100": "Do not let other goats come close and place the first born to the mother´s head (in the order they are born)",
+          "040200": "Smear a bit of each kids afterbirth on the other one so that they both have the same smell.",
+          "040300": "Keep each mother goat with two newborns in a separate closed area for some days (so that the three can get used to each other)."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0310-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_022.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_022_200.webp",
+          "MEDIUM": "./assets/img/drawing_022_400.webp",
+          "LARGE": "./assets/img/drawing_022_800.webp"
+        },
+        "TITLE": "In case that two kids are born, keep each mother goat with two newborns in a separate closed area for some days, so that the three can get used to each other."
+      }
+    }
+  },
+  "11": {
+    "TITLE": "What to do with kids rejected by the mother goat?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "If kept alone, the kids suffer a lot! So, give the rejected kids feed and special care. Otherwise, they will become sick and die."
+      },
+      "LIST": {
+        "01": {
+          "010000": "All these will help to save the kids´ lives:",
+          "010100": "Feed cooked eggs in small pieces, mixed with milk for two weeks daily. This will make them strong.",
+          "010200": "Feed cow milk diluted with boiled water. Raw water will make the kid sick.",
+          "010201": "Give boiled water (at lukewarm heat) in a feeding bottle. Feed for at least 10 minutes with a very small hole.Keep an eye on the size of the nipple hole to prevent the kid from suckling too quickly and choke.",
+          "010300": "Feed minced corn / maize",
+          "010301": "Crush unsalted milk biscuits or cereals",
+          "010400": "Feed lentils or other protein-rich plants."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0311-record-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_023.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_023_200.webp",
+          "MEDIUM": "./assets/img/drawing_023_400.webp",
+          "LARGE": "./assets/img/drawing_023_800.webp"
+        },
+        "TITLE": "If left alone, the kids suffer a lot! So, give the rejected kids feed and special care."
+      }
+    }
+  },
+  "12": {
+    "TITLE": "Goat childhood: How do I do good kid kindergarten?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Like handling of our children! Taking care of the small kids helps the adults and brings a bright future."
+      },
+      "LIST": {
+        "01": {
+          "010000": "First milk is very important!",
+          "020000": "From the first days of life onwards, kids need access to green raw feed! (this is important to develop good digestion and growth later)",
+          "030000": "Let them go to pasture together with the mother all the time",
+          "040000": "Separate kids from mother only when she is pregnant again",
+          "050000": "No milk-suckling kid in the last 2 months before giving birth if the kid is at least 3 months old and growing well"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0312-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_024.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_024_200.webp",
+          "MEDIUM": "./assets/img/drawing_024_400.webp",
+          "LARGE": "./assets/img/drawing_024_800.webp"
+        },
+        "TITLE": "Do good goat kid kindergarten: First milk is very important. From the mother goat or via hand-feeding of rejected kids."
+      }
+    }
+  }
+}

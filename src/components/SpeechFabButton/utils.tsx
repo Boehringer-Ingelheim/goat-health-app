@@ -6,6 +6,13 @@ import {
 } from 'microsoft-cognitiveservices-speech-sdk';
 import { writeAudioBufferToCache } from '../../utils/filesystem';
 
+export const formatSecondsToTimeMinutes = (seconds: number) => {
+  const minutes = (seconds % 3600) / 60;
+  return [minutes, seconds % 60]
+    .map((value) => `0${Math.floor(value)}`.slice(-2))
+    .join(':');
+};
+
 const getAudioConfig = () => {
   const stream = AudioOutputStream.createPullStream();
   const audioConfig = AudioConfig.fromStreamOutput(stream);

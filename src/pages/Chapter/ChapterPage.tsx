@@ -9,19 +9,22 @@ import {
 } from '@ionic/react';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router';
-import { ChapterId } from '../../components/Chapters';
-import { ChapterFooter } from '../../components/Chapters/ChapterFooter';
+import { CS } from '../../components/Chapters';
+import { ChapterSectionNotAvailable } from '../../components/Chapters/ChapterContent/ChapterSectionNotAvailable';
+import { ChapterFooter } from '../../components/ChapterFooter/ChapterFooter';
+import { isValidChapterSection } from '../../components/Chapters/utils';
 import { ChapterViewPage } from '../../components/ChapterView';
 import { SpeechFabButton } from '../../components/SpeechFabButton';
 
 interface RouteChapterProps {
-  chapterId: ChapterId;
+  chapterId: string;
   sectionId: string;
 }
 
 export const ChapterPage = () => {
-  const { chapterId, sectionId } = useParams<RouteChapterProps>();
-  const { t } = useTranslation();
+  const { chapterId, sectionId } = useParams<RouteChapterProps>() as CS;
+  const exists = isValidChapterSection(chapterId, sectionId);
+  const { t } = useTranslation('app');
 
   return (
     <IonPage>
@@ -34,10 +37,16 @@ export const ChapterPage = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <SpeechFabButton />
-        <ChapterViewPage chapterId={chapterId} sectionId={sectionId} />
+        {exists ? (
+          <>
+            <SpeechFabButton />
+            <ChapterViewPage chapterId={chapterId} sectionId={sectionId} />
+          </>
+        ) : (
+          <ChapterSectionNotAvailable />
+        )}
       </IonContent>
-      <ChapterFooter chapterId={chapterId} sectionId={sectionId} />
+      {exists && <ChapterFooter chapterId={chapterId} sectionId={sectionId} />}
     </IonPage>
   );
 };

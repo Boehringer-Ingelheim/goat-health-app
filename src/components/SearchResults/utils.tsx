@@ -1,15 +1,13 @@
-import { Chapter, Section } from '../Chapters';
+import { ChapterId, CS, I18nChapter, Section } from '../Chapters';
 
-type SearchData = {
-  chapterId: string;
+type SearchData = CS & {
   chapterTitle: string;
-  sectionId: string;
   sectionTitle: string;
   lines: string[];
   imageTitles?: string[];
 };
 
-const flattenObject = (object, prefix = '') => {
+const flattenObject = (object: Object, prefix = '') => {
   return Object.keys(object).reduce<Record<string, string>>(
     (previousValue, key) => {
       const pre = prefix.length ? `${prefix}.` : ``;
@@ -30,8 +28,8 @@ const flattenObject = (object, prefix = '') => {
 const getTextLinesFromSection = (section: Section) => {
   const flattenSection = flattenObject(section);
 
-  return Object.entries(flattenSection).reduce<string[]>(
-    (previousValue, [key, value]) => {
+  return Object.entries(flattenSection).reduce(
+    (previousValue: string[], [key, value]) => {
       if (key.startsWith('TEXT') && !key.endsWith('_ssml')) {
         return [...previousValue, value];
       }
@@ -41,31 +39,37 @@ const getTextLinesFromSection = (section: Section) => {
   );
 };
 
-const getSearchDataFromSection = (section: Record<string, Section>) => {
-  return Object.entries(section).reduce<
-    Omit<SearchData, 'chapterId' | 'chapterTitle'>[]
-  >((previousValue, [key, value]) => {
-    // CHAPTER.XY.00 = Chapter Title
-    if (key === '00') {
-      return previousValue;
-    }
-    const lines = getTextLinesFromSection(value);
-    const sectionTitle = value?.TITLE || '';
+export const getSearchDataFromLanguage = (data: I18nChapter) => {
+  return Object.entries(data).reduce(
+    (acc: SearchData[], [keyChapter, chapter]) => {
+      if (keyChapter.startsWith('chapter')) {
+        const chapterId = keyChapter.slice(-2) as ChapterId;
+        const chapterTitle = chapter?.['00']?.TITLE || '';
+        const sectionsData = Object.entries(chapter).reduce<SearchData[]>(
+          (accSections: any[], [keySection, section]) => {
+            if (keySection === '00') {
+              return [...accSections];
+            }
+            const lines = getTextLinesFromSection(section);
+            const sectionTitle = section?.TITLE || '';
 
-    return [...previousValue, { lines, sectionId: key, sectionTitle }];
-  }, []);
-};
-
-export const getSearchDataFromChapter = (chapter: Chapter) => {
-  return Object.entries(chapter).flatMap(([chapterId, section]) => {
-    const chapterTitle = section?.['00']?.TITLE || '';
-    const searchData = getSearchDataFromSection(section);
-    return searchData.flatMap((section) => {
-      return {
-        ...section,
-        chapterId,
-        chapterTitle,
-      };
-    });
-  });
+            return [
+              ...accSections,
+              {
+                chapterId,
+                chapterTitle,
+                lines,
+                sectionId: keySection,
+                sectionTitle,
+              },
+            ];
+          },
+          [],
+        );
+        return [...acc, ...sectionsData];
+      }
+      return [...acc];
+    },
+    [],
+  );
 };

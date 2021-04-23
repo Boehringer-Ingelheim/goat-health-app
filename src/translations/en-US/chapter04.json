@@ -1,0 +1,203 @@
+{
+  "00": {
+    "TITLE": "Earning money with goats"
+  },
+  "01": {
+    "TITLE": "How can I earn more money with goats?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats can help you generate income, but they can also cost money. For this, you need to understand the basic economic principles:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Initial investment of money: how much do I need?",
+          "020000": "Making money: only by selling a goat",
+          "020100": "All your efforts must focus on getting several kids and keeping kids and goats alive and well to achieve 15 kg sales weight in 5 months",
+          "020200": "Possibly, you can also sell the droppings. Find out whether people are interested.",
+          "030000": "Find out purchase prices",
+          "030100": "For female and male",
+          "030200": "For young and for adult: minimum 300 to 400 Rs/ kg live weight",
+          "030300": "For different breeds",
+          "030400": "Ask in several villages/ times",
+          "040000": "Find out sales prices",
+          "040100": "Are they different than purchase price?",
+          "040200": "How much change over time?",
+          "050000": "Save over a time, together in the self-help group",
+          "060000": "Plan whether you want the complete money back in a year or have income when you need it.",
+          "070000": "Goat card helps to know the money status: when can you expect how much money to earn and to spend"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0401-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_015b_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015b_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+          "LARGE": "./assets/img/drawing_015b_en_800.webp"
+        },
+        "TITLE": "Goat card helps you plan your finances from goat rearing: when can you expect how much money to earn and to spend."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "What is organic farming?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Feeding and raising goats for meat or milk production can be done in different ways. (The same principle applies for cow milk and meat, for chicken eggs and vegetables.) There are two major ways:",
+        "02": "1. The industrialized way, which means",
+        "03": "2. The organic way, which means",
+        "04": "In order to receive a higher price for 'organic' products, the production must be officially certified. This means",
+        "05": "There are differently strict standards, depending on how much modern chemicals can be used. This refers to the modern chemical medicines because they are very effective for treatment of diseases."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Modern production with chemical fertilizers, pesticides or hormones to maximize production.",
+          "020000": "This usually saves some work and increases the output, but special care must be taken to follow all application rules, since otherwise, it is less healthy for the environment (kills bees, butterflies) and can affect the health of people who work with it.",
+          "030000": "Unless all application rules are followed, it can also leave residues on or in the product, hence the product will be less healthy when you eat it."
+        },
+        "02": {
+          "010000": "Without chemical fertilizers, pesticides or hormones, equivalent to a very natural and healthy production.",
+          "020000": "In other words, it is the traditional way where diseases are cured with local plants and natural medicine (ayurvedic or other tribal medicine) and prudent use of modern medicine.",
+          "030000": "This production is more labour-intensive and less productive, but healthier, so the products must and does get a higher price."
+        },
+        "03": {
+          "010000": "An inspection of the practice by government authorities, checking all production steps and how production is organized.",
+          "020000": "In India, certification is issued by testing centres accredited (this means checked and approved) by the Agricultural and Processed Food Products Export Development Authority (APEDA), under the National Program for Organic Production of the Government of India."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0402-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_008.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_008_200.webp",
+          "MEDIUM": "./assets/img/drawing_008_400.webp",
+          "LARGE": "./assets/img/drawing_008_800.webp"
+        },
+        "TITLE": "The traditional and tribal way can produce healthy high quality meat. Engage with others to make use of this as organic food.",
+        "02": {
+          "FILENAME": "./assets/img/photo_003.webp",
+          "THUMBNAIL": {
+            "SMALL": "./assets/img/photo_003_200.webp",
+            "MEDIUM": "./assets/img/photo_003_400.webp",
+            "LARGE": "./assets/img/photo_003_800.webp"
+          },
+          "TITLE": "Example of an Indian organic product."
+        },
+        "03": {
+          "FILENAME": "./assets/img/drawing_013a_en.webp",
+          "THUMBNAIL": {
+            "SMALL": "./assets/img/drawing_013a_en_200.webp",
+            "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
+            "LARGE": "./assets/img/drawing_013a_en_800.webp"
+          },
+          "TITLE": "Organic farming is a growing business. If you are interested, search for partners and organic cooperative options."
+        }
+      }
+    }
+  },
+  "03": {
+    "TITLE": "How can you create a profitable business around goats?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats can bring you more money indirectly. Find out what practices are done in your neighboring villages and what could work. Here are different ideas. You may offer a service business around goats in the villages of your area:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Can you create 'kid adoption' business? For those kids which people have not taken care. Taking care takes time, so you can offer this service.",
+          "020000": "Or can you create 'pasture' business? If people have no time to pasture or the good grass is far away.",
+          "030000": "Or can you create 'leaves collection' or 'hay-making' business? If people have no time to pasture or have not prepared for drought. You could sell the dried leaves and hay in used rice bags.",
+          "040000": "Or can you create business by offering jackfruit leaves and plant trees in your village? Goats like the taste of jackfruit leaves and you can offer this to good goat keepers to increase milk production even more.",
+          "050000": "Sell goat droppings and/or use it as a fertilizer once composted. You could grow mushrooms on the compost heap and sell them."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0403-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_009.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_009_200.webp",
+          "MEDIUM": "./assets/img/drawing_009_400.webp",
+          "LARGE": "./assets/img/drawing_009_800.webp"
+        },
+        "TITLE": "Here are different ideas. You may offer a service business around goats in the villages of your area."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "What is most important for generating more income with goats?",
+    "TEXT": {
+      "LIST": {
+        "01": {
+          "010000": "Thin goats can easily catch diseases",
+          "010100": "Feed well all goats and especially kids",
+          "010200": "Do not accept that some goats or kids look thinner",
+          "010300": "Give them as much clean water as they want",
+          "010400": "Pasture your goats as much as possible",
+          "010500": "Change places for every month, wherever possible",
+          "020000": "Collect the droppings daily and put them on the compost pile",
+          "030000": "Remove ticks every day",
+          "030100": "Collect in a container and burn or crush them",
+          "030200": "Family members like children can help",
+          "040000": "Keep goats on dry, clean soil",
+          "050000": "Isolate ill goats and new animals (for one, better 2 weeks)"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0404-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_015a.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015a_200.webp",
+          "MEDIUM": "./assets/img/drawing_015a_400.webp",
+          "LARGE": "./assets/img/drawing_015a_800.webp"
+        },
+        "TITLE": "Always keep good track of your goats."
+      }
+    }
+  },
+  "05": {
+    "TITLE": "Raising goats in a humane and compassionate manner",
+    "TEXT": {
+      "LIST": {
+        "01": {
+          "010000": "Goats and other animals are just like people should to be treated well.",
+          "020000": "Express what you want with your voice.",
+          "030000": "If the goat does do what you want it to do, speak shortly and directly to her. Look at the goat and gesture with your hands to signal what you want it to do.",
+          "040000": "Speak loud and clearly.",
+          "050000": "Beating and abusing goats is never good!",
+          "060000": "If you want to speed up your goat,dog,a cow, verbally signal them just as you would with a person. Then, the animal or the person will understand well.",
+          "060100": "Never hit or beat an animal.",
+          "060200": "You will live more in peace and your animals will be healthier, overall, because they are happy and they trust you."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0405-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_005.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_005_200.webp",
+          "MEDIUM": "./assets/img/drawing_005_400.webp",
+          "LARGE": "./assets/img/drawing_005_800.webp"
+        },
+        "TITLE": "Goats and other animals are like people and like to be treated well. Speak loud and clearly. Look at the goat and gesture with your hands to signal what you want it to do."
+      }
+    }
+  }
+}

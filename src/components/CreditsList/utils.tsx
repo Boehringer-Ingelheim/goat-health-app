@@ -1,4 +1,17 @@
-export const CREDITS_CULTURE_MEMBERS = [
+import { TranslationKeys } from '../../react-i18next';
+
+export type CreditMember = {
+  name: TranslationKeys;
+  position: TranslationKeys;
+};
+
+export type CreditTeam = {
+  title: TranslationKeys;
+  members: CreditMember[];
+};
+
+// Members
+export const CREDITS_CULTURE_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.CULTURE.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.CULTURE.MEMBER.01.POSITION',
@@ -13,14 +26,14 @@ export const CREDITS_CULTURE_MEMBERS = [
   },
 ];
 
-export const CREDITS_DRAWING_MEMBERS = [
+export const CREDITS_DRAWING_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.DRAWING.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.DRAWING.MEMBER.01.POSITION',
   },
 ];
 
-export const CREDITS_IT_MEMBERS = [
+export const CREDITS_IT_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.IT.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.IT.MEMBER.01.POSITION',
@@ -31,14 +44,14 @@ export const CREDITS_IT_MEMBERS = [
   },
 ];
 
-export const CREDITS_MENTOR_MEMBERS = [
+export const CREDITS_MENTOR_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.MENTOR.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.MENTOR.MEMBER.01.POSITION',
   },
 ];
 
-export const CREDITS_MMH_MEMBERS = [
+export const CREDITS_MMH_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.MMH.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.MMH.MEMBER.01.POSITION',
@@ -57,7 +70,7 @@ export const CREDITS_MMH_MEMBERS = [
   },
 ];
 
-export const CREDITS_SUPPORT_MEMBERS = [
+export const CREDITS_SUPPORT_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.SUPPORT.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.SUPPORT.MEMBER.01.POSITION',
@@ -88,7 +101,7 @@ export const CREDITS_SUPPORT_MEMBERS = [
   },
 ];
 
-export const CREDITS_TRANSLATOR_MEMBERS = [
+export const CREDITS_TRANSLATOR_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.TRANSLATOR.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.TRANSLATOR.MEMBER.01.POSITION',
@@ -123,7 +136,7 @@ export const CREDITS_TRANSLATOR_MEMBERS = [
   },
 ];
 
-export const CREDITS_VETERINARIAN_MEMBERS = [
+export const CREDITS_VETERINARIAN_MEMBERS: CreditMember[] = [
   {
     name: 'CREDITS.GROUP.VETERINARIAN.MEMBER.01.NAME',
     position: 'CREDITS.GROUP.VETERINARIAN.MEMBER.01.POSITION',
@@ -150,7 +163,22 @@ export const CREDITS_VETERINARIAN_MEMBERS = [
   },
 ];
 
-export const CREDITS_TEAM_PROJECT = [
+// Teams
+export const CREDITS_TEAM_MENTOR: CreditTeam[] = [
+  {
+    title: 'CREDITS.GROUP.MENTOR.TITLE',
+    members: CREDITS_MENTOR_MEMBERS,
+  },
+];
+
+export const CREDITS_TEAM_MMH: CreditTeam[] = [
+  {
+    title: 'CREDITS.GROUP.MMH.TITLE',
+    members: CREDITS_MMH_MEMBERS,
+  },
+];
+
+export const CREDITS_TEAM_PROJECT: CreditTeam[] = [
   {
     title: 'CREDITS.GROUP.VETERINARIAN.TITLE',
     members: CREDITS_VETERINARIAN_MEMBERS,
@@ -170,18 +198,5 @@ export const CREDITS_TEAM_PROJECT = [
   {
     title: 'CREDITS.GROUP.DRAWING.TITLE',
     members: CREDITS_DRAWING_MEMBERS,
-  },
-];
-
-export const CREDITS_TEAM_MENTOR = [
-  {
-    title: 'CREDITS.GROUP.MENTOR.TITLE',
-    members: CREDITS_MENTOR_MEMBERS,
-  },
-];
-export const CREDITS_TEAM_MMH = [
-  {
-    title: 'CREDITS.GROUP.MMH.TITLE',
-    members: CREDITS_MMH_MEMBERS,
   },
 ];

@@ -1,11 +1,11 @@
 import { IonSearchbar } from '@ionic/react';
-import { useEffect } from 'react';
+import { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { StringParam, useQueryParam } from 'use-query-params';
 import { selectSearchValue } from '../../data/search/search.selector';
 import { setSearchValue } from '../../data/search/search.slice';
 
-export const SearchBar = () => {
+export const SearchBar: FC = () => {
   const searchValue = useSelector(selectSearchValue);
   const dispatch = useDispatch();
 

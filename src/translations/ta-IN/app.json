@@ -1,0 +1,302 @@
+{
+  "ABOUT": {
+    "TITLE": "About MMH",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Making More Health (MMH) is a global initiative that aims to create a healthier world for individuals, communities and families.",
+        "02": "By supporting social entrepreneurs and social entrepreneurial thinking MMH will lead to innovative solutions and create social impact, help to find innovative business models and will also create a benefit for our own organizations and employees:",
+        "03": "It’s about creating Shared Value."
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/about-mmh-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/MMH-Logo.svg"
+      }
+    }
+  },
+
+  "APP": {
+    "NAME": "ஆடு பயிற்சி",
+    "ERROR": {
+      "NOT_AVAILABLE_CHAPTER_SECTION_CONTENT": "Oops! The content could not be found. We're working on it!"
+    }
+  },
+
+  "CREDITS": {
+    "TITLE": "Credits",
+    "TEAM": {
+      "PROJECT": "Project Team",
+      "MENTOR": "Mentor",
+      "MMH": "Making More Health"
+    },
+    "GROUP": {
+      "CULTURE": {
+        "TITLE": "Cultural Environment Check Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "N Selvaraj",
+            "POSITION": "Karl Kübel Institute for Development Education, India"
+          },
+          "02": {
+            "NAME": "Shibu Gopalan",
+            "POSITION": "Karl Kübel Institute for Development Education, India"
+          },
+          "03": {
+            "NAME": "Dr. Naveen Kumar V",
+            "POSITION": "Psychiatrist, Tribal hospital Tamil Nadu, India"
+          }
+        }
+      },
+      "DRAWING": {
+        "TITLE": "Illustrations",
+        "MEMBER": {
+          "01": {
+            "NAME": "Simon Ndonye",
+            "POSITION": "Zoli Creation Ltd., Nairobi, Kenya"
+          }
+        }
+      },
+      "IT": {
+        "TITLE": "IT Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Simon Golms",
+            "POSITION": "IT RDM Germany Biberach, App developer"
+          },
+          "02": {
+            "NAME": "Mary Suriyakumar",
+            "POSITION": "IT EDS Germany Ingelheim, IT Projectlead"
+          }
+        }
+      },
+      "MENTOR": {
+        "TITLE": "Mentor",
+        "MEMBER": {
+          "01": {
+            "NAME": "Judith von Gordon-Weichelt",
+            "POSITION": ""
+          }
+        }
+      },
+      "MMH": {
+        "TITLE": "Making More Health",
+        "MEMBER": {
+          "01": { "NAME": "Maximilian Schild", "POSITION": "" },
+          "02": { "NAME": "Taiseer Kizbari", "POSITION": "" },
+          "03": { "NAME": "Heidrun Thoma", "POSITION": "" },
+          "04": { "NAME": "Manuela Pastore", "POSITION": "" }
+        }
+      },
+      "SUPPORT": {
+        "TITLE": "Support Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Laurent Voyer",
+            "POSITION": "AH Strategy France Lyon, created our grant-winning video and app reviewer"
+          },
+          "02": {
+            "NAME": "Denise Edmond",
+            "POSITION": "formerly BIAH US Duluth"
+          },
+          "03": {
+            "NAME": "Julia Chapman-Broadwith",
+            "POSITION": "BIAH France Lyon"
+          },
+          "04": {
+            "NAME": "Corinne Philippe-Reversat",
+            "POSITION": "BIAH France Lyon, content reviewer"
+          },
+          "05": { "NAME": "Brigitte Roque", "POSITION": "BIAH France Lyon" },
+          "06": {
+            "NAME": "Steve Bertram",
+            "POSITION": "BIAH Germany Ingelheim, coordinator"
+          },
+          "07": {
+            "NAME": "Maira Morawietz",
+            "POSITION": "BIAH Germany Ingelheim, content reviewer"
+          }
+        }
+      },
+      "TRANSLATOR": {
+        "TITLE": "Translation Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Dr. Sararavan Jayaraman",
+            "POSITION": "IT M+S US Ridgefield, Translation Team Lead"
+          },
+          "02": {
+            "NAME": "Akhil Soman",
+            "POSITION": "BIX Germany Ingelheim, translator"
+          },
+          "03": {
+            "NAME": "Dr. Lakshya Ramadas Krishnaprasad",
+            "POSITION": "Ayurvedic doctor, Mainz, Germany, translator"
+          },
+          "04": {
+            "NAME": "Vijay Durairaj",
+            "POSITION": "AH Clinical US Athens, translator"
+          },
+          "05": {
+            "NAME": "Arun Iyer",
+            "POSITION": "AH Vaccines US Ames, translator"
+          },
+          "06": {
+            "NAME": "Dr. Sree Kurup",
+            "POSITION": "TMCP BI US Ridgefield, translater"
+          },
+          "07": {
+            "NAME": "Raju Menon",
+            "POSITION": "MED ClinOps BI US Ridgefield, translater"
+          },
+          "08": {
+            "NAME": "Bhargavi Pandit",
+            "POSITION": "HP Med RA BI US Ridgefield, translater"
+          }
+        }
+      },
+      "VETERINARIAN": {
+        "TITLE": "Veterinarian Team",
+        "MEMBER": {
+          "01": {
+            "NAME": "Dr. Elisabeth Kamphuis",
+            "POSITION": "BIAH Germany Ingelheim, author"
+          },
+          "02": {
+            "NAME": "Dr. Nicolas Denormandie",
+            "POSITION": "BIAH France Lyon, author"
+          },
+          "03": {
+            "NAME": "Dr. Vincent Staszewski",
+            "POSITION": "BIAH France Lyon, author"
+          },
+          "04": {
+            "NAME": "Dr. Suresh Kumar",
+            "POSITION": "veterinary dispensary Coimbatore Kavundampalayam, India, reviewer"
+          },
+          "05": {
+            "NAME": "Dr. Saathiyamoorthy",
+            "POSITION": "Milma co-operative veterinarian at milk chilling plant, India, reviewer"
+          },
+          "06": {
+            "NAME": "Dr. Jayabharathi",
+            "POSITION": "veterinary dispensary Anaikatti, India, reviewer"
+          }
+        }
+      }
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/icon/icon-512x512.png"
+      }
+    }
+  },
+
+  "FAVORITES": {
+    "TITLE": "Favorites",
+    "POPOVER": {
+      "VIEW": {
+        "TITLE": "View",
+        "ITEM": {
+          "CARD": "Card",
+          "LIST": "List"
+        }
+      }
+    },
+    "RESULTS": {
+      "NONE": "No article marked as favorite yet. Mark an article as a favorite to list it here."
+    }
+  },
+
+  "HOME": {
+    "TITLE": "Home"
+  },
+
+  "INTRO": {
+    "TITLE": "Intro"
+  },
+
+  "MENU": {
+    "TITLE": "Menu"
+  },
+
+  "SEARCH": {
+    "TITLE": "Search",
+    "POPOVER": {
+      "VIEW": {
+        "TITLE": "View",
+        "ITEM": {
+          "CARD": "Card",
+          "LIST": "List"
+        }
+      }
+    },
+    "RESULTS": {
+      "NONE": "No article found",
+      "FOUND_WITH_COUNT": "Found {{count}} article",
+      "FOUND_WITH_COUNT_plural": "Found {{count}} articles"
+    }
+  },
+
+  "SETTINGS": {
+    "TITLE": "Settings",
+    "ALERT": {
+      "RESET": {
+        "HEADER": "Reset App Settings",
+        "MESSAGE": "This will reset all your settings like the selection of language and theme and will also delete your favorites.",
+        "BUTTON": {
+          "CANCEL": "Cancel",
+          "OKAY": "Reset"
+        }
+      }
+    },
+    "GENERAL": {
+      "HEADER": {
+        "TITLE": "General"
+      },
+      "ITEMS": {
+        "CREDITS": {
+          "LABEL": "Credits"
+        },
+        "VERSION": {
+          "LABEL": "App Version"
+        },
+        "COPYRIGHT": {
+          "LABEL": "Copyright",
+          "NOTE": "Boehringer Ingelheim"
+        },
+        "RESET": {
+          "LABEL": "Reset"
+        }
+      }
+    },
+    "LANGUAGE": {
+      "HEADER": {
+        "TITLE": "Language"
+      }
+    },
+    "SPEECH": {
+      "HEADER": {
+        "TITLE": "Speech"
+      }
+    },
+    "THEME": {
+      "HEADER": {
+        "TITLE": "Theme"
+      },
+      "ITEMS": {
+        "BRIGHT": {
+          "LABEL": "Bright"
+        },
+        "DARK": {
+          "LABEL": "Dark"
+        },
+        "SYSTEM": {
+          "LABEL": "System"
+        }
+      }
+    }
+  }
+}

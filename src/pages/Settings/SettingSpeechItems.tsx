@@ -17,7 +17,7 @@ import {
 } from '../../data/speech/speech.constants';
 
 export const SettingsSpeechItems: React.FC = () => {
-  const { i18n, t } = useTranslation();
+  const { i18n, t } = useTranslation('app');
   const dispatch = useDispatch();
   const { language, name } = useSelector(selectCurrentSpeech);
 

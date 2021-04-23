@@ -5,14 +5,16 @@ import {
   IonCardSubtitle,
   IonCardTitle,
 } from '@ionic/react';
-import { ChapterId } from '../Chapters';
+import { FC } from 'react';
+import { CS } from '../Chapters';
 import { useChapterSection } from '../Chapters/hooks/useChapterSection';
 
-export const ChapterViewList = ({
-  chapterId = '01' as ChapterId,
-  sectionId = '01',
-}) => {
-  const { color, title, url, view } = useChapterSection(chapterId, sectionId);
+export const ChapterViewList: FC<CS> = ({ chapterId, sectionId }) => {
+  const { color, title, url, view } = useChapterSection({
+    chapterId,
+    sectionId,
+  });
+  const { Component } = view.list;
 
   return (
     <IonCard
@@ -25,7 +27,9 @@ export const ChapterViewList = ({
         <IonCardSubtitle color={color}>{title.chapter}</IonCardSubtitle>
         <IonCardTitle>{title.section}</IonCardTitle>
       </IonCardHeader>
-      <IonCardContent>{view.list.content} ...</IonCardContent>
+      <IonCardContent>
+        <Component />
+      </IonCardContent>
     </IonCard>
   );
 };

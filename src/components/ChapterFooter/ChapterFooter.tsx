@@ -6,28 +6,21 @@ import {
   IonToolbar,
 } from '@ionic/react';
 import { arrowBack, arrowForward, star, starOutline } from 'ionicons/icons';
-import React from 'react';
+import { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectIsFavoriteById } from '../../data/user/user.selector';
 import { addFavorite, removeFavoriteById } from '../../data/user/user.slice';
 import {
-  getIdFromChapterIdAndSectionId,
   getChapterNextSectionUrl,
   getChapterPreviousSectionUrl,
 } from './utils';
-import { ChapterId } from '.';
+import { CS } from '../Chapters';
+import { getIdFromChapterIdAndSectionId } from '../Chapters/utils';
 
-type ContainerProps = {
-  chapterId: ChapterId;
-  sectionId: string;
-};
-
-export const ChapterFooter: React.FC<ContainerProps> = (props) => {
-  const { chapterId, sectionId } = props;
-
-  const id = getIdFromChapterIdAndSectionId(chapterId, sectionId);
-  const next = getChapterNextSectionUrl(chapterId, sectionId);
-  const previous = getChapterPreviousSectionUrl(chapterId, sectionId);
+export const ChapterFooter: FC<CS> = ({ chapterId, sectionId }) => {
+  const id = getIdFromChapterIdAndSectionId({ chapterId, sectionId });
+  const next = getChapterNextSectionUrl({ chapterId, sectionId });
+  const previous = getChapterPreviousSectionUrl({ chapterId, sectionId });
   const isFavorite = useSelector(selectIsFavoriteById(id));
   const dispatch = useDispatch();
 

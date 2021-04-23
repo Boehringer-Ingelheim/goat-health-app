@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { version } from '../../../package.json';
 
 export const SettingsGeneralItems: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('app');
 
   return (
     <IonItemGroup>

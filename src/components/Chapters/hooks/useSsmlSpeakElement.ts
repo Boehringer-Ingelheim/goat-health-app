@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
-import { selectCurrentSpeech } from '../../data/user/user.selector';
+import { selectCurrentSpeech } from '../../../data/user/user.selector';
 
 export const useSsmlSpeakElement = (content: string = '') => {
   const currentSpeech = useSelector(selectCurrentSpeech);

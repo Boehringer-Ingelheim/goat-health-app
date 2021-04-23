@@ -1,0 +1,310 @@
+{
+  "00": {
+    "TITLE": "Diseases dangerous for goats, cows or people"
+  },
+  "01": {
+    "TITLE": "Dangerous for goats: What is PPR = disease like goat plague?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "PPR is a disease caused by a virus. PPR means a dangerous disease of goats and sheep. The name is French. The government controls PPR.",
+        "02": "What could be PPR:",
+        "03": "If many goats are sick and die, this could be PPR. Call your veterinarian!",
+        "04": "What to avoid happening:",
+        "05": "What you need to do with the goats when blisters are detected?",
+        "06": "What you need to do in the village"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Discharge from eyes",
+          "020000": "Discharge from nose",
+          "030000": "Diarrhoea",
+          "040000": "Many sick animals",
+          "050000": "Many dead animals – or quick death"
+        },
+        "02": {
+          "010000": "Vaccinate goats (1x per goat is enough, note down in goat passport)",
+          "020000": "Isolate new goats for 2 weeks!"
+        },
+        "03": {
+          "010000": "Isolate the sick goats!",
+          "020000": "Give water and feed!",
+          "030000": "Goat has a small chance to survive",
+          "040000": "If goat dies, burn or bury it."
+        },
+        "04": {
+          "010000": "Call the veterinarian",
+          "020000": "Veterinarian will vaccinate other goats in a ring around your village. The  government pays for the vaccination.",
+          "030000": "Clean the secretions of affected goats with water and soap",
+          "040000": "Disinfect the goat house and any water or feed troughs which had been in contact with the PPR goat."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0801-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_039.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_039_200.webp",
+          "MEDIUM": "./assets/img/drawing_039_400.webp",
+          "LARGE": "./assets/img/drawing_039_800.webp"
+        },
+        "TITLE": "If many goats and also cows are sick with blisters, but do not die, this could be FMD. Call your veterinarian!"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "Get vaccination to prevent PPR."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "Dangerous for goats and cows: what is foot and mouth disease (FMD)?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "FMD is a disease caused by a virus. The government controls FMD because it is dangerous for cows, sheep, goats, water buffalo and swine.",
+        "02": "What sings indicate the presence of FMD:",
+        "03": "What to avoid happening:",
+        "04": "When it has happened:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Blisters / vesicles / wounds between the feet / claws.",
+          "020000": "Limping / not walking well.",
+          "030000": "On next day, the goat gets blisters with liquid inside/vesicles and wounds in the mouth and tongue.",
+          "040000": "Blisters/vesicles/wounds on teats.",
+          "050000": "Goats and sheep can get ill, but cows, water buffalo and swine get very sick.",
+          "060000": "Not eating well.",
+          "070000": "Fever",
+          "080000": "Bad-smelling breath.",
+          "090000": "Many sick animals - FMD spreads quickly!"
+        },
+        "02": {
+          "010000": "Isolate new goats for 2 weeks!",
+          "020000": "You can vaccinate goats 2 times per year to protect them."
+        },
+        "03": {
+          "010000": "What you need to do with the goat / goat herd",
+          "010100": "Check for blisters / vesicles / wounds",
+          "010200": "If you find blisters, immediately isolate the sick goats",
+          "010300": "Give water and feed!",
+          "010400": "Goat has a good chance to survive (legally allowed?)",
+          "010500": "If goat dies, burn / bury it.",
+          "020000": "What you need to do in the village",
+          "020100": "Call the veterinarian",
+          "020200": "Check any other cow or sheep in the village for blisters and isolate immediately!"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0802-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_038.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_038_200.webp",
+          "MEDIUM": "./assets/img/drawing_038_400.webp",
+          "LARGE": "./assets/img/drawing_038_800.webp"
+        },
+        "TITLE": "If many goats and also cows have blisters, this could be FMD. Call your veterinarian!"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_040.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_040_200.webp",
+          "MEDIUM": "./assets/img/drawing_040_400.webp",
+          "LARGE": "./assets/img/drawing_040_800.webp"
+        },
+        "TITLE": "If many goats and also cows are ill with blisters, but do not die so much, this could be FMD. Call your veterinarian!"
+      }
+    }
+  },
+  "03": {
+    "TITLE": "Dangerous for goats: What is Goat POX?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goat Pox is a disease caused by a virus. Goat pox is a skin disease showing many raised spots on the skin of the goats.",
+        "02": "Goats with goat pox can only infect other goats, not other animals."
+      },
+      "LIST": {
+        "01": {
+          "010000": "How do goats get it?",
+          "020000": "Skin sores and saliva are transmitting the virus.",
+          "030000": "Skin scabs can be infectious for a long time.",
+          "040000": "Other animals contacting the scabs will get sick."
+        },
+        "02": {
+          "010000": "Usually, most of the goats show the disease.",
+          "020000": "Some animals will die.",
+          "030000": "The severity of goat pox depends on other factors such as parasites, nutrition, and weather.",
+          "040000": "Goat pox is common in summer.",
+          "050000": "So, treat your goats against parasites to keep the strong and to avoid getting infected and spreading the goat pox virus.",
+          "060000": "There is no treatment. Isolate ill animals."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0803-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_041.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_041_200.webp",
+          "MEDIUM": "./assets/img/drawing_041_400.webp",
+          "LARGE": "./assets/img/drawing_041_800.webp"
+        },
+        "TITLE": "Goat pox shows many raised spots on the skin."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_034.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_034_200.webp",
+          "MEDIUM": "./assets/img/drawing_034_400.webp",
+          "LARGE": "./assets/img/drawing_034_800.webp"
+        },
+        "TITLE": "You can prevent diseases by isolating newly purchased goats for one, better two weeks."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "Dangerous for goats and people: What is Echinococcosis?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Echinococcosis is a disease caused by a worm parasite called 'Echinococcus'. There are worms which live in the liver, lungs and brain of goats! They have a complicated name, and they cause a complicated disease which can lead to death. The worm growns like cancer in the body.",
+        "02": "If goats have this and the brain, lung or the liver is eaten, then the disease spreads to the dog or the human who eat it.",
+        "03": "Hence, it is important to:",
+        "04": "When eating goat meat (or any other animal meat), always cook it well to kill the parasites (at least 30 min!).",
+        "05": "Always take care when handling soil, dirt or animal hair because it may contain parasite eggs. The same applies to fruits and berries and vegetables: wash them before eating them."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Keep new goats separate from the rest of the herd for at least one week or better yet for 2 weeks!",
+          "020000": "Give an antiparasitic treatment when the new goats arrive"
+        },
+        "02": {
+          "010000": "Important recommendation for slaughter: keep dogs away!",
+          "020000": "Do not let dogs eat un-cooked inner organs. By this, echinococcus disease worm (and other diseases) can be passed on."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0804-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_051.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_051_200.webp",
+          "MEDIUM": "./assets/img/drawing_051_400.webp",
+          "LARGE": "./assets/img/drawing_051_800.webp"
+        },
+        "TITLE": ""
+      }
+    }
+  },
+  "05": {
+    "TITLE": "Dangerous for goats and people: What is Rabies?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Rabies is a disease caused by a virus.",
+        "02": "There is pre and post exposure vaccination available against rabies.",
+        "03": "How do animals and people get rabies?",
+        "04": "How does rabies look like?"
+      },
+      "LIST": {
+        "01": {
+          "010000": "All mammals/milk-giving animals including goats can get it.",
+          "020000": "Birds do NOT get it.",
+          "030000": "Once infected, there is a very highly chance of death for animal or person.",
+          "040000": "For people, goats and cows, there is after-bite medicine to be injected as soon as possible to prevent the virus from spreading to the brain/CNS. If given to the goat 30 min after the bite, and depending on close  the bite is away from head, it can save the goat."
+        },
+        "02": {
+          "010000": "Ask whether you should vaccinate your dogs to prevent getting and spreading rabies.",
+          "020000": "Ask your human doctor whether you yourself should get vaccination against rabies."
+        },
+        "03": {
+          "010000": "By a bite of an infected animal, usually a dog.",
+          "020000": "Also, contact of saliva or blood with a skin wound or mouth, nose, genital organs will transmit the disease."
+        },
+        "04": {
+          "010000": "People can become scared of water.",
+          "020000": "Carnivores like dogs usually get angry.",
+          "030000": "Herbivores like goats usually get quiet.",
+          "040000": "The goat with rabies will loose energy. It will not pasture. It may fall down and not move anymore.",
+          "050000": "If you observed this, and in particular if you know the goat has been bitten, call the veterinarian immediately and do not touch the goat anymore. Close off the area so that the infected goat does not come in contact with humans or other animals."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0805-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_042.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_042_200.webp",
+          "MEDIUM": "./assets/img/drawing_042_400.webp",
+          "LARGE": "./assets/img/drawing_042_800.webp"
+        },
+        "TITLE": "Animals and people get rabies usually by a bite of an infected animal, mostly a dog."
+      }
+    }
+  },
+  "06": {
+    "TITLE": "Dangerous for goats and people: What is Brucellosis?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Brucellosis is a disease caused by bacteria called 'Brucella'.",
+        "02": "Disease in goats:",
+        "03": "Disease in humans:",
+        "04": "How do you get it?",
+        "05": "For children who are often fed with raw milk from sheep and goats, the risk of transmission is high."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Infertility",
+          "020000": "Abortion in late pregnancy or still-born kid",
+          "030000": "Thickening of foetal membranes",
+          "040000": "Swellings around joints and lameness (occasional)",
+          "050000": "Although uncommon, it can result in fever",
+          "060000": "Enlarged testicles"
+        },
+        "02": {
+          "010000": "Periodic fever",
+          "020000": "Aching back and joints",
+          "030000": "General sickness and weakness",
+          "040000": "Abortion, infertility in women",
+          "050000": "Painful or swollen testicles in men"
+        },
+        "03": {
+          "010000": "Drinking fresh, raw milk.",
+          "020000": "Touching discharges from aborted goat (secretions and mucous membranes) or helping goat to deliver kids without gloves."
+        },
+        "04": {
+          "010000": "Always boil the milk before consumption to avoid transmission of Brucellosis."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0806-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_043.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_043_200.webp",
+          "MEDIUM": "./assets/img/drawing_043_400.webp",
+          "LARGE": "./assets/img/drawing_043_800.webp"
+        },
+        "TITLE": "Boil fresh goat and cow milk for human consumption to avoid spreading of brucellosis disease fertility problems."
+      }
+    }
+  }
+}

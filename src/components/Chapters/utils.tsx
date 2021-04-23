@@ -1,46 +1,39 @@
-import { CHAPTER_COLOR } from '../../data/chapter/chapter.constants';
-import * as translations from '../../translations/en-US.json';
-import { increaseValue, decreaseValue } from '../../utils/format';
-import { ChapterId } from '.';
+import { ChapterId, CS } from '.';
+import { chapter } from './ChapterContent';
 
-const createChapterSectionUrl = (
-  chapterId: ChapterId | string,
-  sectionId: string,
-) => {
-  return `/chapter/${chapterId}/${sectionId}`;
+const CHAPTER_COLOR: Record<ChapterId | string, string> = {
+  '01': 'accent-step-0100',
+  '02': 'accent-step-0200',
+  '03': 'accent-step-0300',
+  '04': 'accent-step-0400',
+  '05': 'accent-step-0500',
+  '06': 'accent-step-0600',
+  '07': 'accent-step-0700',
+  '08': 'accent-step-0800',
+  '09': 'accent-step-0900',
+  '10': 'accent-step-1000',
+  '11': 'accent-step-1100',
 };
 
-export const getChapterColor = (chapterId: ChapterId) => {
-  const chapterColor = CHAPTER_COLOR.get(chapterId);
+export const getChapterColor = (id: ChapterId) => {
+  const chapterColor = CHAPTER_COLOR[id];
   return chapterColor;
 };
 
-export const getChapterStructures = () => {
-  const chapterIds = getChapterIds();
-  const structure = chapterIds.map((chapterId) => {
-    const sectionIds = getSectionIds(chapterId);
-    return sectionIds.map((sectionId) => {
-      return { chapterId, sectionId };
-    });
-  });
-  return structure;
-};
-
 export const getChapterIds = (): ChapterId[] => {
-  const chapterIds = Object.keys(translations.CHAPTER).sort();
-  return chapterIds as ChapterId[];
+  const chapterIds = Object.keys(chapter) as ChapterId[];
+  return chapterIds;
 };
 
-export const getSectionIds = (chapterId: ChapterId) => {
-  const sectionIds = Object.keys(translations.CHAPTER[chapterId]).sort();
+export const getSectionIds = (id: ChapterId) => {
+  const sectionIds = Object.keys(chapter[id]) as Array<
+    keyof typeof chapter[ChapterId]
+  >;
   return sectionIds;
 };
 
-export const getSectionIdsWithoutHeaders = (chapterId: ChapterId) => {
-  const sectionIds = getSectionIds(chapterId).filter(
-    (sectionId) => sectionId !== '00',
-  );
-  return sectionIds;
+export const isValidChapterSection = (chapterId: any, sectionId: any) => {
+  return chapter?.[chapterId]?.[sectionId] ? true : false;
 };
 
 export const getChapterIdsByUrl = (url: string) => {
@@ -54,86 +47,13 @@ export const getChapterIdsByUrl = (url: string) => {
 
 export const getChapterIdAndSectionIdFromId = (id: string) => {
   // chapter-section-id: 'chapter-01-01'
-  if (id.startsWith('chapter-')) {
-    const [chapterId, sectionId] = id.split('-').slice(1);
-    return { chapterId, sectionId };
-  }
-  return { chapterId: '', sectionId: '' };
+  const [chapterId, sectionId] = id.split('-').slice(1);
+  return { chapterId, sectionId } as CS;
 };
 
-export const getChapterNextSectionUrl = (
-  chapterId: ChapterId,
-  sectionId: string,
-) => {
-  const sectionIds = getSectionIdsWithoutHeaders(chapterId);
-  const indexOfSectionId = sectionIds.indexOf(sectionId);
-
-  if (indexOfSectionId < sectionIds.length - 1) {
-    const nextSectionId = increaseValue(sectionId);
-    const chapterUrl = createChapterSectionUrl(chapterId, nextSectionId);
-    return chapterUrl;
-  }
-
-  const chapterIds = getChapterIds();
-  const indexOfChapterId = chapterIds.indexOf(chapterId);
-
-  if (indexOfChapterId < chapterIds.length - 1) {
-    const nextChapterId = increaseValue(chapterId);
-    const chapterUrl = createChapterSectionUrl(nextChapterId, '01');
-    return chapterUrl;
-  }
-
-  const chapterUrl = createChapterSectionUrl('01', '01');
-  return chapterUrl;
-};
-
-export const getChapterPreviousSectionUrl = (
-  chapterId: ChapterId,
-  sectionId: string,
-) => {
-  const sectionIds = getSectionIdsWithoutHeaders(chapterId);
-  const indexOfSectionId = sectionIds.indexOf(sectionId);
-
-  if (indexOfSectionId > 0) {
-    const previousSectionId = decreaseValue(sectionId);
-    const chapterUrl = createChapterSectionUrl(chapterId, previousSectionId);
-    return chapterUrl;
-  }
-
-  const chapterIds = getChapterIds();
-  const indexOfChapterId = chapterIds.indexOf(chapterId);
-
-  if (indexOfChapterId > 0) {
-    const previousChapterId = decreaseValue(chapterId);
-    const previousSectionId = getSectionIdsWithoutHeaders(
-      previousChapterId as ChapterId,
-    );
-    const lastChapterSectionId =
-      previousSectionId[previousSectionId.length - 1];
-
-    const chapterUrl = createChapterSectionUrl(
-      previousChapterId,
-      lastChapterSectionId,
-    );
-    return chapterUrl;
-  }
-
-  const lastChapterId = chapterIds[chapterIds.length - 1];
-  const previousSectionId = getSectionIdsWithoutHeaders(
-    lastChapterId as ChapterId,
-  );
-  const lastChapterSectionId = previousSectionId[previousSectionId.length - 1];
-
-  const chapterUrl = createChapterSectionUrl(
-    lastChapterId,
-    lastChapterSectionId,
-  );
-  return chapterUrl;
-};
-
-export const getIdFromChapterIdAndSectionId = (
-  chapterId: ChapterId,
-  sectionId: string,
-) => {
+export const getIdFromChapterIdAndSectionId = ({
+  chapterId,
+  sectionId,
+}: CS) => {
   return `chapter-${chapterId}-${sectionId}`;
 };

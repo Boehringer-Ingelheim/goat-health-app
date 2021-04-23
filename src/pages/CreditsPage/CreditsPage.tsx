@@ -9,12 +9,12 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/react';
-import React from 'react';
+import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
-import { CreditsList } from './CreditsList';
+import { CreditsList } from '../../components/CreditsList/CreditsList';
 
-export const CreditsPage: React.FC = () => {
-  const { t } = useTranslation();
+export const CreditsPage: FC = () => {
+  const { t } = useTranslation('app');
 
   return (
     <IonPage>

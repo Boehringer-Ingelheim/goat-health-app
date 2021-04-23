@@ -1,0 +1,135 @@
+{
+  "00": {
+    "TITLE": "How do diseases happen?"
+  },
+  "01": {
+    "TITLE": "How are diseases transmitted?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "The method of transmission depends on the disease.",
+        "02": "Transmission can happen by:",
+        "03": "Avoid transmission: What to do with the goat",
+        "04": "Avoid transmission: What to do in the village"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Direct contact between animals",
+          "020000": "Contact with their secretions or discharges (from mouth, nose, eyes, milk, urine)",
+          "030000": "Ticks, flies, fleas, mosquitoes",
+          "040000": "Soil (dead bodies or droppings contaminate the soil)",
+          "050000": "Mother goat to kid during pregnancy"
+        },
+        "02": {
+          "010000": "Check each goat for health every day!",
+          "020000": "Separate the goat if it looks sick or you have a doubt that it is sick.",
+          "030000": "Clean the secretions of sick goats with water and soap",
+          "040000": "Disinfect the soil where the sick goat lived",
+          "050000": "If the goat dies, bury or burn it and disinfect the area",
+          "060000": "A SICK GOAT MUST NOT BE CONSUMED!"
+        },
+        "03": {
+          "010000": "Keep goats away from water streams or muddy areas where snails are found. Snails can transmit internal parasites.",
+          "020000": "Use grass from water stream borders and from muddy areas to make hay. Dry hay for 1 month and only then, feed the goats with it.",
+          "030000": "Reserve one area of water stream for drinking and keep it free of plants and snails. You can place stones in the area of water stream to avoid mud."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0601-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_032.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_032_200.webp",
+          "MEDIUM": "./assets/img/drawing_032_400.webp",
+          "LARGE": "./assets/img/drawing_032_800.webp"
+        },
+        "TITLE": "The way of transmission depends on the disease."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "Why is it important to remove ticks?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Ticks like the hidden parts of the body where the skin is thin and soft:",
+        "02": "Remove ticks every day:",
+        "03": "After ticks removal every day:",
+        "04": "Why is it important?",
+        "05": "You can train adolescents to remove the ticks:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Around and below ears",
+          "020000": "Head",
+          "030000": "Areas between legs and body",
+          "040000": "Udder",
+          "050000": "Genital organs"
+        },
+        "02": {
+          "010000": "If possible with tweezers, otherwise with your hand",
+          "020000": "Catch the tick at its head where it enters the skin",
+          "030000": "Turn the tweezers clockwise, so that the tick comes out completely",
+          "040000": "Collect all ticks in a container",
+          "050000": "Do not let the ticks free again",
+          "060000": "Burn them or crush them"
+        },
+        "03": {
+          "010000": "Apply neem oil onto the skin of all those goats. These goats are more sensitive and need the help of neem oil."
+        },
+        "04": {
+          "010000": "Ticks suck the blood and the nutrition",
+          "020000": "Ticks transmit many disease agents",
+          "030000": "Because of ticks, kids or adult goats are more weak, and can get infected with worms"
+        },
+        "05": {
+          "010000": "Motivate them for example like for a game, or to teach them responsibility, or demonstration of being a respected grown-up or a social engagement for the whole village.",
+          "020000": "One adolescent to remove ticks with tweezers.",
+          "030000": "One adolescent to kill the ticks by burning or crushing them."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0602-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/photo_007.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_007_200.webp",
+          "MEDIUM": "./assets/img/photo_007_400.webp",
+          "LARGE": "./assets/img/photo_007_800.webp"
+        },
+        "TITLE": ""
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_006.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_006_200.webp",
+          "MEDIUM": "./assets/img/photo_006_400.webp",
+          "LARGE": "./assets/img/photo_006_800.webp"
+        },
+        "TITLE": ""
+      },
+      "03": {
+        "FILENAME": "./assets/img/drawing_047.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_047_200.webp",
+          "MEDIUM": "./assets/img/drawing_047_400.webp",
+          "LARGE": "./assets/img/drawing_047_800.webp"
+        },
+        "TITLE": "Ticks can transmit diseases to goats"
+      },
+      "04": {
+        "FILENAME": "./assets/img/drawing_033.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_033_200.webp",
+          "MEDIUM": "./assets/img/drawing_033_400.webp",
+          "LARGE": "./assets/img/drawing_033_800.webp"
+        },
+        "TITLE": "Remove ticks every day to avoid transmission of diseases."
+      }
+    }
+  }
+}
