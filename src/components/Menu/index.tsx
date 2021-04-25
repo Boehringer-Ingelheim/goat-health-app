@@ -34,7 +34,7 @@ export const Menu: FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonHeader>
         <IonToolbar color="primary">
-          <IonTitle>Menu</IonTitle>
+          <IonTitle>{t(`app:MENU.TITLE`)}</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
