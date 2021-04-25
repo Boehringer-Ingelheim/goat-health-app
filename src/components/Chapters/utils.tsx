@@ -22,14 +22,14 @@ export const getChapterColor = (id: ChapterId) => {
 
 export const getChapterIds = (): ChapterId[] => {
   const chapterIds = Object.keys(chapter) as ChapterId[];
-  return chapterIds;
+  return chapterIds.sort();
 };
 
 export const getSectionIds = (id: ChapterId) => {
   const sectionIds = Object.keys(chapter[id]) as Array<
     keyof typeof chapter[ChapterId]
   >;
-  return sectionIds;
+  return sectionIds.sort();
 };
 
 export const isValidChapterSection = (chapterId: any, sectionId: any) => {
