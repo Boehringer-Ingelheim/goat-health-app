@@ -365,12 +365,14 @@
         "01": "Twin kid handling:"
       },
       "LIST": {
-        "010000": "If two kids are born, smear a bit of each kids afterbirth on the other one, so that both have the same smell.",
-        "020000": "After this, place the first born to the mother´s head where the second (= last born) is.",
-        "030000": "Help both kids to start drinking milk.",
-        "040000": "Do not let other goats come close as they distract the mother.",
-        "050000": "Keep all mother goats that have two newborns in a separate closed area for some days so they get used to each other.",
-        "060000": "After this place both kids near the mothers head/face for her to accept both kids."
+        "01": {
+          "010000": "If two kids are born, smear a bit of each kids afterbirth on the other one, so that both have the same smell.",
+          "020000": "After this, place the first born to the mother´s head where the second (= last born) is.",
+          "030000": "Help both kids to start drinking milk.",
+          "040000": "Do not let other goats come close as they distract the mother.",
+          "050000": "Keep all mother goats that have two newborns in a separate closed area for some days so they get used to each other.",
+          "060000": "After this place both kids near the mothers head/face for her to accept both kids."
+        }
       }
     },
     "AUDIO": {
