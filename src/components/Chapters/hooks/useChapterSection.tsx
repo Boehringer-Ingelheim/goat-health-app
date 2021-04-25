@@ -5,7 +5,7 @@ import { getIdFromChapterIdAndSectionId, getChapterColor } from '../utils';
 import { useChapterSectionComponent } from './useChapterSectionComponent';
 
 export const useChapterSection = ({ chapterId, sectionId }: CS) => {
-  const { t } = useTranslation(`chapter${chapterId}` as const);
+  const { t } = useTranslation();
   const Component = useChapterSectionComponent({
     chapterId,
     sectionId,
@@ -16,16 +16,24 @@ export const useChapterSection = ({ chapterId, sectionId }: CS) => {
     color: getChapterColor(chapterId),
     id: getIdFromChapterIdAndSectionId({ chapterId, sectionId }),
     image: {
-      original: t(`${sectionId}.IMAGE.01.FILENAME` as const),
+      original: t(
+        `chapter${chapterId}:${sectionId}.IMAGE.01.FILENAME` as const,
+      ),
       thumbnail: {
-        small: t(`${sectionId}.IMAGE.01.THUMBNAIL.SMALL` as const),
-        medium: t(`${sectionId}.IMAGE.01.THUMBNAIL.MEDIUM` as const),
-        large: t(`${sectionId}.IMAGE.01.THUMBNAIL.LARGE` as const),
+        small: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.SMALL` as const,
+        ),
+        medium: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.MEDIUM` as const,
+        ),
+        large: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.LARGE` as const,
+        ),
       },
     },
     title: {
-      chapter: t(`00.TITLE`),
-      section: t(`${sectionId}.TITLE` as const),
+      chapter: t(`chapter${chapterId}:00.TITLE` as const),
+      section: t(`chapter${chapterId}:${sectionId}.TITLE` as const),
     },
     url: `/chapter/${chapterId}/${sectionId}`,
     view: {
