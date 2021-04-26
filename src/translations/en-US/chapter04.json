@@ -81,25 +81,25 @@
           "MEDIUM": "./assets/img/drawing_008_400.webp",
           "LARGE": "./assets/img/drawing_008_800.webp"
         },
-        "TITLE": "The traditional and tribal way can produce healthy high quality meat. Engage with others to make use of this as organic food.",
-        "02": {
-          "FILENAME": "./assets/img/photo_003.webp",
-          "THUMBNAIL": {
-            "SMALL": "./assets/img/photo_003_200.webp",
-            "MEDIUM": "./assets/img/photo_003_400.webp",
-            "LARGE": "./assets/img/photo_003_800.webp"
-          },
-          "TITLE": "Example of an Indian organic product."
+        "TITLE": "The traditional and tribal way can produce healthy high quality meat. Engage with others to make use of this as organic food."
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_003.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_003_200.webp",
+          "MEDIUM": "./assets/img/photo_003_400.webp",
+          "LARGE": "./assets/img/photo_003_800.webp"
         },
-        "03": {
-          "FILENAME": "./assets/img/drawing_013a_en.webp",
-          "THUMBNAIL": {
-            "SMALL": "./assets/img/drawing_013a_en_200.webp",
-            "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
-            "LARGE": "./assets/img/drawing_013a_en_800.webp"
-          },
-          "TITLE": "Organic farming is a growing business. If you are interested, search for partners and organic cooperative options."
-        }
+        "TITLE": "Example of an Indian organic product."
+      },
+      "03": {
+        "FILENAME": "./assets/img/drawing_013a_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_013a_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_013a_en_400.webp",
+          "LARGE": "./assets/img/drawing_013a_en_800.webp"
+        },
+        "TITLE": "Organic farming is a growing business. If you are interested, search for partners and organic cooperative options."
       }
     }
   },
