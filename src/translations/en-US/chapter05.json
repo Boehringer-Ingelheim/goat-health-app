@@ -50,9 +50,9 @@
     "TITLE": "What can cause diseases?",
     "TEXT": {
       "PARAGRAPH": {
-        "PARAGRAPH_01": "The body can get ill in many ways. This is the same for goats as for other animals and for people. Diseases can start small – for example as a weakness - and increase, if they are not recognized and controlled early.",
-        "PARAGRAPH_02": "Diseases can be caused by:",
-        "PARAGRAPH_03": "These are the disease agents:"
+        "01": "The body can get ill in many ways. This is the same for goats as for other animals and for people. Diseases can start small – for example as a weakness - and increase, if they are not recognized and controlled early.",
+        "02": "Diseases can be caused by:",
+        "03": "These are the disease agents:"
       },
       "LIST": {
         "01": {
