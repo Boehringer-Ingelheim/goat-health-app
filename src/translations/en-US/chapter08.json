@@ -10,8 +10,9 @@
         "02": "What could be PPR:",
         "03": "If many goats are sick and die, this could be PPR. Call your veterinarian!",
         "04": "What to avoid happening:",
-        "05": "What you need to do with the goats when blisters are detected?",
-        "06": "What you need to do in the village"
+        "05": "When it has happend:",
+        "06": "What you need to do with the goats when blisters are detected?",
+        "07": "What you need to do in the village"
       },
       "LIST": {
         "01": {
@@ -68,7 +69,7 @@
     "TEXT": {
       "PARAGRAPH": {
         "01": "FMD is a disease caused by a virus. The government controls FMD because it is dangerous for cows, sheep, goats, water buffalo and swine.",
-        "02": "What sings indicate the presence of FMD:",
+        "02": "What things indicate the presence of FMD:",
         "03": "What to avoid happening:",
         "04": "When it has happened:"
       },
