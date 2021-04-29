@@ -6,6 +6,7 @@ import { chapter05 } from './ChapterContent05';
 import { chapter06 } from './ChapterContent06';
 import { chapter07 } from './ChapterContent07';
 import { chapter08 } from './ChapterContent08';
+import { chapter09 } from './ChapterContent09';
 
 export const chapter = {
   '01': chapter01,
@@ -16,4 +17,5 @@ export const chapter = {
   '06': chapter06,
   '07': chapter07,
   '08': chapter08,
+  '09': chapter09,
 };
