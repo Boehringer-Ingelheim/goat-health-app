@@ -1,3 +1,32 @@
+# [1.0.0-beta.2](https://github.com/SimonGolms/goat-health-app/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2021-04-30)
+
+
+### Bug Fixes
+
+* **audio:** enable controls for audio element ([2c9559c](https://github.com/SimonGolms/goat-health-app/commit/2c9559c3cdd8f7318baf8e1a79b2d129fc87e6a3))
+* **chapters:** remove not available tranlsation key ([c83a08b](https://github.com/SimonGolms/goat-health-app/commit/c83a08b61eb8f53bb788ed44f8e0b11c32337056))
+* **chapters:** sorting of chapter and section id ([f92c3ff](https://github.com/SimonGolms/goat-health-app/commit/f92c3ffc848f28a5a3617731715431283a4f2cf6))
+* **chapters:** use correct tranlsation key ([35ada72](https://github.com/SimonGolms/goat-health-app/commit/35ada729878dfea6fa34385c4c19689518b51eaf))
+* **filesystem:** audio stream could not be saved on device ([711ab2a](https://github.com/SimonGolms/goat-health-app/commit/711ab2adf463ad78601bac0097d2574dd607e8b9))
+* **i18n:** correction of the image structure ([3d19c1c](https://github.com/SimonGolms/goat-health-app/commit/3d19c1cbbbab7a895f6c8d635e0845f91580c38b))
+* **i18n:** correction of the list structure ([c4121ea](https://github.com/SimonGolms/goat-health-app/commit/c4121ead5bd3bbca486662d6878e3c94c86370e0))
+* **i18n:** correction of the text structure ([480a1e2](https://github.com/SimonGolms/goat-health-app/commit/480a1e2fb8bfc24ae8fa8c4a3a21b8a29418b091))
+* **i18n:** use lookup up form of namespaces ([a8bc228](https://github.com/SimonGolms/goat-health-app/commit/a8bc22838c7c10f95c92bbf9e43e964b2fcad20b))
+* **i18n:** use menu title from translation file ([8744463](https://github.com/SimonGolms/goat-health-app/commit/874446301e6b7445047589e99523c220768ad93b))
+* **typescript:** change Favorite from interface to type ([8458c8f](https://github.com/SimonGolms/goat-health-app/commit/8458c8fa0dfcbacc49b0348471409291e37a54d6))
+
+
+### Features
+
+* **chapters:** add chapter content about basic of health ([f39d95b](https://github.com/SimonGolms/goat-health-app/commit/f39d95b6dd27473495779b8d02db9a3876ce1b88))
+* **chapters:** add chapter content about breeding ([d43b432](https://github.com/SimonGolms/goat-health-app/commit/d43b43257b2ad1ecaaefda0561eb7969636156ad))
+* **chapters:** add chapter content about common diseases ([56c592a](https://github.com/SimonGolms/goat-health-app/commit/56c592a5d524ebbef89c6007066afe543b638708))
+* **chapters:** add chapter content about dangerous diseases  for goats, cows or people ([9acea5b](https://github.com/SimonGolms/goat-health-app/commit/9acea5baff917717545c0665aabb149b43260457))
+* **chapters:** add chapter content about earning money with goats ([c45e359](https://github.com/SimonGolms/goat-health-app/commit/c45e35938ff62bc297af0448369ddf601f94a94b))
+* **chapters:** add chapter content about how do diseases happen ([bcc8a79](https://github.com/SimonGolms/goat-health-app/commit/bcc8a79b588fd2696eccb31161c25a38995b85c7))
+* **chapters:** add chapter content about how to prevent and treat diseases ([96f72dc](https://github.com/SimonGolms/goat-health-app/commit/96f72dc813705edd526119c6bfab960a51506527))
+* **chapters:** add chapter content about recognize symptoms and distinguish diseases ([423f108](https://github.com/SimonGolms/goat-health-app/commit/423f108fa7abbb515f00285efa1998d1a598287b))
+
 # 1.0.0-beta.1 (2021-04-03)
 
 
