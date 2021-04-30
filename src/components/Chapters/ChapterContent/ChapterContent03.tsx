@@ -220,7 +220,6 @@ export const Section06: FC<Context> = ({ context = '' }) => {
         <ul>
           <li>{t(`06.TEXT.LIST.01.030100`, { context })}</li>
           <li>{t(`06.TEXT.LIST.01.030200`, { context })}</li>
-          <li>{t(`06.TEXT.LIST.01.030300`, { context })}</li>
         </ul>
       </ul>
       <p>{t(`06.TEXT.PARAGRAPH.03`, { context })}</p>
