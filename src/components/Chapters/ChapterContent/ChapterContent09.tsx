@@ -45,7 +45,7 @@ export const Section01: FC<Context> = ({ context = '' }) => {
       </IonText>
       <p>{t(`01.TEXT.PARAGRAPH.04`, { context })}</p>
       <ImageViewer alt={t(`01.IMAGE.02.FILENAME`)} src={t(`01.IMAGE.02.FILENAME`)}>
-        <IonImg class="ion-padding-vertical" src={t(`01.IMAGE.02 .THUMBNAIL.LARGE`)} />
+        <IonImg class="ion-padding-vertical" src={t(`01.IMAGE.02.THUMBNAIL.LARGE`)} />
       </ImageViewer>
       <IonText class="ion-padding-bottom" className="image-text">
         {t(`01.IMAGE.02.TITLE`, { context })}
