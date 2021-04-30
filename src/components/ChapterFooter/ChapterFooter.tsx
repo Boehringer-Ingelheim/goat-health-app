@@ -10,12 +10,12 @@ import { FC } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectIsFavoriteById } from '../../data/user/user.selector';
 import { addFavorite, removeFavoriteById } from '../../data/user/user.slice';
+import { CS } from '../Chapters';
+import { getIdFromChapterIdAndSectionId } from '../Chapters/utils';
 import {
   getChapterNextSectionUrl,
   getChapterPreviousSectionUrl,
 } from './utils';
-import { CS } from '../Chapters';
-import { getIdFromChapterIdAndSectionId } from '../Chapters/utils';
 
 export const ChapterFooter: FC<CS> = ({ chapterId, sectionId }) => {
   const id = getIdFromChapterIdAndSectionId({ chapterId, sectionId });
