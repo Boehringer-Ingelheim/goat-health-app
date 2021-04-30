@@ -1,12 +1,10 @@
+import { FC } from 'react';
 import { useSelector } from 'react-redux';
-import { ChapterId } from '../Chapters';
-import { ChapterViewCard, ChapterViewList } from '../ChapterView';
 import { selectCurrentFavoritesView } from '../../data/user/user.selector';
+import { ChapterViewCard, ChapterViewList } from '../ChapterView';
+import { CS } from '../Chapters';
 
-export const FavoritesResult = ({
-  chapterId = '01' as ChapterId,
-  sectionId = '01',
-}) => {
+export const FavoritesResult: FC<CS> = ({ chapterId, sectionId }) => {
   const currentView = useSelector(selectCurrentFavoritesView);
 
   if (currentView === 'card') {

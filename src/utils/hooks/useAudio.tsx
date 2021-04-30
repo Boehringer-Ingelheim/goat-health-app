@@ -5,6 +5,7 @@ export const useAudio = (url) => {
 
   useEffect(() => {
     if (url) {
+      audio.controls = true;
       audio.src = url;
     }
   }, [audio, url]);

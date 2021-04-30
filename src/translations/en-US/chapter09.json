@@ -1,0 +1,407 @@
+{
+  "00": {
+    "TITLE": "Common diseases"
+  },
+  "01": {
+    "TITLE": "What are external parasites?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "There are many external parasites: they live either:",
+        "02": "Parasites on the fur or on top of  the skin come to the goat to pick or feed on blood.",
+        "03": "Those parasites inside the skin, live in deeper parts of the skin, so they stay on the goat until you treat the goat against the parasites.",
+        "04": "When your goat shows scratching behavior, hair loss, crusting on skin or the skin becomes red, ask the veterinarian to treat against parasites. This also applies to dogs and cows."
+      },
+      "LIST": {
+        "01": {
+          "010000": "on the fur or",
+          "020000": "on the skin and under the skin."
+        },
+        "02": {
+          "010000": "Once they have fed themselves, they leave soon after.",
+          "020000": "Often, you can see these parasites.",
+          "030000": "These changing parasites spread diseases between different goats or different animal species and humans.",
+          "040000": "Examples are:",
+          "040100": "Ticks",
+          "040200": "Lice",
+          "040300": "Leeches"
+        },
+        "03": {
+          "010000": "Deep parasites cause scratching, hair loss, crusting or the skin becomes red.",
+          "020000": "The itching gets very strong and goat would scratch themselves resulting in bleeding.",
+          "030000": "By these itching open wounds, deep parasites can spread to other animals and humans.",
+          "040000": "Examples are:",
+          "040100": "Mites will cause a disease called mange.",
+          "040200": "Mange can also transmit to humans!!! It needs to be treated as soon as possible. Call your veterinarian!"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0901-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_047.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_047_200.webp",
+          "MEDIUM": "./assets/img/drawing_047_400.webp",
+          "LARGE": "./assets/img/drawing_047_800.webp"
+        },
+        "TITLE": "Ticks can also transmit diseases"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "Let the goat get treatment by the veterinarian"
+      }
+    }
+  },
+  "02": {
+    "TITLE": "What are internal parasites?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "There are many different internal parasites: they can live inside any organ in the goat:",
+        "02": "How do they multiply and spread disease?",
+        "03": "Support your goats and other animals against parasites with intelligent measures:",
+        "04": "So, if your goat is sniffing or coughing or has diarrhea or it becomes very thin, parasites could be the reason.",
+        "05": "The allopathic medicines need to be applied correctly in order to work."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Worms: can live in skin, lungs, intestine, liver, even in brain",
+          "020000": "Leaches: can live on skin, but also inside in liver",
+          "030000": "Larvae of flies (the worms which develop into flies)",
+          "040000": "Blood parasites (very small and live in blood cells)",
+          "040100": "Trypanosoma, Babesia (all in goats), Malaria (in humans)..."
+        },
+        "02": {
+          "010000": "Many parasites multiply via eggs which can be found in dung.",
+          "020000": "Out of these eggs, small larvae (like mini-worms) hatch out of the eggs.",
+          "030000": "This hatching happens",
+          "030100": "either in the grass where the larvae look for the next host",
+          "030200": "or already inside the next host animal.",
+          "040000": "Some parasites first live in snails, for example, before they go into goats and other animals.",
+          "040100": "Example: liver fluke"
+        },
+        "03": {
+          "010000": "Cleaning housing regularly",
+          "020000": "Taking off droppings",
+          "030000": "Changing pasture",
+          "040000": "Cutting grass from riverside in rainy season and let dry for 2 months.",
+          "050000": "All this will help because: Worm parasite eggs usually need some weeks to mature and become adult."
+        },
+        "04": {
+          "010000": "Whenever the goat has parasites, the goat grows slowly and poorly and you need to provide more feed.",
+          "020000": "Also, if the goat is weak it can catches other diseases more easily.",
+          "030000": "The goat needs to be treated as soon as possible. Call your veterinarian!",
+          "040000": "The de-worming schedule depends on the topographical location.",
+          "050000": "The good thing is that there is medicine to treat the many different internal and external parasites altogether. Ask your veterinarian."
+        },
+        "05": {
+          "010000": "If not, there is the risk that parasites become resistant to the medicine.",
+          "020000": "Therefore, the type of allopathic medicine and its chemically active substance needs to be changed periodically. This is called 'de-worming schedule'.",
+          "030000": "A dung samples analysis can tell which and how many parasites the goat flock has.",
+          "040000": "Ask your veterinarian for this."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0902-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_050.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_050_200.webp",
+          "MEDIUM": "./assets/img/drawing_050_400.webp",
+          "LARGE": "./assets/img/drawing_050_800.webp"
+        },
+        "TITLE": "Example Parasite life cycle"
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_013.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_013_200.webp",
+          "MEDIUM": "./assets/img/photo_013_400.webp",
+          "LARGE": "./assets/img/photo_013_800.webp"
+        },
+        "TITLE": ""
+      }
+    }
+  },
+  "03": {
+    "TITLE": "What is bronchitis?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Bronchitis is the disease of the airways which go deep into the lung. Sniffling or discharge from the nose seems harmless, but can develop into bronchitis.",
+        "02": "Bronchitis is a more severe form of respiratory disease. The goat needs weeks to recover. During this recovery time, it grows slowly and and readily contract  other diseases.",
+        "03": "Bronchitis can be caused",
+        "04": "Bronchitis can have the following signs:",
+        "05": "Avoid disease transmission from the infected goat: What to do if you observe any of these signs at a goat?",
+        "06": "Avoid transmission from the environment:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "by parasites",
+          "020000": "by bacteria",
+          "030000": "by viruses,"
+        },
+        "02": {
+          "010000": "Coughing",
+          "020000": "Breathing difficulties",
+          "030000": "Increased body temperature",
+          "040000": "Goat is slower than normal and without energy"
+        },
+        "03": {
+          "010000": "Isolate the sick goat as it can spread the disease to healthy goats.",
+          "020000": "Take the temperature.",
+          "030000": "Call the veterinarian and tell the temperature.",
+          "040000": "Goat should receive veterinary treatment."
+        },
+        "04": {
+          "010000": "Clean the secretions of sick goats with water and soap",
+          "020000": "Disinfect the soil where the sick goat lived",
+          "030000": "If the goat dies, bury or burn the carcass and disinfect the housing.",
+          "040000": "A SICK GOAT MUST NOT BE EATEN!"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0903-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_003.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_003_200.webp",
+          "MEDIUM": "./assets/img/drawing_003_400.webp",
+          "LARGE": "./assets/img/drawing_003_800.webp"
+        },
+        "TITLE": "It is possible that goats transmit bronchitis to humans. So take care while cleaning and washing goat enclosures."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "Let the goat get treatment by the veterinarian."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "What Is Enteritis = The Disease Causing Diarrhea?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Enteritis is the disease of the intestines (gut inflammation)  which causes diarrhea. A change in colour or consistency of the droppings seems harmless, but can develop into diarrhea.",
+        "02": "Enteritis is more severe. The goat needs weeks to recover. During recovery, it grows slowly and can get other diseases more easily.",
+        "03": "Diseases can be caused",
+        "04": "Enteritis can have the following signs:",
+        "05": "It can be dangerous because:",
+        "06": "Avoid transmission from the goat: What to do if you observe any of these signs at a goat:",
+        "07": "It is possible that goats transmit enteritis to humans. So take care while performing  cleaning and washing recommendations as described in chapter 5.5 of this manual.",
+        "08": "Avoid transmission from the environment:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "by parasites",
+          "020000": "by bacteria",
+          "030000": "by viruses,"
+        },
+        "02": {
+          "010000": "Liquid droppings",
+          "020000": "Bloody droppings",
+          "030000": "Mucous in droppings",
+          "040000": "Swollen and hard belly (but goat is not pregnant, if female)",
+          "050000": "Walking without energy and keeping the back tight because of belly pain",
+          "060000": "Increased body temperature"
+        },
+        "03": {
+          "010000": "The goats can loose a lot of water from their digestive system and even from the blood circulation. This critical loss of water is called 'dehydration'.",
+          "020000": "Dehydration can happen really quickly, especially if the goats are young.",
+          "030000": "They can die in within a few hours!"
+        },
+        "04": {
+          "010000": "Isolate the sick goat since the disease can spread.",
+          "020000": "Lift a piece of skin between two fingers to about  2 inches, as in the respective chapter 5.5 of this manual and let go. The skin should go back to its original state quickly.. If it remains standing up, there is critical loss of water (ie dehydration).",
+          "030000": "Take body temperature.",
+          "040000": "Call the veterinarian and tell the temperature.",
+          "050000": "The goat should be treated as soon as possible.",
+          "060000": "There are many different parasites which all can cause diarrhea.",
+          "070000": "The veterinarian can also help you to prevent other goats falling ill with the same disease.",
+          "080000": "If the veterinarian recommends to treat all animals, please do so immediately. The other goats may look healthy but can be infected with the parasite without showing, visible diarrhea or clinical signs."
+        },
+        "05": {
+          "010000": "Remove droppings and clean secretions of sick goats with water and soap",
+          "020000": "Disinfect the soil where the sick goat was housed",
+          "030000": "If the goat dies, bury or burn the carcass and disinfect the soil",
+          "040000": "A SICK GOAT MUST NOT BE EATEN!"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0904-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_025.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_025_200.webp",
+          "MEDIUM": "./assets/img/drawing_025_400.webp",
+          "LARGE": "./assets/img/drawing_025_800.webp"
+        },
+        "TITLE": "Each day, do a health check: upon pulling, does the skin go down elastically"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_035.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_035_200.webp",
+          "MEDIUM": "./assets/img/drawing_035_400.webp",
+          "LARGE": "./assets/img/drawing_035_800.webp"
+        },
+        "TITLE": "Let the goat get treatment by the veterinarian."
+      }
+    }
+  },
+  "05": {
+    "TITLE": "What is acidosis?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Acidosis is the disease of the second (called rumen), of the four stomachs, which goats have. It is a digestion disorder.",
+        "02": "This means, that acidosis is fundamentally different from the transmittable diseases mentioned before . It is mostly a man-made disease that is a result of poor feeding!",
+        "03": "In the healthy second stomach, there are many good bacteria and other single-cell micro-organisms.",
+        "04": "Acidosis literally means that the liquid of the stomach gets too acidic.",
+        "05": "Very important: acidosis is caused",
+        "06": "Acidosis can have the following signs:",
+        "07": "What to do if you observe any of these signs at a goat?",
+        "08": "The goat will take several weeks to recover. During recovery, it grows slowly and can acquire other diseases, especially enteritis, more easily.",
+        "09": "It is NOT possible that goats transmit acidosis to humans because this is a disorder caused by poor feeding and not an infectious agent or parasite.",
+        "10": "Humans do not have a second stomach. However, eating poorly can also cause short- and long-term health problems in humans."
+      },
+      "LIST": {
+        "01": {
+          "010000": "It is actually these micro-organisms which eat the green feed and the dry feed so that they can be digested by the goat.",
+          "020000": "Without these beneficial micro-organisms, the goat could not derive nutrition from its feed!"
+        },
+        "02": {
+          "010000": "Because of this, the  beneficial micro-organisms in the stomach are weakened, reduced in number or killed.",
+          "020000": "There are also harmful micro-organisms in the stomach and they now grow in numbers.",
+          "030000": "The goat suffers when the harmful microbes grow and the beneficial microbes start to die."
+        },
+        "03": {
+          "010000": "By poor feeding!, so essentially, the owner is giving too much of incorrect feed, for example:",
+          "010100": "Rice (it must not be more than a quarter of daily feed)",
+          "010200": "Sugar beets, grapes potatoes, corn",
+          "020000": "Acidosis can also be the results of poisoning with chemicals or",
+          "030000": "By bacteria which also disturb the balance of second stomach."
+        },
+        "04": {
+          "010000": "The goat does not eat normally any more",
+          "020000": "Swollen and hard belly (but is not pregnant, if female)",
+          "030000": "Goat shows signs of stomach ache",
+          "040000": "Diarrhoea"
+        },
+        "05": {
+          "010000": "Isolate the sick goat since you do not know whether it is acidosis or an infectious/contagious disease.",
+          "020000": "Take the temperature.",
+          "030000": "Call the veterinarian and tell the temperature.",
+          "040000": "The goat should be treated as soon as possible.",
+          "050000": "Change what you feed the goat: Reduce the rice in feed! Let goats pasture and give them plenty of hay."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0905-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_006.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_006_200.webp",
+          "MEDIUM": "./assets/img/drawing_006_400.webp",
+          "LARGE": "./assets/img/drawing_006_800.webp"
+        },
+        "TITLE": "Very important: acidosis is caused by poor feeding"
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_007.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_007_200.webp",
+          "MEDIUM": "./assets/img/drawing_007_400.webp",
+          "LARGE": "./assets/img/drawing_007_800.webp"
+        },
+        "TITLE": "Goats need green feed and hay for their good health!"
+      }
+    }
+  },
+  "06": {
+    "TITLE": "What is vitamin B1 deficiency?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Vitamin B1 deficiency can cause disease in muscles, heart, brain and nerves. Deficiency means the lack of an essential nutrient (a substance or component in food and feed) which is called vitamin B1 or 'thiamine'.",
+        "02": "'Vitamin' is a general term for all those substances which goats (and humans) need to eat, because the body cannot make them by himself. Therefore, vitamin B1 deficiency can only happen when the goat (and humans) does not eat properly or get good feed.",
+        "03": "In goats, vitamin B1 deficiency can also be a digestion disorder coming from problems in the second stomach, the rumen (see chapter 9.5). In a healthy goat, the beneficial microorganisms in the second stomach produce vitamin B1 and thus nourish the goat. When this second stomach gets gets affected, harmful microorganisms grow and cause many problems including vitamin B1 deficiency.",
+        "04": "This means, that vitamin B1 deficiency is fundamentally different from transmittable diseases  mentioned earlier . It is mostly a man-made disease resulting from  feeding the animals poorly!",
+        "05": "Very important: vitamin B1 deficiency is caused",
+        "06": "Vitamin B1 deficiency can have the following signs:",
+        "07": "What to do if you observe any of these signs at a goat?",
+        "08": "There are many more vitamins than B1. Goats also need all the other vitamins. Hence, with good nutritious feed and good pasture, one can prevent many vitamin deficiencies and other diseases altogether!",
+        "09": "It is NOT possible for goats transmit vitamin B1 deficiency to humans because this is a disorder that was caused by poor feed.",
+        "10": "Humans do not have a second stomach. However, bad eating habits and nutritionally poor food can cause short- and long-term problems including vitamin B1 deficiency in humans."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Goat kids are very sensitive to vitamin B1 deficiency.",
+          "020000": "The longer the goat is on a poor diet, the greater the vitamin deficiency and consequent suffering for the goat."
+        },
+        "02": {
+          "010000": "By poor feed!, so essentially, the owner is giving too much of improper feed:",
+          "010100": "Rice (it must not be more than a quarter of daily feed)",
+          "010200": "Sugar beets, grapes potatoes, corn",
+          "020000": "Vitamin B1 deficiency can also be the result of chemical poisoning or",
+          "030000": "By harmful bacteria which disturb the balance of second stomach."
+        },
+        "03": {
+          "010000": "Weak hind legs or goat can raise front legs, but not hind legs",
+          "020000": "Aimless wandering",
+          "030000": "Blindness and other eye problems like flickering from one side to the other.",
+          "040000": "Goat collapses"
+        },
+        "04": {
+          "010000": "Isolate the sick goat since you do not know whether it is vitamin B1 deficiency or an infectious or contagious disease.",
+          "020000": "Take the temperature.",
+          "030000": "Call the veterinarian and tell the temperature.",
+          "040000": "The goats should be treated as soon as possible. The veterinarian can inject vitamin B1. The goat needs a day to recover. However, if the muscles, heart, brain or nerves are damaged too much, they may not fully recover!",
+          "050000": "Change what you feed your goats. Reduce the amount of rice included in the feed! Let goats pasture and give plenty of hay."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0906-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_006.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_006_200.webp",
+          "MEDIUM": "./assets/img/drawing_006_400.webp",
+          "LARGE": "./assets/img/drawing_006_800.webp"
+        },
+        "TITLE": "Very important: Vitamin B1 deficiency is caused by poor feed."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_007.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_007_200.webp",
+          "MEDIUM": "./assets/img/drawing_007_400.webp",
+          "LARGE": "./assets/img/drawing_007_800.webp"
+        },
+        "TITLE": "Goats need green feed and hay for their good health!"
+      }
+    }
+  }
+}

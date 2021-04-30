@@ -11,19 +11,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          fetch-depth: 0
+      - name: Get Changed Files
+        id: git-diff
+        run: |
+          git_diff_target=$(git tag -l --format "%(refname:short)" --sort version:refname "v*beta*" | tail -n 1)
+          echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r $git_diff_target ${{ github.sha }})"
+      - name: Cache Optimized Images
+        id: cache-optimized-images
+        uses: actions/cache@v2
+        with:
+          path: public/assets/img
+          key: cache-optimized-images-${{ hashFiles('resources/images/**') }}
+          restore-keys: cache-optimized-images
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-cache-node-modules
       - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install
       - name: Determining Release Information
         run: npm run release:information
@@ -35,6 +45,7 @@ jobs:
             .NOTES
             .VERSION
       - name: Generate Optimized Images
+        if: ${{ steps.cache-optimized-images.outputs.cache-hit != 'true' || contains(steps.git-diff.outputs.files, 'resources/images')}}
         run: npm run generate:images
       - name: Build Browser
         env:
@@ -52,17 +63,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache node modules
+      - name: Cache Node Modules
+        id: cache-node-modules
         uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          path: node_modules
+          key: ${{ runner.os }}-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-cache-node-modules
       - name: Download build-browser Artifact
         uses: actions/download-artifact@v2
         with:
@@ -143,18 +150,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: release-information
-      - name: Cache node modules
+      - name: Cache Node Modules
+        id: cache-node-modules
         uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          path: node_modules
+          key: ${{ runner.os }}-cache-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-cache-node-modules
       - name: Install Dependencies
         run: npm install
       - name: Update Capacitor dependencies

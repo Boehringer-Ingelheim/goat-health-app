@@ -1,0 +1,481 @@
+{
+  "00": {
+    "TITLE": "Basics of health"
+  },
+  "01": {
+    "TITLE": "Main characteristics of goats?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats are very important for people, and they are a bit similar to humans. However, did you know that there are differences?",
+        "02": "What goats share with humans:",
+        "03": "However, goats are different from humans:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "We all have an average body temperature within a certain range",
+          "020000": "We need clean water",
+          "030000": "We need to walk",
+          "040000": "Females need to be adult when before giving birth to their first goat kid or human baby",
+          "050000": "Our newborns first drink milk",
+          "060000": "You can count the age on the teeth"
+        },
+        "02": {
+          "010000": "The body temperature is higher: Human 36.5°C – 37.5°C / Goats 38.5°C – 40.5°C",
+          "020000": "Goats have 4 stomachs (and humans only 1)",
+          "030000": "Hence, goats must eat differently. Rice alone is not good. Goats must have rich fibres in their diet.",
+          "040000": "Goats can have more digestion problems than humans",
+          "050000": "Goat pregnancy lasts 5 months compared to 9 for humans",
+          "060000": "The goat does not transfer protection factors against diseases to its kids during pregnancy (in contrast to women and babies), but only with first milk.",
+          "070000": "Newborns must consume the first milk from their mother quickly during the first days (otherwise there is risk of illnesses and death).",
+          "080000": "Having twins is common in goats, so feeding the mother goat well during pregnancy is especially important."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0501-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_026.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_026_200.webp",
+          "MEDIUM": "./assets/img/drawing_026_400.webp",
+          "LARGE": "./assets/img/drawing_026_800.webp"
+        },
+        "TITLE": "The body temperature of goats is higher than for humans."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "What can cause diseases?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "The body can get ill in many ways. This is the same for goats as for other animals and for people. Diseases can start small – for example as a weakness - and increase, if they are not recognized and controlled early.",
+        "02": "Diseases can be caused by:",
+        "03": "These are the disease agents:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "The environment, such as:",
+          "010100": "Bad or not enough feed",
+          "010200": "Dirty water or not enough water",
+          "010300": "Mud or constantly wet floor",
+          "010400": "Stress",
+          "010401": "Heat",
+          "010402": "Too many goats on the same place",
+          "020000": "Poisoning, such as:",
+          "020100": "From nature",
+          "020101": "Snakes",
+          "020102": "Poisonous plants like Euphorbia",
+          "020200": "From mankind",
+          "020201": "Garbage",
+          "020202": "Chemicals such as petrol",
+          "020203": "Plant pesticides",
+          "020204": "Drugs for cows if the dose is not adjusted to goats",
+          "030000": "The heredity of the goat family:",
+          "030100": "Bad genes",
+          "030200": "In-breeding",
+          "040000": "The disease agents: micro-organisms (cannot be seen by eye) and parasites"
+        },
+        "02": {
+          "010000": "Some stay in or on goats only, some pass on to humans and other animals",
+          "020000": "Some are transmitted by mosquitoes, ticks, snails, whereas some pass on directly"
+        },
+        "03": {
+          "010000": "Bacteria",
+          "010100": "Too small to seen by eye, but bacteria can grow to be seen by eye (white or yellow dots)",
+          "010200": "Grow inside and outside the body",
+          "010300": "Cause diseases like Brucellosis, Tuberculosis and Salmonellosis",
+          "010400": "Can survive in nasal discharge, droppings, dirty water/muddy floor",
+          "020000": "Viruses",
+          "020100": "Too small to seen by eye, only grow only inside the body",
+          "020200": "In goats: PPR (disease like goat plague) and FMD (foot and mouth disease), ...",
+          "020300": "In humans: influenza, HIV/ AIDS, Dengue and Chikungunya. Can survive in discharges and environment to contaminate other animals",
+          "030000": "Fungi",
+          "030100": "Mould, skin fungus...",
+          "030200": "Appear often in humid environment",
+          "030300": "Starts small, but can grow to be seen by eye, can smell bad",
+          "040000": "Parasites: like a small animal living on or in bigger animal and causing harm. Many types:",
+          "040100": "Fleas: Can spread between all animals and humans",
+          "040200": "Lice: Do not spread a lot between human and goats",
+          "040300": "Ticks: Should be removed every day because ticks can transmit diseases in one day",
+          "040400": "Larvae of flies (the worms which develop into flies): in the stomach",
+          "040500": "Leeches: on skin",
+          "040600": "Fluke: inside in liver and lungs",
+          "040700": "Worms: Can live in skin, lungs, intestine, liver, even in brain",
+          "040800": "Blood parasites (live in blood cells)",
+          "040801": "Too small to see by eye",
+          "040802": "Trypanosoma, Anaplasma, Babesia (all in goats), Malaria (in humans)...",
+          "040900": "Many parasites multiply via eggs. They can be found in a dung sample analysed by the veterinarian. Worm eggs usually need some weeks to mature and become adult.",
+          "041000": "To avoid parasite transmission, change direction of pasture every month. Then, the larvae coming out of parasite eggs cannot enter in the goats, so the larvae finally die after some months.",
+          "041100": "Cut grass from riverside in rainy season and let dry for 2 months."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0502-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_047.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_047_200.webp",
+          "MEDIUM": "./assets/img/drawing_047_400.webp",
+          "LARGE": "./assets/img/drawing_047_800.webp"
+        },
+        "TITLE": "Ticks can transmit diseases to goats"
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_008.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_008_200.webp",
+          "MEDIUM": "./assets/img/photo_008_400.webp",
+          "LARGE": "./assets/img/photo_008_800.webp"
+        },
+        "TITLE": "One example of bacteria (E. coli)"
+      },
+      "03": {
+        "FILENAME": "./assets/img/photo_009.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_009_200.webp",
+          "MEDIUM": "./assets/img/photo_009_400.webp",
+          "LARGE": "./assets/img/photo_009_800.webp"
+        },
+        "TITLE": "One example of virus (Rabies virus)"
+      },
+      "04": {
+        "FILENAME": "./assets/img/photo_010.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_010_200.webp",
+          "MEDIUM": "./assets/img/photo_010_400.webp",
+          "LARGE": "./assets/img/photo_010_800.webp"
+        },
+        "TITLE": "One example of fungus (Aspergillus)"
+      },
+      "05": {
+        "FILENAME": "./assets/img/drawing_048.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_048_200.webp",
+          "MEDIUM": "./assets/img/drawing_048_400.webp",
+          "LARGE": "./assets/img/drawing_048_800.webp"
+        },
+        "TITLE": "Adult flea & Flea larvae"
+      },
+      "06": {
+        "FILENAME": "./assets/img/drawing_049.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_049_200.webp",
+          "MEDIUM": "./assets/img/drawing_049_400.webp",
+          "LARGE": "./assets/img/drawing_049_800.webp"
+        },
+        "TITLE": "Female tick full of blood and adult ticks (Male & Female)"
+      },
+      "07": {
+        "FILENAME": "./assets/img/drawing_050.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_050_200.webp",
+          "MEDIUM": "./assets/img/drawing_050_400.webp",
+          "LARGE": "./assets/img/drawing_050_800.webp"
+        },
+        "TITLE": "Parasite cycle of the small liver fluke via ants and snails"
+      }
+    }
+  },
+  "03": {
+    "TITLE": "How to distinguish a sick goat from a healthy goat?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Look at each of your goats once a day. You will detect quickly sick animals.",
+        "02": "Healthy goat:",
+        "03": "Sick goat:",
+        "04": "Very important:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Bright, calm, pays attention to its environment",
+          "020000": "Goat that stays with other goats",
+          "030000": "Strong",
+          "040000": "Normal walking (not 'tired')",
+          "050000": "Good appetite, eats and chews feed",
+          "060000": "Soft and smooth skin, shiny hair",
+          "070000": "Clean anus, nostrils and mouth",
+          "080000": "Pink and moist mouth, vulva and nostrils",
+          "090000": "Regular and silent breath",
+          "100000": "Soft droppings",
+          "110000": "Yellow urine",
+          "120000": "Bright eyes"
+        },
+        "02": {
+          "010000": "Depressed, nervous and restless",
+          "020000": "Goat which does not stay with other goats",
+          "030000": "Thin, weak",
+          "040000": "Not walking like normal, lameness",
+          "050000": "Dull or dry eyes",
+          "060000": "Hair standing up and dull",
+          "070000": "Scratching",
+          "070100": "You can also see dirty lines at the height of goats: search for external parasites",
+          "070200": "Is not normal! Skin parasites are usually behind it!",
+          "080000": "Long fur",
+          "080100": "Can be internal parasites",
+          "090000": "Rough skin, bare in some places",
+          "100000": "Lack of appetite or eats soil or droppings or does not drink enough water",
+          "110000": "Liquid or solid faeces",
+          "120000": "Dirty and soiled natural orifices",
+          "130000": "Red, dark or pale, purple or dry mouth and vulva or cracked nostrils",
+          "140000": "Irregular and noisy breath",
+          "150000": "Discharge from nose, mouth, eyes, ears or genital organs",
+          "160000": "Dark urine, with blood"
+        },
+        "03": {
+          "010000": "Any of these signs alone already shows that the goat is sick.",
+          "020000": "The signs can be the same for adult goats and for kids.",
+          "030000": "So, isolate the goat from the rest of the herd and treat it quickly.",
+          "040000": "Do not wait until the goat gets more disease signs or the disease spreads to others.",
+          "050000": "Give good feed and water to sick goats so that they survive. This is especially important for kids."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0503-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_027.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_027_200.webp",
+          "MEDIUM": "./assets/img/drawing_027_400.webp",
+          "LARGE": "./assets/img/drawing_027_800.webp"
+        },
+        "TITLE": "A healthy goat pays attention to its environment."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_028.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_028_200.webp",
+          "MEDIUM": "./assets/img/drawing_028_400.webp",
+          "LARGE": "./assets/img/drawing_028_800.webp"
+        },
+        "TITLE": "Any of the disease signs alone already shows that the goat is sick."
+      },
+      "03": {
+        "FILENAME": "./assets/img/photo_004.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_004_200.webp",
+          "MEDIUM": "./assets/img/photo_004_400.webp",
+          "LARGE": "./assets/img/photo_004_800.webp"
+        },
+        "TITLE": "Discharge from nose can be a parasite disease."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "Daily health check: which parts of the goat shall I check daily?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Each day, check:",
+        "02": "If something is not normal, first isolate the goat and ask for help (competent neighbors, technicians, veterinarian).",
+        "03": "Wash hands with soap before and after handling each sick animal. After examining all goats, wash hands before doing next the next task."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Nose: healthy nose is pink and moist without discharge.",
+          "020000": "Eyes: healthy eyes are clear and have a white background.",
+          "030000": "Feet: smooth surface, no wounds.",
+          "040000": "Hair: healthy hair is silky and smooth.",
+          "050000": "Legs: healthy legs are warm and have good muscles.",
+          "060000": "Udder: healthy udders is as warm as the body.",
+          "070000": "Anus and tail: healthy parts are clean and dry.",
+          "080000": "Skin: healthy skin is elastic movement upon pulling skin.",
+          "080100": "When pulled if the skin does not go down immediately, check if the goat has been drinking enough water and provide more water."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0504-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_025.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_025_200.webp",
+          "MEDIUM": "./assets/img/drawing_025_400.webp",
+          "LARGE": "./assets/img/drawing_025_800.webp"
+        },
+        "TITLE": "Each day, do the health check: upon pulling does the skin go down elastically?"
+      }
+    }
+  },
+  "05": {
+    "TITLE": "Which Goat Diseases Can Be Transmitted To Humans?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Many diseases can be transmitted from goats to humans! Therefore, keep all your goats healthy, so that your children and you can stay healthy.",
+        "02": "Sometimes, humans get the same symptoms as goats, sometimes not.",
+        "03": "Therefore, always wash your hands carefully before and after checking sick goats. In addition, isolate them and do not let children approach them.",
+        "04": "Pregnant women should always be careful when taking care of goats, and avoid goats in case of goat abortion. These diseases can cause abortion and illness to the woman!",
+        "05": "Goats can also infect cows or sheeps and vice versa! So, keep healthy and sick animals apart. And if possible, keep goats apart from cows or sheep."
+      },
+      "LIST": {
+        "01": {
+          "010000": "External parasites (ticks, fleas, mites): they cause skin problems and they can also transmit diseases to humans and goats",
+          "020000": "Rabies: deadly for humans and goats",
+          "030000": "Brucellosis: infertility and abortions for humans and goats",
+          "040000": "Diarrhea (worms, bacteria or virus): mostly same disease for humans and goats",
+          "050000": "Echinococcosis (worm): a worm growing mainly in liver of humans and goats, but lungs and brain can also get infected. It can be  a deadly disease."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0505-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_029.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_029_200.webp",
+          "MEDIUM": "./assets/img/drawing_029_400.webp",
+          "LARGE": "./assets/img/drawing_029_800.webp"
+        },
+        "TITLE": "Pregnant women should always be careful when taking care of goats and avoid goats in case of goat abortion."
+      }
+    }
+  },
+  "06": {
+    "TITLE": "Village Goat Pharmacy",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Each village needs a pharmacy. What you need to buy or have:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Soap: Use soap to wash:",
+          "010100": "Your hands every day",
+          "010200": "Your hands after every goat work",
+          "010300": "The contaminated goat stall after birthing of kids",
+          "010400": "The contaminated goat house after the goat has diarrhea",
+          "010500": "The contaminated area if there is blood spilled from goats",
+          "010600": "The wooden floor made of tree branches every week",
+          "010700": "The whole wooden goat house at the start and at the end of the dry season",
+          "010800": "The wooden goat house if goats have died suddenly",
+          "010900": "Clean in the morning to let dry during the day",
+          "011000": "Burn or bury dead goats deep in the soil",
+          "011100": "Clean all areas with a brush",
+          "020000": "Disinfectant: iodine, oxygenated water (other name: hydrogen peroxide), chlorhexidine very good are",
+          "020100": "It even reaches deep wounds",
+          "020200": "It is also good for humans",
+          "020300": "It is also good against fungi",
+          "030000": "Neem oil",
+          "030100": "It is very good for the skin",
+          "030200": "Smear neem oil on the thin skin of all goats with unhealthy looking skin or any rejected kids with many small ticks",
+          "030300": "If the skin is red because of a skin disease, use a plastic to protect your hand",
+          "030400": "You can also apply this to other animals with skin problems like dogs or cows",
+          "040000": "Big plastic syringe (without needle) or bottle for disinfectant to clean wounds",
+          "050000": "Thermometer to check temperature of animals only. Keep a separate thermometer for people.",
+          "060000": "Weight scale to weight goats to check good growth and before treatment if needed",
+          "070000": "Brush for cleaning",
+          "080000": "Ropes to separate goats",
+          "090000": "Tweezers for tick removal"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0506-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/photo_005.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_005_200.webp",
+          "MEDIUM": "./assets/img/photo_005_400.webp",
+          "LARGE": "./assets/img/photo_005_800.webp"
+        },
+        "TITLE": "Disinfectant"
+      },
+      "02": {
+        "FILENAME": "./assets/img/photo_006.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/photo_006_200.webp",
+          "MEDIUM": "./assets/img/photo_006_400.webp",
+          "LARGE": "./assets/img/photo_006_800.webp"
+        },
+        "TITLE": ""
+      },
+      "03": {
+        "FILENAME": "./assets/img/drawing_030.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_030_200.webp",
+          "MEDIUM": "./assets/img/drawing_030_400.webp",
+          "LARGE": "./assets/img/drawing_030_800.webp"
+        },
+        "TITLE": "Each village needs an own little pharmacy with soap, disinfectant, neem oil etc."
+      }
+    }
+  },
+  "07": {
+    "TITLE": "How do you clean the wounds on your goat?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Deep wounds have to be cleaned and disinfected to avoid more disease. How to do this?"
+      },
+      "LIST": {
+        "01": {
+          "010000": "If wound is fresh and the goat allows it, press around it so that blood flushes out dirt.",
+          "020000": "Remove all dirty and dead tissues with soapy water.",
+          "030000": "Drain with a syringe filled with disinfectant oxygenated water (also called hydrogen peroxide) (it will create foam, which is good to remove dirt) or iodine diluted with clean water.",
+          "040000": "Let disinfectant flow out of the wound with the dirt.",
+          "050000": "Monitor wound every day and repeat cleaning."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0507-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_031.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_031_200.webp",
+          "MEDIUM": "./assets/img/drawing_031_400.webp",
+          "LARGE": "./assets/img/drawing_031_800.webp"
+        },
+        "TITLE": "Deep wounds have to be cleaned and disinfected to avoid more disease."
+      }
+    }
+  },
+  "08": {
+    "TITLE": "How to measure fever?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Fever is the first sign of many diseases from bacteria and viruses. Use a thermometer to measure the temperature.",
+        "02": "Normal goat temperature: between 38.5°C and 40.5°C.",
+        "03": "If the goats’ body temperature is above 40.5°C: it means the animal has fever. If the it is also a cause for concern if the goats body temperature falls below 38.5°C.",
+        "04": "Use a thermometer as follows:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Shake the thermometer so that the temperature indicated is very low. Cool it with water from the shade if air temperature is near 40°C.",
+          "020000": "Someone holds the goat if possible",
+          "030000": "Push the thermometer into the anus, maximum to a third of it, and make it touch the side of the intestine",
+          "040000": "Wait at least one minute",
+          "050000": "Take it out and read it",
+          "060000": "Clean with soapy water and store it far from heat or hot sun, in the shade in your house",
+          "070000": "Use it only for animals"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0508-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_026.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_026_200.webp",
+          "MEDIUM": "./assets/img/drawing_026_400.webp",
+          "LARGE": "./assets/img/drawing_026_800.webp"
+        },
+        "TITLE": "Fever is the first sign of many diseases from bacteria and viruses."
+      }
+    }
+  }
+}

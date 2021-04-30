@@ -1,12 +1,10 @@
+import { FC } from 'react';
 import { useSelector } from 'react-redux';
-import { ChapterViewCard, ChapterViewList } from '../ChapterView';
-import { ChapterId } from '../Chapters';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
+import { ChapterViewCard, ChapterViewList } from '../ChapterView';
+import { CS } from '../Chapters';
 
-export const SearchResult = ({
-  chapterId = '01' as ChapterId,
-  sectionId = '01',
-}) => {
+export const SearchResult: FC<CS> = ({ chapterId, sectionId }) => {
   const currentSearchView = useSelector(selectCurrentSearchView);
 
   if (currentSearchView === 'card') {

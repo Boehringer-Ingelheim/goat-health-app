@@ -1,5 +1,5 @@
+import { CS } from './../../components/Chapters/index';
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { ChapterId } from '../../components/Chapters';
 import { ThemeName } from '../../utils/hooks/useTheme';
 import { SPEECH_LANGUAGE_DEFAULT } from '../speech/speech.constants';
 
@@ -15,12 +15,10 @@ interface CurrentSpeechNamePayload {
 
 type CurrentThemeName = ThemeName;
 
-interface Favorite {
+type Favorite = CS & {
   addedAt: Date;
-  chapterId: ChapterId;
   id: string;
-  sectionId: string;
-}
+};
 
 type UserState = {
   favorites: Favorite[];

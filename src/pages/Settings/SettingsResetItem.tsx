@@ -12,7 +12,7 @@ import { resetUserState } from '../../data/user/user.slice';
 import './SettingsResetItem.css';
 
 export const SettingsResetItem: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('app');
 
   const [showAlertReset, setShowAlertReset] = useState(false);
 

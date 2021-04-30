@@ -1,0 +1,158 @@
+{
+  "00": {
+    "TITLE": "Recognize symptoms and distinguish diseases"
+  },
+  "01": {
+    "TITLE": "If your goat gets skin problems, what can it be?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Some signs are common to different diseases. If your goat shows skin problems, it can be one of these common reasons:",
+        "02": "There are many more diseases caused by bacteria.",
+        "03": "Examine your goat by daily health check. It  is important to inform the veterinarian about all the signs which you have observed in the whole body. These will help you to find the disease and the correct treatment and prevention."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Mange (scabies = disease by external parasites, namely: mites): intense itching!, skin is thickened, rough and crackled, loss of hair.",
+          "010100": "Treatment: antiparasitic containing 'ivermectin' substance",
+          "020000": "Goat pox: many raised spots, mainly in summer.",
+          "020100": "Treatment: antiparasitics to avoid spreading.",
+          "030000": "Fungal disease: looks like circular marks, pale, thick, without hair, no itching.",
+          "030100": "Treatment: Iodine or anti-fungal medication containing 'ketoconazole'",
+          "040000": "Sunburn: only on white parts, the skin gets red and crackled.",
+          "040100": "Treatment: avoid exposure to midday sunlight, if a goat is very sensitive, do not use for breeding"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-1001-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_044.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_044_200.webp",
+          "MEDIUM": "./assets/img/drawing_044_400.webp",
+          "LARGE": "./assets/img/drawing_044_800.webp"
+        },
+        "TITLE": "Different diseases can show up at the skin. Daily health check helps to find the disease and the correct treatment and prevention."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "If your goat does not grow well, what can it be?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Some signs are common to different diseases. If your goat doesn’t grow well, it can be one of these common reasons:",
+        "02": "There are many more diseases, also from bacteria.",
+        "03": "Examine your goat by daily health check. It is important to inform the veterinarian about all the signs which you have observed in the whole body. These will help you to identify the disease and determine the correct treatment and prevention."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Internal worm parasites: can show yellowish eyes, pale inside mouth and eyelid, normal appetite, bad breath, swollen belly, diarrhea.",
+          "010100": "Treatment: antiparasitic medications from your veterinarian, including 'de-worming schedule' and dung sample analysis.",
+          "020000": "Internal blood parasites: can show yellowish eyes, pale inside mouth and eyelid, normal belly, weak.",
+          "020100": "Treatment: antiparasitic medicine from your veterinarian.",
+          "030000": "Acidosis: reduced appetite, swollen and hard belly, belly ache, diarrhoea.",
+          "030100": "Treatment: good feeding. Apply recommendations from chapter 3.",
+          "040000": "Bad feeding and little water provision: upon pulling, skin does not go down immediately, bones and hips can be felt easily through the fur.",
+          "040100": "Treatment: good feeding and watering. Apply the recommendations from chapter 3."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-1002-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_015b_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_015b_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_015b_en_400.webp",
+          "LARGE": "./assets/img/drawing_015b_en_800.webp"
+        },
+        "TITLE": "Check the goat card every month to monitor growth."
+      },
+      "02": {
+        "FILENAME": "./assets/img/drawing_014_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_014_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_014_en_400.webp",
+          "LARGE": "./assets/img/drawing_014_en_800.webp"
+        },
+        "TITLE": "Check the growing goat kid every month."
+      }
+    }
+  },
+  "03": {
+    "TITLE": "If your goat is limping, what can it be?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Some signs are common to different diseases. If your goat is limping, it can be one of these four common reasons:",
+        "02": "There are many more diseases, also from bacteria; and fractures and snake bites. Mostly, bacteria start from a wound which goes deep.",
+        "03": "Daily health check for the whole body, cleaning and disinfection of wounds is very important."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Foot-and-mouth-disease (FMD): blisters in mouth, feet and teats.",
+          "010100": "Treatment: alert veterinarian since this disease is controlled by the government, wound cleaning and disinfection",
+          "020000": "Joint inflammation: warm, swollen and painful; can be brucellosis or other bacterial disease",
+          "020100": "Treatment: veterinarian can give antibiotics",
+          "030000": "Blackleg disease: caused by bacteria, hesitating to walk, swollen muscle, air pocket under the skin when touched; dry skin",
+          "030100": "Treatment: urgency! veterinarian can give antibiotics, wound cleaning, goat will die if not treated immediately. The carcass will have stiff legs. Do not open it! as the bacteria can be transmitted to humans readily and can lead to death in the human!",
+          "040000": "Foot rot disease: caused by bacteria, wound between claws, no vesicles in the mouth or on the teat",
+          "040100": "Treatment: veterinarian can give antibiotics, wound cleaning"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-1003-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_045.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_045_200.webp",
+          "MEDIUM": "./assets/img/drawing_045_400.webp",
+          "LARGE": "./assets/img/drawing_045_800.webp"
+        },
+        "TITLE": "Different diseases can show up as limping. Daily health check helps to identify the disease and determine the correct treatment and prevention."
+      }
+    }
+  },
+  "04": {
+    "TITLE": "If your goat suddenly dies, what can it be?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Some signs are common to different diseases. If your goat is limping, it can be one of these four common reasons:",
+        "02": "Call the veterinarian for further instructions. Do not leave the animal in the field or in contact with other animals. Put gloves when transporting it to another place and wash your hands well with soap and water after transporting animals.",
+        "03": "If no veterinarian is available to examine the dead goat: bury deeply with quicklime. This destroys the dangerous bacteria."
+      },
+      "LIST": {
+        "01": {
+          "010000": "Bacterial poisoning of intestine, called 'Enterotoxaemia': very severe disease. Either sudden death, or swollen belly with  bloody diarrhea.",
+          "010100": "Prevention: prophylactic/preventive vaccine. Never change feeding abruptly!",
+          "020000": "PPR: Discharge, Diarrhea, Death",
+          "020100": "Prevention: prophylactic/preventive vaccine",
+          "030000": "Generalised bleeding disease, called 'Pasteurellosis': swollen head, neck, throat, noisy breathing, dry cough, purulent discharge from nose and mouth, bloody diarrhea",
+          "030100": "Prevention: prophylactic/preventive vaccine",
+          "040000": "Anthrax : purple membranes of mouth and eyelid with blood spots, diarrhea, after death soft legs of the carcass. Do not open the carcass! Do not eat the meat! Anthrax can lead to human death!",
+          "040100": "Prevention: prophylactic/preventive vaccine"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-1004-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_046.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_046_200.webp",
+          "MEDIUM": "./assets/img/drawing_046_400.webp",
+          "LARGE": "./assets/img/drawing_046_800.webp"
+        },
+        "TITLE": "Different diseases can lead to sudden death. Alert the veterinarian. Bury the carcass with quicklime and do not eat! Some diseases are dangerous for people, too."
+      }
+    }
+  }
+}

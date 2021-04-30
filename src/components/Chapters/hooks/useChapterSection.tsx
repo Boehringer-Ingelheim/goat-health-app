@@ -1,43 +1,47 @@
-import { book, bookmark } from 'ionicons/icons';
 import { useTranslation } from 'react-i18next';
-import { ChapterId } from '../index';
+import { CS } from '..';
+import { innerText } from '../../../utils/innerText';
 import { getIdFromChapterIdAndSectionId, getChapterColor } from '../utils';
-import { useChapterSectionContent } from './useChapterSectionContent';
+import { useChapterSectionComponent } from './useChapterSectionComponent';
 
-export const useChapterSection = (chapterId: ChapterId, sectionId: string) => {
+export const useChapterSection = ({ chapterId, sectionId }: CS) => {
   const { t } = useTranslation();
-
-  const color = getChapterColor(chapterId);
-  const { Content, text } = useChapterSectionContent(chapterId, sectionId);
-
-  const isHeader = sectionId === '00';
+  const Component = useChapterSectionComponent({
+    chapterId,
+    sectionId,
+  });
+  const text = innerText(Component({ context: '' }));
 
   return {
-    color,
-    icon: isHeader ? book : bookmark,
-    id: getIdFromChapterIdAndSectionId(chapterId, sectionId),
+    color: getChapterColor(chapterId),
+    id: getIdFromChapterIdAndSectionId({ chapterId, sectionId }),
     image: {
-      original: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.FILENAME`),
+      original: t(
+        `chapter${chapterId}:${sectionId}.IMAGE.01.FILENAME` as const,
+      ),
       thumbnail: {
-        small: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.SMALL`),
-        medium: t(
-          `CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.MEDIUM`,
+        small: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.SMALL` as const,
         ),
-        large: t(`CHAPTER.${chapterId}.${sectionId}.IMAGE.01.THUMBNAIL.LARGE`),
+        medium: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.MEDIUM` as const,
+        ),
+        large: t(
+          `chapter${chapterId}:${sectionId}.IMAGE.01.THUMBNAIL.LARGE` as const,
+        ),
       },
     },
-    isHeader,
     title: {
-      chapter: t(`CHAPTER.${chapterId}.00.TITLE`) || '',
-      section: t(`CHAPTER.${chapterId}.${sectionId}.TITLE`) || '',
+      chapter: t(`chapter${chapterId}:00.TITLE` as const),
+      section: t(`chapter${chapterId}:${sectionId}.TITLE` as const),
     },
     url: `/chapter/${chapterId}/${sectionId}`,
     view: {
       list: {
-        content: <>{text[0] || ''}</>,
+        Component: () => <>{text[0] || ''} ...</>,
       },
       page: {
-        Content,
+        Component,
         text,
       },
     },

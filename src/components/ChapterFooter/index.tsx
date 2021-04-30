@@ -1,0 +1,1 @@
+export { ChapterFooter } from './ChapterFooter';

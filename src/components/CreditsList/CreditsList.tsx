@@ -5,19 +5,18 @@ import {
   CREDITS_TEAM_MENTOR,
   CREDITS_TEAM_MMH,
   CREDITS_TEAM_PROJECT,
-} from '../../data/credits/credits';
+} from './utils';
 import { CreditsMemberGroup } from './CreditsMemberGroup';
 
 export const CreditsList: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('app');
 
   return (
     <IonList>
       <IonListHeader>
         <IonLabel>{t('CREDITS.TEAM.PROJECT')}</IonLabel>
       </IonListHeader>
-      {CREDITS_TEAM_PROJECT.map((team, teamIndex) => {
-        const { members, title } = team;
+      {CREDITS_TEAM_PROJECT.map(({ members, title }, teamIndex) => {
         return (
           <CreditsMemberGroup
             key={teamIndex}
@@ -29,24 +28,24 @@ export const CreditsList: React.FC = () => {
       <IonListHeader>
         <IonLabel>{t('CREDITS.TEAM.MENTOR')}</IonLabel>
       </IonListHeader>
-      {CREDITS_TEAM_MENTOR.map((team, teamIndex) => {
-        const { members } = team;
+      {CREDITS_TEAM_MENTOR.map(({ members, title }, teamIndex) => {
         return (
           <CreditsMemberGroup
             key={teamIndex}
             members={members}
+            title={title}
           ></CreditsMemberGroup>
         );
       })}
       <IonListHeader>
         <IonLabel>{t('CREDITS.TEAM.MMH')}</IonLabel>
       </IonListHeader>
-      {CREDITS_TEAM_MMH.map((team, teamIndex) => {
-        const { members } = team;
+      {CREDITS_TEAM_MMH.map(({ members, title }, teamIndex) => {
         return (
           <CreditsMemberGroup
             key={teamIndex}
             members={members}
+            title={title}
           ></CreditsMemberGroup>
         );
       })}

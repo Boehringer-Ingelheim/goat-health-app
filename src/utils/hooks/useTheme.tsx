@@ -1,11 +1,12 @@
 import { useMemo } from 'react';
+import { TranslationKeys } from '../../react-i18next';
 
 export type ThemeName = 'bright' | 'dark' | 'system';
 
 export type Theme = {
   [key in ThemeName]: {
     className: string;
-    i18n: string;
+    i18n: TranslationKeys;
     name: key;
   };
 };

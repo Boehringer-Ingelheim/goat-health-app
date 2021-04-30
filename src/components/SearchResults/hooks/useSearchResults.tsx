@@ -1,17 +1,18 @@
 import { useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useFuse } from '../../../utils/hooks/useFuse';
-import { Chapter } from '../../Chapters';
-import { getSearchDataFromChapter } from '../utils';
+import { I18nChapter } from '../../Chapters';
+import { getSearchDataFromLanguage } from '../utils';
 
 export const useSearchResults = (searchQuery: string) => {
   const { i18n } = useTranslation();
-  const language = i18n.language;
+  const { language } = i18n;
 
   const data = useMemo(() => {
-    const chapter = (i18n.getDataByLanguage(language)?.translation?.CHAPTER ||
-      {}) as Chapter;
-    return getSearchDataFromChapter(chapter);
+    const dataLanguage = (i18n.getDataByLanguage(
+      language,
+    ) as unknown) as I18nChapter;
+    return getSearchDataFromLanguage(dataLanguage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
 

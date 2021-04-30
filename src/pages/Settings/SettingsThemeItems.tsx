@@ -13,7 +13,7 @@ import { setCurrentTheme } from '../../data/user/user.slice';
 import { THEMES } from '../../utils/hooks/useTheme';
 
 export const SettingsThemeItems: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('app');
   const dispatch = useDispatch();
   const currentThemeName = useSelector(selectCurrentThemeName);
 

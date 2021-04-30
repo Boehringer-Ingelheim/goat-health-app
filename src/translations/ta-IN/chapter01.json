@@ -1,0 +1,144 @@
+{
+  "00": {
+    "TITLE": "Housing"
+  },
+  "01": {
+    "TITLE": "What is a good goat house?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "A good goat house is:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Dry",
+          "010100": "On a slight slope (so that the urine can flow away)",
+          "010200": "Has good air flow",
+          "020000": "Raised floor",
+          "020100": "Safe from mud and floods",
+          "020200": "Relatively safe from rats",
+          "020300": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (<3cm) so goats do not stuck their legs between two boards)",
+          "020300_ssml": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (smaller than 3cm) so goats do not stuck their legs between two boards)",
+          "030000": "Big enough: approx. 2m x 2m x 2.5m for 10 goats",
+          "040000": "The house can be less than 1 m higher than the soil, as long as you can remove the droppings by collection bags or clean them away manually.",
+          "050000": "Can be wood or concrete and should be easy to wash",
+          "060000": "Roof oriented East-West (not too hot at noon)",
+          "070000": "Can be closed (cement or strong rice bags,…) if cold, too rainy or too windy",
+          "070000_ssml": "Can be closed (cement or strong rice bags) if cold, too rainy or too windy",
+          "080000": "Add to your goat house a water collection system from the roof to prepare for drought"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0101-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_002_en.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_002_en_200.webp",
+          "MEDIUM": "./assets/img/drawing_002_en_400.webp",
+          "LARGE": "./assets/img/drawing_002_en_800.webp"
+        },
+        "TITLE": "Add to your goat house a water collection system from the roof to prepare for drought."
+      }
+    }
+  },
+  "02": {
+    "TITLE": "What is important to maintain good living conditions for goats?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats need hygiene. This means clean conditions:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "No mud",
+          "020000": "Clean feed (hay rack)",
+          "030000": "Remove droppings every day",
+          "040000": "Wash your hands after checking the goat´s health",
+          "050000": "Wash dirty surface with soap",
+          "060000": "Isolate sick animals"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0102-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_003.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_003_200.webp",
+          "MEDIUM": "./assets/img/drawing_003_400.webp",
+          "LARGE": "./assets/img/drawing_003_800.webp"
+        },
+        "TITLE": "Remove droppings every day."
+      }
+    }
+  },
+  "03": {
+    "TITLE": "Goat droppings: What to do with them?",
+    "TEXT": {
+      "PARAGRAPH": {},
+      "LIST": {
+        "01": {
+          "010000": "Diseases can be transmitted via droppings!",
+          "020000": "Collect all droppings daily and place them in a compost heap",
+          "030000": "Include organic left-overs (unspoiled) food",
+          "040000": "You can stich rice bags together and make a flat basket. This basket could be used to collect the goat droppings (Refer to the figure).",
+          "050000": "IMPORTANT to let droppings disintegrate for 6 months. This kills parasites and disease agents.",
+          "060000": "Use the old droppings to fertilize your crops"
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0103-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_004.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_004_200.webp",
+          "MEDIUM": "./assets/img/drawing_004_400.webp",
+          "LARGE": "./assets/img/drawing_004_800.webp"
+        },
+        "TITLE": "Collect all droppings daily and place them on a compost heap"
+      }
+    }
+  },
+  "04": {
+    "TITLE": "Do goats need to adapt to their new home?",
+    "TEXT": {
+      "PARAGRAPH": {
+        "01": "Goats are very sensitive:"
+      },
+      "LIST": {
+        "01": {
+          "010000": "Ask how goat was kept and fed before",
+          "020000": "Provide or improve:",
+          "020100": "The same space or more",
+          "020200": "The same time for pasture per day or more",
+          "020300": "Provide as much water as they want",
+          "030000": "If you buy other breed than Attappady or Malambary,",
+          "030100": "give extra attention",
+          "030200": "extra feed",
+          "030300": "and extra water in first week",
+          "040000": "Check if new goats are in good health for one week, optimally 2 weeks before mixing the new goats with your goats."
+        }
+      }
+    },
+    "AUDIO": {
+      "FILENAME": "./assets/audio/chapter-0104-en.mp3"
+    },
+    "IMAGE": {
+      "01": {
+        "FILENAME": "./assets/img/drawing_005.webp",
+        "THUMBNAIL": {
+          "SMALL": "./assets/img/drawing_005_200.webp",
+          "MEDIUM": "./assets/img/drawing_005_400.webp",
+          "LARGE": "./assets/img/drawing_005_800.webp"
+        },
+        "TITLE": "Check if new goats are in good health for one week, optimally 2 weeks before mixing the new goats with your goats."
+      }
+    }
+  }
+}

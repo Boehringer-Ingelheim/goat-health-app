@@ -10,13 +10,13 @@ import {
   IonRadioGroup,
 } from '@ionic/react';
 import { ellipsisHorizontal, ellipsisVertical } from 'ionicons/icons';
-import React, { useState } from 'react';
+import { FC, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCurrentSearchView } from '../../data/user/user.slice';
 import { selectCurrentSearchView } from '../../data/user/user.selector';
 
-export const SearchPopover: React.FC = () => {
+export const SearchPopover: FC = () => {
   const [popoverState, setShowPopover] = useState({
     showPopover: false,
     event: undefined,

@@ -1,13 +1,13 @@
 import { IonGrid, IonNote, IonRow } from '@ionic/react';
+import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
 import { selectSearchValue } from '../../data/search/search.selector';
-import { ChapterId } from '../Chapters';
 import { useSearchResults } from './hooks/useSearchResults';
 import { SearchResult } from './SearchResult';
 
-export const SearchResults = () => {
-  const { t } = useTranslation();
+export const SearchResults: FC = () => {
+  const { t } = useTranslation('app');
 
   const searchValue = useSelector(selectSearchValue);
   const results = useSearchResults(searchValue);
@@ -33,10 +33,7 @@ export const SearchResults = () => {
         const { chapterId, sectionId } = result.item;
         return (
           <IonRow class="ion-justify-content-center" key={resultIndex}>
-            <SearchResult
-              chapterId={chapterId as ChapterId}
-              sectionId={sectionId}
-            />
+            <SearchResult chapterId={chapterId} sectionId={sectionId} />
           </IonRow>
         );
       })}

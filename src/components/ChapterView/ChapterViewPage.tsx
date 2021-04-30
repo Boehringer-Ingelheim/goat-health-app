@@ -6,14 +6,13 @@ import {
   IonRow,
   IonText,
 } from '@ionic/react';
-import { ChapterId } from '../Chapters';
+import { FC } from 'react';
+import { CS } from '../Chapters';
 import { useChapterSection } from '../Chapters/hooks/useChapterSection';
 
-export const ChapterViewPage = ({
-  chapterId = '01' as ChapterId,
-  sectionId = '01',
-}) => {
-  const { color, view, title } = useChapterSection(chapterId, sectionId);
+export const ChapterViewPage: FC<CS> = ({ chapterId, sectionId }) => {
+  const { color, view, title } = useChapterSection({ chapterId, sectionId });
+  const { Component } = view.page;
 
   return (
     <IonGrid class="ion-padding ion-text-justify">
@@ -25,7 +24,7 @@ export const ChapterViewPage = ({
           <IonText>
             <h2 className="chapter-title">{title.section}</h2>
           </IonText>
-          {view.page.Content()}
+          <Component />
         </IonCol>
       </IonRow>
     </IonGrid>
