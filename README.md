@@ -6,44 +6,99 @@
   <a href="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-production.yml">
     <img alt="Build states" src="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-production.yml/badge.svg?branch=master">
   </a>
+  <a href="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-beta.yml">
+    <img alt="Build states" src="https://github.com/SimonGolms/goat-health-app/actions/workflows/release-beta.yml/badge.svg?branch=beta">
+  </a>
   <a href="#badge">
     <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
   </a>
 </p>
 
-<img align="center" alt="goat_health_app banner" src="./.github/social-preview.png" />
+## Local Development
 
-## Available Scripts
+### Requirements
 
-In the project directory, you can run:
+- NodeJS 14+
+- NPM 6+
+- Ionic
 
-### `ionic serve`
+### Set Environment Variables
 
-Runs the app in the development mode.\
-Open [http://localhost:8100](http://localhost:8100) to view it in the browser.
+See `.env.template` to create appropriate `.env.local` file
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Install Dependencies
 
-### `npm test`
+```sh
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Generate Optimized Images
 
-### `ionic build --prod --engine=browser`
+```sh
+npm run generate:images
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Generate an optimized [`webp`](wikipedia.org/wiki/WebP) format in different resolutions of the images under `resources/images` with the help of [Squoosh](https://squoosh.app/) and store it under `public/assets/img`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Start Development Server
 
-### `npm run eject`
+```sh
+ionic serve
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Runs the app in the development mode. Open [http://localhost:8100](http://localhost:8100) to view it in the browser.\
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Create Production Build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm run build:ionic:browser
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.\
+The build is minified and the filenames include the hashes. The app is ready to be deployed!
+
+## Continuos Deployment
+
+1. Install Dependencies
+   `npm install`
+2. (on branch master/next/beta) Get Release Information (Changelog & Release Version) \
+
+   ```sh
+   npm run release:information
+   ```
+
+   Creates Release Notes and the next version from git commits.
+   The next version is stored under `.VERSION` and updates the npm package version.
+   The release notes are stored under `.NOTES`.
+
+3. Generate Optimized Images
+
+   `npm run generate:images`
+
+4. Build
+
+   `npm run build:ionic:browser`\
+   `ionic capacitor sync ios --prod`
+
+5. Generate Screenshots
+
+   1. Generate Screenhots for en-US
+
+      `JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL=en-US JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY=feed npm run generate:screenshots`
+
+   2. Generate Screenhots for ta-IN
+
+      `JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL=ta-IN JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY=உலர்ந்த npm run generate:screenshots`
+
+6. Goto ios app folder
+
+   `cd ios/App`
+
+7. Install Dependencies
+
+   `bundle install`
+
+8. Run Fastlane
+
+   `bundle exec fastlane`
