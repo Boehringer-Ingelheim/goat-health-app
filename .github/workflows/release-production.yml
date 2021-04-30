@@ -76,7 +76,10 @@ jobs:
           name: build-browser
           path: build
       - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install
+      - name: Install Playwright Browser Binaries
+        run: npm install -D playwright
       - name: Generate Screenshots (en-US)
         env:
           JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: en-US
