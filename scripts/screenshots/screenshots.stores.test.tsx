@@ -1,3 +1,5 @@
+/* eslint-disable jest/expect-expect */
+import fs from 'fs';
 import {
   getBaseUrl,
   getPathScreenshot,
@@ -9,8 +11,16 @@ const {
   JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY,
 } = process.env;
 
+describe('Infrastructure', () => {
+  const exists = fs.existsSync('build');
+  it('build folder exists', () => {
+    expect(exists).toBe(true);
+  });
+});
+
 describe('App Screenshots', () => {
   const styleContentSafeArea = getStyleTagContentSafeArea(deviceName as string);
+
   it('home', async () => {
     await page.goto(`${getBaseUrl()}/home`, { waitUntil: 'networkidle' });
     await page.addStyleTag({
@@ -107,5 +117,3 @@ describe('App Screenshots', () => {
     });
   });
 });
-
-export {};
