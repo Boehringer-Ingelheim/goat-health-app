@@ -7,8 +7,7 @@ export const I18N_DEFAULT = 'en-US';
 
 // Language identifiers as specified by RFC 3066: https://www.i18nguy.com/unicode/language-identifiers.html
 export const I18N_LANGUAGES_SUPPORTED = [
-  { cultureLang: 'en-US', name: 'English', nativeName: 'English' },
-  { cultureLang: 'ta-IN', name: 'Tamil (India)', nativeName: 'தமிழ்' },
+  { cultureLang: 'en', name: 'English', nativeName: 'English' },
 ];
 
 // const translations = {
@@ -17,7 +16,7 @@ export const I18N_LANGUAGES_SUPPORTED = [
 // };
 
 export const resources = {
-  'en-US': enUS,
+  en: enUS,
 };
 
 export default i18n
@@ -34,10 +33,14 @@ export default i18n
     cleanCode: true,
     debug: false,
     ns: Object.keys(enUS),
-    supportedLngs: ['en-US', 'ta-IN'],
-    fallbackLng: 'en-US',
+    supportedLngs: ['en'],
+    fallbackLng: 'en',
     defaultNS: 'app',
-    lng: 'en-US',
+    detection: {
+      // Took me some time to realize that the fallback language also depends on the detection order.
+      // Just keep it simple and don't use storage, etc.
+      order: ['navigator'],
+    },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
