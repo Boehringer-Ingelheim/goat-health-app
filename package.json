@@ -43,7 +43,7 @@
     "@testing-library/user-event": "^13.1.8",
     "fuse.js": "^6.4.6",
     "i18next": "^20.2.2",
-    "i18next-browser-languagedetector": "6.1.0",
+    "i18next-browser-languagedetector": "6.1.1",
     "ionicons": "5.5.1",
     "md5": "^2.3.0",
     "microsoft-cognitiveservices-speech-sdk": "^1.16.0",
