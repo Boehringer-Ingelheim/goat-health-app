@@ -1,25 +1,25 @@
 {
   "00": {
-    "TITLE": "Feeding"
+    "TITLE": "தீவனம"
   },
   "01": {
-    "TITLE": "How do I feed my goats well?",
+    "TITLE": "ஆடுகளுக்கு தேவையான தீவனம் அளிப்பது எப்படி?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats can grow well only if they have enough feed:"
+        "01": "Gஆடுகளுக்கு போதுமான தீவனம் இருந்தால்தான், அவை நன்கு வளரும்"
       },
       "LIST": {
         "01": {
-          "010000": "Let goats pasture.",
-          "020000": "Do not feed goats with just rice or commercial feed concentrates! This avoids the disease acidosis (see Chapter 9.5)",
-          "030000": "Every day, a goat needs 5 kg green (fresh plants) and 1 kg dry feed (your dried plants, or feed concentrate).",
-          "040000": "Government provides feed to tribal people, so approach the nearest veterinary dispensary.",
-          "050000": "Green feed:",
-          "050100": "Leguminous plants have a lot of protein (like milk) and must be majority of feed: alfalfa, cespenia, mulberry… so ask for it.",
-          "060000": "Dry plants: smaller part of feed.",
-          "070000": "Dry feed: this must be the smaller part of feed (rice, local plants). Rice is not natural for goats and they quickly develop acidosis disease if too much rice is fed.",
-          "080000": "Dry the fresh feed if needed later: hang feed on a rope to dry or build a rack out of bamboo.",
-          "090000": "Feed must remain clean and dry: make a rack to hang the hay (less feed is wasted)"
+          "010000": "ஆடுகளை மேயவிடலாம்",
+          "020000": "அரிசி அல்லது நவீன அடர் தீவனத்தை மட்டும் கொடுக்க வேண்டாம்!",
+          "030000": "ஆடுகளுக்கு தினமும் 5 கி பசுந்தீவனமும் 1 கி உலர்தீவனமும் தேவைப்படும்",
+          "040000": "விவசாயிகளுக்காக அரசு தீவனம் வழங்குகின்றது (அருகில் உள்ள கால்நடை மருத்துவமனையை அனுகவும்)",
+          "050000": "பசுந்தீவனம்",
+          "050100": "பயிரினத் தாவரங்கள் அதிக புரதச்சத்து நிறைந்தவை. அதனால் அவற்றை பெரும்பாலான அளவு தீவனத்தில் சேர்ப்பது நல்லது. குதிரை மசால், அகத்தி, மல்பெரி போன்றவை ஆடுகளுக்கு நல்ல பசுந்தீவமாகும்.",
+          "060000": "உலர் தீவனம் சிறிதளவு வேண்டும்",
+          "070000": "உலர்தீவனம்: இது தீவனப் பகுதியில் சிறிதளவாக இருக்க வேண்டும் (அரிசி மற்றும் உள்ளூர் தாவரங்கள்). அளவுக்கு அதிகமான அரிசி கொடுத்தால், ஆட்டிற்கு அமிலத் தேக்க நோய் ஏற்படும்.",
+          "080000": "பசுந்தீவனத்தை காயவைத்து பின்னர் பயன்படுத்தலாம். அதனை கயிற்றில் கட்டியோ அல்லது மூங்கில்களைக் கொண்டு கொம்பு செய்தோ தொங்க விடலாம்.",
+          "090000": "தீவனம் சுத்தமானதாகவும், ஈரம் இல்லாததுமாக இருக்க வேண்டும். வைக்கோல் அடுக்குகளைப் பயன்படுத்துவதால் தீவனம் வீணாவதை தடுக்கலாம்"
         }
       }
     },
@@ -34,7 +34,7 @@
           "MEDIUM": "./assets/img/drawing_007_400.webp",
           "LARGE": "./assets/img/drawing_007_800.webp"
         },
-        "TITLE": "Let goats pasture every day."
+        "TITLE": "தினமும் ஆடுகளை மேயவிடுங்கள்"
       },
       "02": {
         "FILENAME": "./assets/img/drawing_006.webp",
@@ -43,25 +43,25 @@
           "MEDIUM": "./assets/img/drawing_006_400.webp",
           "LARGE": "./assets/img/drawing_006_800.webp"
         },
-        "TITLE": "Every day, a goat needs 5 kg green (fresh plants) and 1 kg dry feed (your dried plants, or feed concentrate)."
+        "TITLE": "ஒவ்வொரு நாளும், சராசரியாக ஆடு ஒன்றுக்கு 5 கிலோ பசுந்தீவனமும், 1 கிலோ உலர் தீவனமும் தேவைப்படும்."
       }
     }
   },
   "02": {
-    "TITLE": "Do goats need pasture?",
+    "TITLE": "ஆடுகளுக்கு மேய்ச்சல் அவசியமா?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats need good green feed to grow"
+        "01": "ஆடுகளின் வளர்ச்சிக்கு பசுந்தீவனம் அவசியம்."
       },
       "LIST": {
         "01": {
-          "010000": "Yes, they need pasture!",
-          "020000": "At least several hours each day.",
-          "030000": "You can organize a herd within the village, and take turns to keep the goats.",
-          "040000": "Take the opportunity of pasture to collect green feed, leaves, and bring it back to dry for drought time.",
-          "050000": "Switch direction of pasture every month.",
-          "060000": "Keep away from water streams with snails.",
-          "070000": "More green feed is good: it helps growth and increases resistance to diseases and parasites."
+          "010000": "ஆமாம். மேய்ச்சல் தேவை!",
+          "020000": "தினமும் சிறிது நேரம் மேய்ச்சல் அவசியம்",
+          "030000": "உங்கள் கிராமத்தில் ஆட்டு மந்தைகளை அமைத்து, அதனை சுழற்சி முறையில் மேய்த்து வரலாம் (இதனால் வீட்டில் வேலை இல்லாதவர்களுக்கு, வேலைவாய்ப்பு கிடைக்கும்)",
+          "040000": "ஆடு மேய்க்கும் பொழுது கிடைக்கும் இலை தழைகளைக் கொண்டு வந்து காய வைத்து வறட்சி காலத்தில் பயன்படுத்திக் கொள்ளலாம்.",
+          "050000": "ஒவ்வொரு மாதமும் வெவ்வேறு திசைகளில் மேய்த்து வரலாம்",
+          "060000": "நத்தை இருக்கும் நீரோடைகளில் இருந்து தள்ளியே இருப்பது நல்லது",
+          "070000": "அதிக பசுந்தீவனம் மிகவும் நல்லது: அது நல்ல வளர்ச்சியையும் நோய் எதிர்ப்பு சக்தியையும் கொடுக்கும்."
         }
       }
     },
@@ -76,27 +76,27 @@
           "MEDIUM": "./assets/img/drawing_008_400.webp",
           "LARGE": "./assets/img/drawing_008_800.webp"
         },
-        "TITLE": "Switch direction of pasture every month."
+        "TITLE": "ஒவ்வொரு மாதமும் வெவ்வேறு திசைகளில் மேய்த்து வரலாம்"
       }
     }
   },
   "03": {
-    "TITLE": "Feed farming: Do I need to cultivate crops?",
+    "TITLE": "பசுந்தீவன சாகுபடி: தேவையான தீவனத்தை நாமே பயிர் செய்யலாமா?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Growing your own crops always improves the feed and the goat health and growth"
+        "01": "நமக்கு தேவையான தீவனத்தை நாமே பயிரிடுவதின் மூலம், நல்ல தீவனம் கிடைப்பது மட்டுமல்லாமல் ஆடுகளின் ஆரோக்கியமமும், வளர்ச்சியும் மேன்மை அடையும்"
       },
       "LIST": {
         "01": {
-          "010000": "Growing crops is important to have feed for drought time!",
-          "020000": "Prepare for drought in the monsoon season. Collect fallen leaves and branches and let them dry. Goats love jackfruit leaves.",
-          "030000": "Make a reserve of dried leaves, grass and hay",
-          "040000": "Government provides seeds (to tribal people, so collect it)",
-          "050000": "Good crops can be cut every 90 days",
-          "060000": "Modern 'hybrid' grass (college grass) grows quicker (and therefore can be cut sooner) and is more nourishing",
-          "070000": "Local traditional plants are also good because they are more resistant to bad weather conditions",
-          "080000": "Grow crops from plants which live more than 2 years",
-          "090000": "Corn provides a limited harvest, so grow only little corn and concentrate on other crops."
+          "010000": "நாமே தீவனப் பயிர் செய்வதன் மூலம் வறட்சியான காலத்தில் நமக்கு தேவையான தீவனம் கிடைக்கும்",
+          "020000": "பருவமழை காலத்திலேயே வறட்சியான காலத்திற்கு தேவையானதை சேர்த்துவைத்துக் கொள்ளுங்கள்.கீழே கிடக்கும் உதிர்ந்த இலைகள் மற்றும் கிளைகளைக் காயவைத்துக் கொள்ளுங்கள். ஆடுகளுக்கு பலா மர இலைகள் மிகவும் பிடிக்கும்.",
+          "030000": "இலைச் சருகுகள், வைக்கோல் மற்றும் காய்ந்த புல்லை சேகரித்து வையுங்கள்",
+          "040000": "தீவன விதைகளை அரசு வழங்குகின்றது (அருகில் உள்ள கால்நடை மருத்துவமனையை அனுகவும்)",
+          "050000": "நல்ல தீவனப் பயிர்களை 90 நாட்களுக்கு ஒரு முறை அறுக்கலாம்",
+          "060000": "நவீன 'கலப்பினப் புல்' வகைகள் வேகமாக வளரும் (அதனால் அவைகளை சீக்கிரம் அறுக்கலாம்). அவை ஊட்டச்சத்து நிறைந்ததும் கூட.",
+          "070000": "நாட்டுச் செடிகளை வளர்ப்பதும் மிக நல்லதே. ஏனெனில், அவை வறட்சிக் காலத்தில் தாக்குப் பிடிக்கக் கூடிய வள்ளன்மை பெற்றவை",
+          "080000": "தாவரங்களைத் தேர்வு செய்யும் பொழுது 2 ஆண்டுகளுக்கு மேல் வாழக்கூடிய தாவரங்களைத் தேர்வு செய்வது நல்லது",
+          "090000": "மக்காச்சோளத்தை வருடத்திற்கு சில முறை மட்டுமே சாகுபடி செய்ய முடியும். அதனால், மக்காச்சோளத்தின் மீது அதிக கவனம் செலுத்தாமல் பிற தானியப் பயிர்களின் மீது அதிக கவனம் செலுத்துங்கள்"
         }
       }
     },
@@ -111,27 +111,27 @@
           "MEDIUM": "./assets/img/drawing_009_400.webp",
           "LARGE": "./assets/img/drawing_009_800.webp"
         },
-        "TITLE": "Growing your own crops always improves the feed. Prepare for drought by collecting fallen leaves and branches."
+        "TITLE": "நமக்கு தேவையான தீவனத்தை நாமே பயிரிடுவதின் மூலம், நல்ல தீவனம் கிடைக்கும். கீழே கிடக்கும் உதிர்ந்த இலைகள் மற்றும் செடிக் கிளைகளைக் காயவைத்துக் கொள்ளுங்கள். வறட்சி காலத்தில், அது நமக்கு பெரிதும் உறுதுணையாக இருக்கும்"
       }
     }
   },
   "04": {
-    "TITLE": "How important is water?",
+    "TITLE": "தண்ணீர் எந்த அளவிற்கு முக்கியமானது?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats need as much water as they can drink! This is very important for the body weight (and your sales price) and for the milk production!",
-        "02": "Without enough water",
+        "01": "ஆடுகளால் எவ்வளவு தண்ணீர் குடிக்க முடியுமோ, அவ்வளவு தண்ணீர் கொடுக்க வேண்டும்! அது ஆடுகளின் உடல் எடை மற்றும் பால் உற்பத்தி அதிகரிக்கவும் துணை புரியும். ஆடுகளின் விற்பனை விலை எடையைப் பொறுத்தே தீர்மானிக்கப் படுகிறது என்பதை நினைவில் கொள்ளுங்கள்.",
+        "02": "போதுமான அளவு தண்ணீர் இல்லாவிட்டால்",
         "03": "Provide clean water!"
       },
       "LIST": {
         "01": {
-          "010000": "Provide water in the morning and in the evening",
-          "020000": "Wait as long as they want to drink (do not take them away before they stop drinking)"
+          "010000": "காலையிலும் மாலையிலும் தண்ணீர் அவசியம் வேண்டும்",
+          "020000": "ஆடுகளால் எவ்வளவு தண்ணீர் குடிக்க முடியுமோ, அவ்வளவு தண்ணீர் கொடுக்க வேண்டும்!"
         },
         "02": {
-          "010000": "they do not grow (so you get less money when selling them)",
-          "020000": "they give less milk",
-          "030000": "they can die"
+          "010000": "ஆடுகள் நன்கு வளராது",
+          "020000": "ஆடுகள் குறைந்த அளவில்தான் பால் கொடுக்கும்",
+          "030000": "ஆடுகள் இறக்கவும் நேரிடும்"
         }
       }
     },
@@ -146,7 +146,7 @@
           "MEDIUM": "./assets/img/drawing_010b_400.webp",
           "LARGE": "./assets/img/drawing_010b_800.webp"
         },
-        "TITLE": "Goats need as much water as they can drink!"
+        "TITLE": "ஆடுகள் எவ்வளவு நேரம் தண்ணீர் குடிக்கிறதோ, அவ்வளவு நேரம் விட வேண்டும் (ஆடுகளை அவசரப் படுத்தக் கூடாது)"
       },
       "02": {
         "FILENAME": "./assets/img/drawing_011.webp",
@@ -155,23 +155,23 @@
           "MEDIUM": "./assets/img/drawing_011_400.webp",
           "LARGE": "./assets/img/drawing_011_800.webp"
         },
-        "TITLE": "Water is very important for the body weight (and your sales price) and for the milk production!"
+        "TITLE": "சுத்தமான தண்ணீர் கொடுக்க வேண்டும். ஆடுகளின் உடல் எடை மற்றும் பால் உற்பத்தி அதிகரிக்கவும் தண்ணீர் மிக அவசியம். ஆடுகளின் விற்பனை விலை எடையைப் பொறுத்தே தீர்மானிக்கப் படுகிறது என்பதை நினைவில் கொள்ளுங்கள்."
       }
     }
   },
   "05": {
-    "TITLE": "Using eggs to improve health and survival of weak kids",
+    "TITLE": "பலவீனமான ஆட்டுக் குட்டிகளைத் தேற்ற முட்டைகளைக் கொடுக்கலாம்",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Construct a mobile chicken coop. You can move the coop to different areas. The advantages of the mobile chicken coop are (1) chicken droppings itself fertilizes different areas of your backyard (2) chickens can access and feed on the worms in the soil."
+        "01": "இடம் பெயர்த்து வைக்கக்கூடிய கோழிக் கூண்டுகளை உருவாக்குங்கள். நீங்கள் கோழிக் கூண்டுகளை வெவ்வேறு பகுதிகளுக்கு நகர்த்தி வைக்கலாம். இடம் பெயர்த்து வைக்கக்கூடிய கோழிக் கூண்டுகளின் நன்மைகள் என்னவென்றால் (1) கோழிகளின் எரு உங்கள் கொல்லைப்புறத்தின் வெவ்வேறு பகுதிகளுக்கு உரமாகும் (2) மண்ணில் உள்ள புழுக்களை கோழிகள் உணவாக உட்கொள்ளும்."
       },
       "LIST": {
         "01": {
-          "010000": "If possible, build a 1 x 1 m cage using strong wooden sticks such as bamboo and raise 3 female chickens (refer to the figure). Firmly mount the cage to the ground so that it cannot be knocked down or moved by other animals.",
-          "020000": "Chicken coops should be strong enough to afford protection against predators such as dogs, raptors etc.",
-          "030000": "Chicken eggs are a good nutritious source for everyone especially children, pregnant women and elderly people. We need to understand that the chicken eggs are a good nutritious source of high-value protein for weak and rejected goat kids, too.",
-          "040000": "Prepare a  soup with eggs, milk, cooked lentils and water by boiling it for at least 10 minutes. Feed the cooled down soup to malnourished goat kids several times a day, until it is healthy. Supplement the soup along with grass starting from two weeks of age.",
-          "050000": "By four weeks of age, the goat kids might be able to feed by themselves."
+          "010000": "1 x 1 மீ அளவில் மரத்தால் ஆன கோழிக்கூண்டுகளை செய்து, அதில் 3 பெட்டைக் கோழிகளை வளர்க்கலாம் (படத்தில் உள்ளது போல) கோழிக்கூண்டுகளைத் தரையில் நன்றாக பொருத்தவும், இல்லாவிட்டால் மற்ற விலங்குகள் அந்தக் கூண்டை நகர்த்தி விடும்.",
+          "020000": "கோழிகளைப் பருந்து போன்ற மற்ற பறவைகளிடமிருந்து காப்பாற்ற வேண்டும்",
+          "030000": "கோழி முட்டைகள் அனைவருக்கும் நல்ல உணவாகும். குறிப்பாக குழந்தைகள், கர்பிணி பெண்கள் மற்றும் வயதானவர்களுக்கு நல்ல சத்தான உணவாகும். கோழி முட்டைகள் புரதச்சத்து நிறைந்த நல்ல சத்தான உணவு என்பதை நாம் நினைவில் கொள்ள வேண்டும். அதனை பலவீனமான மற்றும் நிராகரிக்கப்பட்ட ஆட்டுக் குட்டிகளுக்குக் கொடுக்கலாம்.",
+          "040000": "முட்டை, பால் மற்றும் வேகவைத்த பயிரை தண்ணீருடன் சேர்த்து குறைந்தபட்சம் 10 நிமிடங்கள் கொதிக்க வைத்து சூப் தயார் செய்யலாம். அப்படி செய்த சூப்பை, ஊட்டச்சத்து குறைபாடுள்ள ஆட்டுக் குட்டிகள் தேறும்வரை ஒரு நாளைக்கு பல முறை கொடுக்கலாம். இரண்டு வாரம் முதல், சூப்புடன் புல்லையும் சேர்த்துக் கொடுக்கலாம்.",
+          "050000": "நான்கு வாரம் முதல், ஆட்டுக் குட்டிகள் தாங்களாகவே உண்ண ஆரம்பிக்கும்"
         }
       }
     },
@@ -186,25 +186,25 @@
           "MEDIUM": "./assets/img/drawing_012_400.webp",
           "LARGE": "./assets/img/drawing_012_800.webp"
         },
-        "TITLE": "Prepare a soup with eggs, milk, cooked lentils and water by boiling it for at least 10 minutes. Feed to the kid when cooled down."
+        "TITLE": "முட்டை, பால் மற்றும் வேகவைத்த பயிரை தண்ணீருடன் சேர்த்து குறைந்தபட்சம் 10 நிமிடங்கள் கொதிக்க வைத்து சூப் தயார் செய்யலாம்"
       }
     }
   },
   "06": {
-    "TITLE": "How can I help my goats to provide sufficient milk?",
+    "TITLE": "ஆடுகளின் பால் உற்பத்திக்கு என்ன செய்ய வேண்டும்?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats provided with plentiful water will produce more milk, so let the goat drink as much as it wants."
+        "01": "நிறைய தண்ணீர் குடிக்கும் ஆடுகள் அதிக பால் கொடுக்கும். அதனால், ஆடுகளால் முடிந்த அளவிற்கு தண்ணீர் குடிக்க விடுங்கள்"
       },
       "LIST": {
         "01": {
-          "010000": "Avoid udder diseases",
-          "010100": "by keeping the goat house dry",
-          "010200": "by keeping areas where the goats rest dry",
-          "020000": "Give extra feed to skinny mother goats",
-          "020100": "crops",
-          "020200": "lentils, alfalfa",
-          "020300": "boiled eggs can be feed to weak goats"
+          "010000": "மடி நோயைத் தவிர்க்கவும்",
+          "010100": "ஆட்டுக் கொட்டகையை ஈரம் இல்லாமல் வைத்துக் கொள்ளவும்",
+          "010200": "ஆடு படுக்கும் இடத்தை ஈரம் இல்லாமல் வைத்துக் கொள்ளவும்",
+          "020000": "மெலிந்த தாய் ஆடுகளுக்கு அதிகத் தீவனம் கொடுக்கவும்",
+          "020100": "பயிர் வகைகள்",
+          "020200": "தானியங்கள், குதிரை மசால்",
+          "020300": "உடைந்த முட்டைகளை வேகவைத்து பலவீனமான ஆடுகளுக்குக் கொடுக்கலாம்"
         }
       }
     },
@@ -219,7 +219,7 @@
           "MEDIUM": "./assets/img/drawing_010b_400.webp",
           "LARGE": "./assets/img/drawing_010b_800.webp"
         },
-        "TITLE": "Well hydrated goats produce more milk."
+        "TITLE": "நிறைய தண்ணீர் குடிக்கும் ஆடுகள் அதிக பால் கொடுக்கும்"
       }
     }
   }

@@ -1,3 +1,17 @@
+# [1.0.0-beta.3](https://github.com/SimonGolms/goat-health-app/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2021-05-13)
+
+
+### Bug Fixes
+
+* **i18n:** replace local language (en-US with en) for better language support and detection ([b7683ca](https://github.com/SimonGolms/goat-health-app/commit/b7683caaef0b8330a0e8fea64a11c74a7e64e18d))
+
+
+### Features
+
+* **i18n:** add tamil language support ([5483a24](https://github.com/SimonGolms/goat-health-app/commit/5483a24f835576880b6f278be0cbe08359fa71e3))
+* **i18n:** update ta-IN chapter content about feeding ([7d767a1](https://github.com/SimonGolms/goat-health-app/commit/7d767a18734948258b14616bb335fb269637bd2e))
+* **i18n:** update ta-IN chapter content about housing ([677f80a](https://github.com/SimonGolms/goat-health-app/commit/677f80a55e6215f7ecaeed32a93e322bc1148abd))
+
 # [1.0.0-beta.2](https://github.com/SimonGolms/goat-health-app/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2021-04-30)
 
 
