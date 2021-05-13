@@ -9,9 +9,9 @@ export const useSearchResults = (searchQuery: string) => {
   const { language } = i18n;
 
   const data = useMemo(() => {
-    const dataLanguage = (i18n.getDataByLanguage(
+    const dataLanguage = i18n.getDataByLanguage(
       language,
-    ) as unknown) as I18nChapter;
+    ) as unknown as I18nChapter;
     return getSearchDataFromLanguage(dataLanguage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
