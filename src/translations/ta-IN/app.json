@@ -1,11 +1,11 @@
 {
   "ABOUT": {
-    "TITLE": "About MMH",
+    "TITLE": "MMH பற்றி",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Making More Health (MMH) is a global initiative that aims to create a healthier world for individuals, communities and families.",
-        "02": "By supporting social entrepreneurs and social entrepreneurial thinking MMH will lead to innovative solutions and create social impact, help to find innovative business models and will also create a benefit for our own organizations and employees:",
-        "03": "It’s about creating Shared Value."
+        "01": "மேலும் உடல்நலத்தை (MMH) செய்தல் தனிநபர்கள், சமூகங்கள் மற்றும் குடும்பங்களுக்கான ஆரோக்கியமான உலகத்தை உருவாக்குவதற்கான ஒரு சர்வதேச முயற்சியாகும்.",
+        "02": "சமூக தொழில் முனைவோர் மற்றும் சமூக தொழில் முனைவோர் சிந்தனைக்கு ஆதரவளிப்பதன் மூலம் MMH புதுமையான தீர்வுகளுக்கு இட்டுச்செல்லும் மற்றும் சமூக தாக்கத்தை உருவாக்கும், புதுமையான வணிக மாதிரிகள் கண்டுபிடிக்க உதவுவதோடு எங்கள் சொந்த நிறுவனங்களுக்கும் ஊழியர்களுக்கும் ஒரு நன்மையை உருவாக்கும்:",
+        "03": "இது பகிரப்பட்ட மதிப்பு உருவாக்கும் பற்றி."
       }
     },
     "AUDIO": {
@@ -195,7 +195,7 @@
   },
 
   "FAVORITES": {
-    "TITLE": "Favorites",
+    "TITLE": "பிடித்தவை",
     "POPOVER": {
       "VIEW": {
         "TITLE": "View",
@@ -211,7 +211,7 @@
   },
 
   "HOME": {
-    "TITLE": "Home"
+    "TITLE": "ஆடு பயிற்சி"
   },
 
   "INTRO": {
@@ -219,11 +219,11 @@
   },
 
   "MENU": {
-    "TITLE": "Menu"
+    "TITLE": "பட்டியல்"
   },
 
   "SEARCH": {
-    "TITLE": "Search",
+    "TITLE": "தேடல்",
     "POPOVER": {
       "VIEW": {
         "TITLE": "View",
@@ -234,67 +234,67 @@
       }
     },
     "RESULTS": {
-      "NONE": "No article found",
-      "FOUND_WITH_COUNT": "Found {{count}} article",
-      "FOUND_WITH_COUNT_plural": "Found {{count}} articles"
+      "NONE": "முடிவுகள் எதுவும் இல்லை",
+      "FOUND_WITH_COUNT": "{{count}} கட்டுரை கிடைத்தது",
+      "FOUND_WITH_COUNT_plural": "{{count}} கட்டுரைகள் கிடைத்தன"
     }
   },
 
   "SETTINGS": {
-    "TITLE": "Settings",
+    "TITLE": "அமைப்புகள்",
     "ALERT": {
       "RESET": {
-        "HEADER": "Reset App Settings",
-        "MESSAGE": "This will reset all your settings like the selection of language and theme and will also delete your favorites.",
+        "HEADER": "ரீசெட் பயன்பாட்டை அமைப்புகளை",
+        "MESSAGE": "இது மொழி மற்றும் கருப்பொருள் தேர்வு போன்ற உங்கள் அனைத்து அமைப்புகளையும் மீட்டமைக்கும், மேலும் உங்களுக்கு பிடித்தவைகளையும் நீக்கும்.",
         "BUTTON": {
-          "CANCEL": "Cancel",
-          "OKAY": "Reset"
+          "CANCEL": "ரத்து",
+          "OKAY": "மீட்டமை"
         }
       }
     },
     "GENERAL": {
       "HEADER": {
-        "TITLE": "General"
+        "TITLE": "பொது"
       },
       "ITEMS": {
         "CREDITS": {
-          "LABEL": "Credits"
+          "LABEL": "கிரெடிட்கள்"
         },
         "VERSION": {
-          "LABEL": "App Version"
+          "LABEL": "பயன்பாட்டு பதிப்பு"
         },
         "COPYRIGHT": {
-          "LABEL": "Copyright",
+          "LABEL": "பதிப்புரிமை",
           "NOTE": "Boehringer Ingelheim"
         },
         "RESET": {
-          "LABEL": "Reset"
+          "LABEL": "மீட்டமை"
         }
       }
     },
     "LANGUAGE": {
       "HEADER": {
-        "TITLE": "Language"
+        "TITLE": "மொழி"
       }
     },
     "SPEECH": {
       "HEADER": {
-        "TITLE": "Speech"
+        "TITLE": "பேச்சு"
       }
     },
     "THEME": {
       "HEADER": {
-        "TITLE": "Theme"
+        "TITLE": "தீம்"
       },
       "ITEMS": {
         "BRIGHT": {
-          "LABEL": "Bright"
+          "LABEL": "பிரகாசமான"
         },
         "DARK": {
-          "LABEL": "Dark"
+          "LABEL": "இருள்"
         },
         "SYSTEM": {
-          "LABEL": "System"
+          "LABEL": "சிஸ்டம்"
         }
       }
     }
