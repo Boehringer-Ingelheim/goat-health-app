@@ -1,35 +1,30 @@
 {
   "00": {
-    "TITLE": "Housing"
+    "TITLE": "வீட்டுவசதி"
   },
   "01": {
-    "TITLE": "What is a good goat house?",
+    "TITLE": "நல்ல ஆட்டுக் கொட்டகை என்பது என்ன?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "A good goat house is:"
+        "01": "நல்ல ஆட்டுக் கொட்டகை என்பது"
       },
       "LIST": {
         "01": {
-          "010000": "Dry",
-          "010100": "On a slight slope (so that the urine can flow away)",
-          "010200": "Has good air flow",
-          "020000": "Raised floor",
-          "020100": "Safe from mud and floods",
-          "020200": "Relatively safe from rats",
-          "020300": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (<3cm) so goats do not stuck their legs between two boards)",
-          "020300_ssml": "With wooden floor so droppings and urine can fall down between boards (beware: openings should be small enough (smaller than 3cm) so goats do not stuck their legs between two boards)",
-          "030000": "Big enough: approx. 2m x 2m x 2.5m for 10 goats",
-          "040000": "The house can be less than 1 m higher than the soil, as long as you can remove the droppings by collection bags or clean them away manually.",
-          "050000": "Can be wood or concrete and should be easy to wash",
-          "060000": "Roof oriented East-West (not too hot at noon)",
-          "070000": "Can be closed (cement or strong rice bags,…) if cold, too rainy or too windy",
-          "070000_ssml": "Can be closed (cement or strong rice bags) if cold, too rainy or too windy",
-          "080000": "Add to your goat house a water collection system from the roof to prepare for drought"
+          "010000": "உலர்ந்த தரை",
+          "010100": "சற்று சரிவான தளம் (சிறுநீர் வடிவத்திற்கு ஏற்ப)",
+          "010200": "நல்ல காற்றோட்டம் உள்ள இடம்",
+          "020000": "தரைமட்டம் உயர்வாக இருத்தல் வேண்டும்",
+          "020100": "சேறு சகதி இல்லாமல் இருக்க வேண்டும்",
+          "020200": "எலி தொல்லைகள் இல்லாதவாறு இருக்க வேண்டும்",
+          "020300": "மரப் பலகைகளால் ஆனா தளம் அமைத்தால், ஆட்டின் சிறுநீர் மற்றும் எரு பலகைகளுக்கு இடையே சென்று விடும். மரப் பலகைகளுக்கு இடையே 3 செ.மீ இடைவெளிக்கு குறைவாக இருக்க வேண்டும்.அப்படி இல்லை என்றால் ஆடுகளின் கால்கள் மரப் பலகைகளுக்கு இடையே மாட்டிக் கொள்ளும்.",
+          "030000": "போதுமான இட வசதி உள்ளதாக இருக்க வேண்டும்: 10 ஆடுகளுக்கு 2x 2x 2.5 மீ இட வசதி வேண்டும்",
+          "040000": "ஆட்டுக் கொட்டகை தரையிலிருந்து 1 மீ உயரத்திலோ அல்லது அதற்கு கொஞ்சம் குறைவாகவோ இருக்க வேண்டும். எதுவாக இருந்தாலும் கொட்டகையின் கீழ் விழும் ஆட்டு சாணத்தை பைகள் கொண்டோ அல்லது ஆட்கள்  சுத்தம் செய்ய சுலபமாக இருக்க வேண்டும்.",
+          "050000": "மரப் பலகை அல்லது கான்க்ரீட் தளமாக இருக்கலாம். எதுவாக இருந்தாலும் கழுவுவதற்கு எளிதாக இருக்க வேண்டும்.",
+          "060000": "கூரை கிழக்கு-மேற்கு திசையில் இருப்பது நல்லது (மதிய நேரத்தில் அதிக கானல் இருக்காது)",
+          "070000": "குளிராக இருக்கும் பட்சத்தில்,சிமெண்ட் அல்லது கனமான சாக்கு பைகளைக் கட்டித் தொங்க விடலாம்.",
+          "080000": "ஆட்டுக் கொட்டகையின் கூரையில் விழும் மழை நீரை, மழை நீர் தொட்டி மூலம் சேகரிக்கலாம்."
         }
       }
-    },
-    "AUDIO": {
-      "FILENAME": "./assets/audio/chapter-0101-en.mp3"
     },
     "IMAGE": {
       "01": {
@@ -39,24 +34,24 @@
           "MEDIUM": "./assets/img/drawing_002_en_400.webp",
           "LARGE": "./assets/img/drawing_002_en_800.webp"
         },
-        "TITLE": "Add to your goat house a water collection system from the roof to prepare for drought."
+        "TITLE": "ஆட்டுக் கொட்டகையின் கூரையில் விழும் மழை நீரை, மழை நீர் தொட்டி மூலம் சேகரிக்கலாம்."
       }
     }
   },
   "02": {
-    "TITLE": "What is important to maintain good living conditions for goats?",
+    "TITLE": "ஆடு வளர்ப்பதற்கு எப்படிப்பட்ட சூழல் வேண்டும்?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats need hygiene. This means clean conditions:"
+        "01": "ஆடு வளர்ப்பதற்கு சுத்தமான சூழல் அவசியம்"
       },
       "LIST": {
         "01": {
-          "010000": "No mud",
-          "020000": "Clean feed (hay rack)",
-          "030000": "Remove droppings every day",
-          "040000": "Wash your hands after checking the goat´s health",
-          "050000": "Wash dirty surface with soap",
-          "060000": "Isolate sick animals"
+          "010000": "சேற்றுப் பகுதியாக இருக்க கூடாது",
+          "020000": "நல்ல தீவனம் கொடுக்க வேண்டும்",
+          "030000": "தினமும் சாணத்தை சுத்தம் செய்தல் வேண்டும்",
+          "040000": "அழுக்கான பகுதிகளை சோப்பு போட்டு நன்கு சுத்தம் வேண்டும்",
+          "050000": "நோயுற்ற ஆடுகளை தனியாகப் பிரிக்க வேண்டும்",
+          "060000": "தினமும் ஆடுகளைப் பரிசோதித்தப் பிறகு, கைகளை நன்கு கழுவ வேண்டும்."
         }
       }
     },
@@ -76,17 +71,17 @@
     }
   },
   "03": {
-    "TITLE": "Goat droppings: What to do with them?",
+    "TITLE": "ஆட்டுச் சாணத்தை வைத்து என்ன செய்வது?",
     "TEXT": {
       "PARAGRAPH": {},
       "LIST": {
         "01": {
-          "010000": "Diseases can be transmitted via droppings!",
-          "020000": "Collect all droppings daily and place them in a compost heap",
+          "010000": "சாணத்தின் மூலம் நோய்கள் பரவலாம்!",
+          "020000": "ஆட்டு சாணத்தைத் தினமும் சுத்தம் செய்து, அதனை எருக் குழியில் சேகரிக்கவும்.",
           "030000": "Include organic left-overs (unspoiled) food",
-          "040000": "You can stich rice bags together and make a flat basket. This basket could be used to collect the goat droppings (Refer to the figure).",
-          "050000": "IMPORTANT to let droppings disintegrate for 6 months. This kills parasites and disease agents.",
-          "060000": "Use the old droppings to fertilize your crops"
+          "040000": "படத்தில் உள்ளவாறு பழைய சாக்கு பைகள் கொண்டு கூடைகள் தைத்து, அதனை ஆட்டின் எருவை சேகரிக்கப் பயன்படுத்தலாம்.",
+          "050000": "முக்கியமாக ஆட்டு சாணத்தை 6 மாதங்களுக்கு மக்க விட வேண்டும். அப்பொழுதுதான் அதில் உள்ள ஒட்டுண்ணிகள் மற்றும் நோய் கிருமிகள்அழியும்",
+          "060000": "எருவை வயலுக்கு உரமாகப் பயன்படுத்தலாம்."
         }
       }
     },
@@ -101,28 +96,28 @@
           "MEDIUM": "./assets/img/drawing_004_400.webp",
           "LARGE": "./assets/img/drawing_004_800.webp"
         },
-        "TITLE": "Collect all droppings daily and place them on a compost heap"
+        "TITLE": "ஆட்டு சாணத்தைத் தினமும் சுத்தம் செய்து, அதனை எருக் குழியில் சேகரிக்கவும்."
       }
     }
   },
   "04": {
-    "TITLE": "Do goats need to adapt to their new home?",
+    "TITLE": "ஆடுகள் புதிய சூழலை ஏற்றுக் கொள்ளுமா?",
     "TEXT": {
       "PARAGRAPH": {
-        "01": "Goats are very sensitive:"
+        "01": "ஆடுகளுக்கு உணர்திறன் அதிகம்."
       },
       "LIST": {
         "01": {
-          "010000": "Ask how goat was kept and fed before",
-          "020000": "Provide or improve:",
-          "020100": "The same space or more",
-          "020200": "The same time for pasture per day or more",
-          "020300": "Provide as much water as they want",
-          "030000": "If you buy other breed than Attappady or Malambary,",
-          "030100": "give extra attention",
-          "030200": "extra feed",
-          "030300": "and extra water in first week",
-          "040000": "Check if new goats are in good health for one week, optimally 2 weeks before mixing the new goats with your goats."
+          "010000": "ஆடுகள் வாங்குவதற்கு முன்னர் எப்படி வளர்க்கப்பட்டன, தீவனம் எவ்வாறு கொடுக்கப்பட்டது என்பதைத் தெரிந்துகொள்ளுங்கள்.",
+          "020000": "பின்வருவனவற்றை அப்படியே அல்லது அதை விட சிறப்பாகத் தொடரவும்",
+          "020100": "அதே அளவு இருப்பிடமோ அல்லது அதிகமோ கொடுக்க வேண்டும்",
+          "020200": "அதே அளவு மேயும் நேரமோ அல்லது அதை விட அதிகமோ கொடுக்க வேண்டும்",
+          "020300": "வேண்டும் அளவிற்கு தண்ணீர் கொடுக்க வேண்டும்",
+          "030000": "அட்டப்பாடி மற்றும் மலபாரி ஆடுகளைத் தவிர வேறு ஆடுகளை வாங்கினால்",
+          "030100": "முதல் வாரத்தில் அதிக கவனம் தேவை",
+          "030200": "முதல் வாரத்தில் அதிகத் தீவனம் கொடுக்க வேண்டும்",
+          "030300": "முதல் வாரத்தில் அதிக தண்ணீர் கொடுக்க வேண்டும்",
+          "040000": "புதிதாக வாங்கிய ஆடுகளை ஏற்கனவே உள்ள ஆடுகளோடு சேர்ப்பதற்கு முன்னால், அவை நல்ல ஆரோக்கியமாக உள்ளதா என்பதை உறுதி செய்து கொள்ளவேண்டும். குறைந்த பட்சம் இரண்டு வாரங்களாவது அந்த ஆடுகளை தனியாக அடைத்து வையுங்கள். இரண்டு வாரங்கள் கழித்தே புதிய ஆடுகளை மற்ற ஆடுகளுடன் சேர்க்கவும்."
         }
       }
     },
@@ -137,7 +132,7 @@
           "MEDIUM": "./assets/img/drawing_005_400.webp",
           "LARGE": "./assets/img/drawing_005_800.webp"
         },
-        "TITLE": "Check if new goats are in good health for one week, optimally 2 weeks before mixing the new goats with your goats."
+        "TITLE": "புதிதாக வாங்கிய ஆடுகளை ஏற்கனவே உள்ள ஆடுகளோடு சேர்ப்பதற்கு முன்னால், அவை நல்ல ஆரோக்கியமாக உள்ளதா என்பதை உறுதி செய்து கொள்ளவேண்டும். குறைந்த பட்சம் இரண்டு வாரங்களாவது அந்த ஆடுகளை தனியாக அடைத்து வையுங்கள். இரண்டு வாரங்கள் கழித்தே புதிய ஆடுகளை மற்ற ஆடுகளுடன் சேர்க்கவும்."
       }
     }
   }
