@@ -57,7 +57,7 @@
     "react-scripts": "4.0.3",
     "redux": "^4.1.0",
     "redux-persist": "^6.0.0",
-    "typescript": "^4.2.4",
+    "typescript": "^4.3.2",
     "use-query-params": "^1.2.2"
   },
   "devDependencies": {
@@ -71,8 +71,8 @@
     "@squoosh/cli": "^0.6.4",
     "@types/jest": "^26.0.23",
     "@types/lunr": "^2.3.3",
-    "@types/node": "^15.0.3",
-    "@types/react": "^17.0.5",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
     "@types/react-redux": "^7.1.16",
     "@types/react-router": "^5.1.14",
