@@ -82,13 +82,13 @@ jobs:
         run: npm install -D playwright
       - name: Generate Screenshots (en-US)
         env:
-          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: en-US
-          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: feed
+          PLAYWRIGHT_TEST_SCREENSHOT_SEARCH_QUERY: feed
+          PLAYWRIGHT_TEST_USE_LOCAL: en-US
         run: npm run generate:screenshots
       - name: Generate Screenshots (ta-IN)
         env:
-          JEST_PLAYWRIGHT_CONTEXT_OPTION_LOCAL: ta-IN
-          JEST_PLAYWRIGHT_SCREENSHOT_SEARCH_QUERY: உலர்ந்த
+          PLAYWRIGHT_TEST_SCREENSHOT_SEARCH_QUERY: உலர்ந்த
+          PLAYWRIGHT_TEST_USE_LOCAL: ta-IN
         run: npm run generate:screenshots
       - name: Upload iOS Screenshots Artifact
         uses: actions/upload-artifact@v2
