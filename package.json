@@ -47,7 +47,7 @@
     "ionicons": "5.5.2",
     "md5": "^2.3.0",
     "microsoft-cognitiveservices-speech-sdk": "1.17.0",
-    "query-string": "^7.0.0",
+    "query-string": "^7.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-i18next": "^11.11.0",
