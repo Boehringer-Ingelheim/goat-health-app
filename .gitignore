@@ -13,6 +13,7 @@
 # generating
 public/assets/img/drawing_*
 public/assets/img/photo_*
+dist/screenshots
 
 # testing
 /coverage
