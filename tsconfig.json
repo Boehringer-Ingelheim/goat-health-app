@@ -15,8 +15,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "noImplicitAny": false,
-    "types": ["@types/jest", "jest-playwright-preset"],
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true
   },
   "include": ["scripts", "src"]
 }
