@@ -35,8 +35,8 @@
     "@capacitor/splash-screen": "0.3.10",
     "@capacitor/status-bar": "0.4.10",
     "@capacitor/storage": "0.3.10",
-    "@ionic/react": "^6.7.5",
-    "@ionic/react-router": "^6.7.5",
+    "@ionic/react": "^7.2.1",
+    "@ionic/react-router": "^7.2.1",
     "@ionic/storage": "^3.0.4",
     "@reduxjs/toolkit": "^1.5.1",
     "app-provider": "^1.1.2",
@@ -53,6 +53,7 @@
     "react-redux": "8.0.5",
     "react-router-dom": "5.3.4",
     "redux-persist": "6.0.0",
+    "swiper": "^10.1.0",
     "typescript": "^4.2.4",
     "use-query-params": "^1.2.2"
   },

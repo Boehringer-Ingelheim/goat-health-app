@@ -9,7 +9,6 @@ import {
 } from '@ionic/react';
 import 'swiper/css';
 import '@ionic/react/css/ionic-swiper.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { close } from 'ionicons/icons';
 import React, {
   cloneElement,
@@ -61,11 +60,18 @@ export const ImageViewer: React.FC<ContainerProps> = (props) => {
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
-          <Swiper {...slideOpts}>
-            <SwiperSlide>
+          <IonSlides
+            options={slideOpts}
+            // Current workaround for strangely behavior of slides
+            // see: https://github.com/ionic-team/ionic-framework/issues/19638#issuecomment-593412711
+            onIonSlidesDidLoad={function (this: any) {
+              this.update();
+            }}
+          >
+            <IonSlide>
               <img alt={alt} onError={onError} src={src} />
-            </SwiperSlide>
-          </Swiper>
+            </IonSlide>
+          </IonSlides>
         </IonContent>
       </IonModal>
       {cloneElement(children as ReactElement, {
