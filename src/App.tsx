@@ -12,6 +12,17 @@ import React, { Suspense, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { Redirect, Route } from 'react-router-dom';
 import { QueryParamProvider } from 'use-query-params';
+import { Menu } from './components/Menu';
+import { selectCurrentThemeName } from './data/user/user.selector';
+import { AboutPage } from './pages/About';
+import { ChapterPage } from './pages/Chapter';
+import { CreditsPage } from './pages/CreditsPage';
+import { FavoritesPage } from './pages/Favorites';
+import { HomePage } from './pages/Home';
+import { SearchPage } from './pages/Search';
+import { SettingsPage } from './pages/Settings';
+// import Tutorial from './pages/Tutorial';
+import { useTheme } from './utils/hooks/useTheme';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 /* Basic CSS for apps built with Ionic */
@@ -29,17 +40,9 @@ import '@ionic/react/css/display.css';
 // import './theme/variables.css';
 import './theme/bright.theme.css';
 import './theme/dark.theme.css';
-import { Menu } from './components/Menu';
-import { selectCurrentThemeName } from './data/user/user.selector';
-import { AboutPage } from './pages/About';
-import { ChapterPage } from './pages/Chapter';
-import { CreditsPage } from './pages/CreditsPage';
-import { FavoritesPage } from './pages/Favorites';
-import { HomePage } from './pages/Home';
-import { SearchPage } from './pages/Search';
-import { SettingsPage } from './pages/Settings';
-// import Tutorial from './pages/Tutorial';
-import { useTheme } from './utils/hooks/useTheme';
+import './index.css';
+
+setupIonicReact();
 
 const App: React.FC = () => {
   const currentThemeName = useSelector(selectCurrentThemeName);
