@@ -13,9 +13,9 @@ import { useSelector } from 'react-redux';
 
 import { ReactRouter5Adapter } from 'use-query-params/adapters/react-router-5';
 import queryString from 'query-string';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-import { QueryParamProvider } from 'use-query-params';
+import { EncodedQuery, QueryParamProvider } from 'use-query-params';
 import { Menu } from './components/Menu';
 import { selectCurrentThemeName } from './data/user/user.selector';
 import { AboutPage } from './pages/About';
@@ -52,9 +52,12 @@ const App: React.FC = () => {
   const currentThemeName = useSelector(selectCurrentThemeName);
   const { theme } = useTheme(currentThemeName);
 
-  const parsed = queryString.parse(location.search);
-  console.log(parsed);
-  const stringified = queryString.stringify(parsed);
+  const parsed = (searchString: string) => {
+    return queryString.parse(searchString);
+  };
+  const stringified = (encodedParams: EncodedQuery) => {
+    return queryString.stringify(encodedParams);
+  };
 
   useEffect(() => {
     const setStatusBarStyleDark = async () => {
