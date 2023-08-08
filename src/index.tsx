@@ -4,7 +4,7 @@ import '@capacitor/core';
 import App from './App';
 import { store, persistor } from './store';
 import './i18n';
-import './index.css';
+// import './index.css';
 import { PersistGate } from 'redux-persist/integration/react';
 
 const container = document.getElementById('root');

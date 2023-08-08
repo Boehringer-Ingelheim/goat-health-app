@@ -1,0 +1,1927 @@
+[33mcommit 8633de1c0d172d2cb17f6ffd9e88c9aedcb1bae1[m[33m ([m[1;36mHEAD -> [m[1;32mblueScreen[m[33m, [m[1;31morigin/blueScreen[m[33m)[m
+Author: Kaiser,Luca (HR Appr) BIG-DE-B <luca.kaiser@boehringer-ingelheim.com>
+Date:   Wed Aug 2 12:14:30 2023 +0200
+
+    App runs with some updated Dependencies
+
+[33mcommit 89907b063aae2faef5571f8d81dbd30c4176b86e[m
+Author: Kaiser,Luca (HR Appr) BIG-DE-B <luca.kaiser@boehringer-ingelheim.com>
+Date:   Wed Aug 2 08:41:46 2023 +0200
+
+    Update DevDependencies for node und react
+
+[33mcommit d49d5401a60190c76b17c20efdcaf116d1be2593[m
+Author: Kaiser,Luca (HR Appr) BIG-DE-B <luca.kaiser@boehringer-ingelheim.com>
+Date:   Tue Aug 1 14:35:04 2023 +0200
+
+    Add Swiper.js but still blue screen
+
+[33mcommit 3f462417d2f188bfea859544f24a481862f9b363[m
+Author: Kaiser,Luca (HR Appr) BIG-DE-B <luca.kaiser@boehringer-ingelheim.com>
+Date:   Tue Aug 1 14:02:35 2023 +0200
+
+    Saving a status with new react version
+
+[33mcommit 938bf28b27305e8ef99d12d4a6a465ba0c963728[m[33m ([m[1;31morigin/reactUpdate[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/allSetwithVite[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mreactUpdate[m[33m, [m[1;32mmaster[m[33m, [m[1;32mallSetwithVite[m[33m)[m
+Merge: 39b5ab2 f158c22
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Thu May 13 12:49:12 2021 +0200
+
+    Merge pull request #8 from SimonGolms/beta
+    
+    chore(release): deploy
+
+[33mcommit f158c228ba8c9f0ffde8276207ed81459297b573[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Thu May 13 10:40:37 2021 +0000
+
+    chore(release): 1.0.0-beta.3 [skip ci]
+    
+    # [1.0.0-beta.3](https://github.com/SimonGolms/goat-health-app/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2021-05-13)
+    
+    ### Bug Fixes
+    
+    * **i18n:** replace local language (en-US with en) for better language support and detection ([b7683ca](https://github.com/SimonGolms/goat-health-app/commit/b7683caaef0b8330a0e8fea64a11c74a7e64e18d))
+    
+    ### Features
+    
+    * **i18n:** add tamil language support ([5483a24](https://github.com/SimonGolms/goat-health-app/commit/5483a24f835576880b6f278be0cbe08359fa71e3))
+    * **i18n:** update ta-IN chapter content about feeding ([7d767a1](https://github.com/SimonGolms/goat-health-app/commit/7d767a18734948258b14616bb335fb269637bd2e))
+    * **i18n:** update ta-IN chapter content about housing ([677f80a](https://github.com/SimonGolms/goat-health-app/commit/677f80a55e6215f7ecaeed32a93e322bc1148abd))
+
+[33mcommit 5d712a6823f3beed37557cda9fb9be6bdb3e927c[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 12:33:12 2021 +0200
+
+    chore(deps): update ios dependencies
+
+[33mcommit 7d767a18734948258b14616bb335fb269637bd2e[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 12:30:49 2021 +0200
+
+    feat(i18n): update ta-IN chapter content about feeding
+
+[33mcommit 677f80a55e6215f7ecaeed32a93e322bc1148abd[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 12:23:44 2021 +0200
+
+    feat(i18n): update ta-IN chapter content about housing
+
+[33mcommit 5483a24f835576880b6f278be0cbe08359fa71e3[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 12:18:35 2021 +0200
+
+    feat(i18n): add tamil language support
+
+[33mcommit b7683caaef0b8330a0e8fea64a11c74a7e64e18d[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:48:30 2021 +0200
+
+    fix(i18n): replace local language (en-US with en) for better language support and detection
+
+[33mcommit 497a31a5d62b01db2cf02482de963bf1e6570bdf[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:41:50 2021 +0200
+
+    style: fix parens around nested type assertions
+
+[33mcommit fa37bfcfde81c36ddeaf8aa82474cf852c748720[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:34:23 2021 +0200
+
+    chore(deps): update testing dependencies
+    
+    - install package @testing-library/user-event@13.1.9
+    - install package playwright@1.11.0
+    - install package semantic-release@17.4.3
+    - install package ts-@"^26.5.
+
+[33mcommit d2030a22c490c304f4f8fc7292c522e096f92d2c[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:29:45 2021 +0200
+
+    chore(deps): update linter dependencies
+    
+    - install package @commitlint/cli@12.1.4
+    - install package @commitlint/config-conventional@12.1.4
+    - install package eslint-plugin-jest-playwright@0.3.3
+    - install package lint-staged@11.0.0
+    - install package prettier@2.3.0
+    - install package stylelint@13.13.1
+
+[33mcommit 8d44ab5645914101e31bee1951b992f8eced5522[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:25:44 2021 +0200
+
+    chore(deps): update dev dependencies
+    
+    - install package @squoosh/cli@0.6.4
+    - install package @types/node@15.0.3
+    - install package @types/react@17.0.5
+    - install package @types/react-dom@17.0.5
+    - install package @types/react-router@5.1.14
+
+[33mcommit eecf45005951c7576a9d1d02269bf1698a2a0924[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:24:58 2021 +0200
+
+    chore(deps): update ionic and capacitor dependencies
+    
+    - install package @capacitor/filesystem@0.5.6
+    - install package @capacitor/splash-screen@0.3.10
+    - install package @capacitor/status-bar@0.4.10
+    - install package @capacitor/storage@0.3.10
+    - install package @ionic/cli@6.15.0
+
+[33mcommit a31e63e8ca6e5b275340162dbdad5c77386d6894[m
+Author: Simon G <development@gol.ms>
+Date:   Thu May 13 11:20:57 2021 +0200
+
+    chore(deps): update i18next dependencies
+    
+    - install package i18next-browser-languagedetector@6.1.1
+
+[33mcommit 39b5ab22f2b231e6b4830f97cd09ba5ad59deda6[m
+Merge: 2deb42f f2e00e6
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Fri Apr 30 17:31:31 2021 +0200
+
+    Merge pull request #7 from SimonGolms/beta
+    
+    chore(release): deploy
+
+[33mcommit f2e00e648539e1a5fcd3598f5bef334b330d1635[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 17:27:24 2021 +0200
+
+    test(screenshots): add infrustructure test suite
+    
+    - check if build folder exists
+
+[33mcommit c628477bde5f399011d80b48af204281502c64f0[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 17:26:33 2021 +0200
+
+    ci(github): fix screenshot generation job
+    
+    - install playwright to load not cached browser binaries
+
+[33mcommit 2deb42fc60e0a501cedf61e27174b987e8153d50[m
+Merge: 320f712 9ca55c4
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Fri Apr 30 14:39:27 2021 +0200
+
+    Merge pull request #6 from SimonGolms/beta
+    
+    chore(release): deploy
+
+[33mcommit 9ca55c4949b4e83c13a22a9675d6c7e87d6ef8a0[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 14:16:52 2021 +0200
+
+    chore(github): add pull request template
+
+[33mcommit ec5ef7e755ac9371c72464a89d088bd69cc7c8b9[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 14:10:40 2021 +0200
+
+    chore(ios): update fastlane
+
+[33mcommit 2e188af519318103f249944243fda0612b46037d[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 12:15:12 2021 +0200
+
+    chore(deps): update dev dependencies
+    
+    - install package typescript@4.2.4
+    - install package @types/node@15.0.1
+    - install package @types/react@17.0.4
+    - install package chalk@4.1.1
+
+[33mcommit 09bccc011ca220759ea9f3b9c1a68d1f36a224ef[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 12:12:05 2021 +0200
+
+    chore(deps): update testing dependencies
+    
+    - install package @testing-library/jest-dom@5.12.0
+    - install package @testing-library/react@11.2.6
+    - install package @testing-library/user-event@13.1.8
+    - install package @types/jest@26.0.23
+    - install package jest-playwright-preset@1.5.2
+    - install package ts-jest@26.5.5
+    - uninstall package jest@26.0.0
+    - update generate:screenshots scripts to use installed jest version from testing-library
+    - include scripts directory to tsconfig
+    - update eslint configuration
+
+[33mcommit 74b0dff30e597d2a8365b54961be2dc299a75e0d[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:29:53 2021 +0200
+
+    chore(deps): update linter dependencies
+    
+    - install package eslint-config-prettier@8.3.0
+    - install package eslint-plugin-jest-playwright@0.3.1
+    - install package eslint-plugin-prettier@3.4.0
+    - install package stylelint@13.13.0
+    - install package stylelint-config-standard@22.0.0
+
+[33mcommit 27073f58064a3e27c7acd78fe8026d478f3e55c7[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:28:02 2021 +0200
+
+    chore(deps): update redux dependencies
+    
+    - install package react-redux@7.2.4
+    - install package redux@4.1.0
+
+[33mcommit 9e74b61c62fdcd1b243bd755ddb6cce0eb314dfd[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:26:32 2021 +0200
+
+    chore(deps): update i18next dependencies
+    
+    - install package @i18next@20.2.2
+    - install package @react-i18next@11.8.15
+
+[33mcommit b71a9ffb17d7d4e38a2c0bba07d2dd78346232c2[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:24:58 2021 +0200
+
+    chore(deps): update ionic dependencies
+    
+    - install package @ionic/react@5.6.6
+    - install package @ionic/react-router@5.6.6
+    - install package @ionic/cli@6.14.0
+
+[33mcommit d8c6352a5c8345c6312362376be84f599a60e342[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:23:30 2021 +0200
+
+    chore(deps): update capacitor dependencies
+    
+    - install package @capacitor/filesystem@0.5.3
+    - install package @capacitor/splash-screen@0.3.7
+    - install package @capacitor/status-bar@0.4.7
+    - install package @capacitor/storage@0.3.7
+
+[33mcommit 63631663bdc1d7d11cac84691a04eac2a09359d1[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Fri Apr 30 08:03:10 2021 +0000
+
+    chore(release): 1.0.0-beta.2 [skip ci]
+    
+    # [1.0.0-beta.2](https://github.com/SimonGolms/goat-health-app/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2021-04-30)
+    
+    ### Bug Fixes
+    
+    * **audio:** enable controls for audio element ([2c9559c](https://github.com/SimonGolms/goat-health-app/commit/2c9559c3cdd8f7318baf8e1a79b2d129fc87e6a3))
+    * **chapters:** remove not available tranlsation key ([c83a08b](https://github.com/SimonGolms/goat-health-app/commit/c83a08b61eb8f53bb788ed44f8e0b11c32337056))
+    * **chapters:** sorting of chapter and section id ([f92c3ff](https://github.com/SimonGolms/goat-health-app/commit/f92c3ffc848f28a5a3617731715431283a4f2cf6))
+    * **chapters:** use correct tranlsation key ([35ada72](https://github.com/SimonGolms/goat-health-app/commit/35ada729878dfea6fa34385c4c19689518b51eaf))
+    * **filesystem:** audio stream could not be saved on device ([711ab2a](https://github.com/SimonGolms/goat-health-app/commit/711ab2adf463ad78601bac0097d2574dd607e8b9))
+    * **i18n:** correction of the image structure ([3d19c1c](https://github.com/SimonGolms/goat-health-app/commit/3d19c1cbbbab7a895f6c8d635e0845f91580c38b))
+    * **i18n:** correction of the list structure ([c4121ea](https://github.com/SimonGolms/goat-health-app/commit/c4121ead5bd3bbca486662d6878e3c94c86370e0))
+    * **i18n:** correction of the text structure ([480a1e2](https://github.com/SimonGolms/goat-health-app/commit/480a1e2fb8bfc24ae8fa8c4a3a21b8a29418b091))
+    * **i18n:** use lookup up form of namespaces ([a8bc228](https://github.com/SimonGolms/goat-health-app/commit/a8bc22838c7c10f95c92bbf9e43e964b2fcad20b))
+    * **i18n:** use menu title from translation file ([8744463](https://github.com/SimonGolms/goat-health-app/commit/874446301e6b7445047589e99523c220768ad93b))
+    * **typescript:** change Favorite from interface to type ([8458c8f](https://github.com/SimonGolms/goat-health-app/commit/8458c8fa0dfcbacc49b0348471409291e37a54d6))
+    
+    ### Features
+    
+    * **chapters:** add chapter content about basic of health ([f39d95b](https://github.com/SimonGolms/goat-health-app/commit/f39d95b6dd27473495779b8d02db9a3876ce1b88))
+    * **chapters:** add chapter content about breeding ([d43b432](https://github.com/SimonGolms/goat-health-app/commit/d43b43257b2ad1ecaaefda0561eb7969636156ad))
+    * **chapters:** add chapter content about common diseases ([56c592a](https://github.com/SimonGolms/goat-health-app/commit/56c592a5d524ebbef89c6007066afe543b638708))
+    * **chapters:** add chapter content about dangerous diseases  for goats, cows or people ([9acea5b](https://github.com/SimonGolms/goat-health-app/commit/9acea5baff917717545c0665aabb149b43260457))
+    * **chapters:** add chapter content about earning money with goats ([c45e359](https://github.com/SimonGolms/goat-health-app/commit/c45e35938ff62bc297af0448369ddf601f94a94b))
+    * **chapters:** add chapter content about how do diseases happen ([bcc8a79](https://github.com/SimonGolms/goat-health-app/commit/bcc8a79b588fd2696eccb31161c25a38995b85c7))
+    * **chapters:** add chapter content about how to prevent and treat diseases ([96f72dc](https://github.com/SimonGolms/goat-health-app/commit/96f72dc813705edd526119c6bfab960a51506527))
+    * **chapters:** add chapter content about recognize symptoms and distinguish diseases ([423f108](https://github.com/SimonGolms/goat-health-app/commit/423f108fa7abbb515f00285efa1998d1a598287b))
+
+[33mcommit f114882851bca276459e88a953d121002d1c266b[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 10:00:36 2021 +0200
+
+    ci(github): improve runtime with further caching
+
+[33mcommit ce687ed8732d71c69d1710815b7440a50fbbf0ef[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 09:37:18 2021 +0200
+
+    ci:github): fix download artifact in release job
+
+[33mcommit 8458c8fa0dfcbacc49b0348471409291e37a54d6[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 09:00:25 2021 +0200
+
+    fix(typescript): change Favorite from interface to type
+
+[33mcommit 35ada729878dfea6fa34385c4c19689518b51eaf[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 08:58:20 2021 +0200
+
+    fix(chapters): use correct tranlsation key
+
+[33mcommit 1358bcf7eed12d36c33fdd42040183977e52bb06[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 08:48:09 2021 +0200
+
+    docs: update README
+    
+    - add topic local development
+    - add topic continuos deployment
+
+[33mcommit 679b5718e8e7b1b077a5c559504968dfe1faae46[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 08:47:07 2021 +0200
+
+    style: sort import
+
+[33mcommit c83a08b61eb8f53bb788ed44f8e0b11c32337056[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 30 08:46:22 2021 +0200
+
+    fix(chapters): remove not available tranlsation key
+
+[33mcommit 423f108fa7abbb515f00285efa1998d1a598287b[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Apr 29 15:48:08 2021 +0200
+
+    feat(chapters): add chapter content about recognize symptoms and distinguish diseases
+
+[33mcommit 56c592a5d524ebbef89c6007066afe543b638708[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Apr 29 15:07:17 2021 +0200
+
+    feat(chapters): add chapter content about common diseases
+
+[33mcommit 9acea5baff917717545c0665aabb149b43260457[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Apr 28 11:28:46 2021 +0200
+
+    feat(chapters): add chapter content about dangerous diseases  for goats, cows or people
+
+[33mcommit 96f72dc813705edd526119c6bfab960a51506527[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Apr 27 10:58:23 2021 +0200
+
+    feat(chapters): add chapter content about how to prevent and treat diseases
+
+[33mcommit bcc8a79b588fd2696eccb31161c25a38995b85c7[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Apr 27 10:01:21 2021 +0200
+
+    feat(chapters): add chapter content about how do diseases happen
+
+[33mcommit 480a1e2fb8bfc24ae8fa8c4a3a21b8a29418b091[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Apr 26 12:09:28 2021 +0200
+
+    fix(i18n): correction of the text structure
+
+[33mcommit f39d95b6dd27473495779b8d02db9a3876ce1b88[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Apr 26 12:09:12 2021 +0200
+
+    feat(chapters): add chapter content about basic of health
+
+[33mcommit 3d19c1cbbbab7a895f6c8d635e0845f91580c38b[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Apr 26 10:34:06 2021 +0200
+
+    fix(i18n): correction of the image structure
+
+[33mcommit c45e35938ff62bc297af0448369ddf601f94a94b[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Apr 26 10:33:44 2021 +0200
+
+    feat(chapters): add chapter content about earning money with goats
+
+[33mcommit a8bc22838c7c10f95c92bbf9e43e964b2fcad20b[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 25 19:31:19 2021 +0200
+
+    fix(i18n): use lookup up form of namespaces
+
+[33mcommit 874446301e6b7445047589e99523c220768ad93b[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 25 19:29:41 2021 +0200
+
+    fix(i18n): use menu title from translation file
+
+[33mcommit f92c3ffc848f28a5a3617731715431283a4f2cf6[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 25 14:22:20 2021 +0200
+
+    fix(chapters): sorting of chapter and section id
+
+[33mcommit d43b43257b2ad1ecaaefda0561eb7969636156ad[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 25 14:21:23 2021 +0200
+
+    feat(chapters): add chapter content about breeding
+
+[33mcommit c4121ead5bd3bbca486662d6878e3c94c86370e0[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 25 14:17:55 2021 +0200
+
+    fix(i18n): correction of the list structure
+
+[33mcommit 97314d1dcb6e04e6267450935efd82ceaa7c6f8e[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 23 21:40:30 2021 +0200
+
+    refactor: use namespaces and implement typing
+
+[33mcommit a4cd9d966e9abaf66c578a48189514a83a3a8190[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Apr 23 21:28:34 2021 +0200
+
+    chore(deps): update i18next dependencies
+    
+    - install package i18next@20.2.1
+    - install package react-i18next@11.8.13
+
+[33mcommit 2c9559c3cdd8f7318baf8e1a79b2d129fc87e6a3[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 4 10:14:23 2021 +0200
+
+    fix(audio): enable controls for audio element
+
+[33mcommit 711ab2adf463ad78601bac0097d2574dd607e8b9[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 4 10:13:42 2021 +0200
+
+    fix(filesystem): audio stream could not be saved on device
+    
+    - add recursive option to create parent folders
+
+[33mcommit 920120a213c1b62060d5ed54d65ef669819b355f[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Apr 4 10:12:35 2021 +0200
+
+    chore(deps): install ionic dependencies
+    
+    - install package @ionic/storage@3.0.4
+
+[33mcommit 272b5f60f3ad6f79ed4799a5e7139297139b8a89[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 20:46:36 2021 +0200
+
+    ci(github): add cache to node_modules on release-beta workflow
+
+[33mcommit 87ff85b9fe93869d0d0fff6de2d53993f0754736[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 20:44:48 2021 +0200
+
+    ci(github): remove cache-name env
+
+[33mcommit 3c95257c50ba0c0c74b3af21491339f9af80395c[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 20:38:28 2021 +0200
+
+    ci(release): fix github assets
+
+[33mcommit 22d22bee73d4235c3ef0b75bbece7f59a97b6e0e[m
+Author: semantic-release-bot <semantic-release-bot@martynus.net>
+Date:   Sat Apr 3 17:45:16 2021 +0000
+
+    chore(release): 1.0.0-beta.1 [skip ci]
+    
+    # 1.0.0-beta.1 (2021-04-03)
+    
+    ### Bug Fixes
+    
+    * bump minor version for ci testing ([320f712](https://github.com/SimonGolms/goat-health-app/commit/320f71228a377b4bb0c8119d1323cb39f23c3993))
+    * **chapter:** use medium thumbnail on card ([a8f8d67](https://github.com/SimonGolms/goat-health-app/commit/a8f8d67eb0ac8c726c0c8647937a747f59f8ab60))
+    * **chapter-footer:** use light theme ([3d9565d](https://github.com/SimonGolms/goat-health-app/commit/3d9565d33446b80be6879f1333d25aba2299b6d2))
+    * **headers:** harmonize page headers ([b520bbb](https://github.com/SimonGolms/goat-health-app/commit/b520bbb34d3b73f739933815fe4ec9e6491dacd4))
+    * **i18n:** add new content ([4bd158b](https://github.com/SimonGolms/goat-health-app/commit/4bd158bd94d300c8646ad8b3e5bb885b2fddb913))
+    * **i18n:** disable debug of i18next ([cafdcac](https://github.com/SimonGolms/goat-health-app/commit/cafdcac47eb60a966f1bd9f3d2174a589a50ad7d))
+    * **i18n:** fix translation assignment ([3c87384](https://github.com/SimonGolms/goat-health-app/commit/3c873842ead992484b48b631038f7faedbb18598))
+    * **i18n:** missing translation on search ([be00070](https://github.com/SimonGolms/goat-health-app/commit/be000705d4c3b7cd0436bde15d79998fddb986c2))
+    * **i18n:** remove typo in prefix ([e066b95](https://github.com/SimonGolms/goat-health-app/commit/e066b95e2d80ba0c121b96ab7d05751166cf454a))
+    * **i18n:** use explicit supported language ([4920339](https://github.com/SimonGolms/goat-health-app/commit/492033922ed0d4ae9609eb99399aca022165fe47))
+    * **images:** write the processed images to the console ([2086b7a](https://github.com/SimonGolms/goat-health-app/commit/2086b7a93e1935c9ff37d837ae4662e098a9dfb4))
+    * **ios:** show cards in a line ([ecce884](https://github.com/SimonGolms/goat-health-app/commit/ecce88415d13cefad72d63be4700c11f96720680))
+    * **ios:** show condense header in primary color ([c56039d](https://github.com/SimonGolms/goat-health-app/commit/c56039d28ee48463ceb5c26ed4c3018c39bdbe0a))
+    * **menu:** fix offset of menu to the status-bar ([7b53ffb](https://github.com/SimonGolms/goat-health-app/commit/7b53ffb887d7d1dfccdb4a2f9438e8f1b90db288))
+    * **menu:** support safe-area at the bottom ([bda4d99](https://github.com/SimonGolms/goat-health-app/commit/bda4d99f574a468de85c1693037fb4e13e9b81b1))
+    * **routes:** remove `page/` from menu url ([2c7dee4](https://github.com/SimonGolms/goat-health-app/commit/2c7dee43b8cc7d90b442c8b6fddb20884d8c144f))
+    * **settings:** show current version ([8dcf2b5](https://github.com/SimonGolms/goat-health-app/commit/8dcf2b52e020a6c3cd8b10065bf769551942ceb5))
+    * **speech:** pause audio when navigation to another page ([e63244d](https://github.com/SimonGolms/goat-health-app/commit/e63244d345bab975347fdb35e4cd097f9356d4de))
+    * **speech:** set default speech name ([e3ae391](https://github.com/SimonGolms/goat-health-app/commit/e3ae391589c4e3b40857b6c1e66e9e503ea815fc))
+    * **store:** only persist and restore user store ([07f80c7](https://github.com/SimonGolms/goat-health-app/commit/07f80c7a64365172ce500959f08bb1317e28307c))
+    * **theme:** respect safe-area and collapse-condense header on dark mode ([754e84c](https://github.com/SimonGolms/goat-health-app/commit/754e84ce3560fab3d94d9ab8de887d595eea67aa))
+    * **theme:** use prefer-color-scheme for system theme ([ec53b0d](https://github.com/SimonGolms/goat-health-app/commit/ec53b0def74656e4950d3117a84a682af2dd86c6))
+    * disable tutorial for the moment ([3246580](https://github.com/SimonGolms/goat-health-app/commit/3246580ef08f3dd6dcf2885cdc7be6470a1b7f9e))
+    * remove console log ([4dbcbbe](https://github.com/SimonGolms/goat-health-app/commit/4dbcbbe7bf323730ce90d23629560abaa5eaf61a))
+    * remove console logs ([74e78bf](https://github.com/SimonGolms/goat-health-app/commit/74e78bf789a10a9c289acb23421a7f193f82a1d4))
+    * remove forgotten connected-react-router implementation ([da95944](https://github.com/SimonGolms/goat-health-app/commit/da95944ebbb12927ac0e4f45430b1d6acabfce80))
+    * remove persist gate loading text ([e21df7f](https://github.com/SimonGolms/goat-health-app/commit/e21df7fc49dd6408d2210036c92890d8cc373dd8))
+    * remove unused vars ([c1aabc7](https://github.com/SimonGolms/goat-health-app/commit/c1aabc7bf6a2b4ff5e4590fa69df46a73c34c24a))
+    * show chapter footer correctly ([2ba9693](https://github.com/SimonGolms/goat-health-app/commit/2ba9693c55270c2b08563b50bcb9d502e784b276))
+    * show fullscreen correctly ([7f5b9f5](https://github.com/SimonGolms/goat-health-app/commit/7f5b9f58edbee140ebf4fba3e5f3b5f286783766))
+    * white flashing on startup ([a093188](https://github.com/SimonGolms/goat-health-app/commit/a0931885e7c96b0def67fa863028d1f84f4883da))
+    * **theme:** use correct background color ([7804baa](https://github.com/SimonGolms/goat-health-app/commit/7804baac7671b8cadfbab04157c4a2c1e18616cf))
+    
+    ### Features
+    
+    * **chapters:** add chapter 02 ([3940921](https://github.com/SimonGolms/goat-health-app/commit/3940921967e98e5279e4749e451526e43b07c488))
+    * **chapters:** mark chapter as favorie ([5bc6d4b](https://github.com/SimonGolms/goat-health-app/commit/5bc6d4b64f1c3b855ce277f689b346ae80b55160))
+    * **chapters:** show chapter title on page view ([6f78fb1](https://github.com/SimonGolms/goat-health-app/commit/6f78fb11c22bd928ae09996a890676c95b2fc400))
+    * **credits:** add credits page ([2d0d342](https://github.com/SimonGolms/goat-health-app/commit/2d0d342253bb92d2fc3955d3c59c5a19ae9dc1b7))
+    * **favorites:** add page to view favorite marked articles ([c82cdbe](https://github.com/SimonGolms/goat-health-app/commit/c82cdbe80c9fe5572053eeb755acd5cf01bff6ac))
+    * **home:** add navigation to chapter on click ([85bb3b5](https://github.com/SimonGolms/goat-health-app/commit/85bb3b5097d0acea7b5f5712df81425badac51e9))
+    * **i18n:** add language tamil (ta-IN) ([1908ebb](https://github.com/SimonGolms/goat-health-app/commit/1908ebb25d427194c1ed8638eec762b264a14a77))
+    * **i18n:** add new credits content ([beec009](https://github.com/SimonGolms/goat-health-app/commit/beec00961726134bc0d2901b8202adf741c9a943))
+    * **i18n:** update credits content ([0f70baf](https://github.com/SimonGolms/goat-health-app/commit/0f70bafa786a1cadc74f4be44e092f4c2c5f16c6))
+    * **image:** use optimized images (webp) and thumbnails ([3530b88](https://github.com/SimonGolms/goat-health-app/commit/3530b88bd65c8f16a4789b9a7353214fa2988d98))
+    * **images:** add zoomable imager viewer ([fe663c4](https://github.com/SimonGolms/goat-health-app/commit/fe663c4392692b4f06e8cf7b9a613f080f11d703))
+    * **ios:** add init ios production build ([b3cb584](https://github.com/SimonGolms/goat-health-app/commit/b3cb584e979088e4f4c82e7bdc7e7a6e51b5fbd8))
+    * **menu:** use settings as menu entry ([31342e2](https://github.com/SimonGolms/goat-health-app/commit/31342e23fcdcb928742ce1cf5ac299c1aa297b00))
+    * **routes:** remove page from routes ([62d453f](https://github.com/SimonGolms/goat-health-app/commit/62d453f8f1b1b4fe0078ebcb6b30cea158565f67))
+    * **search:** add option for search view ([ed6daf2](https://github.com/SimonGolms/goat-health-app/commit/ed6daf2c53d6679c487c5171367cf1c26e16e33c))
+    * **search:** add search functionality ([860ac9c](https://github.com/SimonGolms/goat-health-app/commit/860ac9c7c0853a45031047d7ef7c4eef347879e9))
+    * **search:** change view for search results ([57b91bb](https://github.com/SimonGolms/goat-health-app/commit/57b91bb11ea5a1b9881650bbdcfe32b1f4bfc238))
+    * **search:** make non-english text searchable ([4af05b8](https://github.com/SimonGolms/goat-health-app/commit/4af05b8db7d5d21155fe1d43ddee89f974d701a0))
+    * **search:** use query param for search input ([1b0c8dd](https://github.com/SimonGolms/goat-health-app/commit/1b0c8dd7e63aaa1192244fcf3a624887a487b4b7))
+    * **speech:** add text to speech ([95fe32e](https://github.com/SimonGolms/goat-health-app/commit/95fe32e4baa92e9c4544cabda2b0d0a649967acd))
+    * **speech:** update speech with language change ([76e7aff](https://github.com/SimonGolms/goat-health-app/commit/76e7affb84b8a2fc3d39286db44c7f9ef38c979f))
+    * **sso:** add open graph meta data ([b28c709](https://github.com/SimonGolms/goat-health-app/commit/b28c709bcb6941b73372c6b85965e0a521e12e5d))
+    * show splash-screen ([c8a8954](https://github.com/SimonGolms/goat-health-app/commit/c8a8954a9be4833daf16f316f2468c2a023f36ff))
+    * **settings:** add confirmation before resetting ([64b0dde](https://github.com/SimonGolms/goat-health-app/commit/64b0ddecdddd583186f4a26c947ee153937e1785))
+    * **settings:** add link to credits page ([904bade](https://github.com/SimonGolms/goat-health-app/commit/904bade1de791f9b1bf99a5164008f2b6b0463d2))
+    * **status-bar:** use dark style for status-bar ([828d37e](https://github.com/SimonGolms/goat-health-app/commit/828d37e5c2729e52194484691c7f61eedd8ed2a1))
+    * **theme:** improve dark theme ([e04611e](https://github.com/SimonGolms/goat-health-app/commit/e04611e896530a1e2cc4b5745662506f2614842d))
+    * add style and center image title ([b0e6df2](https://github.com/SimonGolms/goat-health-app/commit/b0e6df2e3cdccd7f59ff151ac593436b8c29db51))
+    * update style of image and image-text ([d58ce09](https://github.com/SimonGolms/goat-health-app/commit/d58ce09104f4fa964c8a03919978891fd2690270))
+    
+    ### Performance Improvements
+    
+    * **ios:** update to recommended settings from xcode ([615f5fa](https://github.com/SimonGolms/goat-health-app/commit/615f5faa6472e60c8775bc2457925c8a75baff40))
+    * use hooks for chapter content ([5c79884](https://github.com/SimonGolms/goat-health-app/commit/5c79884b640dedb56f3d761c6bf5d9222896ef39))
+    * **state:** use redux-toolkit and redux hooks instead of connect ([369e47d](https://github.com/SimonGolms/goat-health-app/commit/369e47d341fbdedaee619b43f2f509e3daca8a4b))
+    * **state:** use redux-toolkit and redux hooks instead of connect ([2082bc3](https://github.com/SimonGolms/goat-health-app/commit/2082bc3b6515ebe9affeeba8f1e8e649505c4b75))
+
+[33mcommit 7e81514a1e838502a9e4cacd53fd73fb1008498f[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 19:41:18 2021 +0200
+
+    chore(deps): fix inconsistency
+
+[33mcommit 8da2aabe9fb0815046f47c4a936d9ff1581dea23[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 19:31:28 2021 +0200
+
+    ci(github): fix missing dependencies
+
+[33mcommit 19fc316eace90a80174be989e0a67ea97dc3f2f7[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 19:23:16 2021 +0200
+
+    ci(github): move release step to another job
+
+[33mcommit 1b50f5d41be232e22681f8ebb47a7c139ded2b53[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 19:19:59 2021 +0200
+
+    ci(release): add npm plugin and fix assets path folder
+
+[33mcommit 33a4f4719bf47f0c7cb05073a2ae4fd867c75c0c[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 18:43:03 2021 +0200
+
+    ci(github): imrove relase-beta workflow
+    
+    - add caching to generate optimized images step
+    - add step to create release on github
+
+[33mcommit 1c2cc79a9887bec9a76d3a54585cc3fa3dab11d5[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 18:06:22 2021 +0200
+
+    style(scripts): sort scripts alphabetically
+
+[33mcommit b57c8b0ab00fe1a101d4feccb8856323270c5a68[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 18:03:37 2021 +0200
+
+    chore(scripts): add release:github script to create release on github
+
+[33mcommit 8a65481954c747e16cce9369a5620bc0952e84fe[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 10:52:26 2021 +0200
+
+    ci(github): add release-beta workflow
+
+[33mcommit b7e12593e3a101afa6997c248c73debdba8a143f[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 10:15:38 2021 +0200
+
+    chore: add commit linter
+    
+    - install package @commitlint/cli@12.1.1
+    - install package @commitlint/config-conventional@12.1.1
+    - add commitlint config
+    - add git hook commit-msg to husky
+
+[33mcommit 4f838a50548c19bbd4a3d840c68d906f572da473[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Apr 3 09:59:31 2021 +0200
+
+    chore(husky): add post-merge hook
+
+[33mcommit 320f71228a377b4bb0c8119d1323cb39f23c3993[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 21:02:06 2021 +0200
+
+    fix: bump minor version for ci testing
+
+[33mcommit 737337c3b85404b8e6f573e5688de6dad9614b3c[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 21:01:26 2021 +0200
+
+    ci(github): fix env variable providing
+
+[33mcommit 5b1a67fa558847e2ebee6e0c1acdcb7a0cd87602[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 16:08:30 2021 +0200
+
+    ci(github): fix action up-/download mistake
+
+[33mcommit f9bc3ba9950e6443ac553631b2a9367f7e815a92[m
+Merge: a4002f3 f38d6cc
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Wed Mar 31 15:48:20 2021 +0200
+
+    Merge pull request #5 from SimonGolms/feature/ios-fastlane
+    
+    feature/ios-fastlane
+
+[33mcommit f38d6cc2edc27d29a64b48d77ed033c2e0aed9a6[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:47:32 2021 +0200
+
+    ci(github): add job for ios app deployment
+
+[33mcommit 62a140ea9b94ebb8a074de5f2c0b91c28aaaea36[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:46:38 2021 +0200
+
+    ci(github): add step to determine release information
+
+[33mcommit d6683d63c1f2d1af9de6d2d550a66be7f620a5bd[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:39:28 2021 +0200
+
+    chore(ios): add screenshots to fastlane
+
+[33mcommit 9b9d1d9f4b21dee2f0091fee7c687d2e25b1c270[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:38:19 2021 +0200
+
+    chore(ios): add metadata to fastlane
+
+[33mcommit f6dd24454068b8e075adbe9c16fc7be88ad5d909[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:37:32 2021 +0200
+
+    chore(ios): add app privacy details to fastlane
+
+[33mcommit 47e4799fd467693024ce760080deac01463b4cac[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:36:07 2021 +0200
+
+    chore(ios): init fastlane
+    
+    - use env variables
+
+[33mcommit ce8c19685b51f9c3043b280f36c35e63fb4d4a7c[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 15:07:21 2021 +0200
+
+    chore(scripts): update semantic-release to determine release information
+
+[33mcommit 355a58bf675ae696d075f41439b07dbf54d8fa4f[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 31 14:24:50 2021 +0200
+
+    chore(deps): install semantic-release dependencies
+    
+    - install package @semantic-release/changelog@5.0.1
+    - install package @semantic-release/exec@5.0.0
+
+[33mcommit ea024d43dbf056daa4e4c04adb68cd6f70eac933[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Mar 30 08:12:51 2021 +0200
+
+    chore(ios): install fastlane
+
+[33mcommit 925100056d1eb778fe27e56e42fd6d84f3bcd6ed[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Mar 30 08:12:12 2021 +0200
+
+    chore(ios): update gitignore
+
+[33mcommit a4002f3dc00c1ded8c08da3d5c75c6bc8a625816[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 21:19:33 2021 +0200
+
+    chore(deps): update husky dependencies
+    
+    - install package husky@6.0.0
+
+[33mcommit 1531dabd383c7bb138880b2ccc08af4a20c8105b[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 21:12:14 2021 +0200
+
+    chore(deps): update dependencies
+    
+    - install package query-string@7.0.0
+    - install package usq-query-params@1.2.2
+
+[33mcommit f68b45a2fa4850f327e8ee3ca8df57bc4362caf7[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 20:46:10 2021 +0200
+
+    ci(github): rename release to production workflow
+
+[33mcommit 3634441fa00c7c9a53fdbda8c2a986b2e3a23ae9[m
+Merge: c6a236a 049d191
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Mon Mar 29 19:58:27 2021 +0200
+
+    Merge pull request #4 from SimonGolms/feature/ci-cd-release
+    
+    feature/ci-cd-release
+
+[33mcommit 049d1919ff6d6c3b331b7ae33543c04be5e5d90d[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 19:50:28 2021 +0200
+
+    ci(github): refactor release workflow
+
+[33mcommit a3031c308f6e28a7e726345907471c74b4dd1ffa[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 17:27:34 2021 +0200
+
+    chore: remove engine node
+
+[33mcommit c6a236a62c622a8a14e49ee5d725205fe6b6eb2c[m
+Merge: da95944 f7f3196
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Mon Mar 29 16:45:40 2021 +0200
+
+    Merge pull request #3 from SimonGolms/feature/screenshots
+    
+    feature/screenshots
+
+[33mcommit f7f31962e80149278407e6e6b0f3af650093e76c[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 16:15:00 2021 +0200
+
+    test(screenshots): add safe-area for devices
+
+[33mcommit c87c3a7047176f3b05c9af7f2238e70a5dc35fbd[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 16:13:43 2021 +0200
+
+    chore(deps): install jest dependencies
+    
+    - install package jest@26.6.0
+    - improve test screenshots start up time
+
+[33mcommit 83c4c69011635ffa67153b26a2ca7776a00f8f8f[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 16:11:41 2021 +0200
+
+    test(screenshots): fix to reset color-scheme
+
+[33mcommit 754e84ce3560fab3d94d9ab8de887d595eea67aa[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 09:46:31 2021 +0200
+
+    fix(theme): respect safe-area and collapse-condense header on dark mode
+
+[33mcommit 950c76a232581abbcc4ae98df0163a33d2b31bf4[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 29 09:45:32 2021 +0200
+
+    test(screenshots): update test cases
+
+[33mcommit ec53b0def74656e4950d3117a84a682af2dd86c6[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Mar 28 11:09:31 2021 +0200
+
+    fix(theme): use prefer-color-scheme for system theme
+    
+    - create custom hook useTheme
+    - refactor theme handling
+
+[33mcommit 06600b2356403060b5842eb93bee1efb04d788ca[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 27 16:00:59 2021 +0100
+
+    chore(scripts): update repair and add husky install
+
+[33mcommit 81ffc225ebac8e2e241998eb79aa764951a43614[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 27 15:11:21 2021 +0100
+
+    chore: use nvm as node version manager
+    
+    - set engine node to 14.16.0 (lts)
+
+[33mcommit 6d6306d75276ee1bc7be96da4e9f686c1d041d5e[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 27 15:05:10 2021 +0100
+
+    chore(insert): specify jest version on screenshot generation
+
+[33mcommit f080975b6222f822d89ac6314517471db4659268[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 15:55:48 2021 +0100
+
+    chore(ios): sync latest capacitor settings
+
+[33mcommit 6309dd050441974f6b933a6ab0d5f79e06c849d2[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 15:46:03 2021 +0100
+
+    chore(deps): update dependencies
+    
+    - install package @types/node@14.14.36
+    - install package husky@5.2.0
+    - install package playwright@1.10.0
+
+[33mcommit 0d1b6c53c86ce368cc09a5245b8cdaee7101a92e[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 15:43:22 2021 +0100
+
+    chore(deps): update testing dependencies
+    
+    - install package @testing-library/jest-dom@5.11.10
+    - install package @testing-library/user-event@13.0.16
+    - install package @types/jest@26.0.22
+
+[33mcommit a5d75d2634247d17849ad74d9f4594ab87913824[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 15:42:18 2021 +0100
+
+    chore(deps): update react dependencies
+    
+    - install package @reduxjs/toolkit@1.5.1
+    - install package react@17.0.2
+    - install package react-dom@17.0.2
+    - install package react-i18next@11.8.12
+    - install package react-redux@7.2.3
+    - install package @types/react-dom@17.0.3
+    - install package @types/react-router@5.1.13
+
+[33mcommit 671d8b02cc853a49710bb4bdfe5297f03e20caf7[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 15:38:38 2021 +0100
+
+    chore(deps): update ionic dependencies
+    
+     - install package @ionic/react@5.6.3
+     - install package @ionic/react-router@5.6.3
+     - install package ionicons@5.5.1
+
+[33mcommit 52f2776353233aafc46cb8d3aa6f25ae504068b4[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 13:55:26 2021 +0100
+
+    ci(github): use mac-os host
+
+[33mcommit ce1d624c55671ced737f9002f5b131349dd920df[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 13:19:35 2021 +0100
+
+    test(screenshots): add waitUntil option on goto page
+
+[33mcommit e806b22651e485825656cd67d3bada3a459ffb75[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 12:32:26 2021 +0100
+
+    ci(github): generate screenshots for en-US and ta-IN
+
+[33mcommit 43d0d135b1d1cd29e5a3f151f02529b19e7de2a6[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 12:22:55 2021 +0100
+
+    test: improve screenshots generation
+    
+    - move screenshots test to scripts folder
+    - configuration via environment variables
+
+[33mcommit fb5f5993e6af31d6433706548f0064d3999e1887[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 08:36:31 2021 +0100
+
+    refactor(types): CurrentView
+
+[33mcommit 1b0c8dd7e63aaa1192244fcf3a624887a487b4b7[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 08:35:06 2021 +0100
+
+    feat(search): use query param for search input
+    
+    - use parameter 'q' as search value
+    - install package query-string@6.14.1
+    - install package use-query-params@1.2.1
+
+[33mcommit 492033922ed0d4ae9609eb99399aca022165fe47[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 08:33:09 2021 +0100
+
+    fix(i18n): use explicit supported language
+
+[33mcommit 07f80c7a64365172ce500959f08bb1317e28307c[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 07:38:31 2021 +0100
+
+    fix(store): only persist and restore user store
+
+[33mcommit dd2b95d55db94365bcb7bddc055143c724ba661c[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 26 07:20:37 2021 +0100
+
+    chore(deps): update i18next dependencies
+    
+    - install package i18next@20.1.0
+    - install package i18next-browser-languagedetector@6.1.0
+    - install package react-i18next@11.8.11
+
+[33mcommit 2dace7f5cfebe53f53b797d84675cbcddee9233a[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Mar 21 10:28:22 2021 +0100
+
+    ci(github): add workflow to generate screenshots
+
+[33mcommit c71e49151c931d77078413683453aa100a3a8a52[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Mar 21 10:24:14 2021 +0100
+
+    test: add app screenshots
+
+[33mcommit d80795d810df30cbbed95fd1624fb119b6199b4b[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Mar 21 10:23:46 2021 +0100
+
+    test: add jest-playwright configuration
+
+[33mcommit 5878c4e4be27c2243d5ce033fb438e6de036309e[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 20 16:53:42 2021 +0100
+
+    chore: implement jest-playwright
+    
+    - install packages eslint-plugin-jest-playwright@0.2.1
+    - install packages jest-playwright-preset@1.5.1
+    - install packages ts-jest@26.5.4
+    - add types to tsconfig
+    - extends eslint
+
+[33mcommit da95944ebbb12927ac0e4f45430b1d6acabfce80[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 21:43:39 2021 +0100
+
+    fix: remove forgotten connected-react-router implementation
+    
+    - use react-router function to navigate
+
+[33mcommit 9ba4de1e163129214a44e52d7a31570ed8aa39c2[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 19:04:52 2021 +0100
+
+    chore(deps): update dependencies
+    
+    - install package @testing-library/user-event@13.0.5
+    - install package microsoft-cognitiveservices-speech-sdk@1.16.0
+    - install package react-i18next@11.8.10
+
+[33mcommit a260decd9bfb1b62be8355d05695a9e721e9708a[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 19:02:57 2021 +0100
+
+    chore(deps): update dev dependencies
+    
+    - install package @types/jest@26.0.21
+    - install package @types/node@14.14.35
+    - install package ora@5.4.0
+    - install package playwright@1.9.2
+    - install package semantic-release@17.4.2
+
+[33mcommit 9456cf7c6697e76ae666f41058b8c4e60db3334e[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 18:59:23 2021 +0100
+
+    chore(deps): update ionic dependencies
+    
+    - install package @ionic/react@5.6.1
+    - install package @ionic/react-router@5.6.1
+    - install package @ionic/storage@3.0.2
+
+[33mcommit 23f61a1acd15d108ff5fb08b0344764b42e9eb8a[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 18:54:13 2021 +0100
+
+    chore(deps): update capacitor dependencies
+    
+    - install package @capacitor/filesystem@0.5.2
+    - install package @capacitor/splash-screen@0.3.6
+    - install package @capacitor/status-bar@0.4.6
+    - install package @capacitor/storage@0.3.6
+
+[33mcommit 626d74896b2482be7c6ab1a0ac018e6d8512c1d9[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 19 18:51:32 2021 +0100
+
+    refactor: remove connected-react-router
+    
+    - remove redux middleware
+    - uninstall package connected-react-router@6.9.1
+
+[33mcommit b28c709bcb6941b73372c6b85965e0a521e12e5d[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 17 22:20:40 2021 +0100
+
+    feat(sso): add open graph meta data
+
+[33mcommit a8f8d67eb0ac8c726c0c8647937a747f59f8ab60[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 13 22:20:39 2021 +0100
+
+    fix(chapter): use medium thumbnail on card
+
+[33mcommit 4af05b8db7d5d21155fe1d43ddee89f974d701a0[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 13 22:18:55 2021 +0100
+
+    feat(search): make non-english text searchable
+    
+    - refactor search page
+    - create search slice
+    - replace `lunr` with `fuse.js` for client search
+    - create custom hook `useFuse`
+    - install package fuse.js@6.4.6
+    - uninstall package lunr@2.3.9
+
+[33mcommit 76e7affb84b8a2fc3d39286db44c7f9ef38c979f[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Mar 10 20:47:38 2021 +0100
+
+    feat(speech): update speech with language change
+
+[33mcommit bff0a4bd43aec42577bfd5619596c18f6f1621ee[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Mar 9 22:22:26 2021 +0100
+
+    chore(deps): update packages
+    
+     - install package @testing-library/user-event@12.8.3
+     - install package i18next@19.9.2
+     - install package @types/node@14.14.33
+
+[33mcommit 1908ebb25d427194c1ed8638eec762b264a14a77[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Mar 9 22:20:57 2021 +0100
+
+    feat(i18n): add language tamil (ta-IN)
+
+[33mcommit e63244d345bab975347fdb35e4cd097f9356d4de[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 23:12:01 2021 +0100
+
+    fix(speech): pause audio when navigation to another page
+
+[33mcommit 92c771ad591d791b2366a1b2513158ae3ba2fa35[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 23:03:13 2021 +0100
+
+    refactor(about): move AboutPage into extra file
+
+[33mcommit 4dd4e42d29aa7b5c79d29421dc9809464fc5a060[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 21:59:33 2021 +0100
+
+    chore(deps): update packages
+    
+    - install package react-i18next@11.8.9
+    - install package @types/node@14.14.32
+    - install package @types/react@17.0.3
+    - install package @types/react-dom@17.0.2
+
+[33mcommit b487f82d01e86a43ee8cfa90dfd1f1f29382191d[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 21:56:27 2021 +0100
+
+    refactor(chapters): move code into page and component folders
+
+[33mcommit 86ac3b91875e9b607376e356ee6d0a3f82713f2d[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 21:55:31 2021 +0100
+
+    refactor(chapters): move code into page and component folders
+
+[33mcommit acc54725b801678aaba1988cc3ff528925fc6f52[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 21:53:15 2021 +0100
+
+    refactor(favorites): move code into page and component folders
+
+[33mcommit cd41826f22c328b6e8b96186464906397976ddbc[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 21:52:50 2021 +0100
+
+    refactor(search): move code into page and component folders
+
+[33mcommit 816a9cec5df5f6b93ea90a2f0fd3d437c26e0e53[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Mar 8 19:56:24 2021 +0100
+
+    refactor: move HomePage into folder
+
+[33mcommit d6ae83c20e59d978bd5e9eee3d9dbdba08eb96cd[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 21:19:53 2021 +0100
+
+    ci(pwa): provide service worker file
+
+[33mcommit 4dbcbbe7bf323730ce90d23629560abaa5eaf61a[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 21:13:44 2021 +0100
+
+    fix: remove console log
+
+[33mcommit 249031d10f0562af543f24b248f0d28dd96bf5a9[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 20:41:49 2021 +0100
+
+    chore(deps): update packages
+    
+    - install package stylelint@13.12.0
+    - install package stylelint-config-standard@21.0.0
+
+[33mcommit e3ae391589c4e3b40857b6c1e66e9e503ea815fc[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 20:38:39 2021 +0100
+
+    fix(speech): set default speech name
+
+[33mcommit 398431bef082c013d374c1f848c76b8a998759dd[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 19:33:26 2021 +0100
+
+    ci(github): rename workflow
+
+[33mcommit d81d994096721f4b2c34ef58917ca9da0b49351d[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 19:32:54 2021 +0100
+
+    ci(github): remove env PUBLIC_URL
+
+[33mcommit c15baacd55c2f20f09144948e5b3524e2385393c[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 19:16:35 2021 +0100
+
+    ci(github): add env secrets for build
+
+[33mcommit 6ef9c6e8e54a5d1ef39f7a8c9b7121fb60858537[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Mar 6 19:11:09 2021 +0100
+
+    chore(deps): update packages
+    
+    - migrate husky v4 to v5
+
+[33mcommit 74a059fe6981a6cbf32bcca77ede01190b9a117d[m
+Merge: fa453e7 95fe32e
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Fri Mar 5 21:27:02 2021 +0100
+
+    Merge pull request #2 from SimonGolms/feature/text-to-speech
+    
+    feat(speech): add text to speech
+
+[33mcommit 95fe32e4baa92e9c4544cabda2b0d0a649967acd[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Mar 5 21:25:20 2021 +0100
+
+    feat(speech): add text to speech
+    
+    - update packages
+    - add speech button
+    - add filesystem utils
+    - add ssml as i18next context
+    - add settings for voice selection
+    - refactor chapter sections providing
+
+[33mcommit fa453e7052821031a100ac284cccc4788c8b1e50[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 31 11:00:04 2021 +0100
+
+    refactor(credits): move components to page folder
+
+[33mcommit 2c7dee43b8cc7d90b442c8b6fddb20884d8c144f[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 22:14:17 2021 +0100
+
+    fix(routes): remove `page/` from menu url
+
+[33mcommit 73a50228ce4926d2e75a7957eb1f885758452012[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 21:59:20 2021 +0100
+
+    chore(favorites): update data to store of marked article
+    
+    - add marked date
+    - add chapter id and section id
+
+[33mcommit c161aa967c26bda2507960fc2f0dff88746a9898[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 21:23:48 2021 +0100
+
+    refactor(search): move components to page folder
+
+[33mcommit 62d453f8f1b1b4fe0078ebcb6b30cea158565f67[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 21:23:33 2021 +0100
+
+    feat(routes): remove page from routes
+    
+    - refactor exact propertiy
+    - update order of routes
+
+[33mcommit c82cdbe80c9fe5572053eeb755acd5cf01bff6ac[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 21:23:15 2021 +0100
+
+    feat(favorites): add page to view favorite marked articles
+    
+    - add new routes `/favorite` and `/favorites`
+    - add `FavoritesPage`
+    - add i18n context
+    - update chapter-section-id
+    - update user state
+
+[33mcommit be000705d4c3b7cd0436bde15d79998fddb986c2[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 30 20:54:55 2021 +0100
+
+    fix(i18n): missing translation on search
+
+[33mcommit e21df7fc49dd6408d2210036c92890d8cc373dd8[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 29 09:39:01 2021 +0100
+
+    fix: remove persist gate loading text
+
+[33mcommit 3d9565d33446b80be6879f1333d25aba2299b6d2[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 29 09:15:43 2021 +0100
+
+    fix(chapter-footer): use light theme
+
+[33mcommit a0931885e7c96b0def67fa863028d1f84f4883da[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 28 09:07:37 2021 +0100
+
+    fix: white flashing on startup
+
+[33mcommit c8a8954a9be4833daf16f316f2468c2a023f36ff[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 28 09:04:09 2021 +0100
+
+    feat: show splash-screen
+    
+    - install package @capacitor/splash-screen@0.3.1
+    - update capcitor configuration
+    - update ios podfile
+
+[33mcommit ecce88415d13cefad72d63be4700c11f96720680[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 18:28:58 2021 +0100
+
+    fix(ios): show cards in a line
+
+[33mcommit bda4d99f574a468de85c1693037fb4e13e9b81b1[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 18:07:24 2021 +0100
+
+    fix(menu): support safe-area at the bottom
+
+[33mcommit 7804baac7671b8cadfbab04157c4a2c1e18616cf[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 17:54:27 2021 +0100
+
+    fix(theme): use correct background color
+
+[33mcommit 2ba9693c55270c2b08563b50bcb9d502e784b276[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 17:43:55 2021 +0100
+
+    fix: show chapter footer correctly
+    
+    - remove sticky chapter footer and show it always
+    - refactor `ChapterFooter` and replace grid with toolbar component
+
+[33mcommit c56039d28ee48463ceb5c26ed4c3018c39bdbe0a[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 17:40:26 2021 +0100
+
+    fix(ios): show condense header in primary color
+
+[33mcommit 615f5faa6472e60c8775bc2457925c8a75baff40[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 14:11:53 2021 +0100
+
+    perf(ios): update to recommended settings from xcode
+
+[33mcommit b3cb584e979088e4f4c82e7bdc7e7a6e51b5fbd8[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 14:07:24 2021 +0100
+
+    feat(ios): add init ios production build
+    
+    - update app icon
+    - update splash screen
+
+[33mcommit 7f5b9f58edbee140ebf4fba3e5f3b5f286783766[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 13:56:27 2021 +0100
+
+    fix: show fullscreen correctly
+
+[33mcommit 828d37e5c2729e52194484691c7f61eedd8ed2a1[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 09:42:21 2021 +0100
+
+    feat(status-bar): use dark style for status-bar
+    
+    - install package @capacitor/status-bar@0.4.0
+    - set status-bar style
+
+[33mcommit 7b53ffb887d7d1dfccdb4a2f9438e8f1b90db288[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 09:03:49 2021 +0100
+
+    fix(menu): fix offset of menu to the status-bar
+    
+    - use toolbar component
+    - add i18n context
+
+[33mcommit 31342e23fcdcb928742ce1cf5ac299c1aa297b00[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 09:00:53 2021 +0100
+
+    feat(menu): use settings as menu entry
+    
+    - add useMenuSettings
+
+[33mcommit b520bbb34d3b73f739933815fe4ec9e6491dacd4[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Jan 27 08:57:49 2021 +0100
+
+    fix(headers): harmonize page headers
+    
+    - use primary color
+    - use condense style on ios
+
+[33mcommit 56462588277615f8a467b90ed9edd4d2a07d82f1[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 26 20:55:19 2021 +0100
+
+    chore(capacitor): importing capacitor core to bootstraps the app
+    
+    - sort import alphabetically
+
+[33mcommit e04611e896530a1e2cc4b5745662506f2614842d[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 26 17:18:48 2021 +0100
+
+    feat(theme): improve dark theme
+    
+    - adjust dark to bright theme colors
+    - add radio colors on dark theme
+
+[33mcommit 16e414853d30532acc8beea92b4995ce3676aa12[m
+Merge: 6f78fb1 419038d
+Author: Simon Golms <17799657+SimonGolms@users.noreply.github.com>
+Date:   Tue Jan 26 15:02:54 2021 +0100
+
+    Merge pull request #1 from SimonGolms/feature/capcitor-v3
+    
+    feat: migrate to capacitor v3
+
+[33mcommit 419038d3dd39d78048445908eae5ed92e270daf6[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 26 14:29:44 2021 +0100
+
+    chore(capacitor): update configuration
+    
+    - update appId
+    - update appName
+
+[33mcommit 36819b2ee0492de15a252e2d3a85b672abe6fdeb[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 26 14:28:34 2021 +0100
+
+    chore(deps): install capacitor plugin package
+    
+    - install package @capacitor/storage@0.3.0
+    - migrate capacitor storage
+
+[33mcommit 18f41ec2f5d83074eb261a517aef979caa06294f[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 26 14:09:59 2021 +0100
+
+    chore(deps): update capacitor packages
+    
+    - update package @capacitor/android@3.0.0-beta.1
+    - update package @capacitor/core@3.0.0-beta.1
+    - update package @capacitor/ios@3.0.0-beta.1
+    - update package @capacitor/cli@3.0.0-beta.1
+
+[33mcommit 6f78fb11c22bd928ae09996a890676c95b2fc400[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 13:37:28 2021 +0100
+
+    feat(chapters): show chapter title on page view
+
+[33mcommit 4e64b16f9ad686272347764a7dff7a70f7454e5d[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 09:40:23 2021 +0100
+
+    refactor(settings): move css style
+
+[33mcommit 10109e9bef9a76572e320e08d3bee665b0014442[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 09:31:41 2021 +0100
+
+    refactor(settings): move page into new file
+    
+    - sort imports
+
+[33mcommit a1c7b8a1256bec3b56df9aa560caa4876cb42bc9[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 09:29:17 2021 +0100
+
+    refactor(settings): move language items into new file
+
+[33mcommit 658cae6a31f8851d03d3ca9956702668ae7c0615[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 09:19:48 2021 +0100
+
+    refactor(settings): move theme items into new file
+
+[33mcommit 357eb66aaebddb794ee514813fac6916875bda36[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 08:59:20 2021 +0100
+
+    refactor(settings): move general items into new file
+
+[33mcommit ce52dcb95bc8d94caa48cb7f44f446b8669e9879[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 08:51:01 2021 +0100
+
+    refactor(settings): move reset item into new file
+    
+    - add divider for extra space before item
+    - update i18n context
+
+[33mcommit 7bcdde7ecf6e0c2afdf48295d4e7cd1163321e13[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 25 08:47:53 2021 +0100
+
+    refactor(settings): replace checkbox with radio button
+
+[33mcommit 64b0ddecdddd583186f4a26c947ee153937e1785[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 24 23:36:44 2021 +0100
+
+    feat(settings): add confirmation before resetting
+    
+    - add i18n context
+    - add alert to confirm reset
+
+[33mcommit 8dcf2b52e020a6c3cd8b10065bf769551942ceb5[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 19 13:06:39 2021 +0100
+
+    fix(settings): show current version
+
+[33mcommit 282e676cfe2bb0c1f3996f65138d67fbbd3b7449[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 19 12:11:30 2021 +0100
+
+    ci(github): add step to generate release version
+
+[33mcommit b7226258d83f586c7c4946dfa54cef7f8d6a8561[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 19 12:10:32 2021 +0100
+
+    ci: add semantic versioning
+    
+    - install semantic-release@17.3.3 package
+    - install @semantic-release/git@9.0.0 package
+    - add npm script `generate:release`
+    - add releaserc.json file
+    - set version to 1.0.0
+
+[33mcommit b90005d3f4319d87f9a12d952ef9dd89255184fe[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 17 20:10:40 2021 +0100
+
+    refactor(credits): move into credits component
+
+[33mcommit 904bade1de791f9b1bf99a5164008f2b6b0463d2[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 17 16:59:59 2021 +0100
+
+    feat(settings): add link to credits page
+
+[33mcommit 0f70bafa786a1cadc74f4be44e092f4c2c5f16c6[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 17 16:51:02 2021 +0100
+
+    feat(i18n): update credits content
+    
+    - remove brackets from position entries
+    - sort items by name
+
+[33mcommit 2d0d342253bb92d2fc3955d3c59c5a19ae9dc1b7[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Jan 17 16:49:51 2021 +0100
+
+    feat(credits): add credits page
+
+[33mcommit beec00961726134bc0d2901b8202adf741c9a943[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 16 17:28:25 2021 +0100
+
+    feat(i18n): add new credits content
+
+[33mcommit fe663c4392692b4f06e8cf7b9a613f080f11d703[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 15 21:18:24 2021 +0100
+
+    feat(images): add zoomable imager viewer
+    
+    - replace images in sections with thumbnails
+
+[33mcommit 405e1db271d4f6759bce991d1a8548ce16787d14[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 12 22:44:09 2021 +0100
+
+    style: sort css class alphabetically
+
+[33mcommit d58ce09104f4fa964c8a03919978891fd2690270[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 12 22:43:10 2021 +0100
+
+    feat: update style of image and image-text
+
+[33mcommit 26d8a9ec3e66f6b2bf1cf422c084f5b556c1ef12[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Jan 12 20:23:23 2021 +0100
+
+    ci(azure): divide build steps into smaller ones
+    
+    - fix 15 min timeout
+
+[33mcommit 0811f8d07a281b65d819878ed0784d41feb3f3e0[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 11 20:28:26 2021 +0100
+
+    ci(build): add script ionic:build
+
+[33mcommit 1f62f97f39a38cf6ae09d21271cbd26060c840b2[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 11 20:27:43 2021 +0100
+
+    chore(deps): install @ionic/cli@6.12.3
+
+[33mcommit 41a3c2cf7d671335f84008c03b0dadfb9c46449f[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 11 20:10:51 2021 +0100
+
+    ci(azure): fix client-side routing on azure static web app
+    
+    - add `routes.json` for azure routing rules
+
+[33mcommit 97415aa2ef38504ef224e0c9b1278daf2ed174ad[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Jan 11 19:55:06 2021 +0100
+
+    chore: update name of the app
+
+[33mcommit 2086b7a93e1935c9ff37d837ae4662e098a9dfb4[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:19:20 2021 +0100
+
+    fix(images): write the processed images to the console
+
+[33mcommit 3530b88bd65c8f16a4789b9a7353214fa2988d98[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:10:45 2021 +0100
+
+    feat(image): use optimized images (webp) and thumbnails
+    
+    - use thumbnails in `ChapterViewCard`
+    - add i18n content for thumbnails
+
+[33mcommit 1f35995a4b013cfe3fa3dfb17872412d63e26252[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:10:06 2021 +0100
+
+    chore: update build scripts to generate optimized images
+
+[33mcommit d0c2e3719ff1db44035462afd46cd45d0ebb18b9[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:08:03 2021 +0100
+
+    chore: ignore generated images
+
+[33mcommit 6808a3af149a86e0808cd61bfc0b583926dd514f[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:07:01 2021 +0100
+
+    chore(images): generate optimized and thumbnailed images from raw files
+    
+    - add script `squoosh.js`
+
+[33mcommit 12ed73dfc3e02c025ebe1efc1fb89e00cb9c7093[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 22:04:38 2021 +0100
+
+    refactor(image): move raw images into `resources` folder
+
+[33mcommit 5fa294c3b75ade5c9dbb73f6c067061677f36da5[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 9 21:58:43 2021 +0100
+
+    chore(deps): install package @squoosh/cli@0.6.1
+
+[33mcommit ef82bb7d7f3ec3692aef752193e3717fd6167fcc[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 8 09:55:09 2021 +0100
+
+    refactor: remove unused types
+
+[33mcommit 91463dbf81125eb595272ce930ecd9566cf4b492[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 8 09:08:32 2021 +0100
+
+    refactor(chapter-footer): get next and previous chapter from translation file structure
+    
+    - adapt type `ChapterId`
+
+[33mcommit cafdcac47eb60a966f1bd9f3d2174a589a50ad7d[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:25:54 2021 +0100
+
+    fix(i18n): disable debug of i18next
+
+[33mcommit dd44526b5e5d2aefee225e57f4079a7d37ac64c4[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:25:20 2021 +0100
+
+    chore(deps): update some packages
+    
+    - update package @testing-library/react@11.2.3
+    - update package ionicons@5.3.0
+    - update package react-scripts@4.0.1
+    - update package typescript@4.1.3
+    - update package @types/jest@26.0.20
+    - update package @types/node@14.14.20
+    - update package @types/react-redux@7.1.15
+    - update package @types/react-router@5.1.10
+    - update package eslint-plugin-prettier@3.3.1
+    - update package husky@4.3.7
+
+[33mcommit cc526fafd4a54bb2c88694afc6f3546c30f18de2[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:15:08 2021 +0100
+
+    style: order imports alphabetically
+
+[33mcommit 4bd158bd94d300c8646ad8b3e5bb885b2fddb913[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:09:21 2021 +0100
+
+    fix(i18n): add new content
+
+[33mcommit 5c79884b640dedb56f3d761c6bf5d9222896ef39[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:08:17 2021 +0100
+
+    perf: use hooks for chapter content
+    
+    - remove chapter components to reduce the complexity and maintenance
+    - transform chapters into custom hooks
+    - add utils function `innerText` to get inner text from react elements
+    - rename lunr to  custom hook `useLunr`
+    - rename `id` to `chapterId`
+    - rename `subId` to `sectionId`
+
+[33mcommit 031b87a43d9e8fb640ae94909824481927f559cd[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Jan 7 20:01:37 2021 +0100
+
+    refactor: remove unused code
+    
+    - remove react-redux connect from AboutPage
+
+[33mcommit 57b91bb11ea5a1b9881650bbdcfe32b1f4bfc238[m
+Author: Simon G <development@gol.ms>
+Date:   Sat Jan 2 21:01:35 2021 +0100
+
+    feat(search): change view for search results
+    
+    - replace `isCard` property with `view` and `card`,  `list`, `page` property values
+    - add ChapterViewCard component
+    - add ChapterViewList component
+    - refactor chapters to use `ChapterViewCard` and `ChapterViewList`
+
+[33mcommit 107416054c188687f266c1356ff9208a1b2cf7fe[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 1 11:38:55 2021 +0100
+
+    chore(deps): update some package
+    
+    - uninstall package fitty@2.3.3
+    - update package @testing-library/jest-dom@5.11.8
+    - update package i18next@19.8.4
+    - update package react-i18next@11.8.5
+    - update package @types/node@14.14.17
+    - update package @types/react-router-dom@5.1.7
+    - update package ora@5.2.0
+    - update package playwright@1.7.1
+
+[33mcommit 369e47d341fbdedaee619b43f2f509e3daca8a4b[m
+Author: Simon G <development@gol.ms>
+Date:   Fri Jan 1 11:33:38 2021 +0100
+
+    perf(state): use redux-toolkit and redux hooks instead of connect
+    
+    - improve redux selectors
+    - move current chapter state into user state
+    - uninstall package immer@8.0.0
+
+[33mcommit ed6daf2c53d6679c487c5171367cf1c26e16e33c[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Dec 31 15:56:56 2020 +0100
+
+    feat(search): add option for search view
+    
+    - select between `card` or `list` as current search view
+
+[33mcommit 2082bc3b6515ebe9affeeba8f1e8e649505c4b75[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Dec 31 15:55:03 2020 +0100
+
+    perf(state): use redux-toolkit and redux hooks instead of connect
+    
+    - move current global state into user state
+    - install package @reduxjs/toolkit@1.5.0
+    - uninstall package redux-devtools-extension@2.13.8
+    - uninstall package redux-saga@1.1.3
+
+[33mcommit c8fa408ad52e4b0456eeb66f7661a14344d8a43b[m
+Author: Simon G <development@gol.ms>
+Date:   Thu Dec 31 15:45:05 2020 +0100
+
+    refactor: remove unused code
+
+[33mcommit c1aabc7bf6a2b4ff5e4590fa69df46a73c34c24a[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:48:50 2020 +0100
+
+    fix: remove unused vars
+
+[33mcommit 727f9fe603cdd84423b1591f6d68520eca403265[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:24:27 2020 +0100
+
+    chore(deps): update capacitor packages
+    
+    - update package @capacitor/android@2.4.5
+    - update package @capacitor/cli@2.4.5
+    - update package @capacitor/core@2.4.5
+    - update package @capacitor/ios@2.4.5
+
+[33mcommit e66619677ede441f5875bf342f86b5f8bcc2abcb[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:18:47 2020 +0100
+
+    chore(deps): update ionic-react packages
+    
+    - update package @ionic/react@5.5.2
+    - update package @ionic/react-router@5.5.2
+    - update package @testing-library/react@11.2.2
+    - update package @testing-library/user-event@12.6.0
+    - update package @types/jest@26.0.19
+    - update package @types/node@14.14.16
+    - update package @types/react@17.0.0
+    - update package @types/react-dom@17.0.0
+    - update package @types/react-redux@7.1.14
+    - update package @types/react-router@5.1.9
+
+[33mcommit f94db7ed5457a637bf03b12eae3f4c6df7a8294c[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:12:10 2020 +0100
+
+    chore(deps): update dev packages
+    
+    - update package eslint-config-prettier@7.1.0
+    - update package eslint-plugin-prettier@3.3.0
+    - update package husky@4.3.6
+    - update package lint-staged@10.5.3
+    - update package prettier@2.2.1
+    - update package stylelint@13.8.0
+
+[33mcommit 74e78bf789a10a9c289acb23421a7f193f82a1d4[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:03:57 2020 +0100
+
+    fix: remove console logs
+
+[33mcommit 860ac9c7c0853a45031047d7ef7c4eef347879e9[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 17:03:12 2020 +0100
+
+    feat(search): add search functionality
+    
+    - add new search page
+    - refactor to use redux hooks
+    - install package lunr@2.3.9
+    - install package @types/lunr@2.3.3
+
+[33mcommit 85bb3b5097d0acea7b5f5712df81425badac51e9[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 16:47:09 2020 +0100
+
+    feat(home): add navigation to chapter on click
+    
+    - improve chapter card style
+
+[33mcommit e066b95e2d80ba0c121b96ab7d05751166cf454a[m
+Author: Simon G <development@gol.ms>
+Date:   Tue Dec 29 16:05:18 2020 +0100
+
+    fix(i18n): remove typo in prefix
+
+[33mcommit 25ca3e53d1ad1359d839358cd33c64f0c7b5b47d[m
+Author: Simon G <development@gol.ms>
+Date:   Mon Dec 28 15:15:13 2020 +0100
+
+    chore(github): add funding option
+
+[33mcommit 5bc6d4b64f1c3b855ce277f689b346ae80b55160[m
+Author: Simon G <development@gol.ms>
+Date:   Wed Nov 25 21:59:12 2020 +0100
+
+    feat(chapters): mark chapter as favorie
+    
+    - add new chapter reducer
+
+[33mcommit 3940921967e98e5279e4749e451526e43b07c488[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Nov 22 11:02:09 2020 +0100
+
+    feat(chapters): add chapter 02
+
+[33mcommit b0e6df2e3cdccd7f59ff151ac593436b8c29db51[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Nov 22 11:01:23 2020 +0100
+
+    feat: add style and center image title
+
+[33mcommit 3c873842ead992484b48b631038f7faedbb18598[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Nov 22 11:00:31 2020 +0100
+
+    fix(i18n): fix translation assignment
+
+[33mcommit 3246580ef08f3dd6dcf2885cdc7be6470a1b7f9e[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Nov 22 00:44:34 2020 +0100
+
+    fix: disable tutorial for the moment
+
+[33mcommit a05c94a75b7f39f59cd87521510f6721c39316f5[m
+Author: Azure Static Web Apps <opensource@microsoft.com>
+Date:   Mon Nov 16 07:55:05 2020 +0100
+
+    ci: add Azure Static Web Apps workflow file
+    on-behalf-of: @Azure opensource@microsoft.com
+
+[33mcommit 6a73852510447e0b4f90865a7f43095aa5bc60b1[m
+Author: Simon G <development@gol.ms>
+Date:   Sun Nov 15 09:49:30 2020 +0100
+
+    init commit
