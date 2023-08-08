@@ -37,7 +37,7 @@
     "@capacitor/storage": "0.3.10",
     "@ionic/react": "^7.2.1",
     "@ionic/react-router": "^7.2.1",
-    "@ionic/storage": "^3.0.4",
+    "@ionic/storage": "4.0.0",
     "@reduxjs/toolkit": "1.9.5",
     "app-provider": "^1.1.2",
     "fuse.js": "^6.4.6",
