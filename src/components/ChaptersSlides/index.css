@@ -12,7 +12,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
 }
 
 .app-chapter-slider-scrolling ion-card {

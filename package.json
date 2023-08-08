@@ -56,7 +56,7 @@
     "redux-persist": "6.0.0",
     "swiper": "^10.1.0",
     "typescript": "5.1.6",
-    "use-query-params": "^1.2.2"
+    "use-query-params": "2.2.1"
   },
   "devDependencies": {
     "@capacitor/cli": "3.0.0-beta.1",

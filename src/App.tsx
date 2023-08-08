@@ -10,7 +10,11 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import React, { Suspense, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { Redirect, Route } from 'react-router-dom';
+
+import { ReactRouter5Adapter } from 'use-query-params/adapters/react-router-5';
+import { parse, stringify } from 'query-string';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import { QueryParamProvider } from 'use-query-params';
 import { Menu } from './components/Menu';
 import { selectCurrentThemeName } from './data/user/user.selector';
@@ -68,7 +72,13 @@ const App: React.FC = () => {
     <Suspense fallback="App Suspense Loading">
       <IonApp className={theme.className}>
         <IonReactRouter>
-          <QueryParamProvider ReactRouterRoute={Route}>
+          <QueryParamProvider
+            adapter={ReactRouter5Adapter}
+            options={{
+              searchStringToObject: parse,
+              objectToSearchString: stringify,
+            }}
+          >
             <IonSplitPane contentId="main">
               <Menu />
               <IonRouterOutlet id="main">
