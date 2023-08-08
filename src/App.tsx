@@ -12,7 +12,7 @@ import React, { Suspense, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 
 import { ReactRouter5Adapter } from 'use-query-params/adapters/react-router-5';
-import { parse, stringify } from 'query-string';
+import queryString from 'query-string';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import { QueryParamProvider } from 'use-query-params';
@@ -52,6 +52,10 @@ const App: React.FC = () => {
   const currentThemeName = useSelector(selectCurrentThemeName);
   const { theme } = useTheme(currentThemeName);
 
+  const parsed = queryString.parse(location.search);
+  console.log(parsed);
+  const stringified = queryString.stringify(parsed);
+
   useEffect(() => {
     const setStatusBarStyleDark = async () => {
       await StatusBar.setStyle({ style: Style.Dark });
@@ -75,8 +79,8 @@ const App: React.FC = () => {
           <QueryParamProvider
             adapter={ReactRouter5Adapter}
             options={{
-              searchStringToObject: parse,
-              objectToSearchString: stringify,
+              searchStringToObject: parsed,
+              objectToSearchString: stringified,
             }}
           >
             <IonSplitPane contentId="main">
