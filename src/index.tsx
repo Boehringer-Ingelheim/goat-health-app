@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client'; //mit react-dom geht es auf anhieb, sollte aber mit react-dom/client funktionieren
+import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import '@capacitor/core';
 import App from './App';

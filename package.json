@@ -55,7 +55,7 @@
     "react-router-dom": "5.3.4",
     "redux-persist": "6.0.0",
     "swiper": "^10.1.0",
-    "typescript": "5.0.4",
+    "typescript": "5.1.6",
     "use-query-params": "^1.2.2"
   },
   "devDependencies": {
