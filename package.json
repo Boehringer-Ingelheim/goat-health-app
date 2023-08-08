@@ -38,7 +38,7 @@
     "@ionic/react": "^7.2.1",
     "@ionic/react-router": "^7.2.1",
     "@ionic/storage": "^3.0.4",
-    "@reduxjs/toolkit": "^1.5.1",
+    "@reduxjs/toolkit": "1.9.5",
     "app-provider": "^1.1.2",
     "fuse.js": "^6.4.6",
     "i18next": "^20.2.2",
