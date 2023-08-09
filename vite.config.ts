@@ -13,8 +13,8 @@ export default defineConfig(({ mode }) => {
       open: Boolean(process.env.BROWSER),
       port: Number(process.env.PORT) || 5173,
     },
-    optimizeDeps: {
-      exclude: ['@ionic/react']
-    }
+    // optimizeDeps: {
+    //   exclude: ['@ionic/react']
+    // }
   };
 });
