@@ -1,9 +1,0 @@
-{
-  "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
-  "plugins": ["stylelint-order"],
-  "rules": {
-    "unicode-bom": "never",
-    "order/order": ["custom-properties", "declarations"],
-    "order/properties-alphabetical-order": true
-  }
-}
