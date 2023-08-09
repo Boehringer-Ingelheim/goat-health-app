@@ -90,7 +90,7 @@
     "playwright": "1.11.0",
     "prettier": "^2.3.0",
     "semantic-release": "21.0.7",
-    "stylelint": "^13.13.1",
+    "stylelint": "15.10.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
