@@ -25,7 +25,8 @@
     "start:prod": "npx http-server ./build --proxy http://localhost:8080? --silent",
     "stylelint-check": "stylelint-config-prettier-check",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@capacitor/android": "3.0.0-beta.1",
@@ -83,7 +84,7 @@
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-jest-playwright": "0.9.0",
     "eslint-plugin-prettier": "5.0.0",
-    "husky": "^6.0.0",
+    "husky": "^8.0.0",
     "jest-playwright-preset": "3.0.1",
     "lint-staged": "^11.0.0",
     "mobicon": "3.0.0",
