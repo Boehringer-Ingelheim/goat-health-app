@@ -33,7 +33,7 @@ exports.copyImages = async (sourcePath, targetPath, images) => {
 exports.generateIcons = async (platform, sourcePath, targetPath) => {
   return await mobicon(sourcePath, {
     platform: platform,
-    background: '#ffffff',
+    background: '#fff',
     contentRatio: 1,
     dest: targetPath,
   });

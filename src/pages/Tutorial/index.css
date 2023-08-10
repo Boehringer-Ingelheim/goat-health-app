@@ -21,8 +21,8 @@ start-button {
   bottom: 10vh;
   position: absolute;
   text-align: center;
-  width: 100%;
   transform: translateZ(0);
   transition: opacity 0.3s;
+  width: 100%;
   z-index: 10;
 }

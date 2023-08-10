@@ -1,8 +1,5 @@
 ion-menu ion-content {
-  --padding-bottom: var(
-    --ion-safe-area-bottom,
-    calc(2 * var(--ion-padding-bottom, 20px))
-  );
+  --padding-bottom: var(--ion-safe-area-bottom, calc(2 * var(--ion-padding-bottom, 20px)));
 }
 
 ion-menu ion-list ion-label {
