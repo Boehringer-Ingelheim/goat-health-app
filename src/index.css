@@ -1,6 +1,6 @@
 .app-background {
-  background: var(--ion-background-color, #ffffff);
-  color: var(--color, #000000);
+  background: var(--ion-background-color, #fff);
+  color: var(--color, #000);
 }
 
 .app-fullscreen {
@@ -65,10 +65,10 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
-  html[mode='md'] {
+  html[mode="md"] {
     background: #121212;
   }
-  html[mode='ios'] {
-    background: #000000;
+  html[mode="ios"] {
+    background: #000;
   }
 }
