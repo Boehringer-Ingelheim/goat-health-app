@@ -21,11 +21,11 @@
 }
 
 .chapter-card ion-card-title {
+  -webkit-box-orient: vertical;
   display: -webkit-box;
   font-size: initial;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  overflow: hidden;
   white-space: normal;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .drop-shadow {
-  filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 10%));
 }
 
 .width-15rem {
@@ -68,6 +68,7 @@ html {
   html[mode="md"] {
     background: #121212;
   }
+
   html[mode="ios"] {
     background: #000;
   }
