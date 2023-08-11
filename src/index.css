@@ -53,12 +53,13 @@
 
 /* Allow users to select and copy text
 https://allexperts16.blogspot.com/2018/06/allow-users-to-select-and-copy-text-in.html */
-.selectable {
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-}
+
+/* .selectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
 
 html {
   background: rgb(0, 51, 102);
