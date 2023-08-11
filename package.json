@@ -86,7 +86,7 @@
     "eslint-plugin-prettier": "5.0.0",
     "husky": "8.0.3",
     "jest-playwright-preset": "3.0.1",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "13.2.3",
     "mobicon": "3.0.0",
     "mobisplash": "0.2.2",
     "ora": "^5.4.0",
