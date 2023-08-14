@@ -1,5 +1,5 @@
 import { ParseKeys } from "i18next";
-import { resources } from "./i18n";
+import { Resources } from "react-i18next";
 
 declare module "react-i18next" {
   type DefaultResources = (typeof resources)["en-US"];
