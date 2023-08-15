@@ -1,7 +1,6 @@
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const fs = require('fs');
-const ora = require('ora');
 const os = require('os');
 const path = require('path');
 const sharp = require('sharp');

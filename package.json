@@ -91,7 +91,6 @@
     "lint-staged": "14.0.0",
     "mobicon": "3.0.0",
     "mobisplash": "0.2.2",
-    "ora": "^5.4.0",
     "prettier": "3.0.1",
     "semantic-release": "21.0.7",
     "stylelint": "^15.10.2",
