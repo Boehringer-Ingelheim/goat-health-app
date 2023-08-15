@@ -73,7 +73,7 @@
     "@squoosh/cli": "0.6.4",
     "@types/jest": "^26.0.24",
     "@types/lunr": "^2.3.3",
-    "@types/node": "18.15.13",
+    "@types/node": "20.5.0",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "@types/react-redux": "^7.1.16",
