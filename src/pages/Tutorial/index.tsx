@@ -1,14 +1,15 @@
 import { IonButton, IonContent, IonImg, IonText } from "@ionic/react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { setHasSeenTutorial } from "../../data/user/user.slice";
 import imgIntro001 from "../../images/intro-001.png";
 
 import "./index.css";
-import "swiper/css/bundle";
-import "@ionic/react/css/ionic-swiper.css";
+import "swiper/css";
 import "swiper/css/pagination";
+import "@ionic/react/css/ionic-swiper.css";
 
 export const TutorialPage: React.FC = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ export const TutorialPage: React.FC = () => {
 
   return (
     <IonContent fullscreen>
-      <Swiper>
+      <Swiper modules={[Pagination]} pagination={{ clickable: true }}>
         <SwiperSlide>
           <IonImg src={imgIntro001}></IonImg>
           <IonText color="primary">
