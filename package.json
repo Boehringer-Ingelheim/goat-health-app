@@ -11,7 +11,7 @@
     "build:ionic:browser": "ionic build --prod --engine=browser",
     "build:ionic:ios": "ionic capacitor sync ios --prod",
     "eject": "react-scripts eject",
-    "generate:images": "node scripts/images/squoosh.js",
+    "generate:images": "node scripts/images/sharp.js",
     "generate:resources": "node scripts/resources.js",
     "generate:resources:assets": "npm run generate:resources:assets:android && npm run generate:resources:assets:ios && npm run generate:resources:assets:pwa",
     "generate:resources:assets:android": "node scripts/resources/assets-android.js",
