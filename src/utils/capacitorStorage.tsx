@@ -1,11 +1,11 @@
-import { Storage } from '@capacitor/storage';
+import { Preferences } from "@capacitor/preferences";
 
-const createCapacitorStorage = () => {
+const createCapacitorPreferences = () => {
   return {
     getAllKeys: (): Promise<string[]> => {
       return new Promise(async (resolve, reject) => {
         try {
-          const { keys } = await Storage.keys();
+          const keys = await Preferences.keys();
           resolve(keys);
         } catch (error) {
           reject(error);
@@ -15,9 +15,9 @@ const createCapacitorStorage = () => {
     getItem: (key: string): Promise<string> => {
       return new Promise(async (resolve, reject) => {
         try {
-          const { value } = await Storage.get({ key });
+          const value = await Preferences.get({ key });
           if (value !== null) resolve(value);
-          resolve('');
+          resolve("");
         } catch (error) {
           reject(error);
         }
@@ -26,7 +26,7 @@ const createCapacitorStorage = () => {
     setItem: (key: string, value: string): Promise<void> => {
       return new Promise(async (resolve, reject) => {
         try {
-          Storage.set({ key, value });
+          await Preferences.set({ key, value });
           resolve();
         } catch (error) {
           reject(error);
@@ -36,7 +36,7 @@ const createCapacitorStorage = () => {
     removeItem: (key: string): Promise<void> => {
       return new Promise(async (resolve, reject) => {
         try {
-          Storage.remove({ key });
+          await Preferences.remove({ key });
           resolve();
         } catch (error) {
           reject(error);
@@ -46,4 +46,4 @@ const createCapacitorStorage = () => {
   };
 };
 
-export default createCapacitorStorage;
+export default createCapacitorPreferences;

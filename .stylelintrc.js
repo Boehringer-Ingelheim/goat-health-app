@@ -1,6 +1,7 @@
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-prettier/recommended"],
   plugins: ["stylelint-order"],
+  ignoreFiles: ["./dist/**", "./ios/**"],
   rules: {
     /**
      * Ionic uses colors with an opacity (alpha) in several components.
@@ -11,5 +12,6 @@ module.exports = {
     "color-function-notation": "legacy",
     "order/order": ["custom-properties", "declarations"],
     "order/properties-alphabetical-order": true,
+    
   },
 };

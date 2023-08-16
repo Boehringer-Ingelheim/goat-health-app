@@ -19,7 +19,7 @@ public/assets/img/photo_*
 
 # production
 .gradle
-/build
+/dist
 
 # resources
 resources/android

@@ -3,7 +3,7 @@
   "appName": "Goat Health",
   "bundledWebRuntime": true,
   "npmClient": "npm",
-  "webDir": "build",
+  "webDir": "dist",
   "cordova": {},
   "plugins": {
     "SplashScreen": {
@@ -19,5 +19,8 @@
       "splashFullScreen": true,
       "splashImmersive": true
     }
+  },
+  "server": {
+    "androidScheme": "https"
   }
 }

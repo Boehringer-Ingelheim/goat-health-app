@@ -20,7 +20,7 @@ module.exports = {
       '@semantic-release/exec',
       {
         prepareCmd:
-          'zip -q -r goat-health-app-${nextRelease.version}-browser.zip build/',
+          'zip -q -r goat-health-app-${nextRelease.version}-browser.zip dist/',
       },
     ],
   ],
