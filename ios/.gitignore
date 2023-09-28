@@ -1,6 +1,5 @@
 App/build
 App/Pods
-App/Podfile.lock
 App/App/public
 
 # Cordova plugins for Capacitor
@@ -96,3 +95,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+

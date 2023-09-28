@@ -14,6 +14,7 @@
 .image-viewer ion-toolbar {
   --background: transparent;
   --border-width: 0 !important;
+
   position: absolute;
 }
 

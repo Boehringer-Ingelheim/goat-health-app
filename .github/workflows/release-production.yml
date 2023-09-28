@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: build-browser
-          path: build
+          path: dist
   resources:
     name: Generate Screenshots
     needs: build
@@ -74,7 +74,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build-browser
-          path: build
+          path: dist
       - name: Install Dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install

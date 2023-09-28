@@ -1,11 +1,12 @@
 import { IonIcon, IonSpinner } from '@ionic/react';
 import { pause, play } from 'ionicons/icons';
-import { FC } from 'react';
+import React, { FC } from 'react';
 import './styles.css';
 
 type Props = {
   isLoading?: boolean;
   isPlaying?: boolean;
+  children?: React.ReactNode;
 };
 
 export const SpeechFabButtonContent: FC<Props> = ({

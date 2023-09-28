@@ -13,9 +13,10 @@ import {
   IonRow,
   IonTitle,
   IonToolbar,
-} from '@ionic/react';
-import { globe, logoFacebook, logoLinkedin, mail } from 'ionicons/icons';
-import { useTranslation } from 'react-i18next';
+} from "@ionic/react";
+import { globe, logoFacebook, logoLinkedin, mail } from "ionicons/icons";
+import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const AboutPage = () => {
   const { t } = useTranslation();
@@ -27,24 +28,24 @@ export const AboutPage = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>{t('ABOUT.TITLE')}</IonTitle>
+          <IonTitle>{t("ABOUT.TITLE")}</IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent color="primary-collapse-condense" fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar color="primary">
-            <IonTitle size="large">{t('ABOUT.TITLE')}</IonTitle>
+            <IonTitle size="large">{t("ABOUT.TITLE")}</IonTitle>
           </IonToolbar>
         </IonHeader>
         <div className="app-background app-fullscreen">
           <IonGrid class="ion-padding ion-text-justify">
             <IonRow class="ion-justify-content-center">
               <IonCol size="12" sizeSm="6">
-                <IonImg src={t('ABOUT.IMAGE.01.FILENAME')} />
-                <p>{t('ABOUT.TEXT.PARAGRAPH.01')}</p>
-                <p>{t('ABOUT.TEXT.PARAGRAPH.02')}</p>
-                <p>{t('ABOUT.TEXT.PARAGRAPH.03')}</p>
+                <IonImg src={t("ABOUT.IMAGE.01.FILENAME")} />
+                <p>{t("ABOUT.TEXT.PARAGRAPH.01")}</p>
+                <p>{t("ABOUT.TEXT.PARAGRAPH.02")}</p>
+                <p>{t("ABOUT.TEXT.PARAGRAPH.03")}</p>
                 <IonItem
                   lines="none"
                   href="https://makingmorehealth.org"

@@ -1,11 +1,12 @@
 .chapter-subtitle {
-  font-size: small;
   --padding-start: 0;
   --padding-end: 0;
+
+  font-size: small;
 }
 
 .chapter-title {
   font-weight: bold;
-  text-align: start;
   margin-top: 0;
+  text-align: start;
 }

@@ -12,8 +12,8 @@ const {
 } = process.env;
 
 describe('Infrastructure', () => {
-  const exists = fs.existsSync('build');
-  it('build folder exists', () => {
+  const exists = fs.existsSync('dist');
+  it('dist folder exists', () => {
     expect(exists).toBe(true);
   });
 });

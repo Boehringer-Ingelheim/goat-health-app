@@ -3,21 +3,24 @@
   "appName": "Goat Health",
   "bundledWebRuntime": true,
   "npmClient": "npm",
-  "webDir": "build",
+  "webDir": "dist",
   "cordova": {},
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 3000,
       "launchAutoHide": true,
-      "backgroundColor": "#ffffffff",
+      "backgroundColor": "#fffff",
       "androidSplashResourceName": "splash",
       "androidScaleType": "CENTER_CROP",
       "androidSpinnerStyle": "large",
       "iosSpinnerStyle": "small",
-      "spinnerColor": "#999999",
+      "spinnerColor": "#999",
       "showSpinner": false,
       "splashFullScreen": true,
       "splashImmersive": true
     }
+  },
+  "server": {
+    "androidScheme": "https"
   }
 }

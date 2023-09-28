@@ -18,8 +18,8 @@
 
 ### Requirements
 
-- NodeJS 14+
-- NPM 6+
+![Prerequisite Npm](https://img.shields.io/badge/npm-%3E%3D9-blue.svg?style=for-the-badge)
+![Prerequisite Node](https://img.shields.io/badge/node-%3E%3D18-blue.svg?style=for-the-badge)
 - Ionic
 
 ### Set Environment Variables

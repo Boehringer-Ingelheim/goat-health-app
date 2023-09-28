@@ -117,7 +117,7 @@ const mobicon = require('mobicon');
 
   // await mobicon('resources/icon.png', {
   //   platform: 'android',
-  //   background: '#ffffff',
+  //   background: '#fff',
   //   borderRadius: 0.5,
   //   contentRatio: 1,
   //   dest: 'resources/android/icon/round',
