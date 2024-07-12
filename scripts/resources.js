@@ -64,7 +64,7 @@ const IOS_SPLASHES = [
 // Generate iOS icons
 mobicon('resources/icon.png', {
   platform: 'ios',
-  background: '#ffffff',
+  background: '#fff',
   contentRatio: 1,
   dest: 'resources/ios/icon',
 });
@@ -190,7 +190,7 @@ const ANDROID_SPLASHES = [
 // Generate Android icons
 mobicon('resources/icon.png', {
   platform: 'android',
-  background: '#ffffff',
+  background: '#fff',
   contentRatio: 1,
   dest: 'resources/android/icon',
 });
@@ -226,7 +226,7 @@ const PWA_ICONS = [
 // Generate PWA icons
 mobicon('resources/icon.png', {
   platform: 'pwa',
-  background: '#ffffff',
+  background: '#fff',
   contentRatio: 1,
   dest: 'resources/pwa/icon',
 });

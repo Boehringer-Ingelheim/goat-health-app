@@ -1,6 +1,6 @@
 .app-background {
-  background: var(--ion-background-color, #ffffff);
-  color: var(--color, #000000);
+  background: var(--ion-background-color, #fff);
+  color: var(--color, #000);
 }
 
 .app-fullscreen {
@@ -21,11 +21,11 @@
 }
 
 .chapter-card ion-card-title {
+  -webkit-box-orient: vertical;
   display: -webkit-box;
   font-size: initial;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  overflow: hidden;
   white-space: normal;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .drop-shadow {
-  filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 10%));
 }
 
 .width-15rem {
@@ -53,22 +53,24 @@
 
 /* Allow users to select and copy text
 https://allexperts16.blogspot.com/2018/06/allow-users-to-select-and-copy-text-in.html */
-.selectable {
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
-}
+
+/* .selectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
 
 html {
-  background: #003366;
+  background: rgb(0, 51, 102);
 }
 
 @media (prefers-color-scheme: dark) {
-  html[mode='md'] {
+  html[mode="md"] {
     background: #121212;
   }
-  html[mode='ios'] {
-    background: #000000;
+
+  html[mode="ios"] {
+    background: #000;
   }
 }

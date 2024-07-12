@@ -1,8 +1,9 @@
-import { resources } from './i18n';
+import { ParseKeys } from "i18next";
+import { Resources } from "react-i18next";
 
-declare module 'react-i18next' {
-  type DefaultResources = typeof resources['en-US'];
+declare module "react-i18next" {
+  type DefaultResources = (typeof resources)["en-US"];
   interface Resources extends DefaultResources {}
 }
 
-export type TranslationKeys = TFuncKey<(keyof Resources)[]>;
+export type TranslationKeys = ParseKeys<(keyof Resources)[]>;

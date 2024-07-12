@@ -1,31 +1,17 @@
-import {
-  IonButton,
-  IonButtons,
-  IonContent,
-  IonHeader,
-  IonIcon,
-  IonModal,
-  IonSlide,
-  IonSlides,
-  IonToolbar,
-} from '@ionic/react';
-import { close } from 'ionicons/icons';
-import React, {
-  cloneElement,
-  ReactElement,
-  SyntheticEvent,
-  useState,
-} from 'react';
-import './imageViewer.css';
+import { IonButton, IonButtons, IonContent, IonHeader, IonIcon, IonModal, IonToolbar } from "@ionic/react";
+import "swiper/css";
+import "@ionic/react/css/ionic-swiper.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { close } from "ionicons/icons";
+import React, { cloneElement, ReactElement, SyntheticEvent, useState } from "react";
+import "./imageViewer.css";
 
 type ContainerProps = {
   alt: string;
   class?: string;
   children?: ReactElement;
   className?: string;
-  onError?:
-    | ((event: SyntheticEvent<HTMLImageElement, Event>) => void)
-    | undefined;
+  onError?: ((event: SyntheticEvent<HTMLImageElement, Event>) => void) | undefined;
   src: string;
   open?: boolean;
 };
@@ -44,12 +30,7 @@ export const ImageViewer: React.FC<ContainerProps> = (props) => {
 
   return (
     <>
-      <IonModal
-        cssClass="image-viewer"
-        isOpen={isOpen}
-        onDidDismiss={() => setIsOpen(false)}
-        swipeToClose
-      >
+      <IonModal cssClass="image-viewer" isOpen={isOpen} onDidDismiss={() => setIsOpen(false)} canDismiss={true}>
         <IonHeader translucent>
           <IonToolbar>
             <IonButtons slot="end">
@@ -60,18 +41,11 @@ export const ImageViewer: React.FC<ContainerProps> = (props) => {
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
-          <IonSlides
-            options={slideOpts}
-            // Current workaround for strangely behavior of slides
-            // see: https://github.com/ionic-team/ionic-framework/issues/19638#issuecomment-593412711
-            onIonSlidesDidLoad={function (this: any) {
-              this.update();
-            }}
-          >
-            <IonSlide>
+          <Swiper {...slideOpts}>
+            <SwiperSlide>
               <img alt={alt} onError={onError} src={src} />
-            </IonSlide>
-          </IonSlides>
+            </SwiperSlide>
+          </Swiper>
         </IonContent>
       </IonModal>
       {cloneElement(children as ReactElement, {

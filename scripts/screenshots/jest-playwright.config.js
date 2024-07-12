@@ -11,7 +11,7 @@ module.exports = {
   serverOptions: {
     command: `npx http-server@0.12.3 ${path.join(
       process.cwd(),
-      'build',
+      'dist',
     )} --proxy ${getBaseUrl()}? --silent`,
     port: getBasePort(),
     launchTimeout: 30000,

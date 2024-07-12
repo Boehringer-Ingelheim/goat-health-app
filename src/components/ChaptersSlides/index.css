@@ -1,18 +1,18 @@
 .text-nowrap-multiline {
-  overflow: hidden;
-  text-overflow: ellipsis !important;
-  display: -webkit-box;
+  -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-height: 16px;
   max-height: 32px;
-  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
 }
 
 .app-chapter-slider-scrolling {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
+
+  /* -webkit-overflow-scrolling: touch; */
 }
 
 .app-chapter-slider-scrolling ion-card {

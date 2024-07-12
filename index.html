@@ -8,17 +8,17 @@
 
     <meta
       name="viewport"
-      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0"
     />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
 
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="/manifest.json" />
 
     <link
       rel="shortcut icon"
       type="image/png"
-      href="%PUBLIC_URL%/assets/icon/favicon.png"
+      href="/assets/icon/favicon.png"
     />
 
     <!-- add to homescreen for ios -->
@@ -29,10 +29,10 @@
     <!-- Open Graph Protocol -->
     <meta property="og:title" content="Goat Health by Making More Health" />
     <meta property="og:description" content="Taking good care of your goats." />
-    <meta property="og:url" content="%PUBLIC_URL%" />
+    <meta property="og:url" content="/" />
     <meta
       property="og:image:url"
-      content="%PUBLIC_URL%/assets/img/social-preview.png"
+      content="/assets/img/social-preview.png"
     />
     <meta property="og:image:height" content="640" />
     <meta property="og:image:width" content="1280" />
@@ -42,5 +42,6 @@
 
   <body>
     <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
